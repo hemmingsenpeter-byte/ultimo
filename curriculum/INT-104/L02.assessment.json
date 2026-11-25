@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L02",
+  "status": "draft",
+  "competency": "INT-104.L02",
+  "questions": [
+    {
+      "id": "INT-104.L02.Q1",
+      "competency": "INT-104.L02",
+      "prompt": "What is a confounder?",
+      "answer": "A factor related to treatment or exposure and affecting outcome that can distort the relationship being estimated.",
+      "points": 1,
+      "feedback": "Draw the two arrows."
+    },
+    {
+      "id": "INT-104.L02.Q2",
+      "competency": "INT-104.L02",
+      "prompt": "Does random assignment guarantee identical groups?",
+      "answer": "No; it reduces systematic allocation differences in expectation, but chance imbalance remains possible.",
+      "points": 1,
+      "feedback": "Consider a small sample."
+    },
+    {
+      "id": "INT-104.L02.Q3",
+      "competency": "INT-104.L02",
+      "prompt": "How do sampling and assignment differ?",
+      "answer": "Sampling selects participants or units; assignment allocates enrolled units to conditions.",
+      "points": 1,
+      "feedback": "Explain which helps generalisation and which helps causal comparison."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Identifies a confounder and proposes a defensible comparison with measurement safeguards.",
+    "transfer": "Draw a comparison matrix for your experiment protocol. Identify two alternative causes, one measurement risk and one reason a result might not generalise.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

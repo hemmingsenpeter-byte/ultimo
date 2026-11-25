@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Experimental design uses comparable conditions and random assignment to address confounding; chance imbalance and other limitations can remain.",
+      "source_ids": [
+        "science-design"
+      ],
+      "locators": [
+        {
+          "source_id": "science-design",
+          "locator": "2023, §1.4, treatments, control and random assignment",
+          "limitations": "Randomisation reduces systematic imbalance in expectation; does not guarantee balance"
+        }
+      ],
+      "verification": "Relevant sections located; independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original instructional examples; not independently validated interventions.",
+  "review_required": true
+}

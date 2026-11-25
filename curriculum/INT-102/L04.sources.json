@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Charitable interpretation seeks a fair reading; straw-man reasoning distorts the position being evaluated.",
+      "source_ids": [
+        "logic-charity",
+        "logic-fallacies"
+      ],
+      "locators": [
+        {
+          "source_id": "logic-charity",
+          "locator": "2022, §2.5, Principle of Charity",
+          "limitations": "Charitable interpretation does not establish truth or require agreement"
+        },
+        {
+          "source_id": "logic-fallacies",
+          "locator": "Alphabetical entries on hasty generalisation, straw man and ad hominem",
+          "limitations": "Fallacy labels require attention to context"
+        }
+      ],
+      "verification": "Relevant sections located; independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original instructional examples; not independently validated interventions.",
+  "review_required": true
+}

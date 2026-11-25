@@ -1296,5 +1296,71 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "logic-arguments",
+    "title": "OpenStax: Arguments",
+    "url": "https://openstax.org/books/introduction-philosophy/pages/5-3-arguments",
+    "authors": "OpenStax",
+    "locator": "2022, §5.3, identifying and evaluating arguments",
+    "limitations": "Introductory treatment; not a complete formal logic system",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "logic-inference",
+    "title": "OpenStax: Types of Inferences",
+    "url": "https://openstax.org/books/introduction-philosophy/pages/5-4-types-of-inferences",
+    "authors": "OpenStax",
+    "locator": "2022, §5.4, deduction, induction and hypothesis testing",
+    "limitations": "Introductory distinctions; scientific testing requires domain-specific design",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "logic-charity",
+    "title": "OpenStax: Reading Philosophy",
+    "url": "https://openstax.org/books/introduction-philosophy/pages/2-5-reading-philosophy",
+    "authors": "OpenStax",
+    "locator": "2022, §2.5, Principle of Charity",
+    "limitations": "Charitable interpretation does not establish truth or require agreement",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "logic-fallacies",
+    "title": "Fallacies",
+    "url": "https://iep.utm.edu/fallacy/",
+    "authors": "Internet Encyclopedia of Philosophy",
+    "locator": "Alphabetical entries on hasty generalisation, straw man and ad hominem",
+    "limitations": "Fallacy labels require attention to context",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "science-design",
+    "title": "OpenStax: Experimental Design and Ethics",
+    "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-4-experimental-design-and-ethics",
+    "authors": "OpenStax",
+    "locator": "2023, §1.4, treatments, control and random assignment",
+    "limitations": "Randomisation reduces systematic imbalance in expectation; does not guarantee balance",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "science-replication",
+    "title": "Reproducibility and Replicability in Science",
+    "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+    "authors": "National Academies of Sciences, Engineering, and Medicine",
+    "locator": "2019, chapter 5, definitions and interpretation",
+    "limitations": "Terminology differs across disciplines; replication is not conclusive alone",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
   }
 ]

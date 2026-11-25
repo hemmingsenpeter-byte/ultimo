@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Induction offers uncertain support; hasty generalisation and false dilemmas are examples of reasoning defects.",
+      "source_ids": [
+        "logic-inference",
+        "logic-fallacies"
+      ],
+      "locators": [
+        {
+          "source_id": "logic-inference",
+          "locator": "2022, §5.4, deduction, induction and hypothesis testing",
+          "limitations": "Introductory distinctions; scientific testing requires domain-specific design"
+        },
+        {
+          "source_id": "logic-fallacies",
+          "locator": "Alphabetical entries on hasty generalisation, straw man and ad hominem",
+          "limitations": "Fallacy labels require attention to context"
+        }
+      ],
+      "verification": "Relevant sections located; independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original instructional examples; not independently validated interventions.",
+  "review_required": true
+}

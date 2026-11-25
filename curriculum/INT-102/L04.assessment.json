@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L04",
+  "status": "draft",
+  "competency": "INT-102.L04",
+  "questions": [
+    {
+      "id": "INT-102.L04.Q1",
+      "competency": "INT-102.L04",
+      "prompt": "What distinguishes steelmanning from a straw man?",
+      "answer": "Steelmanning reconstructs the strongest reasonable version; a straw man distorts or weakens the position.",
+      "points": 1,
+      "feedback": "Check fidelity to the original claim."
+    },
+    {
+      "id": "INT-102.L04.Q2",
+      "competency": "INT-102.L04",
+      "prompt": "Must you agree with a charitably reconstructed argument?",
+      "answer": "No; fair interpretation precedes evaluation, not endorsement.",
+      "points": 1,
+      "feedback": "Explain the strongest remaining objection."
+    },
+    {
+      "id": "INT-102.L04.Q3",
+      "competency": "INT-102.L04",
+      "prompt": "What is a crux?",
+      "answer": "A disagreement or assumption whose resolution could materially change a judgement.",
+      "points": 1,
+      "feedback": "Identify a specific fact or trade-off."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Represents both sides faithfully, identifies the crux and specifies a revision condition.",
+    "transfer": "Prepare a two-sided argument map for a new decision about a shared facility. Include the actual claim, charitable reformulation, unresolved premise, strongest objection to your own position and revised judgement.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L02",
+  "status": "draft",
+  "competency": "INT-102.L02",
+  "questions": [
+    {
+      "id": "INT-102.L02.Q1",
+      "competency": "INT-102.L02",
+      "prompt": "What is the difference between validity and soundness?",
+      "answer": "Validity is the impossibility of true premises with a false conclusion; soundness also requires true premises.",
+      "points": 1,
+      "feedback": "Test form and facts separately."
+    },
+    {
+      "id": "INT-102.L02.Q2",
+      "competency": "INT-102.L02",
+      "prompt": "Can an invalid argument have a true conclusion?",
+      "answer": "Yes; a correct conclusion may be reached by defective reasoning.",
+      "points": 1,
+      "feedback": "Truth of a conclusion is not a structural test."
+    },
+    {
+      "id": "INT-102.L02.Q3",
+      "competency": "INT-102.L02",
+      "prompt": "If A implies B and B holds, does A follow?",
+      "answer": "Not necessarily; B may arise another way.",
+      "points": 1,
+      "feedback": "Provide a concrete countermodel."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Tests deductive form with a countermodel and independently assesses premise truth.",
+    "transfer": "Construct one valid argument using a fictional organisational rule, one invalid reversal, and one valid argument with a deliberately false premise. Have a partner identify the distinction or use the countermodel method yourself.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

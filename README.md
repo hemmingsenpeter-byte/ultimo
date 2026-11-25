@@ -2,7 +2,7 @@
 
 An open curriculum for lifelong human development: capability, character, connection and flourishing.
 
-**v0.5 — tutor studio and personalised learning pilot.** 16 faculties, 134 course syllabuses, 536 lesson blueprints, 537 competencies. Ten courses now contain 40 authored draft lessons, 120 knowledge-check questions and ten capstones. Not accredited; independent review pending.
+**v0.5 — tutor studio and personalised learning pilot.** 16 faculties, 134 course syllabuses, 536 lesson blueprints, 537 competencies. Twelve courses now contain 48 authored draft lessons, 144 knowledge-check questions and twelve capstones. Not accredited; independent review pending.
 
 - [Tutor architecture and local model setup](tutor/README.md)
 - [Student application and deployment guide](platform/README.md)

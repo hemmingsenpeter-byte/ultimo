@@ -1,6 +1,6 @@
 # Faculty and course index
 
-Every course has a syllabus. Ten courses have authored draft lessons; the other 124 have syllabuses only.
+Every course has a syllabus. Twelve courses have authored draft lessons; the other 122 have syllabuses only.
 
 ## Physical
 
@@ -57,9 +57,9 @@ Recognise, interpret and respond to emotions with autonomy and care.
 Reason independently, evaluate evidence, model complexity and learn transferable skills.
 
 - [INT-101 — Learning how to learn](../curriculum/INT-101/syllabus.md) · Year 1 · draft
-- [INT-102 — Logic and argument](../curriculum/INT-102/syllabus.md) · Year 1 · planned
+- [INT-102 — Logic and argument](../curriculum/INT-102/syllabus.md) · Year 1 · draft
 - [INT-103 — Probability and statistics](../curriculum/INT-103/syllabus.md) · Year 1 · draft
-- [INT-104 — Scientific reasoning](../curriculum/INT-104/syllabus.md) · Year 1 · planned
+- [INT-104 — Scientific reasoning](../curriculum/INT-104/syllabus.md) · Year 1 · draft
 - [INT-105 — Cognitive biases](../curriculum/INT-105/syllabus.md) · Year 2 · planned
 - [INT-106 — Systems thinking](../curriculum/INT-106/syllabus.md) · Year 2 · planned
 - [INT-107 — Mathematics and science literacy](../curriculum/INT-107/syllabus.md) · Year 3 · planned

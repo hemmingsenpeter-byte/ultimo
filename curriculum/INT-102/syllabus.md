@@ -1,6 +1,6 @@
 # INT-102 — Logic and argument
 
-Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [INT-101 — Learning how to learn](../INT-101/syllabus.md)

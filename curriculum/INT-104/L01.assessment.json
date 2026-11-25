@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L01",
+  "status": "draft",
+  "competency": "INT-104.L01",
+  "questions": [
+    {
+      "id": "INT-104.L01.Q1",
+      "competency": "INT-104.L01",
+      "prompt": "How does a hypothesis differ from a prediction?",
+      "answer": "The hypothesis proposes an explanation or relationship; a prediction states expected observations under it and its assumptions.",
+      "points": 1,
+      "feedback": "State both for one example."
+    },
+    {
+      "id": "INT-104.L01.Q2",
+      "competency": "INT-104.L01",
+      "prompt": "What is operationalisation?",
+      "answer": "Defining how an abstract concept will be observed or measured.",
+      "points": 1,
+      "feedback": "Give an actual measurement rule."
+    },
+    {
+      "id": "INT-104.L01.Q3",
+      "competency": "INT-104.L01",
+      "prompt": "Why separate exploration and confirmation?",
+      "answer": "A pattern discovered in data is not independently confirmed by those same data.",
+      "points": 1,
+      "feedback": "Design a new test."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "States a testable hypothesis, operational measurement, rival explanation and contrary result.",
+    "transfer": "Design a paper-only experiment about an everyday work process. Record your prediction, units, comparison and contrary outcome before generating or inspecting simulated results.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

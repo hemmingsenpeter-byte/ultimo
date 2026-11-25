@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L03",
+  "status": "draft",
+  "competency": "INT-102.L03",
+  "questions": [
+    {
+      "id": "INT-102.L03.Q1",
+      "competency": "INT-102.L03",
+      "prompt": "Why is a convenience sample risky?",
+      "answer": "Its selection may systematically differ from the population being described.",
+      "points": 1,
+      "feedback": "Identify a mechanism of selection, not just small size."
+    },
+    {
+      "id": "INT-102.L03.Q2",
+      "competency": "INT-102.L03",
+      "prompt": "Does finding a fallacy establish that the conclusion is false?",
+      "answer": "No, it undermines that justification but another argument may support the conclusion.",
+      "points": 1,
+      "feedback": "Separate the conclusion from its offered evidence."
+    },
+    {
+      "id": "INT-102.L03.Q3",
+      "competency": "INT-102.L03",
+      "prompt": "What is a false dilemma?",
+      "answer": "Presenting a restricted set of options as exhaustive without sufficient justification.",
+      "points": 1,
+      "feedback": "Name a plausible omitted option."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Evaluates sampling and alternative explanations, explains a fallacy and revises the conclusion.",
+    "transfer": "Find a fictional headline making a broad prediction. List the population, observed sample, missing data and one plausible rival explanation; rewrite the conclusion as an appropriately limited claim.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

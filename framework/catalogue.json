@@ -282,7 +282,7 @@
     "id": "INT-102",
     "faculty": "INT",
     "title": "Logic and argument",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-102/syllabus.json",
     "year": 1
@@ -300,7 +300,7 @@
     "id": "INT-104",
     "faculty": "INT",
     "title": "Scientific reasoning",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-104/syllabus.json",
     "year": 1

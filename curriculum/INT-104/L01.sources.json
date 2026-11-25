@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Scientific reasoning links hypotheses, deductive predictions and inductive evidence; tests do not remove all auxiliary assumptions.",
+      "source_ids": [
+        "logic-inference"
+      ],
+      "locators": [
+        {
+          "source_id": "logic-inference",
+          "locator": "2022, §5.4, deduction, induction and hypothesis testing",
+          "limitations": "Introductory distinctions; scientific testing requires domain-specific design"
+        }
+      ],
+      "verification": "Relevant sections located; independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original instructional examples; not independently validated interventions.",
+  "review_required": true
+}
