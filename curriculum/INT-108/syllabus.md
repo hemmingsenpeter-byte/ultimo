@@ -1,6 +1,6 @@
 # INT-108 — Forecasting and decisions
 
-Framework defined; lesson content: **planned**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [INT-103 — Probability and statistics](../INT-103/syllabus.md)

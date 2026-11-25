@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-109.L02",
+  "status": "draft",
+  "competency": "INT-109.L02",
+  "questions": [
+    {
+      "id": "INT-109.L02.Q1",
+      "competency": "INT-109.L02",
+      "prompt": "Why is repetition not necessarily corroboration?",
+      "answer": "Multiple reports may all depend on the same underlying source.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-109.L02.Q2",
+      "competency": "INT-109.L02",
+      "prompt": "Does expertise transfer automatically across domains?",
+      "answer": "No; assess relevant competence and access to evidence.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-109.L02.Q3",
+      "competency": "INT-109.L02",
+      "prompt": "Must every ordinary testimonial claim be independently verified?",
+      "answer": "No; verification effort should be proportionate, and epistemological accounts differ.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Maps source dependence and judges verification proportionately.",
+    "transfer": "Draw a provenance tree for a public or fictional claim with at least three reports. Identify dependent sources, a missing original observation and a proportionate verification step.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

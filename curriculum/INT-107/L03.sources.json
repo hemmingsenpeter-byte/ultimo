@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Graph interpretation depends on axes, scales, grouping and rate of change.",
+      "source_ids": [
+        "math-graphs",
+        "math-linear"
+      ],
+      "locators": [
+        {
+          "source_id": "math-graphs",
+          "locator": "§2.2, graph types and misleading statistical presentations",
+          "limitations": "Graph conventions depend on purpose"
+        },
+        {
+          "source_id": "math-linear",
+          "locator": "§4.1, slope and linear models",
+          "limitations": "Model assumptions determine applicability"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

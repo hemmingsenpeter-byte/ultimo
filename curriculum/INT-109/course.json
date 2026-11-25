@@ -1,0 +1,44 @@
+{
+  "id": "INT-109",
+  "title": "Epistemology",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-102",
+    "INT-104"
+  ],
+  "competencies": [
+    "INT-109.L01",
+    "INT-109.L02",
+    "INT-109.L03",
+    "INT-109.L04"
+  ],
+  "reading": [
+    "int-ref-8",
+    "scout-mindset"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Belief truth and justification",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Testimony",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Theories of knowledge",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Confidence",
+      "path": "L04.md"
+    }
+  ]
+}

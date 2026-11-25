@@ -1,6 +1,6 @@
 # INT-109 — Epistemology
 
-Framework defined; lesson content: **planned**. Year 5; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 5; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [INT-102 — Logic and argument](../INT-102/syllabus.md)

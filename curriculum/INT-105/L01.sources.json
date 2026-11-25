@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-105.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Confirmation bias may shape the search and interpretation of evidence in favour of an existing view.",
+      "source_ids": [
+        "bias-confirmation"
+      ],
+      "locators": [
+        {
+          "source_id": "bias-confirmation",
+          "locator": "1998, abstract and review topic",
+          "limitations": "Broad review; does not validate the particular classroom exercise"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

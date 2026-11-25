@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-109.L03",
+  "status": "draft",
+  "competency": "INT-109.L03",
+  "questions": [
+    {
+      "id": "INT-109.L03.Q1",
+      "competency": "INT-109.L03",
+      "prompt": "What does reliabilism emphasise?",
+      "answer": "The reliability of the belief-forming process, subject to the specific theory.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-109.L03.Q2",
+      "competency": "INT-109.L03",
+      "prompt": "What does a safety condition investigate?",
+      "answer": "Whether a true belief could easily have been false in relevant nearby circumstances.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-109.L03.Q3",
+      "competency": "INT-109.L03",
+      "prompt": "Why compare theories on the same case?",
+      "answer": "It isolates how their different proposed conditions affect judgement.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Applies multiple accounts to a shared case and explains disagreements without oversimplifying.",
+    "transfer": "Construct a new fictional case and compare three theories using the same facts. Identify a counterexample or objection and explicitly preserve disagreements.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L02",
+  "status": "draft",
+  "competency": "INT-107.L02",
+  "questions": [
+    {
+      "id": "INT-107.L02.Q1",
+      "competency": "INT-107.L02",
+      "prompt": "What remains constant in a linear model?",
+      "answer": "The absolute change per equal input interval.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-107.L02.Q2",
+      "competency": "INT-107.L02",
+      "prompt": "What remains constant in an exponential model?",
+      "answer": "The multiplicative factor per equal input interval.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-107.L02.Q3",
+      "competency": "INT-107.L02",
+      "prompt": "Why can a good fit be a poor forecast?",
+      "answer": "The mechanism, constraints or growth regime may change beyond observed data.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Distinguishes patterns numerically, models both and limits extrapolation.",
+    "transfer": "Choose a fictional growth dataset of at least four periods. Fit both models, compare residuals and explain a constraint that would invalidate long-horizon extrapolation.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

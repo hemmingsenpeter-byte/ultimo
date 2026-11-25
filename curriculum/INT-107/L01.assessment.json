@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L01",
+  "status": "draft",
+  "competency": "INT-107.L01",
+  "questions": [
+    {
+      "id": "INT-107.L01.Q1",
+      "competency": "INT-107.L01",
+      "prompt": "Why write units through each calculation?",
+      "answer": "They reveal whether conversions and relationships are dimensionally consistent.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-107.L01.Q2",
+      "competency": "INT-107.L01",
+      "prompt": "How many cm² are in one m²?",
+      "answer": "10,000 cm².",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-107.L01.Q3",
+      "competency": "INT-107.L01",
+      "prompt": "Is a change from 10% to 15% a 5% relative increase?",
+      "answer": "No; it is five percentage points or a 50% relative increase.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Calculates rates, conversions and percentage comparisons with correct units.",
+    "transfer": "Create three conversion problems involving length, area and a rate. Include one intentionally incorrect solution and explain which check exposes it.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

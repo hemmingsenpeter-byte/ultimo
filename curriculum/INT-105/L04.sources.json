@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-105.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Outcome information can distort evaluations of earlier decisions; the journal is an original teaching aid.",
+      "source_ids": [
+        "bias-outcome"
+      ],
+      "locators": [
+        {
+          "source_id": "bias-outcome",
+          "locator": "1988, abstract and outcome-bias experiments",
+          "limitations": "Experimental judgement tasks, not a test of decision journals"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Units follow algebraic conversion rules; relative frequencies express counts relative to a denominator.",
+      "source_ids": [
+        "math-dimensions",
+        "math-frequency"
+      ],
+      "locators": [
+        {
+          "source_id": "math-dimensions",
+          "locator": "§1.4 dimensional consistency",
+          "limitations": "Consistency is necessary for many physical equations, not proof of truth"
+        },
+        {
+          "source_id": "math-frequency",
+          "locator": "§1.3 relative frequencies",
+          "limitations": "Descriptive ratios do not establish causation"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-105.L03",
+  "status": "draft",
+  "competency": "INT-105.L03",
+  "questions": [
+    {
+      "id": "INT-105.L03.Q1",
+      "competency": "INT-105.L03",
+      "prompt": "What refutes an unrestricted universal claim?",
+      "answer": "One verified in-scope instance in which the claim fails.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-105.L03.Q2",
+      "competency": "INT-105.L03",
+      "prompt": "Does one exception refute a 90% frequency claim?",
+      "answer": "No; aggregate evidence is required.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-105.L03.Q3",
+      "competency": "INT-105.L03",
+      "prompt": "What is moving the goalposts?",
+      "answer": "Changing the test or scope after contrary evidence without acknowledging the revision.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Constructs in-scope challenges and distinguishes universal from statistical claims.",
+    "transfer": "Take three fictional claims with different logical scopes. Supply an appropriate challenge to each and document which claim changes and which remains unresolved.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

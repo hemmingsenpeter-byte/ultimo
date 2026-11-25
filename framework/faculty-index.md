@@ -1,6 +1,6 @@
 # Faculty and course index
 
-Every course has a syllabus. Twelve courses have authored draft lessons; the other 122 have syllabuses only.
+Every course has a syllabus. Seventeen courses have authored draft lessons; the other 117 have syllabuses only.
 
 ## Physical
 
@@ -60,11 +60,11 @@ Reason independently, evaluate evidence, model complexity and learn transferable
 - [INT-102 — Logic and argument](../curriculum/INT-102/syllabus.md) · Year 1 · draft
 - [INT-103 — Probability and statistics](../curriculum/INT-103/syllabus.md) · Year 1 · draft
 - [INT-104 — Scientific reasoning](../curriculum/INT-104/syllabus.md) · Year 1 · draft
-- [INT-105 — Cognitive biases](../curriculum/INT-105/syllabus.md) · Year 2 · planned
-- [INT-106 — Systems thinking](../curriculum/INT-106/syllabus.md) · Year 2 · planned
-- [INT-107 — Mathematics and science literacy](../curriculum/INT-107/syllabus.md) · Year 3 · planned
-- [INT-108 — Forecasting and decisions](../curriculum/INT-108/syllabus.md) · Year 3 · planned
-- [INT-109 — Epistemology](../curriculum/INT-109/syllabus.md) · Year 5 · planned
+- [INT-105 — Cognitive biases](../curriculum/INT-105/syllabus.md) · Year 2 · draft
+- [INT-106 — Systems thinking](../curriculum/INT-106/syllabus.md) · Year 2 · draft
+- [INT-107 — Mathematics and science literacy](../curriculum/INT-107/syllabus.md) · Year 3 · draft
+- [INT-108 — Forecasting and decisions](../curriculum/INT-108/syllabus.md) · Year 3 · draft
+- [INT-109 — Epistemology](../curriculum/INT-109/syllabus.md) · Year 5 · draft
 
 ## Social
 

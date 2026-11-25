@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-105.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Counterexamples expose invalid deductive inference; selective responses to contrary evidence can undermine fair evaluation.",
+      "source_ids": [
+        "epi-counterexamples",
+        "bias-confirmation"
+      ],
+      "locators": [
+        {
+          "source_id": "epi-counterexamples",
+          "locator": "Model-centred approach to validity and counterexamples",
+          "limitations": "Formal logical counterexamples differ from statistical evidence"
+        },
+        {
+          "source_id": "bias-confirmation",
+          "locator": "1998, abstract and review topic",
+          "limitations": "Broad review; does not validate the particular classroom exercise"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

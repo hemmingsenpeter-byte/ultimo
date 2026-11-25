@@ -1362,5 +1362,192 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "bias-confirmation",
+    "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+    "authors": "Raymond Nickerson",
+    "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+    "locator": "1998, abstract and review topic",
+    "limitations": "Broad review; does not validate the particular classroom exercise",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "bias-heuristics",
+    "title": "Judgment under Uncertainty: Heuristics and Biases",
+    "authors": "Amos Tversky and Daniel Kahneman",
+    "url": "https://doi.org/10.1126/science.185.4157.1124",
+    "locator": "1974, abstract, availability and anchoring",
+    "limitations": "Classic experimental work; effect sizes vary by task",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "bias-outcome",
+    "title": "Outcome bias in decision evaluation",
+    "authors": "Jonathan Baron and John Hershey",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3367280/",
+    "locator": "1988, abstract and outcome-bias experiments",
+    "limitations": "Experimental judgement tasks, not a test of decision journals",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "systems-leverage",
+    "title": "Leverage Points: Places to Intervene in a System",
+    "authors": "Donella Meadows",
+    "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+    "locator": "1999 essay, sections on stocks, flows, delays, feedback, rules and goals",
+    "limitations": "Conceptual framework; no universal ranking of interventions",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "math-dimensions",
+    "title": "University Physics Volume 1: Dimensional Analysis",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/1-4-dimensional-analysis",
+    "locator": "§1.4 dimensional consistency",
+    "limitations": "Consistency is necessary for many physical equations, not proof of truth",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "math-linear",
+    "title": "College Algebra: Linear Functions",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/college-algebra/pages/4-1-linear-functions",
+    "locator": "§4.1, slope and linear models",
+    "limitations": "Model assumptions determine applicability",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "math-exponential",
+    "title": "College Algebra: Exponential Functions",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/college-algebra/pages/6-1-exponential-functions",
+    "locator": "§6.1, constant multiplicative growth",
+    "limitations": "Extrapolation need not hold indefinitely",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "math-graphs",
+    "title": "Introductory Statistics 2e: Histograms, Frequency Polygons, and Time Series Graphs",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+    "locator": "§2.2, graph types and misleading statistical presentations",
+    "limitations": "Graph conventions depend on purpose",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "math-frequency",
+    "title": "Introductory Statistics 2e: Frequency, Frequency Tables, and Levels of Measurement",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-3-frequency-frequency-tables-and-levels-of-measurement",
+    "locator": "§1.3 relative frequencies",
+    "limitations": "Descriptive ratios do not establish causation",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "forecast-questions",
+    "title": "Question writing and submission guidelines",
+    "authors": "Metaculus",
+    "url": "https://www.metaculus.com/question-writing/",
+    "locator": "Resolution criteria guidance",
+    "limitations": "Platform-specific operational practice",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "forecast-classes",
+    "title": "From Nobel Prize to project management",
+    "authors": "Bent Flyvbjerg",
+    "url": "https://www.pmi.org/learning/library/nobel-project-management-reference-class-forecasting-8068",
+    "locator": "2006, reference-class forecasting approach",
+    "limitations": "Project context; selection and comparability remain consequential",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "forecast-ev",
+    "title": "Introductory Statistics 2e: Mean or Expected Value and Standard Deviation",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-2-mean-or-expected-value-and-standard-deviation",
+    "locator": "§4.2 expected value",
+    "limitations": "Expected monetary value does not represent all preferences or risks",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "forecast-calibration",
+    "title": "Completing the Forecast: Characterizing and Communicating Uncertainty for Better Decisions Using Weather and Climate Forecasts",
+    "authors": "National Research Council",
+    "url": "https://www.nationalacademies.org/read/11699/chapter/5",
+    "locator": "2006, chapter on forecast verification, calibration and scoring",
+    "limitations": "Weather forecasting context; finite samples produce noisy estimates",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "epi-knowledge",
+    "title": "The Analysis of Knowledge",
+    "authors": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/knowledge-analysis/index.html",
+    "locator": "Sections on justified true belief, Gettier problems and alternative analyses",
+    "limitations": "Philosophical survey; no settled universal analysis",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "epi-testimony",
+    "title": "Epistemological Problems of Testimony",
+    "authors": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/testimony-episprob/",
+    "locator": "Discussion of testimonial justification and competing views",
+    "limitations": "Normative debates remain open",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "epi-confidence",
+    "title": "Bayesian Epistemology",
+    "authors": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/epistemology-bayesian/",
+    "locator": "Introduction, degrees of belief and updating",
+    "limitations": "Formal norms require modelling assumptions; not a psychological guarantee",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "epi-counterexamples",
+    "title": "Logical Consequence",
+    "authors": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/archives/fall2014/entries/logical-consequence/",
+    "locator": "Model-centred approach to validity and counterexamples",
+    "limitations": "Formal logical counterexamples differ from statistical evidence",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
   }
 ]

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-108.L02",
+  "status": "draft",
+  "competency": "INT-108.L02",
+  "questions": [
+    {
+      "id": "INT-108.L02.Q1",
+      "competency": "INT-108.L02",
+      "prompt": "What is the outside view?",
+      "answer": "Starting with outcomes from comparable past cases.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-108.L02.Q2",
+      "competency": "INT-108.L02",
+      "prompt": "Why not choose a class after seeing its success rate?",
+      "answer": "It risks selecting evidence to support the desired forecast.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-108.L02.Q3",
+      "competency": "INT-108.L02",
+      "prompt": "Can a base rate be adjusted?",
+      "answer": "Yes, using justified differences and explicit uncertainty.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Selects defensible reference classes and explains adjustments and sampling limitations.",
+    "transfer": "For three questions from L01, define two plausible reference classes, state which evidence is unavailable, and produce a provisional forecast range with documented reasoning.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

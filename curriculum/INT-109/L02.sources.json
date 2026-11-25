@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-109.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Testimonial knowledge is indispensable and its justificatory basis remains philosophically contested.",
+      "source_ids": [
+        "epi-testimony"
+      ],
+      "locators": [
+        {
+          "source_id": "epi-testimony",
+          "locator": "Discussion of testimonial justification and competing views",
+          "limitations": "Normative debates remain open"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}
