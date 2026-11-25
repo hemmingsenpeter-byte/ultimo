@@ -1692,5 +1692,159 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-ocd",
+    "title": "Obsessive-Compulsive Disorder: When Unwanted Thoughts or Repetitive Behaviors Take Over",
+    "authors": "NIMH",
+    "url": "https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over",
+    "locator": "Signs and symptoms; treatments",
+    "limitations": "Public clinical education; not a diagnostic instrument",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-gambling",
+    "title": "Gambling",
+    "authors": "WHO",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/gambling",
+    "locator": "Gambling disorder and risk factors",
+    "limitations": "Public health overview; not individual diagnosis",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-gaming",
+    "title": "Gaming disorder",
+    "authors": "WHO",
+    "url": "https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder/",
+    "locator": "Definition, impairment and prevalence context",
+    "limitations": "Gaming engagement alone does not establish disorder",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-alcohol-withdrawal",
+    "title": "Alcohol-use disorder",
+    "authors": "NHS",
+    "url": "https://www.nhs.uk/conditions/alcohol-use-disorder/",
+    "locator": "Withdrawal and medical treatment",
+    "limitations": "UK guidance; local clinical pathways differ",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-benzo-withdrawal",
+    "title": "FDA requiring Boxed Warning updated to improve safe use of benzodiazepine drug class",
+    "authors": "FDA",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class",
+    "locator": "2020, physical dependence and patient precautions",
+    "limitations": "Drug class warning; no individual discontinuation plan",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-nz-addiction",
+    "title": "Addiction support",
+    "authors": "Healthify NZ",
+    "url": "https://healthify.nz/support/a/addiction-support",
+    "locator": "New Zealand support directory",
+    "limitations": "Local services and contact details may change",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-resilience-def",
+    "title": "Resilience definitions, theory, and challenges: interdisciplinary perspectives",
+    "authors": "Southwick et al.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25317257/",
+    "locator": "2014, abstract and interdisciplinary definitions",
+    "limitations": "Expert discussion; no single accepted resilience metric",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-resilience-resources",
+    "title": "Resilience in the Context of Chronic Stress and Health in Adults",
+    "authors": "See author metadata in PubMed Central article",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4494753/",
+    "locator": "2011 review, taxonomy of resilience resources",
+    "limitations": "Conceptual taxonomy; not a validated individual prediction tool",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-social-buffer",
+    "title": "Stress, social support, and the buffering hypothesis",
+    "authors": "Cohen and Wills",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3901065/",
+    "locator": "1985, abstract, main-effect and buffering models",
+    "limitations": "Effects vary with support type, measures and context",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-recovery-experiences",
+    "title": "The Recovery Experience Questionnaire",
+    "authors": "Sonnentag and Fritz",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17638488/",
+    "locator": "2007, abstract, four recovery experience dimensions",
+    "limitations": "Occupational questionnaire validation, not proof that any given activity improves recovery",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-pressure-routes",
+    "title": "Choking under pressure: multiple routes to skill failure",
+    "authors": "DeCaro et al.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21574739/",
+    "locator": "2011, abstract, distraction and explicit monitoring",
+    "limitations": "Experimental categorisation tasks; generalisation to presentations requires caution",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-simulation-review",
+    "title": "A critical review of simulation-based medical education research: 2003–2009",
+    "authors": "McGaghie et al.",
+    "url": "https://doi.org/10.1111/j.1365-2923.2009.03547.x",
+    "locator": "2010, abstract, feedback, practice, fidelity and transfer",
+    "limitations": "Medical training research; no claim that the specific classroom exercise is validated",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-debrief-review",
+    "title": "Do team and individual debriefs enhance performance? A meta-analysis",
+    "authors": "Tannenbaum and Cerasoli",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23516804/",
+    "locator": "2013, abstract, structured debriefs and performance",
+    "limitations": "Heterogeneous training settings; no guaranteed gain for any individual",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-debrief-updated",
+    "title": "A meta-analysis of the effectiveness of the after-action review (or debrief) and factors that influence its effectiveness",
+    "authors": "Keiser and Arthur",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32852990/",
+    "locator": "2021, abstract, after-action review and moderators",
+    "limitations": "Task-specific and implementation-dependent effects",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
   }
 ]

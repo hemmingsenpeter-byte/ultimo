@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "WHO identifies wider environmental, commercial and social influences on gambling-related harm.",
+      "source_ids": [
+        "men-gambling"
+      ],
+      "locators": [
+        {
+          "source_id": "men-gambling",
+          "locator": "Gambling disorder and risk factors",
+          "limitations": "Public health overview; not individual diagnosis"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "OCD treatment can include specialist exposure-based therapy; the educational context is not a substitute for treatment.",
+      "source_ids": [
+        "men-ocd"
+      ],
+      "locators": [
+        {
+          "source_id": "men-ocd",
+          "locator": "Signs and symptoms; treatments",
+          "limitations": "Public clinical education; not a diagnostic instrument"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

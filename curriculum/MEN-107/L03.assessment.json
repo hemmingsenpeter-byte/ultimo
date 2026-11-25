@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L03",
+  "status": "draft",
+  "competency": "MEN-107.L03",
+  "questions": [
+    {
+      "id": "MEN-107.L03.Q1",
+      "competency": "MEN-107.L03",
+      "prompt": "How does a process goal differ from an outcome goal?",
+      "answer": "It concerns an action or reasoning step within the performer's influence rather than the final result alone.",
+      "points": 1,
+      "feedback": "Give a concrete example."
+    },
+    {
+      "id": "MEN-107.L03.Q2",
+      "competency": "MEN-107.L03",
+      "prompt": "Why can a favourable outcome be misleading?",
+      "answer": "It may occur despite poor reasoning or inaccurate information.",
+      "points": 1,
+      "feedback": "Do not excuse fabrication."
+    },
+    {
+      "id": "MEN-107.L03.Q3",
+      "competency": "MEN-107.L03",
+      "prompt": "Should outcomes be discarded?",
+      "answer": "No; they are additional evidence for evaluating assumptions and communication.",
+      "points": 1,
+      "feedback": "Distinguish information available before and after."
+    },
+    {
+      "id": "MEN-107.L03.Q4",
+      "competency": "MEN-107.L03",
+      "prompt": "What should a presentation rubric measure?",
+      "answer": "Observable task quality, accuracy, rationale and relevant ethical or accessibility requirements.",
+      "points": 1,
+      "feedback": "Avoid grading personal confidence."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Separates observable process quality from outcome, recognises non-controllable factors and selects an ethical improvement.",
+    "transfer": "Use the scorecard for two fictional presentation outcomes, one favourable and one unfavourable. Assess the same criteria in both. Add a process improvement and identify evidence that would justify changing the criterion itself.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

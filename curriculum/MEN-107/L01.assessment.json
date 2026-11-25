@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L01",
+  "status": "draft",
+  "competency": "MEN-107.L01",
+  "questions": [
+    {
+      "id": "MEN-107.L01.Q1",
+      "competency": "MEN-107.L01",
+      "prompt": "How can distraction interfere with performance?",
+      "answer": "Task-relevant attentional resources may be diverted to unrelated concerns.",
+      "points": 1,
+      "feedback": "Name a possible task demand."
+    },
+    {
+      "id": "MEN-107.L01.Q2",
+      "competency": "MEN-107.L01",
+      "prompt": "How does explicit monitoring differ?",
+      "answer": "Conscious control of a well-practised process may interfere with fluent execution.",
+      "points": 1,
+      "feedback": "Distinguish a novice's need for instruction."
+    },
+    {
+      "id": "MEN-107.L01.Q3",
+      "competency": "MEN-107.L01",
+      "prompt": "Does pressure always reduce performance?",
+      "answer": "No; responses depend on the task, context and individual.",
+      "points": 1,
+      "feedback": "Avoid universal arousal rules."
+    },
+    {
+      "id": "MEN-107.L01.Q4",
+      "competency": "MEN-107.L01",
+      "prompt": "Why identify rival explanations?",
+      "answer": "Errors may reflect skill gaps, ambiguity, access or other demands rather than pressure alone.",
+      "points": 1,
+      "feedback": "Propose a comparable task."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Distinguishes pressure mechanisms, proposes rival explanations and chooses safe task-specific support.",
+    "transfer": "Map a new fictional performance problem, including two rival explanations and one task-specific support. Explain when the support might be inappropriate. Set up a low-risk comparison without deliberately inducing anxiety.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Sudden cessation of alcohol in dependent people can be dangerous.",
+      "source_ids": [
+        "men-alcohol-withdrawal"
+      ],
+      "locators": [
+        {
+          "source_id": "men-alcohol-withdrawal",
+          "locator": "Withdrawal and medical treatment",
+          "limitations": "UK guidance; local clinical pathways differ"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "Abrupt benzodiazepine discontinuation or rapid dose reduction can cause serious withdrawal reactions.",
+      "source_ids": [
+        "men-benzo-withdrawal"
+      ],
+      "locators": [
+        {
+          "source_id": "men-benzo-withdrawal",
+          "locator": "2020, physical dependence and patient precautions",
+          "limitations": "Drug class warning; no individual discontinuation plan"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

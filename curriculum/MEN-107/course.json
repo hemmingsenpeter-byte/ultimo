@@ -1,0 +1,43 @@
+{
+  "id": "MEN-107",
+  "title": "Performance under pressure",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "MEN-102"
+  ],
+  "competencies": [
+    "MEN-107.L01",
+    "MEN-107.L02",
+    "MEN-107.L03",
+    "MEN-107.L04"
+  ],
+  "reading": [
+    "men-ref-7",
+    "men-ref-2"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Pressure and attention",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Low-stakes rehearsal",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Process and outcomes",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Debrief",
+      "path": "L04.md"
+    }
+  ]
+}

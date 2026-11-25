@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Meta-analyses of debriefs report performance benefits across studied settings, with context and implementation limitations.",
+      "source_ids": [
+        "men-debrief-review",
+        "men-debrief-updated"
+      ],
+      "locators": [
+        {
+          "source_id": "men-debrief-review",
+          "locator": "2013, abstract, structured debriefs and performance",
+          "limitations": "Heterogeneous training settings; no guaranteed gain for any individual"
+        },
+        {
+          "source_id": "men-debrief-updated",
+          "locator": "2021, abstract, after-action review and moderators",
+          "limitations": "Task-specific and implementation-dependent effects"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

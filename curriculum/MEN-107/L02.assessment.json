@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L02",
+  "status": "draft",
+  "competency": "MEN-107.L02",
+  "questions": [
+    {
+      "id": "MEN-107.L02.Q1",
+      "competency": "MEN-107.L02",
+      "prompt": "What is the objective of rehearsal?",
+      "answer": "To practise and improve specified task skills through appropriate attempts and feedback.",
+      "points": 1,
+      "feedback": "Do not use stress as the success metric."
+    },
+    {
+      "id": "MEN-107.L02.Q2",
+      "competency": "MEN-107.L02",
+      "prompt": "Does simulation need maximum realism?",
+      "answer": "No; it should represent features relevant to the learning objective.",
+      "points": 1,
+      "feedback": "Explain one useful simplification."
+    },
+    {
+      "id": "MEN-107.L02.Q3",
+      "competency": "MEN-107.L02",
+      "prompt": "How does task variation differ from clinical exposure therapy?",
+      "answer": "Task variation changes ordinary learning examples; clinical exposure is specialist treatment.",
+      "points": 1,
+      "feedback": "Do not induce distress."
+    },
+    {
+      "id": "MEN-107.L02.Q4",
+      "competency": "MEN-107.L02",
+      "prompt": "What does simulation success not certify?",
+      "answer": "It does not establish readiness for regulated or safety-sensitive work.",
+      "points": 1,
+      "feedback": "State the assessment boundary."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Designs voluntary accessible rehearsal with specific objectives, feedback, safe variation and transfer limits.",
+    "transfer": "Create a three-round voluntary rehearsal plan for the capstone presentation. Define one objective per round, concrete feedback criteria and safe access alternatives. Include a novel question and a condition for stopping or seeking appropriate support.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

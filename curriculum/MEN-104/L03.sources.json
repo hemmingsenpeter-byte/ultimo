@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "NIMH describes professional treatment options for OCD; treatment selection is clinical.",
+      "source_ids": [
+        "men-ocd"
+      ],
+      "locators": [
+        {
+          "source_id": "men-ocd",
+          "locator": "Signs and symptoms; treatments",
+          "limitations": "Public clinical education; not a diagnostic instrument"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "New Zealand addiction support directories identify specialist services and support channels.",
+      "source_ids": [
+        "men-nz-addiction"
+      ],
+      "locators": [
+        {
+          "source_id": "men-nz-addiction",
+          "locator": "New Zealand support directory",
+          "limitations": "Local services and contact details may change"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

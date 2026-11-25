@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L02",
+  "status": "draft",
+  "competency": "MEN-105.L02",
+  "questions": [
+    {
+      "id": "MEN-105.L02.Q1",
+      "competency": "MEN-105.L02",
+      "prompt": "What does directly controllable mean?",
+      "answer": "A feasible action within the person's actual authority.",
+      "points": 1,
+      "feedback": "Do not confuse an action with its outcome."
+    },
+    {
+      "id": "MEN-105.L02.Q2",
+      "competency": "MEN-105.L02",
+      "prompt": "How does influence differ from control?",
+      "answer": "Influence requires cooperation or a decision by others; success is not guaranteed.",
+      "points": 1,
+      "feedback": "Give a request example."
+    },
+    {
+      "id": "MEN-105.L02.Q3",
+      "competency": "MEN-105.L02",
+      "prompt": "When is organisational help appropriate?",
+      "answer": "When the demand or resource mismatch requires organisational authority or support.",
+      "points": 1,
+      "feedback": "Identify the responsible route."
+    },
+    {
+      "id": "MEN-105.L02.Q4",
+      "competency": "MEN-105.L02",
+      "prompt": "Why include a fallback?",
+      "answer": "It allows progress or recovery when an uncertain outcome differs from expectations.",
+      "points": 1,
+      "feedback": "Use a safe alternative."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Distinguishes controllable actions from uncertain outcomes, compares feasible responses and identifies authority and safety limits.",
+    "transfer": "Apply the matrix to a new fictional adversity with a structural component. Compare two actions by authority, feasibility, likely benefit, possible harm and reversibility. State an uncertainty that remains after acting.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

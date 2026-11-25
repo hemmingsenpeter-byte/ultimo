@@ -1,0 +1,41 @@
+{
+  "id": "MEN-104",
+  "title": "Compulsive behaviour",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "MEN-104.L01",
+    "MEN-104.L02",
+    "MEN-104.L03",
+    "MEN-104.L04"
+  ],
+  "reading": [
+    "men-ref-6",
+    "men-ref-3"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Compulsion and impairment",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Contextual triggers",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Support pathways",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Withdrawal and referral boundaries",
+      "path": "L04.md"
+    }
+  ]
+}

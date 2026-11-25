@@ -165,7 +165,7 @@
     "id": "MEN-104",
     "faculty": "MEN",
     "title": "Compulsive behaviour",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-104/syllabus.json",
     "year": 2
@@ -174,7 +174,7 @@
     "id": "MEN-105",
     "faculty": "MEN",
     "title": "Resilience",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-105/syllabus.json",
     "year": 2
@@ -192,7 +192,7 @@
     "id": "MEN-107",
     "faculty": "MEN",
     "title": "Performance under pressure",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-107/syllabus.json",
     "year": 3

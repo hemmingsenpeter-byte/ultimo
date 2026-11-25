@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Occupational recovery research differentiates four recovery experience dimensions.",
+      "source_ids": [
+        "men-recovery-experiences"
+      ],
+      "locators": [
+        {
+          "source_id": "men-recovery-experiences",
+          "locator": "2007, abstract, four recovery experience dimensions",
+          "limitations": "Occupational questionnaire validation, not proof that any given activity improves recovery"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "Resilience and adaptation are context-dependent and may vary over time.",
+      "source_ids": [
+        "men-resilience-def"
+      ],
+      "locators": [
+        {
+          "source_id": "men-resilience-def",
+          "locator": "2014, abstract and interdisciplinary definitions",
+          "limitations": "Expert discussion; no single accepted resilience metric"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

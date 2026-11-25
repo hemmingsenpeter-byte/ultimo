@@ -1,6 +1,6 @@
 # Faculty and course index
 
-Every course has a syllabus. Twenty courses have authored draft lessons; the other 114 have syllabuses only.
+Every course has a syllabus. Twenty-three courses have authored draft lessons; the other 111 have syllabuses only.
 
 ## Physical
 
@@ -34,10 +34,10 @@ Build sustainable attention, habits and coping skills; recognise when support is
 - [MEN-101 — Habits](../curriculum/MEN-101/syllabus.md) · Year 1 · draft
 - [MEN-102 — Attention and concentration](../curriculum/MEN-102/syllabus.md) · Year 1 · draft
 - [MEN-103 — Motivation and procrastination](../curriculum/MEN-103/syllabus.md) · Year 1 · draft
-- [MEN-104 — Compulsive behaviour](../curriculum/MEN-104/syllabus.md) · Year 2 · planned
-- [MEN-105 — Resilience](../curriculum/MEN-105/syllabus.md) · Year 2 · planned
+- [MEN-104 — Compulsive behaviour](../curriculum/MEN-104/syllabus.md) · Year 2 · draft
+- [MEN-105 — Resilience](../curriculum/MEN-105/syllabus.md) · Year 2 · draft
 - [MEN-106 — Stress management](../curriculum/MEN-106/syllabus.md) · Year 2 · draft
-- [MEN-107 — Performance under pressure](../curriculum/MEN-107/syllabus.md) · Year 3 · planned
+- [MEN-107 — Performance under pressure](../curriculum/MEN-107/syllabus.md) · Year 3 · draft
 
 ## Emotional
 

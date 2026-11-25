@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L03",
+  "status": "draft",
+  "competency": "MEN-104.L03",
+  "questions": [
+    {
+      "id": "MEN-104.L03.Q1",
+      "competency": "MEN-104.L03",
+      "prompt": "What distinguishes peer support from clinical care?",
+      "answer": "Peer support can listen and assist with access; clinical care assesses and treats within professional competence.",
+      "points": 1,
+      "feedback": "Identify one action outside a peer's role."
+    },
+    {
+      "id": "MEN-104.L03.Q2",
+      "competency": "MEN-104.L03",
+      "prompt": "Why offer alternative routes?",
+      "answer": "Availability, accessibility and preferences vary.",
+      "points": 1,
+      "feedback": "Name a realistic barrier."
+    },
+    {
+      "id": "MEN-104.L03.Q3",
+      "competency": "MEN-104.L03",
+      "prompt": "What information should be verified before giving a service contact?",
+      "answer": "Current service details, location, eligibility and emergency limitations.",
+      "points": 1,
+      "feedback": "Use an official or trusted directory."
+    },
+    {
+      "id": "MEN-104.L03.Q4",
+      "competency": "MEN-104.L03",
+      "prompt": "When does an ordinary referral become insufficient?",
+      "answer": "When immediate danger or a medical emergency requires emergency assistance.",
+      "points": 1,
+      "feedback": "Do not wait for routine follow-up."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Constructs a feasible, consent-based support pathway with alternatives, access considerations and emergency boundaries.",
+    "transfer": "Create a fictional support map with at least two suitable routes and one accessibility barrier, such as language, transport or appointment availability. Draft a brief supportive response and a plan for checking current local service information. Include a role boundary.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}
