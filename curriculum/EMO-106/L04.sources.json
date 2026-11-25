@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Official New Zealand victim support guidance identifies specialist assistance and safety planning as options for family violence.",
+      "source_ids": [
+        "emo-family-safety"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-family-safety",
+          "locator": "Support options, safety planning and emergency response; checked 2026-11-26",
+          "limitations": "New Zealand guidance; service details and individual risks require local review"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "New Zealand Police guidance directs immediate emergencies to 111 and identifies family-violence services.",
+      "source_ids": [
+        "emo-family-police"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-family-police",
+          "locator": "Emergency 111 and specialist support; checked 2026-11-26",
+          "limitations": "New Zealand only; not individual safety planning"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

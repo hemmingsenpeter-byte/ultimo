@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Assertiveness education distinguishes clear communication of needs from aggressive or passive behaviour.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "Family violence guidance identifies specialist support and safety planning as appropriate options.",
+      "source_ids": [
+        "emo-family-safety"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-family-safety",
+          "locator": "Support options, safety planning and emergency response; checked 2026-11-26",
+          "limitations": "New Zealand guidance; service details and individual risks require local review"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

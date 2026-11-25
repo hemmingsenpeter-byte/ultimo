@@ -1846,5 +1846,137 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-bfi2",
+    "title": "The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power",
+    "authors": "Christopher Soto and Oliver John",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27055049/",
+    "locator": "2017, abstract, hierarchical five-domain/fifteen-facet model",
+    "limitations": "Validation studies of one inventory; not a universal personality taxonomy or diagnosis",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-state-distributions",
+    "title": "Toward a structure- and process-integrated view of personality: traits as density distribution of states",
+    "authors": "William Fleeson",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11414368/",
+    "locator": "2001, abstract, experience sampling of behavioural states",
+    "limitations": "Short sampling studies; cannot infer an individual's stable traits from isolated behaviour",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-openstax-bio",
+    "title": "Psychology 2e: Biological Approaches",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/psychology-2e/pages/11-6-biological-approaches",
+    "locator": "§11.6, temperament and individual differences",
+    "limitations": "Introductory account; not genetic prediction of a particular person",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-openstax-traits",
+    "title": "Psychology 2e: Trait Theorists",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists",
+    "locator": "§11.7, Five Factor Model",
+    "limitations": "Textbook survey; descriptive trait dimensions are not moral ratings",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-itc-test-use",
+    "title": "ITC Guidelines on Test Use",
+    "authors": "International Test Commission",
+    "url": "https://www.intestcom.org/page/15",
+    "locator": "Guidelines overview, reliability and validity for intended purpose, context",
+    "limitations": "Professional guidance; does not validate any specific instrument",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-itc-adaptation",
+    "title": "ITC Guidelines for Translating and Adapting Tests (Second Edition)",
+    "authors": "International Test Commission",
+    "url": "https://www.intestcom.org/page/14",
+    "locator": "Guidelines overview, adaptation across cultural contexts",
+    "limitations": "Professional standards; translation alone does not establish comparability",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-gross-process",
+    "title": "Emotion Regulation: Current Status and Future Prospects",
+    "authors": "James J. Gross",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1047840X.2014.940781",
+    "locator": "2015, process model and consequences of regulation strategies",
+    "limitations": "Theoretical review; not a treatment protocol",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-gross-john",
+    "title": "Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being",
+    "authors": "James Gross and Oliver John",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12916575/",
+    "locator": "2003, abstract, reappraisal and suppression associations",
+    "limitations": "Associations do not establish universal causal effects or best strategy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-flexibility",
+    "title": "Regulatory Flexibility: An Individual Differences Perspective on Coping and Emotion Regulation",
+    "authors": "George Bonanno and Charles Burton",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26173226/",
+    "locator": "2013, abstract, context sensitivity, repertoire and feedback",
+    "limitations": "Proposed framework and research review; not a validated classroom intervention",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-assertiveness",
+    "title": "Improving Assertiveness Self-Help Resources",
+    "authors": "Centre for Clinical Interventions, Government of Western Australia",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Assertiveness",
+    "locator": "Workbook overview, assertiveness, requests and declining",
+    "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-family-safety",
+    "title": "Getting support for family violence",
+    "authors": "New Zealand Ministry of Justice / Victims Information",
+    "url": "https://www.victimsinfo.govt.nz/understanding-crime/types-of-crime/family-harm-and-abuse/family-violence/getting-support-for-family-violence",
+    "locator": "Support options, safety planning and emergency response; checked 2026-11-26",
+    "limitations": "New Zealand guidance; service details and individual risks require local review",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-family-police",
+    "title": "Help for family violence",
+    "authors": "New Zealand Police",
+    "url": "https://www.police.govt.nz/index.php/advice/family-violence/help",
+    "locator": "Emergency 111 and specialist support; checked 2026-11-26",
+    "limitations": "New Zealand only; not individual safety planning",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
   }
 ]

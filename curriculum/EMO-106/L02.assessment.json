@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L02",
+  "status": "draft",
+  "competency": "EMO-106.L02",
+  "questions": [
+    {
+      "id": "EMO-106.L02.Q1",
+      "competency": "EMO-106.L02",
+      "prompt": "What is assertiveness in this lesson?",
+      "answer": "Clear, respectful expression of needs or limits while recognising others' rights.",
+      "points": 1,
+      "feedback": "Do not equate it with loudness."
+    },
+    {
+      "id": "EMO-106.L02.Q2",
+      "competency": "EMO-106.L02",
+      "prompt": "What makes a request specific?",
+      "answer": "An observable action, relevant context and feasible timing.",
+      "points": 1,
+      "feedback": "Replace a vague complaint with a request."
+    },
+    {
+      "id": "EMO-106.L02.Q3",
+      "competency": "EMO-106.L02",
+      "prompt": "How should an authorised obligation be communicated?",
+      "answer": "State the requirement transparently and use appropriate procedures; do not misrepresent it as optional.",
+      "points": 1,
+      "feedback": "Clarify authority."
+    },
+    {
+      "id": "EMO-106.L02.Q4",
+      "competency": "EMO-106.L02",
+      "prompt": "Does refusal prove the request was poorly made?",
+      "answer": "No; assess clarity, fairness and feasibility separately from the outcome.",
+      "points": 1,
+      "feedback": "Identify possible constraints on the recipient."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Drafts specific, respectful, accessible requests that distinguish optional choices from legitimate obligations and preserve response options.",
+    "transfer": "Draft two fictional assertive requests: one optional favour and one request about an existing agreed duty. Compare wording, response options, authority and access needs. Provide a written alternative and a condition where formal support is preferable.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

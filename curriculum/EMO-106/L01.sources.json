@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "CCI assertiveness education describes communicating needs while distinguishing assertive and aggressive approaches.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "New Zealand family violence support guidance provides specialist options for safety planning.",
+      "source_ids": [
+        "emo-family-safety"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-family-safety",
+          "locator": "Support options, safety planning and emergency response; checked 2026-11-26",
+          "limitations": "New Zealand guidance; service details and individual risks require local review"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

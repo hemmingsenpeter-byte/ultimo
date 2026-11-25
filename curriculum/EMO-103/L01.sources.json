@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Gross's process model distinguishes situation, attention, appraisal and response processes in emotion generation and regulation.",
+      "source_ids": [
+        "emo-gross-process"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-gross-process",
+          "locator": "2015, process model and consequences of regulation strategies",
+          "limitations": "Theoretical review; not a treatment protocol"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

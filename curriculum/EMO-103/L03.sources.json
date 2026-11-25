@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Gross's process model distinguishes several families of regulation strategies.",
+      "source_ids": [
+        "emo-gross-process"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-gross-process",
+          "locator": "2015, process model and consequences of regulation strategies",
+          "limitations": "Theoretical review; not a treatment protocol"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "Bonanno and Burton emphasise context sensitivity, strategy repertoire and responsiveness to feedback.",
+      "source_ids": [
+        "emo-flexibility"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-flexibility",
+          "locator": "2013, abstract, context sensitivity, repertoire and feedback",
+          "limitations": "Proposed framework and research review; not a validated classroom intervention"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "WHO provides general stress-management skills for adversity; classroom planning is not clinical treatment.",
+      "source_ids": [
+        "men-who-guide"
+      ],
+      "locators": [
+        {
+          "source_id": "men-who-guide",
+          "locator": "2020 publication overview, skills for coping with adversity",
+          "limitations": "Original activities here are not reproduced WHO exercises or clinical treatment"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L04",
+  "status": "draft",
+  "competency": "EMO-103.L04",
+  "questions": [
+    {
+      "id": "EMO-103.L04.Q1",
+      "competency": "EMO-103.L04",
+      "prompt": "Does constructive communication require feeling calm?",
+      "answer": "No; a person can experience emotion while choosing a safe, accurate response.",
+      "points": 1,
+      "feedback": "Distinguish emotion from conduct."
+    },
+    {
+      "id": "EMO-103.L04.Q2",
+      "competency": "EMO-103.L04",
+      "prompt": "What should a factual concern describe?",
+      "answer": "Observable events and concrete impact, rather than unsupported motive claims.",
+      "points": 1,
+      "feedback": "Rewrite a character accusation as a fact."
+    },
+    {
+      "id": "EMO-103.L04.Q3",
+      "competency": "EMO-103.L04",
+      "prompt": "Is agreement required for a successful response?",
+      "answer": "No; the learner can communicate accurately and respectfully while disagreement remains.",
+      "points": 1,
+      "feedback": "Use a process criterion."
+    },
+    {
+      "id": "EMO-103.L04.Q4",
+      "competency": "EMO-103.L04",
+      "prompt": "When might formal support be preferable to direct discussion?",
+      "answer": "When safety, authority, harassment or significant power imbalance makes direct discussion inappropriate.",
+      "points": 1,
+      "feedback": "Do not insist on confrontation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Constructs an evidence-based and respectful response, preserves autonomy and selects an appropriate alternative when direct discussion is unsafe.",
+    "transfer": "Complete a fictional conflict simulation using the event map, alternative hypotheses, strategy comparison and constructive response. Include a contrasting case where direct communication is inappropriate, then revise after feedback on accuracy, autonomy and safety.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

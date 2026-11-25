@@ -4,10 +4,10 @@ A static, dependency-free browser application. Canonical content lives in curric
 
 ## Features
 - Responsive dashboard; progress across all sixteen faculties is reading progress, not mastery.
-- Search all 134 courses and preview 536 lesson blueprints. The twenty-three authored courses have full readers.
+- Search all 134 courses and preview 536 lesson blueprints. The twenty-six authored courses have full readers.
 - Formative open-answer quizzes with model answer reveal and learner self-marking.
 - Prerequisite-aware rolling study queue and four suggested spaced reviews (roughly day 1, 3, 7, 30 when performed on time).
-- Search the reading library and the 92 frameworks extracted from written lessons.
+- Search the reading library and the 104 frameworks extracted from written lessons.
 - Local practice evidence notes and per-lesson competency rubric display; no automatic certification.
 - Export, validated import and deletion of learner data.
 

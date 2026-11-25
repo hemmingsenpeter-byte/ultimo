@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L01",
+  "status": "draft",
+  "competency": "EMO-102.L01",
+  "questions": [
+    {
+      "id": "EMO-102.L01.Q1",
+      "competency": "EMO-102.L01",
+      "prompt": "What is a trait dimension?",
+      "answer": "A continuum describing characteristic tendencies across occasions, not a fixed behavioural rule.",
+      "points": 1,
+      "feedback": "Explain why a single action is insufficient."
+    },
+    {
+      "id": "EMO-102.L01.Q2",
+      "competency": "EMO-102.L01",
+      "prompt": "How does a facet differ from a broad domain?",
+      "answer": "A facet describes a narrower aspect within a wider trait dimension.",
+      "points": 1,
+      "feedback": "Give a fictional example of organisation versus persistence."
+    },
+    {
+      "id": "EMO-102.L01.Q3",
+      "competency": "EMO-102.L01",
+      "prompt": "What is temperament commonly concerned with?",
+      "answer": "Early-emerging differences in reactivity and regulation, shaped through development.",
+      "points": 1,
+      "feedback": "Do not treat early tendencies as destiny."
+    },
+    {
+      "id": "EMO-102.L01.Q4",
+      "competency": "EMO-102.L01",
+      "prompt": "Can a trait label establish suitability for a job or relationship?",
+      "answer": "No; it does not independently establish competence, compatibility or validity for the intended decision.",
+      "points": 1,
+      "feedback": "Identify relevant direct evidence instead."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Explains trait dimensions and facets, differentiates temperament, states and skills, and limits inference from fictional observations.",
+    "transfer": "Draft a fictional trait-model critique of a claim that a single personality category predicts leadership ability. Explain the difference between a dimension, facet, state and skill; identify two missing observations and propose a more defensible description. Preserve uncertainty.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

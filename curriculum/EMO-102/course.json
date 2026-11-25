@@ -1,0 +1,42 @@
+{
+  "id": "EMO-102",
+  "title": "Personality and temperament",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "competencies": [
+    "EMO-102.L01",
+    "EMO-102.L02",
+    "EMO-102.L03",
+    "EMO-102.L04"
+  ],
+  "reading": [
+    "emo-ref-3"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Trait models",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Situational variation",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Measurement",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Cultural context",
+      "path": "L04.md"
+    }
+  ]
+}

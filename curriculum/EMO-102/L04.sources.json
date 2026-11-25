@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "ITC adaptation guidance applies to movement between cultural settings even without translation.",
+      "source_ids": [
+        "emo-itc-adaptation"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-itc-adaptation",
+          "locator": "Guidelines overview, adaptation across cultural contexts",
+          "limitations": "Professional standards; translation alone does not establish comparability"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "ITC test-use guidance considers linguistic, cultural and institutional contexts and intended purpose.",
+      "source_ids": [
+        "emo-itc-test-use"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-itc-test-use",
+          "locator": "Guidelines overview, reliability and validity for intended purpose, context",
+          "limitations": "Professional guidance; does not validate any specific instrument"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}
