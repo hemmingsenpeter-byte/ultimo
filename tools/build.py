@@ -53,7 +53,7 @@ def compile_data(root=ROOT):
                 if section:
                     frameworks.append({"id": key, "course": entry["id"], "title": lesson["title"], "body": section, "status": "draft"})
         courses.append(course)
-    return {"version": "0.4.0", "faculties": read(root / "framework/faculties.json"),
+    return {"version": "0.5.0", "faculties": read(root / "framework/faculties.json"),
             "courses": courses, "sources": read(root / "library/sources.json"),
             "competencies": read(root / "framework/competencies.json"),
             "levels": read(root / "framework/levels.json"), "frameworks": frameworks,
@@ -66,7 +66,7 @@ def build(root=ROOT, out=None):
     validate_content(root)
     out = Path(out) if out is not None else root / "dist"
     out.mkdir(parents=True, exist_ok=True)
-    for filename in ("index.html", "style.css", "app.js", "state.mjs"):
+    for filename in ("index.html", "style.css", "app.js", "state.mjs", "tutor.mjs"):
         shutil.copyfile(root / "platform" / filename, out / filename)
     data = compile_data(root)
     (out / "curriculum.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

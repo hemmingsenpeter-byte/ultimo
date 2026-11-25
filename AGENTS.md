@@ -17,3 +17,6 @@ The foundation semester is a reference implementation. Run python tools/validate
 
 ## v0.4 platform workflow
 The browser app consumes generated curriculum.json; never hand-edit dist. Keep canonical content and private learner state separate. No remote learner data, API keys, tracking or automatic competency awards. Preserve accessibility and data portability. Run Python and Node tests plus app module syntax check before merging. Treat deployment configuration and independent academic review as separate gates. See platform/README.md.
+
+## v0.5 tutor rules
+Read tutor/README.md. Never expose provider keys in static files, add private learner records to prompts, invent citations or award competency from model output. Keep the local gateway loopback-only. Hosted inference requires a separate authenticated architecture and explicit owner approval. Run node tests/test_tutor.mjs and Python tests. Citation ID checks do not establish factual correctness.

@@ -31,7 +31,7 @@ class PlatformTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp)
             build(ROOT, out)
-            self.assertEqual({p.name for p in out.iterdir()}, {"index.html","style.css","app.js","state.mjs","curriculum.json"})
+            self.assertEqual({p.name for p in out.iterdir()}, {"index.html","style.css","app.js","state.mjs","tutor.mjs","curriculum.json"})
             data = json.loads((out / "curriculum.json").read_text())
-            self.assertEqual(data["version"], "0.4.0")
+            self.assertEqual(data["version"], "0.5.0")
             self.assertNotIn("learner", data)

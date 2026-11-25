@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.5 — Tutor studio and personalised learning pilot
+
+- Six curriculum-grounded tutor roles, searchable passage guidance, formative practice questions and portable tutor prompts.
+- Adaptive study queue prioritises due reviews and weak formative self-checks within a study budget.
+- Optional single-user loopback model gateway for Ollama or OpenAI, with consent, bounded context and citation ID checks.
+- Structural tutor evaluations and privacy boundaries. Public static site has no generative model backend; production authentication, model evaluations and academic review remain pending.
+
 ## v0.4 — Student application pilot
 
 - Responsive, dependency-free static learning interface; all catalogue entries searchable, ten authored courses readable.

@@ -1,4 +1,4 @@
-# Ultimo — Master specification v0.4
+# Ultimo — Master specification v0.5
 Status: framework defined for 134 courses; ten authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
@@ -66,3 +66,6 @@ The first ten courses are listed in pathways/semester-one.json and semester-one.
 
 ## v0.4 student application
 The Python compiler produces public curriculum.json from canonical records, with authored lesson sections, formative questions, evidence criteria and sources. A dependency-free HTML/CSS/JavaScript frontend provides course and syllabus browsing, a dashboard, self-checked quizzes, prerequisite-aware study planning, spaced reviews, searchable libraries, per-lesson rubrics and a local evidence portfolio. Client data is versioned, validated on import, exportable and erasable. Local browser storage is not encryption or an authenticated multi-user datastore; do not collect confidential data. Completion and self-assessment are not verified competence. No AI tutor or automated assessor. Future framework interactions, human review, SCORM/CASE adapters and accessibility audits remain pending. Deployment requires choosing a hosting target and configuring its account. See platform/README.md.
+
+## v0.5 tutoring and recommendations
+The tutor studio supplies six roles scoped to authored lessons and reference IDs. The public static site supports deterministic retrieval, self-check examinations and export of curriculum-grounded prompts. A separate optional loopback-only provider gateway supports Ollama and OpenAI, with explicit consent, bounded conversation history, no automatic award of competency and no private portfolio in prompts. Hosted generative tutoring requires separate approval and production security. Study recommendations prioritise due reviews, low self-check scores and prerequisite-ready lessons within the weekly budget. Model-level evaluations, academic review and hosted inference remain gates. See tutor/README.md.
