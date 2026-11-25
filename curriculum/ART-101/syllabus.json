@@ -1,0 +1,142 @@
+{
+  "schema_version": "0.2.0",
+  "id": "ART-101",
+  "title": "Drawing and observation",
+  "faculty": "ART",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "art-ref-1",
+    "art-ref-2"
+  ],
+  "competencies": [
+    "ART-101.L01",
+    "ART-101.L02",
+    "ART-101.L03",
+    "ART-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain observation and negative space in the context of drawing and observation.",
+    "Compare and distinguish proportion in the context of drawing and observation.",
+    "Apply tone and composition in the context of drawing and observation.",
+    "Evaluate and justify decisions about critique in the context of drawing and observation."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Observation and negative space",
+      "competency": "ART-101.L01",
+      "outcome": "Explain observation and negative space in the context of drawing and observation.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "art-ref-1",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Observation and negative space",
+      "worked_example_brief": "Use a realistic fictional case involving observation and negative space; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to drawing portfolio.",
+      "knowledge_check": "Explain observation and negative space from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of observation and negative space; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Proportion",
+      "competency": "ART-101.L02",
+      "outcome": "Compare and distinguish proportion in the context of drawing and observation.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "art-ref-1",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Proportion",
+      "worked_example_brief": "Use a realistic fictional case involving proportion; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to drawing portfolio.",
+      "knowledge_check": "Explain proportion from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of proportion; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Tone and composition",
+      "competency": "ART-101.L03",
+      "outcome": "Apply tone and composition in the context of drawing and observation.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "art-ref-1",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Tone and composition",
+      "worked_example_brief": "Use a realistic fictional case involving tone and composition; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to drawing portfolio.",
+      "knowledge_check": "Explain tone and composition from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of tone and composition; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Critique",
+      "competency": "ART-101.L04",
+      "outcome": "Evaluate and justify decisions about critique in the context of drawing and observation.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "art-ref-1",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Critique",
+      "worked_example_brief": "Use a realistic fictional case involving critique; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to drawing portfolio.",
+      "knowledge_check": "Explain critique from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of critique; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Drawing portfolio",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "ART-101.L01",
+        "criterion": "Accurate explanation of observation and negative space; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-101.L02",
+        "criterion": "Accurate explanation of proportion; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-101.L03",
+        "criterion": "Accurate explanation of tone and composition; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-101.L04",
+        "criterion": "Accurate explanation of critique; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practising artist or arts educator; cultural expertise where relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

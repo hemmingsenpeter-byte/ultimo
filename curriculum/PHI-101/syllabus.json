@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHI-101",
+  "title": "Ancient Greek philosophy",
+  "faculty": "PHI",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-102"
+  ],
+  "reading": [
+    "phi-ref-1",
+    "phi-ref-2"
+  ],
+  "competencies": [
+    "PHI-101.L01",
+    "PHI-101.L02",
+    "PHI-101.L03",
+    "PHI-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain socratic inquiry in the context of ancient greek philosophy.",
+    "Compare and distinguish plato in the context of ancient greek philosophy.",
+    "Apply aristotle in the context of ancient greek philosophy.",
+    "Evaluate and justify decisions about historical argument in the context of ancient greek philosophy."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Socratic inquiry",
+      "competency": "PHI-101.L01",
+      "outcome": "Explain socratic inquiry in the context of ancient greek philosophy.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-2"
+      ],
+      "teaching_focus": "Socratic inquiry",
+      "worked_example_brief": "Use a realistic fictional case involving socratic inquiry; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to comparative philosophy essay.",
+      "knowledge_check": "Explain socratic inquiry from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of socratic inquiry; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Plato",
+      "competency": "PHI-101.L02",
+      "outcome": "Compare and distinguish plato in the context of ancient greek philosophy.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-2"
+      ],
+      "teaching_focus": "Plato",
+      "worked_example_brief": "Use a realistic fictional case involving plato; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to comparative philosophy essay.",
+      "knowledge_check": "Explain plato from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of plato; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Aristotle",
+      "competency": "PHI-101.L03",
+      "outcome": "Apply aristotle in the context of ancient greek philosophy.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-2"
+      ],
+      "teaching_focus": "Aristotle",
+      "worked_example_brief": "Use a realistic fictional case involving aristotle; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to comparative philosophy essay.",
+      "knowledge_check": "Explain aristotle from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of aristotle; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Historical argument",
+      "competency": "PHI-101.L04",
+      "outcome": "Evaluate and justify decisions about historical argument in the context of ancient greek philosophy.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-2"
+      ],
+      "teaching_focus": "Historical argument",
+      "worked_example_brief": "Use a realistic fictional case involving historical argument; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to comparative philosophy essay.",
+      "knowledge_check": "Explain historical argument from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of historical argument; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Comparative philosophy essay",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "PHI-101.L01",
+        "criterion": "Accurate explanation of socratic inquiry; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-101.L02",
+        "criterion": "Accurate explanation of plato; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-101.L03",
+        "criterion": "Accurate explanation of aristotle; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-101.L04",
+        "criterion": "Accurate explanation of historical argument; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Philosopher or scholar of relevant tradition; avoid treating one tradition as universal."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "0.2.0",
+  "id": "CIV-109",
+  "title": "Civilisational futures",
+  "faculty": "CIV",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "CIV-102",
+    "CIV-105",
+    "CIV-106"
+  ],
+  "reading": [
+    "civ-ref-9",
+    "civ-ref-6"
+  ],
+  "competencies": [
+    "CIV-109.L01",
+    "CIV-109.L02",
+    "CIV-109.L03",
+    "CIV-109.L04"
+  ],
+  "learning_outcomes": [
+    "Explain demographic technological ecological drivers in the context of civilisational futures.",
+    "Compare and distinguish alternative scenarios in the context of civilisational futures.",
+    "Apply distributional trade-offs in the context of civilisational futures.",
+    "Evaluate and justify decisions about robust strategy in the context of civilisational futures."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Demographic technological ecological drivers",
+      "competency": "CIV-109.L01",
+      "outcome": "Explain demographic technological ecological drivers in the context of civilisational futures.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "civ-ref-9",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Demographic technological ecological drivers",
+      "worked_example_brief": "Use a realistic fictional case involving demographic technological ecological drivers; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to country futures memo.",
+      "knowledge_check": "Explain demographic technological ecological drivers from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of demographic technological ecological drivers; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Alternative scenarios",
+      "competency": "CIV-109.L02",
+      "outcome": "Compare and distinguish alternative scenarios in the context of civilisational futures.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "civ-ref-9",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Alternative scenarios",
+      "worked_example_brief": "Use a realistic fictional case involving alternative scenarios; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to country futures memo.",
+      "knowledge_check": "Explain alternative scenarios from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of alternative scenarios; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Distributional trade-offs",
+      "competency": "CIV-109.L03",
+      "outcome": "Apply distributional trade-offs in the context of civilisational futures.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "civ-ref-9",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Distributional trade-offs",
+      "worked_example_brief": "Use a realistic fictional case involving distributional trade-offs; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to country futures memo.",
+      "knowledge_check": "Explain distributional trade-offs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of distributional trade-offs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Robust strategy",
+      "competency": "CIV-109.L04",
+      "outcome": "Evaluate and justify decisions about robust strategy in the context of civilisational futures.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "civ-ref-9",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Robust strategy",
+      "worked_example_brief": "Use a realistic fictional case involving robust strategy; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to country futures memo.",
+      "knowledge_check": "Explain robust strategy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of robust strategy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Country futures memo",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "CIV-109.L01",
+        "criterion": "Accurate explanation of demographic technological ecological drivers; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-109.L02",
+        "criterion": "Accurate explanation of alternative scenarios; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-109.L03",
+        "criterion": "Accurate explanation of distributional trade-offs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-109.L04",
+        "criterion": "Accurate explanation of robust strategy; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Historian, economist, legal or policy specialist as appropriate."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "MEN-101",
+  "title": "Habits",
+  "faculty": "MEN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "reading": [
+    "men-ref-1",
+    "men-ref-4"
+  ],
+  "competencies": [
+    "MEN-101.L01",
+    "MEN-101.L02",
+    "MEN-101.L03",
+    "MEN-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain cues and routines in the context of habits.",
+    "Compare and distinguish environmental friction in the context of habits.",
+    "Apply implementation intentions in the context of habits.",
+    "Evaluate and justify decisions about iteration in the context of habits."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Cues and routines",
+      "competency": "MEN-101.L01",
+      "outcome": "Explain cues and routines in the context of habits.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "men-ref-1",
+        "men-ref-4"
+      ],
+      "teaching_focus": "Cues and routines",
+      "worked_example_brief": "Use a realistic fictional case involving cues and routines; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to seven-day habit experiment.",
+      "knowledge_check": "Explain cues and routines from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of cues and routines; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Environmental friction",
+      "competency": "MEN-101.L02",
+      "outcome": "Compare and distinguish environmental friction in the context of habits.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "men-ref-1",
+        "men-ref-4"
+      ],
+      "teaching_focus": "Environmental friction",
+      "worked_example_brief": "Use a realistic fictional case involving environmental friction; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to seven-day habit experiment.",
+      "knowledge_check": "Explain environmental friction from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of environmental friction; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Implementation intentions",
+      "competency": "MEN-101.L03",
+      "outcome": "Apply implementation intentions in the context of habits.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "men-ref-1",
+        "men-ref-4"
+      ],
+      "teaching_focus": "Implementation intentions",
+      "worked_example_brief": "Use a realistic fictional case involving implementation intentions; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to seven-day habit experiment.",
+      "knowledge_check": "Explain implementation intentions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of implementation intentions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Iteration",
+      "competency": "MEN-101.L04",
+      "outcome": "Evaluate and justify decisions about iteration in the context of habits.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "men-ref-1",
+        "men-ref-4"
+      ],
+      "teaching_focus": "Iteration",
+      "worked_example_brief": "Use a realistic fictional case involving iteration; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to seven-day habit experiment.",
+      "knowledge_check": "Explain iteration from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of iteration; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Seven-day habit experiment",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "MEN-101.L01",
+        "criterion": "Accurate explanation of cues and routines; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-101.L02",
+        "criterion": "Accurate explanation of environmental friction; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-101.L03",
+        "criterion": "Accurate explanation of implementation intentions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-101.L04",
+        "criterion": "Accurate explanation of iteration; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "mental-health reviewer where applicable"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

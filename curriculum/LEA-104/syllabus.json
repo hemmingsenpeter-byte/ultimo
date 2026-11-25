@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-104",
+  "title": "Coaching",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "COM-103"
+  ],
+  "reading": [
+    "lea-ref-2",
+    "lea-ref-6"
+  ],
+  "competencies": [
+    "LEA-104.L01",
+    "LEA-104.L02",
+    "LEA-104.L03",
+    "LEA-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain coaching versus directing in the context of coaching.",
+    "Compare and distinguish questions and feedback in the context of coaching.",
+    "Apply development goals in the context of coaching.",
+    "Evaluate and justify decisions about boundaries in the context of coaching."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Coaching versus directing",
+      "competency": "LEA-104.L01",
+      "outcome": "Explain coaching versus directing in the context of coaching.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-2",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Coaching versus directing",
+      "worked_example_brief": "Use a realistic fictional case involving coaching versus directing; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to coaching simulation.",
+      "knowledge_check": "Explain coaching versus directing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of coaching versus directing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Questions and feedback",
+      "competency": "LEA-104.L02",
+      "outcome": "Compare and distinguish questions and feedback in the context of coaching.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-2",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Questions and feedback",
+      "worked_example_brief": "Use a realistic fictional case involving questions and feedback; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to coaching simulation.",
+      "knowledge_check": "Explain questions and feedback from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of questions and feedback; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Development goals",
+      "competency": "LEA-104.L03",
+      "outcome": "Apply development goals in the context of coaching.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-2",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Development goals",
+      "worked_example_brief": "Use a realistic fictional case involving development goals; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to coaching simulation.",
+      "knowledge_check": "Explain development goals from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of development goals; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Boundaries",
+      "competency": "LEA-104.L04",
+      "outcome": "Evaluate and justify decisions about boundaries in the context of coaching.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-2",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Boundaries",
+      "worked_example_brief": "Use a realistic fictional case involving boundaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to coaching simulation.",
+      "knowledge_check": "Explain boundaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of boundaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Coaching simulation",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "LEA-104.L01",
+        "criterion": "Accurate explanation of coaching versus directing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-104.L02",
+        "criterion": "Accurate explanation of questions and feedback; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-104.L03",
+        "criterion": "Accurate explanation of development goals; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-104.L04",
+        "criterion": "Accurate explanation of boundaries; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

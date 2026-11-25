@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "CIV-108",
+  "title": "Media literacy",
+  "faculty": "CIV",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "reading": [
+    "civ-ref-8"
+  ],
+  "competencies": [
+    "CIV-108.L01",
+    "CIV-108.L02",
+    "CIV-108.L03",
+    "CIV-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain reporting versus commentary in the context of media literacy.",
+    "Compare and distinguish source verification in the context of media literacy.",
+    "Apply framing and manipulation in the context of media literacy.",
+    "Evaluate and justify decisions about fact-checking in the context of media literacy."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Reporting versus commentary",
+      "competency": "CIV-108.L01",
+      "outcome": "Explain reporting versus commentary in the context of media literacy.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "civ-ref-8"
+      ],
+      "teaching_focus": "Reporting versus commentary",
+      "worked_example_brief": "Use a realistic fictional case involving reporting versus commentary; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to verification dossier.",
+      "knowledge_check": "Explain reporting versus commentary from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reporting versus commentary; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Source verification",
+      "competency": "CIV-108.L02",
+      "outcome": "Compare and distinguish source verification in the context of media literacy.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "civ-ref-8"
+      ],
+      "teaching_focus": "Source verification",
+      "worked_example_brief": "Use a realistic fictional case involving source verification; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to verification dossier.",
+      "knowledge_check": "Explain source verification from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of source verification; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Framing and manipulation",
+      "competency": "CIV-108.L03",
+      "outcome": "Apply framing and manipulation in the context of media literacy.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "civ-ref-8"
+      ],
+      "teaching_focus": "Framing and manipulation",
+      "worked_example_brief": "Use a realistic fictional case involving framing and manipulation; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to verification dossier.",
+      "knowledge_check": "Explain framing and manipulation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of framing and manipulation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Fact-checking",
+      "competency": "CIV-108.L04",
+      "outcome": "Evaluate and justify decisions about fact-checking in the context of media literacy.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "civ-ref-8"
+      ],
+      "teaching_focus": "Fact-checking",
+      "worked_example_brief": "Use a realistic fictional case involving fact-checking; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to verification dossier.",
+      "knowledge_check": "Explain fact-checking from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of fact-checking; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Verification dossier",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "CIV-108.L01",
+        "criterion": "Accurate explanation of reporting versus commentary; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-108.L02",
+        "criterion": "Accurate explanation of source verification; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-108.L03",
+        "criterion": "Accurate explanation of framing and manipulation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-108.L04",
+        "criterion": "Accurate explanation of fact-checking; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Historian, economist, legal or policy specialist as appropriate."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

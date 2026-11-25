@@ -3,804 +3,1206 @@
     "id": "PHY-101",
     "faculty": "PHY",
     "title": "Anatomy and biomechanics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "PHY-102",
     "faculty": "PHY",
     "title": "Strength and hypertrophy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "PHY-103",
     "faculty": "PHY",
     "title": "Cardiovascular conditioning",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "PHY-104",
     "faculty": "PHY",
     "title": "Mobility and injury prevention",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-104/syllabus.json",
+    "year": 1
   },
   {
     "id": "PHY-105",
     "faculty": "PHY",
     "title": "Swimming and coordination",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "PHY-106",
     "faculty": "PHY",
     "title": "Self-defence and de-escalation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "PHY-107",
     "faculty": "PHY",
     "title": "Athletic programming",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHY-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "BIO-101",
     "faculty": "BIO",
     "title": "Human biology",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "BIO-102",
     "faculty": "BIO",
     "title": "Nutrition and metabolism",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "BIO-103",
     "faculty": "BIO",
     "title": "Sleep",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "BIO-104",
     "faculty": "BIO",
     "title": "Endocrinology and male physiology",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "BIO-105",
     "faculty": "BIO",
     "title": "Genetics and disease",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-105/syllabus.json",
+    "year": 3
   },
   {
     "id": "BIO-106",
     "faculty": "BIO",
     "title": "Medical literacy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "BIO-107",
     "faculty": "BIO",
     "title": "Sexual and reproductive health",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "BIO-108",
     "faculty": "BIO",
     "title": "Ageing and preventive care",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BIO-108/syllabus.json",
+    "year": 5
   },
   {
     "id": "MEN-101",
     "faculty": "MEN",
     "title": "Habits",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "MEN-102",
     "faculty": "MEN",
     "title": "Attention and concentration",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "MEN-103",
     "faculty": "MEN",
     "title": "Motivation and procrastination",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "MEN-104",
     "faculty": "MEN",
     "title": "Compulsive behaviour",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "MEN-105",
     "faculty": "MEN",
     "title": "Resilience",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "MEN-106",
     "faculty": "MEN",
     "title": "Stress management",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "MEN-107",
     "faculty": "MEN",
     "title": "Performance under pressure",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/MEN-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "EMO-101",
     "faculty": "EMO",
     "title": "Emotional identification",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "EMO-102",
     "faculty": "EMO",
     "title": "Personality and temperament",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-102/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-103",
     "faculty": "EMO",
     "title": "Emotional regulation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-103/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-104",
     "faculty": "EMO",
     "title": "Shame, anger, fear and jealousy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-105",
     "faculty": "EMO",
     "title": "Attachment and development",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-106",
     "faculty": "EMO",
     "title": "Boundaries and assertiveness",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-107",
     "faculty": "EMO",
     "title": "Grief and vulnerability",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "EMO-108",
     "faculty": "EMO",
     "title": "Empathy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/EMO-108/syllabus.json",
+    "year": 2
   },
   {
     "id": "INT-101",
     "faculty": "INT",
     "title": "Learning how to learn",
-    "status": "draft"
+    "status": "draft",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "INT-102",
     "faculty": "INT",
     "title": "Logic and argument",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "INT-103",
     "faculty": "INT",
     "title": "Probability and statistics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "INT-104",
     "faculty": "INT",
     "title": "Scientific reasoning",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-104/syllabus.json",
+    "year": 1
   },
   {
     "id": "INT-105",
     "faculty": "INT",
     "title": "Cognitive biases",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "INT-106",
     "faculty": "INT",
     "title": "Systems thinking",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "INT-107",
     "faculty": "INT",
     "title": "Mathematics and science literacy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "INT-108",
     "faculty": "INT",
     "title": "Forecasting and decisions",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-108/syllabus.json",
+    "year": 3
   },
   {
     "id": "INT-109",
     "faculty": "INT",
     "title": "Epistemology",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/INT-109/syllabus.json",
+    "year": 5
   },
   {
     "id": "SOC-101",
     "faculty": "SOC",
     "title": "Conversation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "SOC-102",
     "faculty": "SOC",
     "title": "Social awareness",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-102/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-103",
     "faculty": "SOC",
     "title": "Friendship and community",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-103/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-104",
     "faculty": "SOC",
     "title": "Social confidence",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-105",
     "faculty": "SOC",
     "title": "Charisma and humour",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-106",
     "faculty": "SOC",
     "title": "Group dynamics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-107",
     "faculty": "SOC",
     "title": "Etiquette and presentation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "SOC-108",
     "faculty": "SOC",
     "title": "Networking",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/SOC-108/syllabus.json",
+    "year": 3
   },
   {
     "id": "REL-101",
     "faculty": "REL",
     "title": "Attraction and dating",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-101/syllabus.json",
+    "year": 2
   },
   {
     "id": "REL-102",
     "faculty": "REL",
     "title": "Attachment and compatibility",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-102/syllabus.json",
+    "year": 2
   },
   {
     "id": "REL-103",
     "faculty": "REL",
     "title": "Intimacy and consent",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "REL-104",
     "faculty": "REL",
     "title": "Shared values",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "REL-105",
     "faculty": "REL",
     "title": "Conflict repair",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "REL-106",
     "faculty": "REL",
     "title": "Long-term partnership",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "REL-107",
     "faculty": "REL",
     "title": "Parenting",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-107/syllabus.json",
+    "year": 4
   },
   {
     "id": "REL-108",
     "faculty": "REL",
     "title": "Relationships through adversity",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/REL-108/syllabus.json",
+    "year": 4
   },
   {
     "id": "COM-101",
     "faculty": "COM",
     "title": "Speech and voice",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "COM-102",
     "faculty": "COM",
     "title": "Writing",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "COM-103",
     "faculty": "COM",
     "title": "Listening and questioning",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "COM-104",
     "faculty": "COM",
     "title": "Storytelling",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "COM-105",
     "faculty": "COM",
     "title": "Rhetoric and public speaking",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "COM-106",
     "faculty": "COM",
     "title": "Negotiation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "COM-107",
     "faculty": "COM",
     "title": "Difficult conversations",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "COM-108",
     "faculty": "COM",
     "title": "Debate",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-108/syllabus.json",
+    "year": 3
   },
   {
     "id": "COM-109",
     "faculty": "COM",
     "title": "Language acquisition",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/COM-109/syllabus.json",
+    "year": 3
   },
   {
     "id": "FIN-101",
     "faculty": "FIN",
     "title": "Budget and balance sheet",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "FIN-102",
     "faculty": "FIN",
     "title": "Debt and credit",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "FIN-103",
     "faculty": "FIN",
     "title": "Tax and insurance",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-103/syllabus.json",
+    "year": 2
   },
   {
     "id": "FIN-104",
     "faculty": "FIN",
     "title": "Financial psychology",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "FIN-105",
     "faculty": "FIN",
     "title": "Investing",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-105/syllabus.json",
+    "year": 3
   },
   {
     "id": "FIN-106",
     "faculty": "FIN",
     "title": "Property",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "FIN-107",
     "faculty": "FIN",
     "title": "Business valuation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "FIN-108",
     "faculty": "FIN",
     "title": "Capital allocation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-108/syllabus.json",
+    "year": 4
   },
   {
     "id": "FIN-109",
     "faculty": "FIN",
     "title": "Succession",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/FIN-109/syllabus.json",
+    "year": 5
   },
   {
     "id": "BUS-101",
     "faculty": "BUS",
     "title": "Career design",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "BUS-102",
     "faculty": "BUS",
     "title": "Business fundamentals",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-102/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-103",
     "faculty": "BUS",
     "title": "Sales",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-103/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-104",
     "faculty": "BUS",
     "title": "Digital literacy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-104/syllabus.json",
+    "year": 1
   },
   {
     "id": "BUS-105",
     "faculty": "BUS",
     "title": "Marketing",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-105/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-106",
     "faculty": "BUS",
     "title": "Operations",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-107",
     "faculty": "BUS",
     "title": "Product development",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-108",
     "faculty": "BUS",
     "title": "AI and automation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-108/syllabus.json",
+    "year": 3
   },
   {
     "id": "BUS-109",
     "faculty": "BUS",
     "title": "Entrepreneurship and strategy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-109/syllabus.json",
+    "year": 4
   },
   {
     "id": "BUS-110",
     "faculty": "BUS",
     "title": "Organisational design",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/BUS-110/syllabus.json",
+    "year": 4
   },
   {
     "id": "ART-101",
     "faculty": "ART",
     "title": "Drawing and observation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "ART-102",
     "faculty": "ART",
     "title": "Music",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-102/syllabus.json",
+    "year": 2
   },
   {
     "id": "ART-103",
     "faculty": "ART",
     "title": "Literature and poetry",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-103/syllabus.json",
+    "year": 2
   },
   {
     "id": "ART-104",
     "faculty": "ART",
     "title": "Photography",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "ART-105",
     "faculty": "ART",
     "title": "Architecture and design",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-105/syllabus.json",
+    "year": 3
   },
   {
     "id": "ART-106",
     "faculty": "ART",
     "title": "Creative writing",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "ART-107",
     "faculty": "ART",
     "title": "Dance",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "ART-108",
     "faculty": "ART",
     "title": "Aesthetic judgement",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/ART-108/syllabus.json",
+    "year": 5
   },
   {
     "id": "HAP-101",
     "faculty": "HAP",
     "title": "Science of wellbeing",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-101/syllabus.json",
+    "year": 2
   },
   {
     "id": "HAP-102",
     "faculty": "HAP",
     "title": "Gratitude and contentment",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-102/syllabus.json",
+    "year": 2
   },
   {
     "id": "HAP-103",
     "faculty": "HAP",
     "title": "Mindfulness",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "HAP-104",
     "faculty": "HAP",
     "title": "Play and leisure",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-104/syllabus.json",
+    "year": 1
   },
   {
     "id": "HAP-105",
     "faculty": "HAP",
     "title": "Flow",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-105/syllabus.json",
+    "year": 3
   },
   {
     "id": "HAP-106",
     "faculty": "HAP",
     "title": "Meaning and purpose",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "HAP-107",
     "faculty": "HAP",
     "title": "Nature and exploration",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "HAP-108",
     "faculty": "HAP",
     "title": "Life design",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/HAP-108/syllabus.json",
+    "year": 5
   },
   {
     "id": "PHI-101",
     "faculty": "PHI",
     "title": "Ancient Greek philosophy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-101/syllabus.json",
+    "year": 2
   },
   {
     "id": "PHI-102",
     "faculty": "PHI",
     "title": "Stoicism and Epicureanism",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-102/syllabus.json",
+    "year": 3
   },
   {
     "id": "PHI-103",
     "faculty": "PHI",
     "title": "Eastern philosophy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-103/syllabus.json",
+    "year": 3
   },
   {
     "id": "PHI-104",
     "faculty": "PHI",
     "title": "Comparative religion",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-104/syllabus.json",
+    "year": 4
   },
   {
     "id": "PHI-105",
     "faculty": "PHI",
     "title": "Ethics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "PHI-106",
     "faculty": "PHI",
     "title": "Existentialism",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-106/syllabus.json",
+    "year": 5
   },
   {
     "id": "PHI-107",
     "faculty": "PHI",
     "title": "Mortality and consciousness",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-107/syllabus.json",
+    "year": 5
   },
   {
     "id": "PHI-108",
     "faculty": "PHI",
     "title": "Practical judgement",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PHI-108/syllabus.json",
+    "year": 5
   },
   {
     "id": "PRA-101",
     "faculty": "PRA",
     "title": "Cooking",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-101/syllabus.json",
+    "year": 1
   },
   {
     "id": "PRA-102",
     "faculty": "PRA",
     "title": "First aid",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-102/syllabus.json",
+    "year": 1
   },
   {
     "id": "PRA-103",
     "faculty": "PRA",
     "title": "Household maintenance",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "PRA-104",
     "faculty": "PRA",
     "title": "Tools and carpentry",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-104/syllabus.json",
+    "year": 2
   },
   {
     "id": "PRA-105",
     "faculty": "PRA",
     "title": "Driving and mechanics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-105/syllabus.json",
+    "year": 2
   },
   {
     "id": "PRA-106",
     "faculty": "PRA",
     "title": "Navigation and outdoor skills",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-106/syllabus.json",
+    "year": 2
   },
   {
     "id": "PRA-107",
     "faculty": "PRA",
     "title": "Gardening",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-107/syllabus.json",
+    "year": 2
   },
   {
     "id": "PRA-108",
     "faculty": "PRA",
     "title": "Digital security",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-108/syllabus.json",
+    "year": 1
   },
   {
     "id": "PRA-109",
     "faculty": "PRA",
     "title": "Emergency preparedness",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/PRA-109/syllabus.json",
+    "year": 1
   },
   {
     "id": "LEA-101",
     "faculty": "LEA",
     "title": "Personal responsibility",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-101/syllabus.json",
+    "year": 2
   },
   {
     "id": "LEA-102",
     "faculty": "LEA",
     "title": "Team dynamics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-102/syllabus.json",
+    "year": 3
   },
   {
     "id": "LEA-103",
     "faculty": "LEA",
     "title": "Delegation",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-103/syllabus.json",
+    "year": 4
   },
   {
     "id": "LEA-104",
     "faculty": "LEA",
     "title": "Coaching",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-104/syllabus.json",
+    "year": 3
   },
   {
     "id": "LEA-105",
     "faculty": "LEA",
     "title": "Organisational psychology",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-105/syllabus.json",
+    "year": 4
   },
   {
     "id": "LEA-106",
     "faculty": "LEA",
     "title": "Power and institutions",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-106/syllabus.json",
+    "year": 4
   },
   {
     "id": "LEA-107",
     "faculty": "LEA",
     "title": "Strategy and execution",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-107/syllabus.json",
+    "year": 4
   },
   {
     "id": "LEA-108",
     "faculty": "LEA",
     "title": "Crisis leadership",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-108/syllabus.json",
+    "year": 4
   },
   {
     "id": "LEA-109",
     "faculty": "LEA",
     "title": "Governance",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/LEA-109/syllabus.json",
+    "year": 5
   },
   {
     "id": "CIV-101",
     "faculty": "CIV",
     "title": "World history",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-101/syllabus.json",
+    "year": 3
   },
   {
     "id": "CIV-102",
     "faculty": "CIV",
     "title": "Economics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-102/syllabus.json",
+    "year": 3
   },
   {
     "id": "CIV-103",
     "faculty": "CIV",
     "title": "Law and rights",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-103/syllabus.json",
+    "year": 1
   },
   {
     "id": "CIV-104",
     "faculty": "CIV",
     "title": "Geography and geopolitics",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-104/syllabus.json",
+    "year": 4
   },
   {
     "id": "CIV-105",
     "faculty": "CIV",
     "title": "Governance",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-105/syllabus.json",
+    "year": 4
   },
   {
     "id": "CIV-106",
     "faculty": "CIV",
     "title": "Energy and infrastructure",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-106/syllabus.json",
+    "year": 3
   },
   {
     "id": "CIV-107",
     "faculty": "CIV",
     "title": "Scientific revolutions",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-107/syllabus.json",
+    "year": 3
   },
   {
     "id": "CIV-108",
     "faculty": "CIV",
     "title": "Media literacy",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-108/syllabus.json",
+    "year": 2
   },
   {
     "id": "CIV-109",
     "faculty": "CIV",
     "title": "Civilisational futures",
-    "status": "planned"
+    "status": "planned",
+    "framework_status": "defined",
+    "syllabus": "curriculum/CIV-109/syllabus.json",
+    "year": 5
   }
 ]

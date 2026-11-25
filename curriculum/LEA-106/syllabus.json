@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-106",
+  "title": "Power and institutions",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 4,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-105"
+  ],
+  "reading": [
+    "lea-ref-6",
+    "lea-ref-3"
+  ],
+  "competencies": [
+    "LEA-106.L01",
+    "LEA-106.L02",
+    "LEA-106.L03",
+    "LEA-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain formal and informal power in the context of power and institutions.",
+    "Compare and distinguish stakeholders in the context of power and institutions.",
+    "Apply accountability in the context of power and institutions.",
+    "Evaluate and justify decisions about ethical safeguards in the context of power and institutions."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Formal and informal power",
+      "competency": "LEA-106.L01",
+      "outcome": "Explain formal and informal power in the context of power and institutions.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-6",
+        "lea-ref-3"
+      ],
+      "teaching_focus": "Formal and informal power",
+      "worked_example_brief": "Use a realistic fictional case involving formal and informal power; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to stakeholder map.",
+      "knowledge_check": "Explain formal and informal power from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of formal and informal power; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Stakeholders",
+      "competency": "LEA-106.L02",
+      "outcome": "Compare and distinguish stakeholders in the context of power and institutions.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-6",
+        "lea-ref-3"
+      ],
+      "teaching_focus": "Stakeholders",
+      "worked_example_brief": "Use a realistic fictional case involving stakeholders; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to stakeholder map.",
+      "knowledge_check": "Explain stakeholders from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of stakeholders; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Accountability",
+      "competency": "LEA-106.L03",
+      "outcome": "Apply accountability in the context of power and institutions.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-6",
+        "lea-ref-3"
+      ],
+      "teaching_focus": "Accountability",
+      "worked_example_brief": "Use a realistic fictional case involving accountability; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to stakeholder map.",
+      "knowledge_check": "Explain accountability from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of accountability; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Ethical safeguards",
+      "competency": "LEA-106.L04",
+      "outcome": "Evaluate and justify decisions about ethical safeguards in the context of power and institutions.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-6",
+        "lea-ref-3"
+      ],
+      "teaching_focus": "Ethical safeguards",
+      "worked_example_brief": "Use a realistic fictional case involving ethical safeguards; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to stakeholder map.",
+      "knowledge_check": "Explain ethical safeguards from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of ethical safeguards; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Stakeholder map",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "LEA-106.L01",
+        "criterion": "Accurate explanation of formal and informal power; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-106.L02",
+        "criterion": "Accurate explanation of stakeholders; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-106.L03",
+        "criterion": "Accurate explanation of accountability; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-106.L04",
+        "criterion": "Accurate explanation of ethical safeguards; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

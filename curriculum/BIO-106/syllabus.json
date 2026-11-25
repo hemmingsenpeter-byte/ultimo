@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BIO-106",
+  "title": "Medical literacy",
+  "faculty": "BIO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-103"
+  ],
+  "reading": [
+    "bio-ref-7",
+    "bio-ref-9"
+  ],
+  "competencies": [
+    "BIO-106.L01",
+    "BIO-106.L02",
+    "BIO-106.L03",
+    "BIO-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain symptoms and signs in the context of medical literacy.",
+    "Compare and distinguish screening in the context of medical literacy.",
+    "Apply reference intervals in the context of medical literacy.",
+    "Evaluate and justify decisions about shared decisions in the context of medical literacy."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Symptoms and signs",
+      "competency": "BIO-106.L01",
+      "outcome": "Explain symptoms and signs in the context of medical literacy.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-7",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Symptoms and signs",
+      "worked_example_brief": "Use a realistic fictional case involving symptoms and signs; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional consultation brief.",
+      "knowledge_check": "Explain symptoms and signs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of symptoms and signs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Screening",
+      "competency": "BIO-106.L02",
+      "outcome": "Compare and distinguish screening in the context of medical literacy.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-7",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Screening",
+      "worked_example_brief": "Use a realistic fictional case involving screening; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional consultation brief.",
+      "knowledge_check": "Explain screening from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of screening; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Reference intervals",
+      "competency": "BIO-106.L03",
+      "outcome": "Apply reference intervals in the context of medical literacy.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-7",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Reference intervals",
+      "worked_example_brief": "Use a realistic fictional case involving reference intervals; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional consultation brief.",
+      "knowledge_check": "Explain reference intervals from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reference intervals; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Shared decisions",
+      "competency": "BIO-106.L04",
+      "outcome": "Evaluate and justify decisions about shared decisions in the context of medical literacy.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-7",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Shared decisions",
+      "worked_example_brief": "Use a realistic fictional case involving shared decisions; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional consultation brief.",
+      "knowledge_check": "Explain shared decisions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of shared decisions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Fictional consultation brief",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BIO-106.L01",
+        "criterion": "Accurate explanation of symptoms and signs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-106.L02",
+        "criterion": "Accurate explanation of screening; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-106.L03",
+        "criterion": "Accurate explanation of reference intervals; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-106.L04",
+        "criterion": "Accurate explanation of shared decisions; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "clinical reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "SOC-103",
+  "title": "Friendship and community",
+  "faculty": "SOC",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "reading": [
+    "soc-ref-3",
+    "soc-ref-6"
+  ],
+  "competencies": [
+    "SOC-103.L01",
+    "SOC-103.L02",
+    "SOC-103.L03",
+    "SOC-103.L04"
+  ],
+  "learning_outcomes": [
+    "Explain recurring contact in the context of friendship and community.",
+    "Compare and distinguish reciprocity in the context of friendship and community.",
+    "Apply inclusive invitations in the context of friendship and community.",
+    "Evaluate and justify decisions about repair in the context of friendship and community."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Recurring contact",
+      "competency": "SOC-103.L01",
+      "outcome": "Explain recurring contact in the context of friendship and community.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "soc-ref-3",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Recurring contact",
+      "worked_example_brief": "Use a realistic fictional case involving recurring contact; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to community plan.",
+      "knowledge_check": "Explain recurring contact from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of recurring contact; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Reciprocity",
+      "competency": "SOC-103.L02",
+      "outcome": "Compare and distinguish reciprocity in the context of friendship and community.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "soc-ref-3",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Reciprocity",
+      "worked_example_brief": "Use a realistic fictional case involving reciprocity; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to community plan.",
+      "knowledge_check": "Explain reciprocity from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reciprocity; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Inclusive invitations",
+      "competency": "SOC-103.L03",
+      "outcome": "Apply inclusive invitations in the context of friendship and community.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "soc-ref-3",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Inclusive invitations",
+      "worked_example_brief": "Use a realistic fictional case involving inclusive invitations; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to community plan.",
+      "knowledge_check": "Explain inclusive invitations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of inclusive invitations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "competency": "SOC-103.L04",
+      "outcome": "Evaluate and justify decisions about repair in the context of friendship and community.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "soc-ref-3",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Repair",
+      "worked_example_brief": "Use a realistic fictional case involving repair; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to community plan.",
+      "knowledge_check": "Explain repair from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Community plan",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "SOC-103.L01",
+        "criterion": "Accurate explanation of recurring contact; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-103.L02",
+        "criterion": "Accurate explanation of reciprocity; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-103.L03",
+        "criterion": "Accurate explanation of inclusive invitations; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-103.L04",
+        "criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Social psychologist or experienced facilitator."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BIO-105",
+  "title": "Genetics and disease",
+  "faculty": "BIO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BIO-101",
+    "INT-103"
+  ],
+  "reading": [
+    "bio-ref-6",
+    "bio-ref-7"
+  ],
+  "competencies": [
+    "BIO-105.L01",
+    "BIO-105.L02",
+    "BIO-105.L03",
+    "BIO-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain dNA variation in the context of genetics and disease.",
+    "Compare and distinguish inheritance in the context of genetics and disease.",
+    "Apply absolute risk and penetrance in the context of genetics and disease.",
+    "Evaluate and justify decisions about testing limitations in the context of genetics and disease."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "DNA variation",
+      "competency": "BIO-105.L01",
+      "outcome": "Explain dNA variation in the context of genetics and disease.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-6",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "DNA variation",
+      "worked_example_brief": "Use a realistic fictional case involving dna variation; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional genetic report critique.",
+      "knowledge_check": "Explain dna variation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of dna variation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Inheritance",
+      "competency": "BIO-105.L02",
+      "outcome": "Compare and distinguish inheritance in the context of genetics and disease.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-6",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Inheritance",
+      "worked_example_brief": "Use a realistic fictional case involving inheritance; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional genetic report critique.",
+      "knowledge_check": "Explain inheritance from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of inheritance; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Absolute risk and penetrance",
+      "competency": "BIO-105.L03",
+      "outcome": "Apply absolute risk and penetrance in the context of genetics and disease.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-6",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Absolute risk and penetrance",
+      "worked_example_brief": "Use a realistic fictional case involving absolute risk and penetrance; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional genetic report critique.",
+      "knowledge_check": "Explain absolute risk and penetrance from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of absolute risk and penetrance; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Testing limitations",
+      "competency": "BIO-105.L04",
+      "outcome": "Evaluate and justify decisions about testing limitations in the context of genetics and disease.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-6",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Testing limitations",
+      "worked_example_brief": "Use a realistic fictional case involving testing limitations; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional genetic report critique.",
+      "knowledge_check": "Explain testing limitations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of testing limitations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Fictional genetic report critique",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BIO-105.L01",
+        "criterion": "Accurate explanation of dna variation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-105.L02",
+        "criterion": "Accurate explanation of inheritance; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-105.L03",
+        "criterion": "Accurate explanation of absolute risk and penetrance; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-105.L04",
+        "criterion": "Accurate explanation of testing limitations; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "clinical reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

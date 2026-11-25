@@ -8,3 +8,6 @@ Read SPEC.md before editing. Do not change the mission, stable IDs, licence, ass
 5. Run python -m unittest discover -s tests -v; python tools/validate.py; python tools/build.py.
 6. Submit a focused PR with source audit, assumptions, remaining limitations and test results.
 Do not add personal records, secrets, scraped books or unlicensed text. Never claim medical, psychological or financial expertise or award competency automatically. For higher-risk topics require subject-matter review. Avoid generic motivational filler. Extend schemas with migration notes. Keep source content independent of frontend frameworks.
+
+## v0.2 authoring workflow
+Before writing, read curriculum/<ID>/syllabus.json and framework/lesson-standard.md, assessment-policy.md and review-policy.md. The four lesson IDs and outcomes are canonical; do not generate placeholder lessons or alter scope without review. Add actual lesson, assessment and source-map files, then update syllabus and catalogue content statuses together as appropriate. Preserve the existing course schema for authored course records and validate both layers. Run python tools/validate_framework.py in addition to prior tests. Syllabus.md is a readable mirror; update it with the canonical JSON. Open one focused PR per course/faculty. Framework coverage is not academic approval.

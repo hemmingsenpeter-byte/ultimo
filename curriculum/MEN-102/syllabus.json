@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "MEN-102",
+  "title": "Attention and concentration",
+  "faculty": "MEN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "MEN-101"
+  ],
+  "reading": [
+    "men-ref-2",
+    "men-ref-7"
+  ],
+  "competencies": [
+    "MEN-102.L01",
+    "MEN-102.L02",
+    "MEN-102.L03",
+    "MEN-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain attention limits in the context of attention and concentration.",
+    "Compare and distinguish interruptions in the context of attention and concentration.",
+    "Apply protected practice in the context of attention and concentration.",
+    "Evaluate and justify decisions about rest in the context of attention and concentration."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attention limits",
+      "competency": "MEN-102.L01",
+      "outcome": "Explain attention limits in the context of attention and concentration.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "men-ref-2",
+        "men-ref-7"
+      ],
+      "teaching_focus": "Attention limits",
+      "worked_example_brief": "Use a realistic fictional case involving attention limits; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to attention audit.",
+      "knowledge_check": "Explain attention limits from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of attention limits; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Interruptions",
+      "competency": "MEN-102.L02",
+      "outcome": "Compare and distinguish interruptions in the context of attention and concentration.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "men-ref-2",
+        "men-ref-7"
+      ],
+      "teaching_focus": "Interruptions",
+      "worked_example_brief": "Use a realistic fictional case involving interruptions; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to attention audit.",
+      "knowledge_check": "Explain interruptions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of interruptions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Protected practice",
+      "competency": "MEN-102.L03",
+      "outcome": "Apply protected practice in the context of attention and concentration.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "men-ref-2",
+        "men-ref-7"
+      ],
+      "teaching_focus": "Protected practice",
+      "worked_example_brief": "Use a realistic fictional case involving protected practice; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to attention audit.",
+      "knowledge_check": "Explain protected practice from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of protected practice; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Rest",
+      "competency": "MEN-102.L04",
+      "outcome": "Evaluate and justify decisions about rest in the context of attention and concentration.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "men-ref-2",
+        "men-ref-7"
+      ],
+      "teaching_focus": "Rest",
+      "worked_example_brief": "Use a realistic fictional case involving rest; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to attention audit.",
+      "knowledge_check": "Explain rest from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of rest; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Attention audit",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "MEN-102.L01",
+        "criterion": "Accurate explanation of attention limits; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-102.L02",
+        "criterion": "Accurate explanation of interruptions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-102.L03",
+        "criterion": "Accurate explanation of protected practice; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "MEN-102.L04",
+        "criterion": "Accurate explanation of rest; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "mental-health reviewer where applicable"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

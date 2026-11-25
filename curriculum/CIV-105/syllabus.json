@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "CIV-105",
+  "title": "Governance",
+  "faculty": "CIV",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 4,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "CIV-103"
+  ],
+  "reading": [
+    "civ-ref-5",
+    "civ-ref-3"
+  ],
+  "competencies": [
+    "CIV-105.L01",
+    "CIV-105.L02",
+    "CIV-105.L03",
+    "CIV-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain institutional arrangements in the context of governance.",
+    "Compare and distinguish public authority in the context of governance.",
+    "Apply policy implementation in the context of governance.",
+    "Evaluate and justify decisions about civic participation in the context of governance."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Institutional arrangements",
+      "competency": "CIV-105.L01",
+      "outcome": "Explain institutional arrangements in the context of governance.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "civ-ref-5",
+        "civ-ref-3"
+      ],
+      "teaching_focus": "Institutional arrangements",
+      "worked_example_brief": "Use a realistic fictional case involving institutional arrangements; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to institutional reform memo.",
+      "knowledge_check": "Explain institutional arrangements from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of institutional arrangements; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Public authority",
+      "competency": "CIV-105.L02",
+      "outcome": "Compare and distinguish public authority in the context of governance.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "civ-ref-5",
+        "civ-ref-3"
+      ],
+      "teaching_focus": "Public authority",
+      "worked_example_brief": "Use a realistic fictional case involving public authority; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to institutional reform memo.",
+      "knowledge_check": "Explain public authority from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of public authority; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Policy implementation",
+      "competency": "CIV-105.L03",
+      "outcome": "Apply policy implementation in the context of governance.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "civ-ref-5",
+        "civ-ref-3"
+      ],
+      "teaching_focus": "Policy implementation",
+      "worked_example_brief": "Use a realistic fictional case involving policy implementation; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to institutional reform memo.",
+      "knowledge_check": "Explain policy implementation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of policy implementation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Civic participation",
+      "competency": "CIV-105.L04",
+      "outcome": "Evaluate and justify decisions about civic participation in the context of governance.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "civ-ref-5",
+        "civ-ref-3"
+      ],
+      "teaching_focus": "Civic participation",
+      "worked_example_brief": "Use a realistic fictional case involving civic participation; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to institutional reform memo.",
+      "knowledge_check": "Explain civic participation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of civic participation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Institutional reform memo",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "CIV-105.L01",
+        "criterion": "Accurate explanation of institutional arrangements; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-105.L02",
+        "criterion": "Accurate explanation of public authority; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-105.L03",
+        "criterion": "Accurate explanation of policy implementation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-105.L04",
+        "criterion": "Accurate explanation of civic participation; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Historian, economist, legal or policy specialist as appropriate."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

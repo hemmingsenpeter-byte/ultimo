@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-105",
+  "title": "Flow",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "HAP-101"
+  ],
+  "reading": [
+    "hap-ref-3"
+  ],
+  "competencies": [
+    "HAP-105.L01",
+    "HAP-105.L02",
+    "HAP-105.L03",
+    "HAP-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain flow construct in the context of flow.",
+    "Compare and distinguish challenge and skill in the context of flow.",
+    "Apply activity design in the context of flow.",
+    "Evaluate and justify decisions about model limitations in the context of flow."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Flow construct",
+      "competency": "HAP-105.L01",
+      "outcome": "Explain flow construct in the context of flow.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "hap-ref-3"
+      ],
+      "teaching_focus": "Flow construct",
+      "worked_example_brief": "Use a realistic fictional case involving flow construct; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to absorbing activity plan.",
+      "knowledge_check": "Explain flow construct from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of flow construct; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Challenge and skill",
+      "competency": "HAP-105.L02",
+      "outcome": "Compare and distinguish challenge and skill in the context of flow.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "hap-ref-3"
+      ],
+      "teaching_focus": "Challenge and skill",
+      "worked_example_brief": "Use a realistic fictional case involving challenge and skill; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to absorbing activity plan.",
+      "knowledge_check": "Explain challenge and skill from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of challenge and skill; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Activity design",
+      "competency": "HAP-105.L03",
+      "outcome": "Apply activity design in the context of flow.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "hap-ref-3"
+      ],
+      "teaching_focus": "Activity design",
+      "worked_example_brief": "Use a realistic fictional case involving activity design; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to absorbing activity plan.",
+      "knowledge_check": "Explain activity design from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of activity design; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Model limitations",
+      "competency": "HAP-105.L04",
+      "outcome": "Evaluate and justify decisions about model limitations in the context of flow.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "hap-ref-3"
+      ],
+      "teaching_focus": "Model limitations",
+      "worked_example_brief": "Use a realistic fictional case involving model limitations; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to absorbing activity plan.",
+      "knowledge_check": "Explain model limitations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of model limitations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Absorbing activity plan",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-105.L01",
+        "criterion": "Accurate explanation of flow construct; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-105.L02",
+        "criterion": "Accurate explanation of challenge and skill; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-105.L03",
+        "criterion": "Accurate explanation of activity design; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-105.L04",
+        "criterion": "Accurate explanation of model limitations; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

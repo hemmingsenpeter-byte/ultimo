@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "CIV-101",
+  "title": "World history",
+  "faculty": "CIV",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "reading": [
+    "civ-ref-1",
+    "civ-ref-4"
+  ],
+  "competencies": [
+    "CIV-101.L01",
+    "CIV-101.L02",
+    "CIV-101.L03",
+    "CIV-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain historical chronology in the context of world history.",
+    "Compare and distinguish primary and secondary sources in the context of world history.",
+    "Apply trade and migration in the context of world history.",
+    "Evaluate and justify decisions about competing interpretations in the context of world history."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Historical chronology",
+      "competency": "CIV-101.L01",
+      "outcome": "Explain historical chronology in the context of world history.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "civ-ref-1",
+        "civ-ref-4"
+      ],
+      "teaching_focus": "Historical chronology",
+      "worked_example_brief": "Use a realistic fictional case involving historical chronology; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to comparative timeline.",
+      "knowledge_check": "Explain historical chronology from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of historical chronology; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Primary and secondary sources",
+      "competency": "CIV-101.L02",
+      "outcome": "Compare and distinguish primary and secondary sources in the context of world history.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "civ-ref-1",
+        "civ-ref-4"
+      ],
+      "teaching_focus": "Primary and secondary sources",
+      "worked_example_brief": "Use a realistic fictional case involving primary and secondary sources; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to comparative timeline.",
+      "knowledge_check": "Explain primary and secondary sources from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of primary and secondary sources; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Trade and migration",
+      "competency": "CIV-101.L03",
+      "outcome": "Apply trade and migration in the context of world history.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "civ-ref-1",
+        "civ-ref-4"
+      ],
+      "teaching_focus": "Trade and migration",
+      "worked_example_brief": "Use a realistic fictional case involving trade and migration; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to comparative timeline.",
+      "knowledge_check": "Explain trade and migration from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of trade and migration; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Competing interpretations",
+      "competency": "CIV-101.L04",
+      "outcome": "Evaluate and justify decisions about competing interpretations in the context of world history.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "civ-ref-1",
+        "civ-ref-4"
+      ],
+      "teaching_focus": "Competing interpretations",
+      "worked_example_brief": "Use a realistic fictional case involving competing interpretations; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to comparative timeline.",
+      "knowledge_check": "Explain competing interpretations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of competing interpretations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Comparative timeline",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "CIV-101.L01",
+        "criterion": "Accurate explanation of historical chronology; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-101.L02",
+        "criterion": "Accurate explanation of primary and secondary sources; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-101.L03",
+        "criterion": "Accurate explanation of trade and migration; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-101.L04",
+        "criterion": "Accurate explanation of competing interpretations; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Historian, economist, legal or policy specialist as appropriate."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

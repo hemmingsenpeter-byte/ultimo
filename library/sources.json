@@ -25,5 +25,968 @@
     "title": "The Scout Mindset",
     "authors": "Julia Galef",
     "type": "book"
+  },
+  {
+    "id": "phy-ref-1",
+    "title": "OpenStax Anatomy and Physiology 2e",
+    "authors": "OpenStax",
+    "type": "resource",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-2",
+    "title": "ACSM’s Guidelines for Exercise Testing and Prescription",
+    "authors": "American College of Sports Medicine",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-3",
+    "title": "Science and Development of Muscle Hypertrophy",
+    "authors": "Brad Schoenfeld",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-4",
+    "title": "Built to Move",
+    "authors": "Kelly and Juliet Starrett",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-5",
+    "title": "Swimming and Water Safety",
+    "authors": "American Red Cross",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-6",
+    "title": "The Gift of Fear",
+    "authors": "Gavin de Becker",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phy-ref-7",
+    "title": "Essentials of Strength Training and Conditioning",
+    "authors": "NSCA",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-1",
+    "title": "Human Physiology: An Integrated Approach",
+    "authors": "Dee Unglaub Silverthorn",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-3",
+    "title": "Nutrition: Concepts and Controversies",
+    "authors": "Frances Sizer and Eleanor Whitney",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-4",
+    "title": "Principles and Practice of Sleep Medicine",
+    "authors": "Meir H. Kryger et al.",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-5",
+    "title": "Williams Textbook of Endocrinology",
+    "authors": "Shlomo Melmed et al.",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-6",
+    "title": "Medical Genetics",
+    "authors": "Lynn B. Jorde et al.",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-7",
+    "title": "Testing Treatments",
+    "authors": "Imogen Evans et al.",
+    "type": "resource",
+    "url": "https://www.testingtreatments.org/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-8",
+    "title": "Sexual Wellbeing Aotearoa resources",
+    "authors": "Sexual Wellbeing Aotearoa",
+    "type": "resource",
+    "url": "https://sexualwellbeing.org.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bio-ref-9",
+    "title": "Health New Zealand public health information",
+    "authors": "Health New Zealand",
+    "type": "resource",
+    "url": "https://www.healthnz.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-1",
+    "title": "Atomic Habits",
+    "authors": "James Clear",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-2",
+    "title": "Deep Work",
+    "authors": "Cal Newport",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-3",
+    "title": "The Happiness Trap",
+    "authors": "Russ Harris",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-4",
+    "title": "The Oxford Handbook of Human Motivation",
+    "authors": "Richard M. Ryan (editor)",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-5",
+    "title": "Man's Search for Meaning",
+    "authors": "Viktor E. Frankl",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-6",
+    "title": "NIDA drug use and addiction resources",
+    "authors": "National Institute on Drug Abuse",
+    "type": "resource",
+    "url": "https://nida.nih.gov/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "men-ref-7",
+    "title": "Peak",
+    "authors": "Anders Ericsson and Robert Pool",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-1",
+    "title": "Emotional Agility",
+    "authors": "Susan David",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-2",
+    "title": "Permission to Feel",
+    "authors": "Marc Brackett",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-3",
+    "title": "Personality: What Makes You the Way You Are",
+    "authors": "Daniel Nettle",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-5",
+    "title": "Attachment in Adulthood",
+    "authors": "Mario Mikulincer and Phillip R. Shaver",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-6",
+    "title": "Nonviolent Communication",
+    "authors": "Marshall Rosenberg",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-7",
+    "title": "Self-Compassion",
+    "authors": "Kristin Neff",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "emo-ref-8",
+    "title": "The Other Side of Sadness",
+    "authors": "George A. Bonanno",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-1",
+    "title": "Being Logical",
+    "authors": "D. Q. McInerny",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-2",
+    "title": "OpenStax Introductory Statistics 2e",
+    "authors": "OpenStax",
+    "type": "resource",
+    "url": "https://openstax.org/details/books/introductory-statistics-2e",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-3",
+    "title": "The Logic of Scientific Discovery",
+    "authors": "Karl Popper",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-5",
+    "title": "Thinking in Systems",
+    "authors": "Donella H. Meadows",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-6",
+    "title": "How Not to Be Wrong",
+    "authors": "Jordan Ellenberg",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-7",
+    "title": "Superforecasting",
+    "authors": "Philip E. Tetlock and Dan Gardner",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "int-ref-8",
+    "title": "Knowledge: A Very Short Introduction",
+    "authors": "Jennifer Nagel",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-1",
+    "title": "How to Win Friends and Influence People",
+    "authors": "Dale Carnegie",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-2",
+    "title": "The Social Animal",
+    "authors": "Elliot Aronson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-3",
+    "title": "Platonic",
+    "authors": "Marisa G. Franco",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-4",
+    "title": "The Charisma Myth",
+    "authors": "Olivia Fox Cabane",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-5",
+    "title": "The Presentation of Self in Everyday Life",
+    "authors": "Erving Goffman",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "soc-ref-6",
+    "title": "The Art of Gathering",
+    "authors": "Priya Parker",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "rel-ref-1",
+    "title": "The Seven Principles for Making Marriage Work",
+    "authors": "John Gottman and Nan Silver",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "rel-ref-2",
+    "title": "Hold Me Tight",
+    "authors": "Sue Johnson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "rel-ref-4",
+    "title": "Come As You Are",
+    "authors": "Emily Nagoski",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "rel-ref-5",
+    "title": "The Whole-Brain Child",
+    "authors": "Daniel J. Siegel and Tina Payne Bryson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "rel-ref-6",
+    "title": "The Good Life",
+    "authors": "Robert Waldinger and Marc Schulz",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-1",
+    "title": "On Writing Well",
+    "authors": "William Zinsser",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-2",
+    "title": "Difficult Conversations",
+    "authors": "Douglas Stone, Bruce Patton and Sheila Heen",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-3",
+    "title": "Getting to Yes",
+    "authors": "Roger Fisher, William Ury and Bruce Patton",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-4",
+    "title": "Thank You for Arguing",
+    "authors": "Jay Heinrichs",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-5",
+    "title": "Made to Stick",
+    "authors": "Chip Heath and Dan Heath",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-6",
+    "title": "The Art of Public Speaking",
+    "authors": "Stephen E. Lucas",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "com-ref-7",
+    "title": "Fluent Forever",
+    "authors": "Gabriel Wyner",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-1",
+    "title": "The Psychology of Money",
+    "authors": "Morgan Housel",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-2",
+    "title": "The Simple Path to Wealth",
+    "authors": "J. L. Collins",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-3",
+    "title": "The Intelligent Investor",
+    "authors": "Benjamin Graham",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-4",
+    "title": "The Most Important Thing",
+    "authors": "Howard Marks",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-5",
+    "title": "Financial Intelligence",
+    "authors": "Karen Berman, Joe Knight and John Case",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-6",
+    "title": "Investment Valuation",
+    "authors": "Aswath Damodaran",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-7",
+    "title": "Sorted financial education",
+    "authors": "Te Ara Ahunga Ora Retirement Commission",
+    "type": "resource",
+    "url": "https://sorted.org.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "fin-ref-8",
+    "title": "Inland Revenue guidance",
+    "authors": "Inland Revenue New Zealand",
+    "type": "resource",
+    "url": "https://www.ird.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-1",
+    "title": "The Personal MBA",
+    "authors": "Josh Kaufman",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-2",
+    "title": "The Mom Test",
+    "authors": "Rob Fitzpatrick",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-3",
+    "title": "High Output Management",
+    "authors": "Andrew S. Grove",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-4",
+    "title": "Good Strategy Bad Strategy",
+    "authors": "Richard Rumelt",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-5",
+    "title": "The Lean Startup",
+    "authors": "Eric Ries",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-6",
+    "title": "Designing Your Life",
+    "authors": "Bill Burnett and Dave Evans",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-7",
+    "title": "Obviously Awesome",
+    "authors": "April Dunford",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "bus-ref-8",
+    "title": "NIST AI Risk Management Framework",
+    "authors": "NIST",
+    "type": "resource",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-1",
+    "title": "Drawing on the Right Side of the Brain",
+    "authors": "Betty Edwards",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-2",
+    "title": "Ways of Seeing",
+    "authors": "John Berger",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-3",
+    "title": "The Story of Art",
+    "authors": "E. H. Gombrich",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-4",
+    "title": "The Creative Act: A Way of Being",
+    "authors": "Rick Rubin",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-5",
+    "title": "Understanding Exposure",
+    "authors": "Bryan Peterson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-6",
+    "title": "Architecture: Form, Space, and Order",
+    "authors": "Francis D. K. Ching",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-7",
+    "title": "Steering the Craft",
+    "authors": "Ursula K. Le Guin",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "art-ref-8",
+    "title": "The Rest Is Noise",
+    "authors": "Alex Ross",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "hap-ref-1",
+    "title": "The Happiness Hypothesis",
+    "authors": "Jonathan Haidt",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "hap-ref-2",
+    "title": "The How of Happiness",
+    "authors": "Sonja Lyubomirsky",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "hap-ref-3",
+    "title": "Flow",
+    "authors": "Mihaly Csikszentmihalyi",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "hap-ref-4",
+    "title": "Four Thousand Weeks",
+    "authors": "Oliver Burkeman",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-1",
+    "title": "Nicomachean Ethics",
+    "authors": "Aristotle",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-2",
+    "title": "Republic",
+    "authors": "Plato",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-3",
+    "title": "Meditations",
+    "authors": "Marcus Aurelius",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-4",
+    "title": "Letter to Menoeceus",
+    "authors": "Epicurus",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-5",
+    "title": "Tao Te Ching",
+    "authors": "Laozi",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-6",
+    "title": "Analects",
+    "authors": "Confucius",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-7",
+    "title": "Justice: What’s the Right Thing to Do?",
+    "authors": "Michael Sandel",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-8",
+    "title": "Existentialism Is a Humanism",
+    "authors": "Jean-Paul Sartre",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-9",
+    "title": "Think",
+    "authors": "Simon Blackburn",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "phi-ref-10",
+    "title": "Stanford Encyclopedia of Philosophy",
+    "authors": "Stanford University",
+    "type": "resource",
+    "url": "https://plato.stanford.edu/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-1",
+    "title": "Salt, Fat, Acid, Heat",
+    "authors": "Samin Nosrat",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-2",
+    "title": "Food safety at home",
+    "authors": "New Zealand Food Safety",
+    "type": "resource",
+    "url": "https://www.mpi.govt.nz/food-safety-home/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-3",
+    "title": "New Zealand Red Cross first aid resources",
+    "authors": "New Zealand Red Cross",
+    "type": "resource",
+    "url": "https://www.redcross.org.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-4",
+    "title": "The Complete Manual of Woodworking",
+    "authors": "Albert Jackson, David Day and Simon Jennings",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-5",
+    "title": "NZ Transport Agency road safety resources",
+    "authors": "NZ Transport Agency",
+    "type": "resource",
+    "url": "https://www.nzta.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-6",
+    "title": "Outdoor safety resources",
+    "authors": "New Zealand Mountain Safety Council",
+    "type": "resource",
+    "url": "https://www.mountainsafety.org.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-7",
+    "title": "The Vegetable Gardener’s Bible",
+    "authors": "Edward C. Smith",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-8",
+    "title": "NCSC cyber security guidance",
+    "authors": "National Cyber Security Centre New Zealand",
+    "type": "resource",
+    "url": "https://www.ncsc.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "pra-ref-9",
+    "title": "Get Ready",
+    "authors": "National Emergency Management Agency",
+    "type": "resource",
+    "url": "https://getready.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "lea-ref-1",
+    "title": "The Effective Executive",
+    "authors": "Peter F. Drucker",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "lea-ref-2",
+    "title": "The Coaching Habit",
+    "authors": "Michael Bungay Stanier",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "lea-ref-3",
+    "title": "The Fearless Organization",
+    "authors": "Amy C. Edmondson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "lea-ref-6",
+    "title": "Leadership in Organizations",
+    "authors": "Gary Yukl",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "lea-ref-7",
+    "title": "The Checklist Manifesto",
+    "authors": "Atul Gawande",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-1",
+    "title": "The Lessons of History",
+    "authors": "Will and Ariel Durant",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-2",
+    "title": "CORE Econ: The Economy",
+    "authors": "CORE Econ",
+    "type": "resource",
+    "url": "https://www.core-econ.org/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-3",
+    "title": "New Zealand Legislation",
+    "authors": "Parliamentary Counsel Office",
+    "type": "resource",
+    "url": "https://www.legislation.govt.nz/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-4",
+    "title": "The Silk Roads",
+    "authors": "Peter Frankopan",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-5",
+    "title": "Why Nations Fail",
+    "authors": "Daron Acemoglu and James A. Robinson",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-6",
+    "title": "How the World Really Works",
+    "authors": "Vaclav Smil",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-7",
+    "title": "The Structure of Scientific Revolutions",
+    "authors": "Thomas S. Kuhn",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-8",
+    "title": "Calling Bullshit",
+    "authors": "Carl T. Bergstrom and Jevin D. West",
+    "type": "book",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "civ-ref-9",
+    "title": "Our World in Data",
+    "authors": "Global Change Data Lab",
+    "type": "resource",
+    "url": "https://ourworldindata.org/",
+    "review_status": "candidate",
+    "notes": "Suggested reading; verify edition, scope, chapter and claim-level relevance before lesson publication."
+  },
+  {
+    "id": "design-udl",
+    "title": "Universal Design for Learning Guidelines 3.0",
+    "authors": "CAST",
+    "type": "design_reference",
+    "url": "https://udlguidelines.cast.org/",
+    "review_status": "reference_verified"
+  },
+  {
+    "id": "design-backward",
+    "title": "Where to Start: Backward Design",
+    "authors": "MIT Teaching + Learning Lab",
+    "type": "design_reference",
+    "url": "https://tll.mit.edu/teaching-resources/course-design/backward-design/",
+    "review_status": "reference_verified"
+  },
+  {
+    "id": "design-case",
+    "title": "CASE standard",
+    "authors": "1EdTech",
+    "type": "design_reference",
+    "url": "https://standards.1edtech.org/case/",
+    "review_status": "reference_verified"
   }
 ]

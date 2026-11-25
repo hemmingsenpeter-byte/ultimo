@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BUS-102",
+  "title": "Business fundamentals",
+  "faculty": "BUS",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-101"
+  ],
+  "reading": [
+    "bus-ref-1",
+    "bus-ref-3"
+  ],
+  "competencies": [
+    "BUS-102.L01",
+    "BUS-102.L02",
+    "BUS-102.L03",
+    "BUS-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain customer value in the context of business fundamentals.",
+    "Compare and distinguish revenue cost margin in the context of business fundamentals.",
+    "Apply business functions in the context of business fundamentals.",
+    "Evaluate and justify decisions about unit economics in the context of business fundamentals."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Customer value",
+      "competency": "BUS-102.L01",
+      "outcome": "Explain customer value in the context of business fundamentals.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-1",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Customer value",
+      "worked_example_brief": "Use a realistic fictional case involving customer value; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to business model sheet.",
+      "knowledge_check": "Explain customer value from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of customer value; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Revenue cost margin",
+      "competency": "BUS-102.L02",
+      "outcome": "Compare and distinguish revenue cost margin in the context of business fundamentals.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-1",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Revenue cost margin",
+      "worked_example_brief": "Use a realistic fictional case involving revenue cost margin; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to business model sheet.",
+      "knowledge_check": "Explain revenue cost margin from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of revenue cost margin; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Business functions",
+      "competency": "BUS-102.L03",
+      "outcome": "Apply business functions in the context of business fundamentals.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-1",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Business functions",
+      "worked_example_brief": "Use a realistic fictional case involving business functions; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to business model sheet.",
+      "knowledge_check": "Explain business functions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of business functions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Unit economics",
+      "competency": "BUS-102.L04",
+      "outcome": "Evaluate and justify decisions about unit economics in the context of business fundamentals.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-1",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Unit economics",
+      "worked_example_brief": "Use a realistic fictional case involving unit economics; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to business model sheet.",
+      "knowledge_check": "Explain unit economics from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of unit economics; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Business model sheet",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "BUS-102.L01",
+        "criterion": "Accurate explanation of customer value; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-102.L02",
+        "criterion": "Accurate explanation of revenue cost margin; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-102.L03",
+        "criterion": "Accurate explanation of business functions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-102.L04",
+        "criterion": "Accurate explanation of unit economics; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practitioner with relevant business, technology or privacy expertise."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

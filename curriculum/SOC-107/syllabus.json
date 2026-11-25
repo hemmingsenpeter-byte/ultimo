@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "SOC-107",
+  "title": "Etiquette and presentation",
+  "faculty": "SOC",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "reading": [
+    "soc-ref-5",
+    "soc-ref-6"
+  ],
+  "competencies": [
+    "SOC-107.L01",
+    "SOC-107.L02",
+    "SOC-107.L03",
+    "SOC-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain contextual etiquette in the context of etiquette and presentation.",
+    "Compare and distinguish presentation in the context of etiquette and presentation.",
+    "Apply hosting in the context of etiquette and presentation.",
+    "Evaluate and justify decisions about unfamiliar norms in the context of etiquette and presentation."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Contextual etiquette",
+      "competency": "SOC-107.L01",
+      "outcome": "Explain contextual etiquette in the context of etiquette and presentation.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "soc-ref-5",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Contextual etiquette",
+      "worked_example_brief": "Use a realistic fictional case involving contextual etiquette; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to event checklist.",
+      "knowledge_check": "Explain contextual etiquette from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of contextual etiquette; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Presentation",
+      "competency": "SOC-107.L02",
+      "outcome": "Compare and distinguish presentation in the context of etiquette and presentation.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "soc-ref-5",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Presentation",
+      "worked_example_brief": "Use a realistic fictional case involving presentation; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to event checklist.",
+      "knowledge_check": "Explain presentation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of presentation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Hosting",
+      "competency": "SOC-107.L03",
+      "outcome": "Apply hosting in the context of etiquette and presentation.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "soc-ref-5",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Hosting",
+      "worked_example_brief": "Use a realistic fictional case involving hosting; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to event checklist.",
+      "knowledge_check": "Explain hosting from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of hosting; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Unfamiliar norms",
+      "competency": "SOC-107.L04",
+      "outcome": "Evaluate and justify decisions about unfamiliar norms in the context of etiquette and presentation.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "soc-ref-5",
+        "soc-ref-6"
+      ],
+      "teaching_focus": "Unfamiliar norms",
+      "worked_example_brief": "Use a realistic fictional case involving unfamiliar norms; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to event checklist.",
+      "knowledge_check": "Explain unfamiliar norms from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of unfamiliar norms; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Event checklist",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "SOC-107.L01",
+        "criterion": "Accurate explanation of contextual etiquette; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-107.L02",
+        "criterion": "Accurate explanation of presentation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-107.L03",
+        "criterion": "Accurate explanation of hosting; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "SOC-107.L04",
+        "criterion": "Accurate explanation of unfamiliar norms; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Social psychologist or experienced facilitator."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

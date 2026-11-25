@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BUS-109",
+  "title": "Entrepreneurship and strategy",
+  "faculty": "BUS",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 4,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BUS-105",
+    "BUS-106"
+  ],
+  "reading": [
+    "bus-ref-4",
+    "bus-ref-5"
+  ],
+  "competencies": [
+    "BUS-109.L01",
+    "BUS-109.L02",
+    "BUS-109.L03",
+    "BUS-109.L04"
+  ],
+  "learning_outcomes": [
+    "Explain strategic diagnosis in the context of entrepreneurship and strategy.",
+    "Compare and distinguish competitive options in the context of entrepreneurship and strategy.",
+    "Apply coherent actions in the context of entrepreneurship and strategy.",
+    "Evaluate and justify decisions about ethical and financial risks in the context of entrepreneurship and strategy."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Strategic diagnosis",
+      "competency": "BUS-109.L01",
+      "outcome": "Explain strategic diagnosis in the context of entrepreneurship and strategy.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-4",
+        "bus-ref-5"
+      ],
+      "teaching_focus": "Strategic diagnosis",
+      "worked_example_brief": "Use a realistic fictional case involving strategic diagnosis; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to venture strategy memo.",
+      "knowledge_check": "Explain strategic diagnosis from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of strategic diagnosis; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Competitive options",
+      "competency": "BUS-109.L02",
+      "outcome": "Compare and distinguish competitive options in the context of entrepreneurship and strategy.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-4",
+        "bus-ref-5"
+      ],
+      "teaching_focus": "Competitive options",
+      "worked_example_brief": "Use a realistic fictional case involving competitive options; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to venture strategy memo.",
+      "knowledge_check": "Explain competitive options from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of competitive options; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Coherent actions",
+      "competency": "BUS-109.L03",
+      "outcome": "Apply coherent actions in the context of entrepreneurship and strategy.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-4",
+        "bus-ref-5"
+      ],
+      "teaching_focus": "Coherent actions",
+      "worked_example_brief": "Use a realistic fictional case involving coherent actions; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to venture strategy memo.",
+      "knowledge_check": "Explain coherent actions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of coherent actions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Ethical and financial risks",
+      "competency": "BUS-109.L04",
+      "outcome": "Evaluate and justify decisions about ethical and financial risks in the context of entrepreneurship and strategy.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-4",
+        "bus-ref-5"
+      ],
+      "teaching_focus": "Ethical and financial risks",
+      "worked_example_brief": "Use a realistic fictional case involving ethical and financial risks; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to venture strategy memo.",
+      "knowledge_check": "Explain ethical and financial risks from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of ethical and financial risks; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Venture strategy memo",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "BUS-109.L01",
+        "criterion": "Accurate explanation of strategic diagnosis; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-109.L02",
+        "criterion": "Accurate explanation of competitive options; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-109.L03",
+        "criterion": "Accurate explanation of coherent actions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-109.L04",
+        "criterion": "Accurate explanation of ethical and financial risks; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practitioner with relevant business, technology or privacy expertise."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

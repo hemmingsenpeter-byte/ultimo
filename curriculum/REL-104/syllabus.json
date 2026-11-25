@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "REL-104",
+  "title": "Shared values",
+  "faculty": "REL",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "REL-103"
+  ],
+  "reading": [
+    "rel-ref-1",
+    "rel-ref-2"
+  ],
+  "competencies": [
+    "REL-104.L01",
+    "REL-104.L02",
+    "REL-104.L03",
+    "REL-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain values versus preferences in the context of shared values.",
+    "Compare and distinguish joint priorities in the context of shared values.",
+    "Apply mutually acceptable options in the context of shared values.",
+    "Evaluate and justify decisions about reviews in the context of shared values."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Values versus preferences",
+      "competency": "REL-104.L01",
+      "outcome": "Explain values versus preferences in the context of shared values.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Values versus preferences",
+      "worked_example_brief": "Use a realistic fictional case involving values versus preferences; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to shared decision exercise.",
+      "knowledge_check": "Explain values versus preferences from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of values versus preferences; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Joint priorities",
+      "competency": "REL-104.L02",
+      "outcome": "Compare and distinguish joint priorities in the context of shared values.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Joint priorities",
+      "worked_example_brief": "Use a realistic fictional case involving joint priorities; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to shared decision exercise.",
+      "knowledge_check": "Explain joint priorities from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of joint priorities; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Mutually acceptable options",
+      "competency": "REL-104.L03",
+      "outcome": "Apply mutually acceptable options in the context of shared values.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Mutually acceptable options",
+      "worked_example_brief": "Use a realistic fictional case involving mutually acceptable options; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to shared decision exercise.",
+      "knowledge_check": "Explain mutually acceptable options from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of mutually acceptable options; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Reviews",
+      "competency": "REL-104.L04",
+      "outcome": "Evaluate and justify decisions about reviews in the context of shared values.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Reviews",
+      "worked_example_brief": "Use a realistic fictional case involving reviews; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to shared decision exercise.",
+      "knowledge_check": "Explain reviews from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reviews; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Shared decision exercise",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "REL-104.L01",
+        "criterion": "Accurate explanation of values versus preferences; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-104.L02",
+        "criterion": "Accurate explanation of joint priorities; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-104.L03",
+        "criterion": "Accurate explanation of mutually acceptable options; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-104.L04",
+        "criterion": "Accurate explanation of reviews; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "relationship/safeguarding reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

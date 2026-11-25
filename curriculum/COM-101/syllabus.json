@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.2.0",
+  "id": "COM-101",
+  "title": "Speech and voice",
+  "faculty": "COM",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "com-ref-6"
+  ],
+  "competencies": [
+    "COM-101.L01",
+    "COM-101.L02",
+    "COM-101.L03",
+    "COM-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain voice mechanics in the context of speech and voice.",
+    "Compare and distinguish phrasing in the context of speech and voice.",
+    "Apply pace and emphasis in the context of speech and voice.",
+    "Evaluate and justify decisions about audience adaptation in the context of speech and voice."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Voice mechanics",
+      "competency": "COM-101.L01",
+      "outcome": "Explain voice mechanics in the context of speech and voice.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "com-ref-6"
+      ],
+      "teaching_focus": "Voice mechanics",
+      "worked_example_brief": "Use a realistic fictional case involving voice mechanics; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to recorded explanation or transcript.",
+      "knowledge_check": "Explain voice mechanics from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of voice mechanics; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Phrasing",
+      "competency": "COM-101.L02",
+      "outcome": "Compare and distinguish phrasing in the context of speech and voice.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "com-ref-6"
+      ],
+      "teaching_focus": "Phrasing",
+      "worked_example_brief": "Use a realistic fictional case involving phrasing; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to recorded explanation or transcript.",
+      "knowledge_check": "Explain phrasing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of phrasing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Pace and emphasis",
+      "competency": "COM-101.L03",
+      "outcome": "Apply pace and emphasis in the context of speech and voice.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "com-ref-6"
+      ],
+      "teaching_focus": "Pace and emphasis",
+      "worked_example_brief": "Use a realistic fictional case involving pace and emphasis; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to recorded explanation or transcript.",
+      "knowledge_check": "Explain pace and emphasis from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of pace and emphasis; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Audience adaptation",
+      "competency": "COM-101.L04",
+      "outcome": "Evaluate and justify decisions about audience adaptation in the context of speech and voice.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "com-ref-6"
+      ],
+      "teaching_focus": "Audience adaptation",
+      "worked_example_brief": "Use a realistic fictional case involving audience adaptation; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to recorded explanation or transcript.",
+      "knowledge_check": "Explain audience adaptation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of audience adaptation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Recorded explanation or transcript",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "COM-101.L01",
+        "criterion": "Accurate explanation of voice mechanics; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-101.L02",
+        "criterion": "Accurate explanation of phrasing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-101.L03",
+        "criterion": "Accurate explanation of pace and emphasis; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-101.L04",
+        "criterion": "Accurate explanation of audience adaptation; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Communication instructor; language instructor as needed."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

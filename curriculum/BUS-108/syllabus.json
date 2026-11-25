@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BUS-108",
+  "title": "AI and automation",
+  "faculty": "BUS",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BUS-104",
+    "PRA-108"
+  ],
+  "reading": [
+    "bus-ref-8",
+    "bus-ref-3"
+  ],
+  "competencies": [
+    "BUS-108.L01",
+    "BUS-108.L02",
+    "BUS-108.L03",
+    "BUS-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain automation versus AI in the context of ai and automation.",
+    "Compare and distinguish data boundaries in the context of ai and automation.",
+    "Apply human review and evals in the context of ai and automation.",
+    "Evaluate and justify decisions about build buy fallback in the context of ai and automation."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Automation versus AI",
+      "competency": "BUS-108.L01",
+      "outcome": "Explain automation versus AI in the context of ai and automation.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-8",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Automation versus AI",
+      "worked_example_brief": "Use a realistic fictional case involving automation versus ai; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to ai workflow specification.",
+      "knowledge_check": "Explain automation versus ai from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of automation versus ai; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Data boundaries",
+      "competency": "BUS-108.L02",
+      "outcome": "Compare and distinguish data boundaries in the context of ai and automation.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-8",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Data boundaries",
+      "worked_example_brief": "Use a realistic fictional case involving data boundaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to ai workflow specification.",
+      "knowledge_check": "Explain data boundaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of data boundaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Human review and evals",
+      "competency": "BUS-108.L03",
+      "outcome": "Apply human review and evals in the context of ai and automation.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-8",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Human review and evals",
+      "worked_example_brief": "Use a realistic fictional case involving human review and evals; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to ai workflow specification.",
+      "knowledge_check": "Explain human review and evals from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of human review and evals; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Build buy fallback",
+      "competency": "BUS-108.L04",
+      "outcome": "Evaluate and justify decisions about build buy fallback in the context of ai and automation.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-8",
+        "bus-ref-3"
+      ],
+      "teaching_focus": "Build buy fallback",
+      "worked_example_brief": "Use a realistic fictional case involving build buy fallback; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to ai workflow specification.",
+      "knowledge_check": "Explain build buy fallback from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of build buy fallback; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "AI workflow specification",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BUS-108.L01",
+        "criterion": "Accurate explanation of automation versus ai; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-108.L02",
+        "criterion": "Accurate explanation of data boundaries; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-108.L03",
+        "criterion": "Accurate explanation of human review and evals; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-108.L04",
+        "criterion": "Accurate explanation of build buy fallback; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practitioner with relevant business, technology or privacy expertise."
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

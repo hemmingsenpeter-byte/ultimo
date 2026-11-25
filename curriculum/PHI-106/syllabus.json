@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHI-106",
+  "title": "Existentialism",
+  "faculty": "PHI",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-105"
+  ],
+  "reading": [
+    "phi-ref-8",
+    "phi-ref-10"
+  ],
+  "competencies": [
+    "PHI-106.L01",
+    "PHI-106.L02",
+    "PHI-106.L03",
+    "PHI-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain freedom and responsibility in the context of existentialism.",
+    "Compare and distinguish existentialist thinkers in the context of existentialism.",
+    "Apply authenticity and constraints in the context of existentialism.",
+    "Evaluate and justify decisions about objections in the context of existentialism."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Freedom and responsibility",
+      "competency": "PHI-106.L01",
+      "outcome": "Explain freedom and responsibility in the context of existentialism.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phi-ref-8",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Freedom and responsibility",
+      "worked_example_brief": "Use a realistic fictional case involving freedom and responsibility; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to existential dilemma essay.",
+      "knowledge_check": "Explain freedom and responsibility from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of freedom and responsibility; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Existentialist thinkers",
+      "competency": "PHI-106.L02",
+      "outcome": "Compare and distinguish existentialist thinkers in the context of existentialism.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phi-ref-8",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Existentialist thinkers",
+      "worked_example_brief": "Use a realistic fictional case involving existentialist thinkers; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to existential dilemma essay.",
+      "knowledge_check": "Explain existentialist thinkers from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of existentialist thinkers; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Authenticity and constraints",
+      "competency": "PHI-106.L03",
+      "outcome": "Apply authenticity and constraints in the context of existentialism.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phi-ref-8",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Authenticity and constraints",
+      "worked_example_brief": "Use a realistic fictional case involving authenticity and constraints; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to existential dilemma essay.",
+      "knowledge_check": "Explain authenticity and constraints from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of authenticity and constraints; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Objections",
+      "competency": "PHI-106.L04",
+      "outcome": "Evaluate and justify decisions about objections in the context of existentialism.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phi-ref-8",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Objections",
+      "worked_example_brief": "Use a realistic fictional case involving objections; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to existential dilemma essay.",
+      "knowledge_check": "Explain objections from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of objections; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Existential dilemma essay",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "PHI-106.L01",
+        "criterion": "Accurate explanation of freedom and responsibility; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-106.L02",
+        "criterion": "Accurate explanation of existentialist thinkers; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-106.L03",
+        "criterion": "Accurate explanation of authenticity and constraints; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-106.L04",
+        "criterion": "Accurate explanation of objections; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Philosopher or scholar of relevant tradition; avoid treating one tradition as universal."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

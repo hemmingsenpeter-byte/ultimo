@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PRA-104",
+  "title": "Tools and carpentry",
+  "faculty": "PRA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PRA-103"
+  ],
+  "reading": [
+    "pra-ref-4"
+  ],
+  "competencies": [
+    "PRA-104.L01",
+    "PRA-104.L02",
+    "PRA-104.L03",
+    "PRA-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain tools and materials in the context of tools and carpentry.",
+    "Compare and distinguish measurement and joining in the context of tools and carpentry.",
+    "Apply supervised project planning in the context of tools and carpentry.",
+    "Evaluate and justify decisions about hazards in the context of tools and carpentry."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Tools and materials",
+      "competency": "PRA-104.L01",
+      "outcome": "Explain tools and materials in the context of tools and carpentry.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "pra-ref-4"
+      ],
+      "teaching_focus": "Tools and materials",
+      "worked_example_brief": "Use a realistic fictional case involving tools and materials; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to low-risk project plan.",
+      "knowledge_check": "Explain tools and materials from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of tools and materials; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Measurement and joining",
+      "competency": "PRA-104.L02",
+      "outcome": "Compare and distinguish measurement and joining in the context of tools and carpentry.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "pra-ref-4"
+      ],
+      "teaching_focus": "Measurement and joining",
+      "worked_example_brief": "Use a realistic fictional case involving measurement and joining; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to low-risk project plan.",
+      "knowledge_check": "Explain measurement and joining from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of measurement and joining; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Supervised project planning",
+      "competency": "PRA-104.L03",
+      "outcome": "Apply supervised project planning in the context of tools and carpentry.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "pra-ref-4"
+      ],
+      "teaching_focus": "Supervised project planning",
+      "worked_example_brief": "Use a realistic fictional case involving supervised project planning; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to low-risk project plan.",
+      "knowledge_check": "Explain supervised project planning from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of supervised project planning; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Hazards",
+      "competency": "PRA-104.L04",
+      "outcome": "Evaluate and justify decisions about hazards in the context of tools and carpentry.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "pra-ref-4"
+      ],
+      "teaching_focus": "Hazards",
+      "worked_example_brief": "Use a realistic fictional case involving hazards; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to low-risk project plan.",
+      "knowledge_check": "Explain hazards from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of hazards; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Low-risk project plan",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PRA-104.L01",
+        "criterion": "Accurate explanation of tools and materials; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-104.L02",
+        "criterion": "Accurate explanation of measurement and joining; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-104.L03",
+        "criterion": "Accurate explanation of supervised project planning; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-104.L04",
+        "criterion": "Accurate explanation of hazards; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "qualified practical safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

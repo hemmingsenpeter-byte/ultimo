@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-107",
+  "title": "Business valuation",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-105",
+    "BUS-102"
+  ],
+  "reading": [
+    "fin-ref-5",
+    "fin-ref-6"
+  ],
+  "competencies": [
+    "FIN-107.L01",
+    "FIN-107.L02",
+    "FIN-107.L03",
+    "FIN-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain financial statements in the context of business valuation.",
+    "Compare and distinguish profit cash and value in the context of business valuation.",
+    "Apply valuation methods in the context of business valuation.",
+    "Evaluate and justify decisions about sensitivity in the context of business valuation."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Financial statements",
+      "competency": "FIN-107.L01",
+      "outcome": "Explain financial statements in the context of business valuation.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-5",
+        "fin-ref-6"
+      ],
+      "teaching_focus": "Financial statements",
+      "worked_example_brief": "Use a realistic fictional case involving financial statements; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to enterprise valuation memo.",
+      "knowledge_check": "Explain financial statements from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of financial statements; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Profit cash and value",
+      "competency": "FIN-107.L02",
+      "outcome": "Compare and distinguish profit cash and value in the context of business valuation.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-5",
+        "fin-ref-6"
+      ],
+      "teaching_focus": "Profit cash and value",
+      "worked_example_brief": "Use a realistic fictional case involving profit cash and value; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to enterprise valuation memo.",
+      "knowledge_check": "Explain profit cash and value from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of profit cash and value; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Valuation methods",
+      "competency": "FIN-107.L03",
+      "outcome": "Apply valuation methods in the context of business valuation.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-5",
+        "fin-ref-6"
+      ],
+      "teaching_focus": "Valuation methods",
+      "worked_example_brief": "Use a realistic fictional case involving valuation methods; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to enterprise valuation memo.",
+      "knowledge_check": "Explain valuation methods from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of valuation methods; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Sensitivity",
+      "competency": "FIN-107.L04",
+      "outcome": "Evaluate and justify decisions about sensitivity in the context of business valuation.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-5",
+        "fin-ref-6"
+      ],
+      "teaching_focus": "Sensitivity",
+      "worked_example_brief": "Use a realistic fictional case involving sensitivity; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to enterprise valuation memo.",
+      "knowledge_check": "Explain sensitivity from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of sensitivity; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Enterprise valuation memo",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-107.L01",
+        "criterion": "Accurate explanation of financial statements; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-107.L02",
+        "criterion": "Accurate explanation of profit cash and value; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-107.L03",
+        "criterion": "Accurate explanation of valuation methods; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-107.L04",
+        "criterion": "Accurate explanation of sensitivity; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-102",
+  "title": "Debt and credit",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-101"
+  ],
+  "reading": [
+    "fin-ref-7",
+    "fin-ref-1"
+  ],
+  "competencies": [
+    "FIN-102.L01",
+    "FIN-102.L02",
+    "FIN-102.L03",
+    "FIN-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain interest in the context of debt and credit.",
+    "Compare and distinguish fees and repayment in the context of debt and credit.",
+    "Apply borrowing trade-offs in the context of debt and credit.",
+    "Evaluate and justify decisions about hardship options in the context of debt and credit."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Interest",
+      "competency": "FIN-102.L01",
+      "outcome": "Explain interest in the context of debt and credit.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Interest",
+      "worked_example_brief": "Use a realistic fictional case involving interest; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to debt comparison spreadsheet.",
+      "knowledge_check": "Explain interest from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of interest; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Fees and repayment",
+      "competency": "FIN-102.L02",
+      "outcome": "Compare and distinguish fees and repayment in the context of debt and credit.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Fees and repayment",
+      "worked_example_brief": "Use a realistic fictional case involving fees and repayment; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to debt comparison spreadsheet.",
+      "knowledge_check": "Explain fees and repayment from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of fees and repayment; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Borrowing trade-offs",
+      "competency": "FIN-102.L03",
+      "outcome": "Apply borrowing trade-offs in the context of debt and credit.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Borrowing trade-offs",
+      "worked_example_brief": "Use a realistic fictional case involving borrowing trade-offs; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to debt comparison spreadsheet.",
+      "knowledge_check": "Explain borrowing trade-offs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of borrowing trade-offs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Hardship options",
+      "competency": "FIN-102.L04",
+      "outcome": "Evaluate and justify decisions about hardship options in the context of debt and credit.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Hardship options",
+      "worked_example_brief": "Use a realistic fictional case involving hardship options; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to debt comparison spreadsheet.",
+      "knowledge_check": "Explain hardship options from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of hardship options; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Debt comparison spreadsheet",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-102.L01",
+        "criterion": "Accurate explanation of interest; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-102.L02",
+        "criterion": "Accurate explanation of fees and repayment; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-102.L03",
+        "criterion": "Accurate explanation of borrowing trade-offs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-102.L04",
+        "criterion": "Accurate explanation of hardship options; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

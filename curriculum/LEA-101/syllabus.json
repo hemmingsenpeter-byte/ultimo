@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-101",
+  "title": "Personal responsibility",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-105"
+  ],
+  "reading": [
+    "lea-ref-1",
+    "lea-ref-6"
+  ],
+  "competencies": [
+    "LEA-101.L01",
+    "LEA-101.L02",
+    "LEA-101.L03",
+    "LEA-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain responsibility versus blame in the context of personal responsibility.",
+    "Compare and distinguish authority and obligations in the context of personal responsibility.",
+    "Apply commitments in the context of personal responsibility.",
+    "Evaluate and justify decisions about repair in the context of personal responsibility."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Responsibility versus blame",
+      "competency": "LEA-101.L01",
+      "outcome": "Explain responsibility versus blame in the context of personal responsibility.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-1",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Responsibility versus blame",
+      "worked_example_brief": "Use a realistic fictional case involving responsibility versus blame; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to accountability case.",
+      "knowledge_check": "Explain responsibility versus blame from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of responsibility versus blame; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Authority and obligations",
+      "competency": "LEA-101.L02",
+      "outcome": "Compare and distinguish authority and obligations in the context of personal responsibility.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-1",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Authority and obligations",
+      "worked_example_brief": "Use a realistic fictional case involving authority and obligations; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to accountability case.",
+      "knowledge_check": "Explain authority and obligations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of authority and obligations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Commitments",
+      "competency": "LEA-101.L03",
+      "outcome": "Apply commitments in the context of personal responsibility.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-1",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Commitments",
+      "worked_example_brief": "Use a realistic fictional case involving commitments; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to accountability case.",
+      "knowledge_check": "Explain commitments from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of commitments; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "competency": "LEA-101.L04",
+      "outcome": "Evaluate and justify decisions about repair in the context of personal responsibility.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-1",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Repair",
+      "worked_example_brief": "Use a realistic fictional case involving repair; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to accountability case.",
+      "knowledge_check": "Explain repair from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Accountability case",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "LEA-101.L01",
+        "criterion": "Accurate explanation of responsibility versus blame; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-101.L02",
+        "criterion": "Accurate explanation of authority and obligations; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-101.L03",
+        "criterion": "Accurate explanation of commitments; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-101.L04",
+        "criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

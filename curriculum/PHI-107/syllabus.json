@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHI-107",
+  "title": "Mortality and consciousness",
+  "faculty": "PHI",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-101"
+  ],
+  "reading": [
+    "phi-ref-9",
+    "phi-ref-10"
+  ],
+  "competencies": [
+    "PHI-107.L01",
+    "PHI-107.L02",
+    "PHI-107.L03",
+    "PHI-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain views of mind in the context of mortality and consciousness.",
+    "Compare and distinguish empirical and metaphysical questions in the context of mortality and consciousness.",
+    "Apply mortality and value in the context of mortality and consciousness.",
+    "Evaluate and justify decisions about uncertainty in the context of mortality and consciousness."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Views of mind",
+      "competency": "PHI-107.L01",
+      "outcome": "Explain views of mind in the context of mortality and consciousness.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phi-ref-9",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Views of mind",
+      "worked_example_brief": "Use a realistic fictional case involving views of mind; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to philosophy of mind essay.",
+      "knowledge_check": "Explain views of mind from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of views of mind; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Empirical and metaphysical questions",
+      "competency": "PHI-107.L02",
+      "outcome": "Compare and distinguish empirical and metaphysical questions in the context of mortality and consciousness.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phi-ref-9",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Empirical and metaphysical questions",
+      "worked_example_brief": "Use a realistic fictional case involving empirical and metaphysical questions; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to philosophy of mind essay.",
+      "knowledge_check": "Explain empirical and metaphysical questions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of empirical and metaphysical questions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Mortality and value",
+      "competency": "PHI-107.L03",
+      "outcome": "Apply mortality and value in the context of mortality and consciousness.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phi-ref-9",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Mortality and value",
+      "worked_example_brief": "Use a realistic fictional case involving mortality and value; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to philosophy of mind essay.",
+      "knowledge_check": "Explain mortality and value from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of mortality and value; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Uncertainty",
+      "competency": "PHI-107.L04",
+      "outcome": "Evaluate and justify decisions about uncertainty in the context of mortality and consciousness.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phi-ref-9",
+        "phi-ref-10"
+      ],
+      "teaching_focus": "Uncertainty",
+      "worked_example_brief": "Use a realistic fictional case involving uncertainty; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to philosophy of mind essay.",
+      "knowledge_check": "Explain uncertainty from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of uncertainty; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Philosophy of mind essay",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "PHI-107.L01",
+        "criterion": "Accurate explanation of views of mind; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-107.L02",
+        "criterion": "Accurate explanation of empirical and metaphysical questions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-107.L03",
+        "criterion": "Accurate explanation of mortality and value; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-107.L04",
+        "criterion": "Accurate explanation of uncertainty; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Philosopher or scholar of relevant tradition; avoid treating one tradition as universal."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

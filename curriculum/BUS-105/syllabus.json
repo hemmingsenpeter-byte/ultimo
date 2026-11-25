@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BUS-105",
+  "title": "Marketing",
+  "faculty": "BUS",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BUS-102"
+  ],
+  "reading": [
+    "bus-ref-7",
+    "bus-ref-1"
+  ],
+  "competencies": [
+    "BUS-105.L01",
+    "BUS-105.L02",
+    "BUS-105.L03",
+    "BUS-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain audience and positioning in the context of marketing.",
+    "Compare and distinguish acquisition channels in the context of marketing.",
+    "Apply funnel metrics in the context of marketing.",
+    "Evaluate and justify decisions about marketing experiments in the context of marketing."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Audience and positioning",
+      "competency": "BUS-105.L01",
+      "outcome": "Explain audience and positioning in the context of marketing.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-7",
+        "bus-ref-1"
+      ],
+      "teaching_focus": "Audience and positioning",
+      "worked_example_brief": "Use a realistic fictional case involving audience and positioning; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to campaign test brief.",
+      "knowledge_check": "Explain audience and positioning from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of audience and positioning; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Acquisition channels",
+      "competency": "BUS-105.L02",
+      "outcome": "Compare and distinguish acquisition channels in the context of marketing.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-7",
+        "bus-ref-1"
+      ],
+      "teaching_focus": "Acquisition channels",
+      "worked_example_brief": "Use a realistic fictional case involving acquisition channels; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to campaign test brief.",
+      "knowledge_check": "Explain acquisition channels from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of acquisition channels; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Funnel metrics",
+      "competency": "BUS-105.L03",
+      "outcome": "Apply funnel metrics in the context of marketing.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-7",
+        "bus-ref-1"
+      ],
+      "teaching_focus": "Funnel metrics",
+      "worked_example_brief": "Use a realistic fictional case involving funnel metrics; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to campaign test brief.",
+      "knowledge_check": "Explain funnel metrics from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of funnel metrics; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Marketing experiments",
+      "competency": "BUS-105.L04",
+      "outcome": "Evaluate and justify decisions about marketing experiments in the context of marketing.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-7",
+        "bus-ref-1"
+      ],
+      "teaching_focus": "Marketing experiments",
+      "worked_example_brief": "Use a realistic fictional case involving marketing experiments; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to campaign test brief.",
+      "knowledge_check": "Explain marketing experiments from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of marketing experiments; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Campaign test brief",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "BUS-105.L01",
+        "criterion": "Accurate explanation of audience and positioning; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-105.L02",
+        "criterion": "Accurate explanation of acquisition channels; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-105.L03",
+        "criterion": "Accurate explanation of funnel metrics; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-105.L04",
+        "criterion": "Accurate explanation of marketing experiments; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practitioner with relevant business, technology or privacy expertise."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

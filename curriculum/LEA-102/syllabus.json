@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-102",
+  "title": "Team dynamics",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-106"
+  ],
+  "reading": [
+    "lea-ref-3",
+    "lea-ref-6"
+  ],
+  "competencies": [
+    "LEA-102.L01",
+    "LEA-102.L02",
+    "LEA-102.L03",
+    "LEA-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain team purpose in the context of team dynamics.",
+    "Compare and distinguish role clarity in the context of team dynamics.",
+    "Apply psychological safety in the context of team dynamics.",
+    "Evaluate and justify decisions about feedback in the context of team dynamics."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Team purpose",
+      "competency": "LEA-102.L01",
+      "outcome": "Explain team purpose in the context of team dynamics.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Team purpose",
+      "worked_example_brief": "Use a realistic fictional case involving team purpose; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to team charter.",
+      "knowledge_check": "Explain team purpose from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of team purpose; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Role clarity",
+      "competency": "LEA-102.L02",
+      "outcome": "Compare and distinguish role clarity in the context of team dynamics.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Role clarity",
+      "worked_example_brief": "Use a realistic fictional case involving role clarity; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to team charter.",
+      "knowledge_check": "Explain role clarity from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of role clarity; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Psychological safety",
+      "competency": "LEA-102.L03",
+      "outcome": "Apply psychological safety in the context of team dynamics.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Psychological safety",
+      "worked_example_brief": "Use a realistic fictional case involving psychological safety; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to team charter.",
+      "knowledge_check": "Explain psychological safety from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of psychological safety; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Feedback",
+      "competency": "LEA-102.L04",
+      "outcome": "Evaluate and justify decisions about feedback in the context of team dynamics.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Feedback",
+      "worked_example_brief": "Use a realistic fictional case involving feedback; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to team charter.",
+      "knowledge_check": "Explain feedback from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of feedback; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Team charter",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "LEA-102.L01",
+        "criterion": "Accurate explanation of team purpose; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-102.L02",
+        "criterion": "Accurate explanation of role clarity; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-102.L03",
+        "criterion": "Accurate explanation of psychological safety; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-102.L04",
+        "criterion": "Accurate explanation of feedback; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

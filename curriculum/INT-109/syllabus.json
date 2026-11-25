@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "INT-109",
+  "title": "Epistemology",
+  "faculty": "INT",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-102",
+    "INT-104"
+  ],
+  "reading": [
+    "int-ref-8",
+    "scout-mindset"
+  ],
+  "competencies": [
+    "INT-109.L01",
+    "INT-109.L02",
+    "INT-109.L03",
+    "INT-109.L04"
+  ],
+  "learning_outcomes": [
+    "Explain belief truth and justification in the context of epistemology.",
+    "Compare and distinguish testimony in the context of epistemology.",
+    "Apply theories of knowledge in the context of epistemology.",
+    "Evaluate and justify decisions about confidence in the context of epistemology."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Belief truth and justification",
+      "competency": "INT-109.L01",
+      "outcome": "Explain belief truth and justification in the context of epistemology.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "int-ref-8",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Belief truth and justification",
+      "worked_example_brief": "Use a realistic fictional case involving belief truth and justification; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to epistemic audit.",
+      "knowledge_check": "Explain belief truth and justification from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of belief truth and justification; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Testimony",
+      "competency": "INT-109.L02",
+      "outcome": "Compare and distinguish testimony in the context of epistemology.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "int-ref-8",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Testimony",
+      "worked_example_brief": "Use a realistic fictional case involving testimony; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to epistemic audit.",
+      "knowledge_check": "Explain testimony from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of testimony; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Theories of knowledge",
+      "competency": "INT-109.L03",
+      "outcome": "Apply theories of knowledge in the context of epistemology.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "int-ref-8",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Theories of knowledge",
+      "worked_example_brief": "Use a realistic fictional case involving theories of knowledge; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to epistemic audit.",
+      "knowledge_check": "Explain theories of knowledge from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of theories of knowledge; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Confidence",
+      "competency": "INT-109.L04",
+      "outcome": "Evaluate and justify decisions about confidence in the context of epistemology.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "int-ref-8",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Confidence",
+      "worked_example_brief": "Use a realistic fictional case involving confidence; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to epistemic audit.",
+      "knowledge_check": "Explain confidence from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of confidence; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Epistemic audit",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "INT-109.L01",
+        "criterion": "Accurate explanation of belief truth and justification; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-109.L02",
+        "criterion": "Accurate explanation of testimony; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-109.L03",
+        "criterion": "Accurate explanation of theories of knowledge; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-109.L04",
+        "criterion": "Accurate explanation of confidence; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Education, statistics or philosophy specialist as relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

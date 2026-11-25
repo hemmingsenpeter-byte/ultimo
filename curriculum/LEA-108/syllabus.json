@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-108",
+  "title": "Crisis leadership",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 4,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "LEA-107",
+    "PRA-109"
+  ],
+  "reading": [
+    "lea-ref-7",
+    "lea-ref-6"
+  ],
+  "competencies": [
+    "LEA-108.L01",
+    "LEA-108.L02",
+    "LEA-108.L03",
+    "LEA-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain crisis roles in the context of crisis leadership.",
+    "Compare and distinguish safety and information in the context of crisis leadership.",
+    "Apply escalation in the context of crisis leadership.",
+    "Evaluate and justify decisions about after-action review in the context of crisis leadership."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Crisis roles",
+      "competency": "LEA-108.L01",
+      "outcome": "Explain crisis roles in the context of crisis leadership.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-7",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Crisis roles",
+      "worked_example_brief": "Use a realistic fictional case involving crisis roles; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to tabletop crisis exercise.",
+      "knowledge_check": "Explain crisis roles from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of crisis roles; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Safety and information",
+      "competency": "LEA-108.L02",
+      "outcome": "Compare and distinguish safety and information in the context of crisis leadership.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-7",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Safety and information",
+      "worked_example_brief": "Use a realistic fictional case involving safety and information; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to tabletop crisis exercise.",
+      "knowledge_check": "Explain safety and information from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of safety and information; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Escalation",
+      "competency": "LEA-108.L03",
+      "outcome": "Apply escalation in the context of crisis leadership.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-7",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Escalation",
+      "worked_example_brief": "Use a realistic fictional case involving escalation; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to tabletop crisis exercise.",
+      "knowledge_check": "Explain escalation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of escalation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "After-action review",
+      "competency": "LEA-108.L04",
+      "outcome": "Evaluate and justify decisions about after-action review in the context of crisis leadership.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-7",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "After-action review",
+      "worked_example_brief": "Use a realistic fictional case involving after-action review; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to tabletop crisis exercise.",
+      "knowledge_check": "Explain after-action review from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of after-action review; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Tabletop crisis exercise",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "LEA-108.L01",
+        "criterion": "Accurate explanation of crisis roles; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-108.L02",
+        "criterion": "Accurate explanation of safety and information; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-108.L03",
+        "criterion": "Accurate explanation of escalation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-108.L04",
+        "criterion": "Accurate explanation of after-action review; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

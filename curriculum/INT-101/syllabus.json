@@ -1,0 +1,147 @@
+{
+  "schema_version": "0.2.0",
+  "id": "INT-101",
+  "title": "Learning how to learn",
+  "faculty": "INT",
+  "framework_status": "defined",
+  "content_status": "draft",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 4,
+  "prerequisites": [],
+  "reading": [
+    "make-it-stick",
+    "dunlosky-2013",
+    "roediger-karpicke-2006"
+  ],
+  "competencies": [
+    "INT-101.L01",
+    "INT-101.L02",
+    "INT-101.L03",
+    "INT-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain learning versus familiarity in the context of learning how to learn.",
+    "Compare and distinguish retrieval and spaced practice in the context of learning how to learn.",
+    "Apply feedback and transfer in the context of learning how to learn.",
+    "Evaluate and justify decisions about build your own learning system in the context of learning how to learn."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Learning versus familiarity",
+      "competency": "INT-101.L01",
+      "outcome": "Explain learning versus familiarity in the context of learning how to learn.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "make-it-stick",
+        "dunlosky-2013",
+        "roediger-karpicke-2006"
+      ],
+      "teaching_focus": "Learning versus familiarity",
+      "worked_example_brief": "Use a realistic fictional case involving learning versus familiarity; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to seven-day learning cycle.",
+      "knowledge_check": "Explain learning versus familiarity from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of learning versus familiarity; correct application to a new case; clear rationale and limits.",
+      "content_status": "draft"
+    },
+    {
+      "id": "L02",
+      "title": "Retrieval and spaced practice",
+      "competency": "INT-101.L02",
+      "outcome": "Compare and distinguish retrieval and spaced practice in the context of learning how to learn.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "make-it-stick",
+        "dunlosky-2013",
+        "roediger-karpicke-2006"
+      ],
+      "teaching_focus": "Retrieval and spaced practice",
+      "worked_example_brief": "Use a realistic fictional case involving retrieval and spaced practice; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to seven-day learning cycle.",
+      "knowledge_check": "Explain retrieval and spaced practice from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of retrieval and spaced practice; correct application to a new case; clear rationale and limits.",
+      "content_status": "draft"
+    },
+    {
+      "id": "L03",
+      "title": "Feedback and transfer",
+      "competency": "INT-101.L03",
+      "outcome": "Apply feedback and transfer in the context of learning how to learn.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "make-it-stick",
+        "dunlosky-2013",
+        "roediger-karpicke-2006"
+      ],
+      "teaching_focus": "Feedback and transfer",
+      "worked_example_brief": "Use a realistic fictional case involving feedback and transfer; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to seven-day learning cycle.",
+      "knowledge_check": "Explain feedback and transfer from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of feedback and transfer; correct application to a new case; clear rationale and limits.",
+      "content_status": "draft"
+    },
+    {
+      "id": "L04",
+      "title": "Build your own learning system",
+      "competency": "INT-101.L04",
+      "outcome": "Evaluate and justify decisions about build your own learning system in the context of learning how to learn.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "make-it-stick",
+        "dunlosky-2013",
+        "roediger-karpicke-2006"
+      ],
+      "teaching_focus": "Build your own learning system",
+      "worked_example_brief": "Use a realistic fictional case involving build your own learning system; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to seven-day learning cycle.",
+      "knowledge_check": "Explain build your own learning system from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of build your own learning system; correct application to a new case; clear rationale and limits.",
+      "content_status": "draft"
+    }
+  ],
+  "assessment": {
+    "artifact": "Seven-day learning cycle",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "INT-101.L01",
+        "criterion": "Accurate explanation of learning versus familiarity; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-101.L02",
+        "criterion": "Accurate explanation of retrieval and spaced practice; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-101.L03",
+        "criterion": "Accurate explanation of feedback and transfer; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-101.L04",
+        "criterion": "Accurate explanation of build your own learning system; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Education, statistics or philosophy specialist as relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-105",
+  "title": "Investing",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-102",
+    "INT-103"
+  ],
+  "reading": [
+    "fin-ref-2",
+    "fin-ref-3"
+  ],
+  "competencies": [
+    "FIN-105.L01",
+    "FIN-105.L02",
+    "FIN-105.L03",
+    "FIN-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain asset classes in the context of investing.",
+    "Compare and distinguish diversification and fees in the context of investing.",
+    "Apply compounding in the context of investing.",
+    "Evaluate and justify decisions about investment policy in the context of investing."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Asset classes",
+      "competency": "FIN-105.L01",
+      "outcome": "Explain asset classes in the context of investing.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-2",
+        "fin-ref-3"
+      ],
+      "teaching_focus": "Asset classes",
+      "worked_example_brief": "Use a realistic fictional case involving asset classes; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional investment policy.",
+      "knowledge_check": "Explain asset classes from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of asset classes; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Diversification and fees",
+      "competency": "FIN-105.L02",
+      "outcome": "Compare and distinguish diversification and fees in the context of investing.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-2",
+        "fin-ref-3"
+      ],
+      "teaching_focus": "Diversification and fees",
+      "worked_example_brief": "Use a realistic fictional case involving diversification and fees; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional investment policy.",
+      "knowledge_check": "Explain diversification and fees from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of diversification and fees; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Compounding",
+      "competency": "FIN-105.L03",
+      "outcome": "Apply compounding in the context of investing.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-2",
+        "fin-ref-3"
+      ],
+      "teaching_focus": "Compounding",
+      "worked_example_brief": "Use a realistic fictional case involving compounding; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional investment policy.",
+      "knowledge_check": "Explain compounding from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of compounding; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Investment policy",
+      "competency": "FIN-105.L04",
+      "outcome": "Evaluate and justify decisions about investment policy in the context of investing.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-2",
+        "fin-ref-3"
+      ],
+      "teaching_focus": "Investment policy",
+      "worked_example_brief": "Use a realistic fictional case involving investment policy; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional investment policy.",
+      "knowledge_check": "Explain investment policy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of investment policy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Fictional investment policy",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-105.L01",
+        "criterion": "Accurate explanation of asset classes; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-105.L02",
+        "criterion": "Accurate explanation of diversification and fees; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-105.L03",
+        "criterion": "Accurate explanation of compounding; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-105.L04",
+        "criterion": "Accurate explanation of investment policy; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

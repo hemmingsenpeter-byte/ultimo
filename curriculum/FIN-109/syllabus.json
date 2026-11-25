@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-109",
+  "title": "Succession",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-103"
+  ],
+  "reading": [
+    "fin-ref-7",
+    "fin-ref-8"
+  ],
+  "competencies": [
+    "FIN-109.L01",
+    "FIN-109.L02",
+    "FIN-109.L03",
+    "FIN-109.L04"
+  ],
+  "learning_outcomes": [
+    "Explain ownership and beneficiaries in the context of succession.",
+    "Compare and distinguish continuity risks in the context of succession.",
+    "Apply governance in the context of succession.",
+    "Evaluate and justify decisions about professional advice in the context of succession."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Ownership and beneficiaries",
+      "competency": "FIN-109.L01",
+      "outcome": "Explain ownership and beneficiaries in the context of succession.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Ownership and beneficiaries",
+      "worked_example_brief": "Use a realistic fictional case involving ownership and beneficiaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to succession checklist.",
+      "knowledge_check": "Explain ownership and beneficiaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of ownership and beneficiaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Continuity risks",
+      "competency": "FIN-109.L02",
+      "outcome": "Compare and distinguish continuity risks in the context of succession.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Continuity risks",
+      "worked_example_brief": "Use a realistic fictional case involving continuity risks; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to succession checklist.",
+      "knowledge_check": "Explain continuity risks from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of continuity risks; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Governance",
+      "competency": "FIN-109.L03",
+      "outcome": "Apply governance in the context of succession.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Governance",
+      "worked_example_brief": "Use a realistic fictional case involving governance; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to succession checklist.",
+      "knowledge_check": "Explain governance from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of governance; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Professional advice",
+      "competency": "FIN-109.L04",
+      "outcome": "Evaluate and justify decisions about professional advice in the context of succession.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Professional advice",
+      "worked_example_brief": "Use a realistic fictional case involving professional advice; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to succession checklist.",
+      "knowledge_check": "Explain professional advice from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of professional advice; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Succession checklist",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-109.L01",
+        "criterion": "Accurate explanation of ownership and beneficiaries; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-109.L02",
+        "criterion": "Accurate explanation of continuity risks; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-109.L03",
+        "criterion": "Accurate explanation of governance; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-109.L04",
+        "criterion": "Accurate explanation of professional advice; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

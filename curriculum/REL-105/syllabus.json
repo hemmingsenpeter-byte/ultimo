@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "REL-105",
+  "title": "Conflict repair",
+  "faculty": "REL",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-103",
+    "REL-103"
+  ],
+  "reading": [
+    "rel-ref-1",
+    "rel-ref-2"
+  ],
+  "competencies": [
+    "REL-105.L01",
+    "REL-105.L02",
+    "REL-105.L03",
+    "REL-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain escalation patterns in the context of conflict repair.",
+    "Compare and distinguish accountability and apology in the context of conflict repair.",
+    "Apply repair and boundaries in the context of conflict repair.",
+    "Evaluate and justify decisions about coercion and safety in the context of conflict repair."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Escalation patterns",
+      "competency": "REL-105.L01",
+      "outcome": "Explain escalation patterns in the context of conflict repair.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Escalation patterns",
+      "worked_example_brief": "Use a realistic fictional case involving escalation patterns; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to conflict simulation.",
+      "knowledge_check": "Explain escalation patterns from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of escalation patterns; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Accountability and apology",
+      "competency": "REL-105.L02",
+      "outcome": "Compare and distinguish accountability and apology in the context of conflict repair.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Accountability and apology",
+      "worked_example_brief": "Use a realistic fictional case involving accountability and apology; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to conflict simulation.",
+      "knowledge_check": "Explain accountability and apology from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of accountability and apology; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Repair and boundaries",
+      "competency": "REL-105.L03",
+      "outcome": "Apply repair and boundaries in the context of conflict repair.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Repair and boundaries",
+      "worked_example_brief": "Use a realistic fictional case involving repair and boundaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to conflict simulation.",
+      "knowledge_check": "Explain repair and boundaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of repair and boundaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Coercion and safety",
+      "competency": "REL-105.L04",
+      "outcome": "Evaluate and justify decisions about coercion and safety in the context of conflict repair.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "rel-ref-1",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Coercion and safety",
+      "worked_example_brief": "Use a realistic fictional case involving coercion and safety; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to conflict simulation.",
+      "knowledge_check": "Explain coercion and safety from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of coercion and safety; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Conflict simulation",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "REL-105.L01",
+        "criterion": "Accurate explanation of escalation patterns; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-105.L02",
+        "criterion": "Accurate explanation of accountability and apology; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-105.L03",
+        "criterion": "Accurate explanation of repair and boundaries; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-105.L04",
+        "criterion": "Accurate explanation of coercion and safety; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "relationship/safeguarding reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

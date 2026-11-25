@@ -1,5 +1,5 @@
-# Ultimo — Master specification v0.1
-Status: draft; owner review required.
+# Ultimo — Master specification v0.2
+Status: framework defined for all 134 courses; owner and subject review still required.
 
 ## Mission and constitution
 Develop a well-rounded adult who can live independently, think critically, care for others, create, contribute and enjoy life. The initial audience is adult men, but the curriculum is inclusive and does not prescribe a single life path, personality, relationship arrangement, body type or worldview. Character and agency matter more than status. Achievement is not human worth. Protect autonomy, rest, safety, privacy, consent and intellectual humility.
@@ -38,7 +38,7 @@ Public curriculum only. Future student data in a separate private datastore with
 
 ## Roadmap and exit gates
 v0.1: framework, catalogue, first draft course, local renderer and tests. Gate: validator and local build pass; owner reviews specification.
-v0.2: define competency rubrics, source registry, course outcomes and assessment maps for remaining planned courses; review pilot.
+v0.2: 134 course syllabuses, 536 lesson blueprints, mapped competency rubrics, reading candidates, course assessments and prerequisite-ordered pathways. Framework coverage implemented; validation and independent review are gates, not assumed complete.
 v0.3: ten substantive first-semester courses; independent reviews and student pilot.
 v0.4: accessible website, private progress, framework library and export adapter proof.
 v0.5: curriculum-grounded AI tutor with provenance, refusal boundaries and evals.
@@ -47,4 +47,15 @@ v1.0: complete foundation programme, validated assessments, accessibility and pr
 v2.0: full five-year curriculum. No fixed calendar or guaranteed learning outcomes.
 
 ## Decisions pending
-Content licence (existing MIT preserved; consider CC BY-SA for future original course content), public site deployment, learner account design, review panel, complete taxonomy and institutional accreditation claims. The first pilot is Intellectual Mastery. The catalogue is a planning scaffold, not completed courses.
+Content licence (existing MIT preserved; consider CC BY-SA for future original course content), public site deployment, learner account design, review panel, complete taxonomy and institutional accreditation claims. The first pilot is Intellectual Mastery. The catalogue has complete syllabus coverage but not completed course content.
+
+## v0.2 canonical artefacts
+
+- framework/faculty-index.md and catalogue.json: full programme index.
+- curriculum/<ID>/syllabus.json and syllabus.md: four topic-specific lesson blueprints, learning outcomes, practice briefs, candidate readings, capstone and criteria. These are not authored lessons.
+- framework/competencies.json: 536 lesson-level records and original umbrella INT.learning. Seven levels per record; topic-anchored initial rubrics require subject calibration.
+- pathways/five-year.json: prerequisite-ordered course progression and annual capstones.
+- framework/lesson-standard.md, assessment-policy.md, review-policy.md and standards-mapping.md: design, editorial and interoperability policies.
+- schemas/syllabus.schema.json and tools/validate_framework.py: blueprint contract and cross-record consistency checks.
+
+The four lessons of INT-101 remain intact as draft content. No new lessons are authored in this release. Default estimated study time is six hours per course (four lesson hours plus assessment) except INT-101 retains four hours plus its extended practice cycle. Programme sequencing is indicative and can be revised; yearly workload is intentionally not equal. The framework uses backward design (MIT Teaching + Learning Lab), retrieval/distributed practice research (Dunlosky et al.) and CAST UDL Guidelines 3.0. Sources are in library/sources.json. No claim of CASE certification or clinical accreditation.

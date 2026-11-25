@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-101",
+  "title": "Science of wellbeing",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "reading": [
+    "hap-ref-1",
+    "rel-ref-6"
+  ],
+  "competencies": [
+    "HAP-101.L01",
+    "HAP-101.L02",
+    "HAP-101.L03",
+    "HAP-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain affect satisfaction meaning in the context of science of wellbeing.",
+    "Compare and distinguish research measures in the context of science of wellbeing.",
+    "Apply causal limits in the context of science of wellbeing.",
+    "Evaluate and justify decisions about wellbeing reflection in the context of science of wellbeing."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Affect satisfaction meaning",
+      "competency": "HAP-101.L01",
+      "outcome": "Explain affect satisfaction meaning in the context of science of wellbeing.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "hap-ref-1",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Affect satisfaction meaning",
+      "worked_example_brief": "Use a realistic fictional case involving affect satisfaction meaning; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to research critique.",
+      "knowledge_check": "Explain affect satisfaction meaning from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of affect satisfaction meaning; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Research measures",
+      "competency": "HAP-101.L02",
+      "outcome": "Compare and distinguish research measures in the context of science of wellbeing.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "hap-ref-1",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Research measures",
+      "worked_example_brief": "Use a realistic fictional case involving research measures; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to research critique.",
+      "knowledge_check": "Explain research measures from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of research measures; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Causal limits",
+      "competency": "HAP-101.L03",
+      "outcome": "Apply causal limits in the context of science of wellbeing.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "hap-ref-1",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Causal limits",
+      "worked_example_brief": "Use a realistic fictional case involving causal limits; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to research critique.",
+      "knowledge_check": "Explain causal limits from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of causal limits; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Wellbeing reflection",
+      "competency": "HAP-101.L04",
+      "outcome": "Evaluate and justify decisions about wellbeing reflection in the context of science of wellbeing.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "hap-ref-1",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Wellbeing reflection",
+      "worked_example_brief": "Use a realistic fictional case involving wellbeing reflection; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to research critique.",
+      "knowledge_check": "Explain wellbeing reflection from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of wellbeing reflection; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Research critique",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-101.L01",
+        "criterion": "Accurate explanation of affect satisfaction meaning; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-101.L02",
+        "criterion": "Accurate explanation of research measures; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-101.L03",
+        "criterion": "Accurate explanation of causal limits; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-101.L04",
+        "criterion": "Accurate explanation of wellbeing reflection; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

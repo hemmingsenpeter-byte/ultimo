@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-101",
+  "title": "Budget and balance sheet",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "reading": [
+    "fin-ref-7",
+    "fin-ref-1"
+  ],
+  "competencies": [
+    "FIN-101.L01",
+    "FIN-101.L02",
+    "FIN-101.L03",
+    "FIN-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain financial stocks and flows in the context of budget and balance sheet.",
+    "Compare and distinguish budget and balance sheet in the context of budget and balance sheet.",
+    "Apply irregular expenses in the context of budget and balance sheet.",
+    "Evaluate and justify decisions about stress testing in the context of budget and balance sheet."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Financial stocks and flows",
+      "competency": "FIN-101.L01",
+      "outcome": "Explain financial stocks and flows in the context of budget and balance sheet.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Financial stocks and flows",
+      "worked_example_brief": "Use a realistic fictional case involving financial stocks and flows; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional household budget.",
+      "knowledge_check": "Explain financial stocks and flows from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of financial stocks and flows; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Budget and balance sheet",
+      "competency": "FIN-101.L02",
+      "outcome": "Compare and distinguish budget and balance sheet in the context of budget and balance sheet.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Budget and balance sheet",
+      "worked_example_brief": "Use a realistic fictional case involving budget and balance sheet; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional household budget.",
+      "knowledge_check": "Explain budget and balance sheet from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of budget and balance sheet; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Irregular expenses",
+      "competency": "FIN-101.L03",
+      "outcome": "Apply irregular expenses in the context of budget and balance sheet.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Irregular expenses",
+      "worked_example_brief": "Use a realistic fictional case involving irregular expenses; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional household budget.",
+      "knowledge_check": "Explain irregular expenses from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of irregular expenses; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Stress testing",
+      "competency": "FIN-101.L04",
+      "outcome": "Evaluate and justify decisions about stress testing in the context of budget and balance sheet.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Stress testing",
+      "worked_example_brief": "Use a realistic fictional case involving stress testing; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional household budget.",
+      "knowledge_check": "Explain stress testing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of stress testing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Fictional household budget",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-101.L01",
+        "criterion": "Accurate explanation of financial stocks and flows; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-101.L02",
+        "criterion": "Accurate explanation of budget and balance sheet; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-101.L03",
+        "criterion": "Accurate explanation of irregular expenses; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-101.L04",
+        "criterion": "Accurate explanation of stress testing; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

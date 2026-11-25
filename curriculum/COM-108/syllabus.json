@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "COM-108",
+  "title": "Debate",
+  "faculty": "COM",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-102"
+  ],
+  "reading": [
+    "com-ref-4",
+    "com-ref-6"
+  ],
+  "competencies": [
+    "COM-108.L01",
+    "COM-108.L02",
+    "COM-108.L03",
+    "COM-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain claims and rebuttals in the context of debate.",
+    "Compare and distinguish evidence versus rhetoric in the context of debate.",
+    "Apply respectful cross-examination in the context of debate.",
+    "Evaluate and justify decisions about revision in the context of debate."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Claims and rebuttals",
+      "competency": "COM-108.L01",
+      "outcome": "Explain claims and rebuttals in the context of debate.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "com-ref-4",
+        "com-ref-6"
+      ],
+      "teaching_focus": "Claims and rebuttals",
+      "worked_example_brief": "Use a realistic fictional case involving claims and rebuttals; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to structured debate.",
+      "knowledge_check": "Explain claims and rebuttals from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of claims and rebuttals; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Evidence versus rhetoric",
+      "competency": "COM-108.L02",
+      "outcome": "Compare and distinguish evidence versus rhetoric in the context of debate.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "com-ref-4",
+        "com-ref-6"
+      ],
+      "teaching_focus": "Evidence versus rhetoric",
+      "worked_example_brief": "Use a realistic fictional case involving evidence versus rhetoric; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to structured debate.",
+      "knowledge_check": "Explain evidence versus rhetoric from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of evidence versus rhetoric; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Respectful cross-examination",
+      "competency": "COM-108.L03",
+      "outcome": "Apply respectful cross-examination in the context of debate.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "com-ref-4",
+        "com-ref-6"
+      ],
+      "teaching_focus": "Respectful cross-examination",
+      "worked_example_brief": "Use a realistic fictional case involving respectful cross-examination; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to structured debate.",
+      "knowledge_check": "Explain respectful cross-examination from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of respectful cross-examination; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Revision",
+      "competency": "COM-108.L04",
+      "outcome": "Evaluate and justify decisions about revision in the context of debate.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "com-ref-4",
+        "com-ref-6"
+      ],
+      "teaching_focus": "Revision",
+      "worked_example_brief": "Use a realistic fictional case involving revision; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to structured debate.",
+      "knowledge_check": "Explain revision from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of revision; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Structured debate",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "COM-108.L01",
+        "criterion": "Accurate explanation of claims and rebuttals; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-108.L02",
+        "criterion": "Accurate explanation of evidence versus rhetoric; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-108.L03",
+        "criterion": "Accurate explanation of respectful cross-examination; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-108.L04",
+        "criterion": "Accurate explanation of revision; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Communication instructor; language instructor as needed."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

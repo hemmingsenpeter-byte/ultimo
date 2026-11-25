@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "INT-102",
+  "title": "Logic and argument",
+  "faculty": "INT",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "reading": [
+    "int-ref-1",
+    "scout-mindset"
+  ],
+  "competencies": [
+    "INT-102.L01",
+    "INT-102.L02",
+    "INT-102.L03",
+    "INT-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain premises and conclusions in the context of logic and argument.",
+    "Compare and distinguish validity and soundness in the context of logic and argument.",
+    "Apply induction and fallacies in the context of logic and argument.",
+    "Evaluate and justify decisions about steelmanning in the context of logic and argument."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Premises and conclusions",
+      "competency": "INT-102.L01",
+      "outcome": "Explain premises and conclusions in the context of logic and argument.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "int-ref-1",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Premises and conclusions",
+      "worked_example_brief": "Use a realistic fictional case involving premises and conclusions; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to two-sided argument map.",
+      "knowledge_check": "Explain premises and conclusions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of premises and conclusions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Validity and soundness",
+      "competency": "INT-102.L02",
+      "outcome": "Compare and distinguish validity and soundness in the context of logic and argument.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "int-ref-1",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Validity and soundness",
+      "worked_example_brief": "Use a realistic fictional case involving validity and soundness; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to two-sided argument map.",
+      "knowledge_check": "Explain validity and soundness from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of validity and soundness; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Induction and fallacies",
+      "competency": "INT-102.L03",
+      "outcome": "Apply induction and fallacies in the context of logic and argument.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "int-ref-1",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Induction and fallacies",
+      "worked_example_brief": "Use a realistic fictional case involving induction and fallacies; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to two-sided argument map.",
+      "knowledge_check": "Explain induction and fallacies from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of induction and fallacies; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Steelmanning",
+      "competency": "INT-102.L04",
+      "outcome": "Evaluate and justify decisions about steelmanning in the context of logic and argument.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "int-ref-1",
+        "scout-mindset"
+      ],
+      "teaching_focus": "Steelmanning",
+      "worked_example_brief": "Use a realistic fictional case involving steelmanning; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to two-sided argument map.",
+      "knowledge_check": "Explain steelmanning from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of steelmanning; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Two-sided argument map",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "INT-102.L01",
+        "criterion": "Accurate explanation of premises and conclusions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-102.L02",
+        "criterion": "Accurate explanation of validity and soundness; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-102.L03",
+        "criterion": "Accurate explanation of induction and fallacies; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-102.L04",
+        "criterion": "Accurate explanation of steelmanning; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Education, statistics or philosophy specialist as relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-108",
+  "title": "Life design",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "HAP-106",
+    "FIN-101"
+  ],
+  "reading": [
+    "bus-ref-6",
+    "hap-ref-4"
+  ],
+  "competencies": [
+    "HAP-108.L01",
+    "HAP-108.L02",
+    "HAP-108.L03",
+    "HAP-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain life domains in the context of life design.",
+    "Compare and distinguish alternative futures in the context of life design.",
+    "Apply reversible experiments in the context of life design.",
+    "Evaluate and justify decisions about trade-offs in the context of life design."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Life domains",
+      "competency": "HAP-108.L01",
+      "outcome": "Explain life domains in the context of life design.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-6",
+        "hap-ref-4"
+      ],
+      "teaching_focus": "Life domains",
+      "worked_example_brief": "Use a realistic fictional case involving life domains; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to three life plans.",
+      "knowledge_check": "Explain life domains from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of life domains; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Alternative futures",
+      "competency": "HAP-108.L02",
+      "outcome": "Compare and distinguish alternative futures in the context of life design.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-6",
+        "hap-ref-4"
+      ],
+      "teaching_focus": "Alternative futures",
+      "worked_example_brief": "Use a realistic fictional case involving alternative futures; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to three life plans.",
+      "knowledge_check": "Explain alternative futures from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of alternative futures; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Reversible experiments",
+      "competency": "HAP-108.L03",
+      "outcome": "Apply reversible experiments in the context of life design.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-6",
+        "hap-ref-4"
+      ],
+      "teaching_focus": "Reversible experiments",
+      "worked_example_brief": "Use a realistic fictional case involving reversible experiments; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to three life plans.",
+      "knowledge_check": "Explain reversible experiments from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reversible experiments; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Trade-offs",
+      "competency": "HAP-108.L04",
+      "outcome": "Evaluate and justify decisions about trade-offs in the context of life design.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-6",
+        "hap-ref-4"
+      ],
+      "teaching_focus": "Trade-offs",
+      "worked_example_brief": "Use a realistic fictional case involving trade-offs; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to three life plans.",
+      "knowledge_check": "Explain trade-offs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of trade-offs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Three life plans",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-108.L01",
+        "criterion": "Accurate explanation of life domains; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-108.L02",
+        "criterion": "Accurate explanation of alternative futures; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-108.L03",
+        "criterion": "Accurate explanation of reversible experiments; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-108.L04",
+        "criterion": "Accurate explanation of trade-offs; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

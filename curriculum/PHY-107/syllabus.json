@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHY-107",
+  "title": "Athletic programming",
+  "faculty": "PHY",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHY-102",
+    "PHY-103"
+  ],
+  "reading": [
+    "phy-ref-7",
+    "phy-ref-2"
+  ],
+  "competencies": [
+    "PHY-107.L01",
+    "PHY-107.L02",
+    "PHY-107.L03",
+    "PHY-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain specificity in the context of athletic programming.",
+    "Compare and distinguish training phases in the context of athletic programming.",
+    "Apply monitoring trends in the context of athletic programming.",
+    "Evaluate and justify decisions about programme revision in the context of athletic programming."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Specificity",
+      "competency": "PHY-107.L01",
+      "outcome": "Explain specificity in the context of athletic programming.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phy-ref-7",
+        "phy-ref-2"
+      ],
+      "teaching_focus": "Specificity",
+      "worked_example_brief": "Use a realistic fictional case involving specificity; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional periodised plan.",
+      "knowledge_check": "Explain specificity from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of specificity; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Training phases",
+      "competency": "PHY-107.L02",
+      "outcome": "Compare and distinguish training phases in the context of athletic programming.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phy-ref-7",
+        "phy-ref-2"
+      ],
+      "teaching_focus": "Training phases",
+      "worked_example_brief": "Use a realistic fictional case involving training phases; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional periodised plan.",
+      "knowledge_check": "Explain training phases from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of training phases; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Monitoring trends",
+      "competency": "PHY-107.L03",
+      "outcome": "Apply monitoring trends in the context of athletic programming.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phy-ref-7",
+        "phy-ref-2"
+      ],
+      "teaching_focus": "Monitoring trends",
+      "worked_example_brief": "Use a realistic fictional case involving monitoring trends; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional periodised plan.",
+      "knowledge_check": "Explain monitoring trends from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of monitoring trends; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Programme revision",
+      "competency": "PHY-107.L04",
+      "outcome": "Evaluate and justify decisions about programme revision in the context of athletic programming.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phy-ref-7",
+        "phy-ref-2"
+      ],
+      "teaching_focus": "Programme revision",
+      "worked_example_brief": "Use a realistic fictional case involving programme revision; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional periodised plan.",
+      "knowledge_check": "Explain programme revision from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of programme revision; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Fictional periodised plan",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PHY-107.L01",
+        "criterion": "Accurate explanation of specificity; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-107.L02",
+        "criterion": "Accurate explanation of training phases; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-107.L03",
+        "criterion": "Accurate explanation of monitoring trends; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-107.L04",
+        "criterion": "Accurate explanation of programme revision; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "coach/safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

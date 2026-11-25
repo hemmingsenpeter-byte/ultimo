@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "REL-102",
+  "title": "Attachment and compatibility",
+  "faculty": "REL",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-105"
+  ],
+  "reading": [
+    "emo-ref-5",
+    "rel-ref-2"
+  ],
+  "competencies": [
+    "REL-102.L01",
+    "REL-102.L02",
+    "REL-102.L03",
+    "REL-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain attachment patterns in the context of attachment and compatibility.",
+    "Compare and distinguish compatibility dimensions in the context of attachment and compatibility.",
+    "Apply needs in the context of attachment and compatibility.",
+    "Evaluate and justify decisions about boundaries in the context of attachment and compatibility."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attachment patterns",
+      "competency": "REL-102.L01",
+      "outcome": "Explain attachment patterns in the context of attachment and compatibility.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "emo-ref-5",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Attachment patterns",
+      "worked_example_brief": "Use a realistic fictional case involving attachment patterns; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to compatibility conversation.",
+      "knowledge_check": "Explain attachment patterns from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of attachment patterns; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Compatibility dimensions",
+      "competency": "REL-102.L02",
+      "outcome": "Compare and distinguish compatibility dimensions in the context of attachment and compatibility.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "emo-ref-5",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Compatibility dimensions",
+      "worked_example_brief": "Use a realistic fictional case involving compatibility dimensions; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to compatibility conversation.",
+      "knowledge_check": "Explain compatibility dimensions from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of compatibility dimensions; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Needs",
+      "competency": "REL-102.L03",
+      "outcome": "Apply needs in the context of attachment and compatibility.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "emo-ref-5",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Needs",
+      "worked_example_brief": "Use a realistic fictional case involving needs; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to compatibility conversation.",
+      "knowledge_check": "Explain needs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of needs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Boundaries",
+      "competency": "REL-102.L04",
+      "outcome": "Evaluate and justify decisions about boundaries in the context of attachment and compatibility.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "emo-ref-5",
+        "rel-ref-2"
+      ],
+      "teaching_focus": "Boundaries",
+      "worked_example_brief": "Use a realistic fictional case involving boundaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to compatibility conversation.",
+      "knowledge_check": "Explain boundaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of boundaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Compatibility conversation",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "REL-102.L01",
+        "criterion": "Accurate explanation of attachment patterns; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-102.L02",
+        "criterion": "Accurate explanation of compatibility dimensions; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-102.L03",
+        "criterion": "Accurate explanation of needs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-102.L04",
+        "criterion": "Accurate explanation of boundaries; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "relationship/safeguarding reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

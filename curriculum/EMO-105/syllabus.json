@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "EMO-105",
+  "title": "Attachment and development",
+  "faculty": "EMO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "reading": [
+    "emo-ref-5"
+  ],
+  "competencies": [
+    "EMO-105.L01",
+    "EMO-105.L02",
+    "EMO-105.L03",
+    "EMO-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain attachment research in the context of attachment and development.",
+    "Compare and distinguish development in the context of attachment and development.",
+    "Apply label limitations in the context of attachment and development.",
+    "Evaluate and justify decisions about responsive communication in the context of attachment and development."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attachment research",
+      "competency": "EMO-105.L01",
+      "outcome": "Explain attachment research in the context of attachment and development.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "emo-ref-5"
+      ],
+      "teaching_focus": "Attachment research",
+      "worked_example_brief": "Use a realistic fictional case involving attachment research; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to attachment case critique.",
+      "knowledge_check": "Explain attachment research from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of attachment research; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Development",
+      "competency": "EMO-105.L02",
+      "outcome": "Compare and distinguish development in the context of attachment and development.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "emo-ref-5"
+      ],
+      "teaching_focus": "Development",
+      "worked_example_brief": "Use a realistic fictional case involving development; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to attachment case critique.",
+      "knowledge_check": "Explain development from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of development; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Label limitations",
+      "competency": "EMO-105.L03",
+      "outcome": "Apply label limitations in the context of attachment and development.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "emo-ref-5"
+      ],
+      "teaching_focus": "Label limitations",
+      "worked_example_brief": "Use a realistic fictional case involving label limitations; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to attachment case critique.",
+      "knowledge_check": "Explain label limitations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of label limitations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Responsive communication",
+      "competency": "EMO-105.L04",
+      "outcome": "Evaluate and justify decisions about responsive communication in the context of attachment and development.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "emo-ref-5"
+      ],
+      "teaching_focus": "Responsive communication",
+      "worked_example_brief": "Use a realistic fictional case involving responsive communication; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to attachment case critique.",
+      "knowledge_check": "Explain responsive communication from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of responsive communication; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Attachment case critique",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "EMO-105.L01",
+        "criterion": "Accurate explanation of attachment research; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-105.L02",
+        "criterion": "Accurate explanation of development; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-105.L03",
+        "criterion": "Accurate explanation of label limitations; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-105.L04",
+        "criterion": "Accurate explanation of responsive communication; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "psychology reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

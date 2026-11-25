@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-103",
+  "title": "Mindfulness",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "men-ref-3"
+  ],
+  "competencies": [
+    "HAP-103.L01",
+    "HAP-103.L02",
+    "HAP-103.L03",
+    "HAP-103.L04"
+  ],
+  "learning_outcomes": [
+    "Explain awareness in the context of mindfulness.",
+    "Compare and distinguish practice types and evidence in the context of mindfulness.",
+    "Apply accessible exercises in the context of mindfulness.",
+    "Evaluate and justify decisions about discomfort and alternatives in the context of mindfulness."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Awareness",
+      "competency": "HAP-103.L01",
+      "outcome": "Explain awareness in the context of mindfulness.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "men-ref-3"
+      ],
+      "teaching_focus": "Awareness",
+      "worked_example_brief": "Use a realistic fictional case involving awareness; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to practice comparison.",
+      "knowledge_check": "Explain awareness from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of awareness; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Practice types and evidence",
+      "competency": "HAP-103.L02",
+      "outcome": "Compare and distinguish practice types and evidence in the context of mindfulness.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "men-ref-3"
+      ],
+      "teaching_focus": "Practice types and evidence",
+      "worked_example_brief": "Use a realistic fictional case involving practice types and evidence; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to practice comparison.",
+      "knowledge_check": "Explain practice types and evidence from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of practice types and evidence; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Accessible exercises",
+      "competency": "HAP-103.L03",
+      "outcome": "Apply accessible exercises in the context of mindfulness.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "men-ref-3"
+      ],
+      "teaching_focus": "Accessible exercises",
+      "worked_example_brief": "Use a realistic fictional case involving accessible exercises; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to practice comparison.",
+      "knowledge_check": "Explain accessible exercises from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of accessible exercises; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Discomfort and alternatives",
+      "competency": "HAP-103.L04",
+      "outcome": "Evaluate and justify decisions about discomfort and alternatives in the context of mindfulness.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "men-ref-3"
+      ],
+      "teaching_focus": "Discomfort and alternatives",
+      "worked_example_brief": "Use a realistic fictional case involving discomfort and alternatives; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to practice comparison.",
+      "knowledge_check": "Explain discomfort and alternatives from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of discomfort and alternatives; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Practice comparison",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-103.L01",
+        "criterion": "Accurate explanation of awareness; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-103.L02",
+        "criterion": "Accurate explanation of practice types and evidence; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-103.L03",
+        "criterion": "Accurate explanation of accessible exercises; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-103.L04",
+        "criterion": "Accurate explanation of discomfort and alternatives; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

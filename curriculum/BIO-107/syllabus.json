@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BIO-107",
+  "title": "Sexual and reproductive health",
+  "faculty": "BIO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BIO-101",
+    "REL-103"
+  ],
+  "reading": [
+    "bio-ref-8",
+    "bio-ref-9"
+  ],
+  "competencies": [
+    "BIO-107.L01",
+    "BIO-107.L02",
+    "BIO-107.L03",
+    "BIO-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain reproductive anatomy in the context of sexual and reproductive health.",
+    "Compare and distinguish prevention and testing in the context of sexual and reproductive health.",
+    "Apply fertility literacy in the context of sexual and reproductive health.",
+    "Evaluate and justify decisions about consent and referral in the context of sexual and reproductive health."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Reproductive anatomy",
+      "competency": "BIO-107.L01",
+      "outcome": "Explain reproductive anatomy in the context of sexual and reproductive health.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-8",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Reproductive anatomy",
+      "worked_example_brief": "Use a realistic fictional case involving reproductive anatomy; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to sexual health resource comparison.",
+      "knowledge_check": "Explain reproductive anatomy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reproductive anatomy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Prevention and testing",
+      "competency": "BIO-107.L02",
+      "outcome": "Compare and distinguish prevention and testing in the context of sexual and reproductive health.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Prevention and testing",
+      "worked_example_brief": "Use a realistic fictional case involving prevention and testing; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to sexual health resource comparison.",
+      "knowledge_check": "Explain prevention and testing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of prevention and testing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Fertility literacy",
+      "competency": "BIO-107.L03",
+      "outcome": "Apply fertility literacy in the context of sexual and reproductive health.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Fertility literacy",
+      "worked_example_brief": "Use a realistic fictional case involving fertility literacy; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to sexual health resource comparison.",
+      "knowledge_check": "Explain fertility literacy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of fertility literacy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Consent and referral",
+      "competency": "BIO-107.L04",
+      "outcome": "Evaluate and justify decisions about consent and referral in the context of sexual and reproductive health.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "bio-ref-9"
+      ],
+      "teaching_focus": "Consent and referral",
+      "worked_example_brief": "Use a realistic fictional case involving consent and referral; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to sexual health resource comparison.",
+      "knowledge_check": "Explain consent and referral from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of consent and referral; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Sexual health resource comparison",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BIO-107.L01",
+        "criterion": "Accurate explanation of reproductive anatomy; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-107.L02",
+        "criterion": "Accurate explanation of prevention and testing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-107.L03",
+        "criterion": "Accurate explanation of fertility literacy; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-107.L04",
+        "criterion": "Accurate explanation of consent and referral; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "clinical reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-106",
+  "title": "Property",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-102"
+  ],
+  "reading": [
+    "fin-ref-7",
+    "fin-ref-8"
+  ],
+  "competencies": [
+    "FIN-106.L01",
+    "FIN-106.L02",
+    "FIN-106.L03",
+    "FIN-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain property cash flow in the context of property.",
+    "Compare and distinguish leverage in the context of property.",
+    "Apply vacancy and rate shocks in the context of property.",
+    "Evaluate and justify decisions about due diligence in the context of property."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Property cash flow",
+      "competency": "FIN-106.L01",
+      "outcome": "Explain property cash flow in the context of property.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Property cash flow",
+      "worked_example_brief": "Use a realistic fictional case involving property cash flow; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to property sensitivity model.",
+      "knowledge_check": "Explain property cash flow from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of property cash flow; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Leverage",
+      "competency": "FIN-106.L02",
+      "outcome": "Compare and distinguish leverage in the context of property.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Leverage",
+      "worked_example_brief": "Use a realistic fictional case involving leverage; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to property sensitivity model.",
+      "knowledge_check": "Explain leverage from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of leverage; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Vacancy and rate shocks",
+      "competency": "FIN-106.L03",
+      "outcome": "Apply vacancy and rate shocks in the context of property.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Vacancy and rate shocks",
+      "worked_example_brief": "Use a realistic fictional case involving vacancy and rate shocks; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to property sensitivity model.",
+      "knowledge_check": "Explain vacancy and rate shocks from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of vacancy and rate shocks; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Due diligence",
+      "competency": "FIN-106.L04",
+      "outcome": "Evaluate and justify decisions about due diligence in the context of property.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-7",
+        "fin-ref-8"
+      ],
+      "teaching_focus": "Due diligence",
+      "worked_example_brief": "Use a realistic fictional case involving due diligence; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to property sensitivity model.",
+      "knowledge_check": "Explain due diligence from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of due diligence; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Property sensitivity model",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-106.L01",
+        "criterion": "Accurate explanation of property cash flow; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-106.L02",
+        "criterion": "Accurate explanation of leverage; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-106.L03",
+        "criterion": "Accurate explanation of vacancy and rate shocks; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-106.L04",
+        "criterion": "Accurate explanation of due diligence; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

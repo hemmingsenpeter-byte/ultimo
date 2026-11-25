@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PRA-107",
+  "title": "Gardening",
+  "faculty": "PRA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "pra-ref-7"
+  ],
+  "competencies": [
+    "PRA-107.L01",
+    "PRA-107.L02",
+    "PRA-107.L03",
+    "PRA-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain soil light water in the context of gardening.",
+    "Compare and distinguish seasonal constraints in the context of gardening.",
+    "Apply garden design in the context of gardening.",
+    "Evaluate and justify decisions about pest management in the context of gardening."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Soil light water",
+      "competency": "PRA-107.L01",
+      "outcome": "Explain soil light water in the context of gardening.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "pra-ref-7"
+      ],
+      "teaching_focus": "Soil light water",
+      "worked_example_brief": "Use a realistic fictional case involving soil light water; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to container garden plan.",
+      "knowledge_check": "Explain soil light water from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of soil light water; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Seasonal constraints",
+      "competency": "PRA-107.L02",
+      "outcome": "Compare and distinguish seasonal constraints in the context of gardening.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "pra-ref-7"
+      ],
+      "teaching_focus": "Seasonal constraints",
+      "worked_example_brief": "Use a realistic fictional case involving seasonal constraints; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to container garden plan.",
+      "knowledge_check": "Explain seasonal constraints from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of seasonal constraints; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Garden design",
+      "competency": "PRA-107.L03",
+      "outcome": "Apply garden design in the context of gardening.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "pra-ref-7"
+      ],
+      "teaching_focus": "Garden design",
+      "worked_example_brief": "Use a realistic fictional case involving garden design; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to container garden plan.",
+      "knowledge_check": "Explain garden design from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of garden design; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Pest management",
+      "competency": "PRA-107.L04",
+      "outcome": "Evaluate and justify decisions about pest management in the context of gardening.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "pra-ref-7"
+      ],
+      "teaching_focus": "Pest management",
+      "worked_example_brief": "Use a realistic fictional case involving pest management; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to container garden plan.",
+      "knowledge_check": "Explain pest management from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of pest management; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Container garden plan",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PRA-107.L01",
+        "criterion": "Accurate explanation of soil light water; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-107.L02",
+        "criterion": "Accurate explanation of seasonal constraints; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-107.L03",
+        "criterion": "Accurate explanation of garden design; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-107.L04",
+        "criterion": "Accurate explanation of pest management; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "qualified practical safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

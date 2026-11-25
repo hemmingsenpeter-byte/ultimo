@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BUS-107",
+  "title": "Product development",
+  "faculty": "BUS",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BUS-103"
+  ],
+  "reading": [
+    "bus-ref-5",
+    "bus-ref-2"
+  ],
+  "competencies": [
+    "BUS-107.L01",
+    "BUS-107.L02",
+    "BUS-107.L03",
+    "BUS-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain problem framing in the context of product development.",
+    "Compare and distinguish prototypes in the context of product development.",
+    "Apply user testing in the context of product development.",
+    "Evaluate and justify decisions about iteration in the context of product development."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Problem framing",
+      "competency": "BUS-107.L01",
+      "outcome": "Explain problem framing in the context of product development.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bus-ref-5",
+        "bus-ref-2"
+      ],
+      "teaching_focus": "Problem framing",
+      "worked_example_brief": "Use a realistic fictional case involving problem framing; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to prototype and test plan.",
+      "knowledge_check": "Explain problem framing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of problem framing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Prototypes",
+      "competency": "BUS-107.L02",
+      "outcome": "Compare and distinguish prototypes in the context of product development.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bus-ref-5",
+        "bus-ref-2"
+      ],
+      "teaching_focus": "Prototypes",
+      "worked_example_brief": "Use a realistic fictional case involving prototypes; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to prototype and test plan.",
+      "knowledge_check": "Explain prototypes from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of prototypes; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "User testing",
+      "competency": "BUS-107.L03",
+      "outcome": "Apply user testing in the context of product development.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bus-ref-5",
+        "bus-ref-2"
+      ],
+      "teaching_focus": "User testing",
+      "worked_example_brief": "Use a realistic fictional case involving user testing; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to prototype and test plan.",
+      "knowledge_check": "Explain user testing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of user testing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Iteration",
+      "competency": "BUS-107.L04",
+      "outcome": "Evaluate and justify decisions about iteration in the context of product development.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bus-ref-5",
+        "bus-ref-2"
+      ],
+      "teaching_focus": "Iteration",
+      "worked_example_brief": "Use a realistic fictional case involving iteration; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to prototype and test plan.",
+      "knowledge_check": "Explain iteration from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of iteration; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Prototype and test plan",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "BUS-107.L01",
+        "criterion": "Accurate explanation of problem framing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-107.L02",
+        "criterion": "Accurate explanation of prototypes; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-107.L03",
+        "criterion": "Accurate explanation of user testing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BUS-107.L04",
+        "criterion": "Accurate explanation of iteration; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practitioner with relevant business, technology or privacy expertise."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

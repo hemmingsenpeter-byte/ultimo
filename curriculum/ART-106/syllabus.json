@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "ART-106",
+  "title": "Creative writing",
+  "faculty": "ART",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "COM-102"
+  ],
+  "reading": [
+    "art-ref-7",
+    "art-ref-4"
+  ],
+  "competencies": [
+    "ART-106.L01",
+    "ART-106.L02",
+    "ART-106.L03",
+    "ART-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain character and scene in the context of creative writing.",
+    "Compare and distinguish narrative voice in the context of creative writing.",
+    "Apply imagery and dialogue in the context of creative writing.",
+    "Evaluate and justify decisions about editing in the context of creative writing."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Character and scene",
+      "competency": "ART-106.L01",
+      "outcome": "Explain character and scene in the context of creative writing.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "art-ref-7",
+        "art-ref-4"
+      ],
+      "teaching_focus": "Character and scene",
+      "worked_example_brief": "Use a realistic fictional case involving character and scene; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to original story or essay.",
+      "knowledge_check": "Explain character and scene from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of character and scene; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Narrative voice",
+      "competency": "ART-106.L02",
+      "outcome": "Compare and distinguish narrative voice in the context of creative writing.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "art-ref-7",
+        "art-ref-4"
+      ],
+      "teaching_focus": "Narrative voice",
+      "worked_example_brief": "Use a realistic fictional case involving narrative voice; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to original story or essay.",
+      "knowledge_check": "Explain narrative voice from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of narrative voice; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Imagery and dialogue",
+      "competency": "ART-106.L03",
+      "outcome": "Apply imagery and dialogue in the context of creative writing.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "art-ref-7",
+        "art-ref-4"
+      ],
+      "teaching_focus": "Imagery and dialogue",
+      "worked_example_brief": "Use a realistic fictional case involving imagery and dialogue; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to original story or essay.",
+      "knowledge_check": "Explain imagery and dialogue from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of imagery and dialogue; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Editing",
+      "competency": "ART-106.L04",
+      "outcome": "Evaluate and justify decisions about editing in the context of creative writing.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "art-ref-7",
+        "art-ref-4"
+      ],
+      "teaching_focus": "Editing",
+      "worked_example_brief": "Use a realistic fictional case involving editing; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to original story or essay.",
+      "knowledge_check": "Explain editing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of editing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Original story or essay",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "ART-106.L01",
+        "criterion": "Accurate explanation of character and scene; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-106.L02",
+        "criterion": "Accurate explanation of narrative voice; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-106.L03",
+        "criterion": "Accurate explanation of imagery and dialogue; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-106.L04",
+        "criterion": "Accurate explanation of editing; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practising artist or arts educator; cultural expertise where relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

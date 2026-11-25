@@ -1,2 +1,5 @@
-# Framework
-Sixteen faculties and 134 planned/draft course records. The seven-level scale is applied to individual competencies, not individuals as a whole. Only INT.learning has an authored rubric. IDs are stable; changes require migration notes. Planned courses are not available for study. No accreditation is implied.
+# Ultimo educational framework v0.2
+
+134 defined course syllabuses, 536 lesson-level competencies, plus the original INT.learning competency (537 total). Content remains draft/planned independently of the framework. See [programme](../pathways/five-year.md), [assessment policy](assessment-policy.md), [lesson standard](lesson-standard.md), and [faculty index](faculty-index.md).
+
+The framework is complete in coverage of the current catalogue, not a claim of exhaustive human capability or external accreditation.

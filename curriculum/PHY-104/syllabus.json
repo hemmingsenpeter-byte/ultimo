@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHY-104",
+  "title": "Mobility and injury prevention",
+  "faculty": "PHY",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHY-101"
+  ],
+  "reading": [
+    "phy-ref-1",
+    "phy-ref-4"
+  ],
+  "competencies": [
+    "PHY-104.L01",
+    "PHY-104.L02",
+    "PHY-104.L03",
+    "PHY-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain mobility and stability in the context of mobility and injury prevention.",
+    "Compare and distinguish load tolerance in the context of mobility and injury prevention.",
+    "Apply movement modification in the context of mobility and injury prevention.",
+    "Evaluate and justify decisions about referral boundaries in the context of mobility and injury prevention."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Mobility and stability",
+      "competency": "PHY-104.L01",
+      "outcome": "Explain mobility and stability in the context of mobility and injury prevention.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phy-ref-1",
+        "phy-ref-4"
+      ],
+      "teaching_focus": "Mobility and stability",
+      "worked_example_brief": "Use a realistic fictional case involving mobility and stability; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to movement decision tree.",
+      "knowledge_check": "Explain mobility and stability from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of mobility and stability; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Load tolerance",
+      "competency": "PHY-104.L02",
+      "outcome": "Compare and distinguish load tolerance in the context of mobility and injury prevention.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phy-ref-1",
+        "phy-ref-4"
+      ],
+      "teaching_focus": "Load tolerance",
+      "worked_example_brief": "Use a realistic fictional case involving load tolerance; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to movement decision tree.",
+      "knowledge_check": "Explain load tolerance from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of load tolerance; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Movement modification",
+      "competency": "PHY-104.L03",
+      "outcome": "Apply movement modification in the context of mobility and injury prevention.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phy-ref-1",
+        "phy-ref-4"
+      ],
+      "teaching_focus": "Movement modification",
+      "worked_example_brief": "Use a realistic fictional case involving movement modification; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to movement decision tree.",
+      "knowledge_check": "Explain movement modification from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of movement modification; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Referral boundaries",
+      "competency": "PHY-104.L04",
+      "outcome": "Evaluate and justify decisions about referral boundaries in the context of mobility and injury prevention.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phy-ref-1",
+        "phy-ref-4"
+      ],
+      "teaching_focus": "Referral boundaries",
+      "worked_example_brief": "Use a realistic fictional case involving referral boundaries; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to movement decision tree.",
+      "knowledge_check": "Explain referral boundaries from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of referral boundaries; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Movement decision tree",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PHY-104.L01",
+        "criterion": "Accurate explanation of mobility and stability; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-104.L02",
+        "criterion": "Accurate explanation of load tolerance; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-104.L03",
+        "criterion": "Accurate explanation of movement modification; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHY-104.L04",
+        "criterion": "Accurate explanation of referral boundaries; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "coach/safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

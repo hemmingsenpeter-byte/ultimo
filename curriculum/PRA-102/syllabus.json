@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PRA-102",
+  "title": "First aid",
+  "faculty": "PRA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "pra-ref-3"
+  ],
+  "competencies": [
+    "PRA-102.L01",
+    "PRA-102.L02",
+    "PRA-102.L03",
+    "PRA-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain scene safety in the context of first aid.",
+    "Compare and distinguish emergency escalation in the context of first aid.",
+    "Apply official first-aid resources in the context of first aid.",
+    "Evaluate and justify decisions about accredited training in the context of first aid."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Scene safety",
+      "competency": "PRA-102.L01",
+      "outcome": "Explain scene safety in the context of first aid.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "pra-ref-3"
+      ],
+      "teaching_focus": "Scene safety",
+      "worked_example_brief": "Use a realistic fictional case involving scene safety; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to emergency scenario and training referral.",
+      "knowledge_check": "Explain scene safety from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of scene safety; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Emergency escalation",
+      "competency": "PRA-102.L02",
+      "outcome": "Compare and distinguish emergency escalation in the context of first aid.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "pra-ref-3"
+      ],
+      "teaching_focus": "Emergency escalation",
+      "worked_example_brief": "Use a realistic fictional case involving emergency escalation; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to emergency scenario and training referral.",
+      "knowledge_check": "Explain emergency escalation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of emergency escalation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Official first-aid resources",
+      "competency": "PRA-102.L03",
+      "outcome": "Apply official first-aid resources in the context of first aid.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "pra-ref-3"
+      ],
+      "teaching_focus": "Official first-aid resources",
+      "worked_example_brief": "Use a realistic fictional case involving official first-aid resources; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to emergency scenario and training referral.",
+      "knowledge_check": "Explain official first-aid resources from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of official first-aid resources; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Accredited training",
+      "competency": "PRA-102.L04",
+      "outcome": "Evaluate and justify decisions about accredited training in the context of first aid.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "pra-ref-3"
+      ],
+      "teaching_focus": "Accredited training",
+      "worked_example_brief": "Use a realistic fictional case involving accredited training; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to emergency scenario and training referral.",
+      "knowledge_check": "Explain accredited training from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of accredited training; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Emergency scenario and training referral",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PRA-102.L01",
+        "criterion": "Accurate explanation of scene safety; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-102.L02",
+        "criterion": "Accurate explanation of emergency escalation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-102.L03",
+        "criterion": "Accurate explanation of official first-aid resources; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-102.L04",
+        "criterion": "Accurate explanation of accredited training; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "qualified practical safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

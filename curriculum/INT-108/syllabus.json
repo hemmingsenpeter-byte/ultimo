@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "INT-108",
+  "title": "Forecasting and decisions",
+  "faculty": "INT",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-103",
+    "INT-105"
+  ],
+  "reading": [
+    "int-ref-7",
+    "int-ref-2"
+  ],
+  "competencies": [
+    "INT-108.L01",
+    "INT-108.L02",
+    "INT-108.L03",
+    "INT-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain resolvable forecasts in the context of forecasting and decisions.",
+    "Compare and distinguish reference classes in the context of forecasting and decisions.",
+    "Apply expected value in the context of forecasting and decisions.",
+    "Evaluate and justify decisions about calibration in the context of forecasting and decisions."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Resolvable forecasts",
+      "competency": "INT-108.L01",
+      "outcome": "Explain resolvable forecasts in the context of forecasting and decisions.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "int-ref-7",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Resolvable forecasts",
+      "worked_example_brief": "Use a realistic fictional case involving resolvable forecasts; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to forecast journal.",
+      "knowledge_check": "Explain resolvable forecasts from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of resolvable forecasts; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Reference classes",
+      "competency": "INT-108.L02",
+      "outcome": "Compare and distinguish reference classes in the context of forecasting and decisions.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "int-ref-7",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Reference classes",
+      "worked_example_brief": "Use a realistic fictional case involving reference classes; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to forecast journal.",
+      "knowledge_check": "Explain reference classes from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of reference classes; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Expected value",
+      "competency": "INT-108.L03",
+      "outcome": "Apply expected value in the context of forecasting and decisions.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "int-ref-7",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Expected value",
+      "worked_example_brief": "Use a realistic fictional case involving expected value; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to forecast journal.",
+      "knowledge_check": "Explain expected value from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of expected value; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Calibration",
+      "competency": "INT-108.L04",
+      "outcome": "Evaluate and justify decisions about calibration in the context of forecasting and decisions.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "int-ref-7",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Calibration",
+      "worked_example_brief": "Use a realistic fictional case involving calibration; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to forecast journal.",
+      "knowledge_check": "Explain calibration from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of calibration; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Forecast journal",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "INT-108.L01",
+        "criterion": "Accurate explanation of resolvable forecasts; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-108.L02",
+        "criterion": "Accurate explanation of reference classes; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-108.L03",
+        "criterion": "Accurate explanation of expected value; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-108.L04",
+        "criterion": "Accurate explanation of calibration; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Education, statistics or philosophy specialist as relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

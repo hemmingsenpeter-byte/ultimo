@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PRA-105",
+  "title": "Driving and mechanics",
+  "faculty": "PRA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "pra-ref-5"
+  ],
+  "competencies": [
+    "PRA-105.L01",
+    "PRA-105.L02",
+    "PRA-105.L03",
+    "PRA-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain road risk in the context of driving and mechanics.",
+    "Compare and distinguish vehicle systems in the context of driving and mechanics.",
+    "Apply inspection and warning signs in the context of driving and mechanics.",
+    "Evaluate and justify decisions about local rules in the context of driving and mechanics."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Road risk",
+      "competency": "PRA-105.L01",
+      "outcome": "Explain road risk in the context of driving and mechanics.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "pra-ref-5"
+      ],
+      "teaching_focus": "Road risk",
+      "worked_example_brief": "Use a realistic fictional case involving road risk; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to vehicle and journey checklist.",
+      "knowledge_check": "Explain road risk from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of road risk; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Vehicle systems",
+      "competency": "PRA-105.L02",
+      "outcome": "Compare and distinguish vehicle systems in the context of driving and mechanics.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "pra-ref-5"
+      ],
+      "teaching_focus": "Vehicle systems",
+      "worked_example_brief": "Use a realistic fictional case involving vehicle systems; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to vehicle and journey checklist.",
+      "knowledge_check": "Explain vehicle systems from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of vehicle systems; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Inspection and warning signs",
+      "competency": "PRA-105.L03",
+      "outcome": "Apply inspection and warning signs in the context of driving and mechanics.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "pra-ref-5"
+      ],
+      "teaching_focus": "Inspection and warning signs",
+      "worked_example_brief": "Use a realistic fictional case involving inspection and warning signs; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to vehicle and journey checklist.",
+      "knowledge_check": "Explain inspection and warning signs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of inspection and warning signs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Local rules",
+      "competency": "PRA-105.L04",
+      "outcome": "Evaluate and justify decisions about local rules in the context of driving and mechanics.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "pra-ref-5"
+      ],
+      "teaching_focus": "Local rules",
+      "worked_example_brief": "Use a realistic fictional case involving local rules; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to vehicle and journey checklist.",
+      "knowledge_check": "Explain local rules from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of local rules; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Vehicle and journey checklist",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "PRA-105.L01",
+        "criterion": "Accurate explanation of road risk; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-105.L02",
+        "criterion": "Accurate explanation of vehicle systems; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-105.L03",
+        "criterion": "Accurate explanation of inspection and warning signs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PRA-105.L04",
+        "criterion": "Accurate explanation of local rules; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "qualified practical safety reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

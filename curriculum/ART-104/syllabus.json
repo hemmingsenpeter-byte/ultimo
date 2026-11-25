@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "ART-104",
+  "title": "Photography",
+  "faculty": "ART",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "ART-101"
+  ],
+  "reading": [
+    "art-ref-5",
+    "art-ref-2"
+  ],
+  "competencies": [
+    "ART-104.L01",
+    "ART-104.L02",
+    "ART-104.L03",
+    "ART-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain light and exposure in the context of photography.",
+    "Compare and distinguish framing in the context of photography.",
+    "Apply editing ethics in the context of photography.",
+    "Evaluate and justify decisions about sequencing in the context of photography."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Light and exposure",
+      "competency": "ART-104.L01",
+      "outcome": "Explain light and exposure in the context of photography.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "art-ref-5",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Light and exposure",
+      "worked_example_brief": "Use a realistic fictional case involving light and exposure; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to photo portfolio.",
+      "knowledge_check": "Explain light and exposure from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of light and exposure; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Framing",
+      "competency": "ART-104.L02",
+      "outcome": "Compare and distinguish framing in the context of photography.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "art-ref-5",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Framing",
+      "worked_example_brief": "Use a realistic fictional case involving framing; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to photo portfolio.",
+      "knowledge_check": "Explain framing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of framing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Editing ethics",
+      "competency": "ART-104.L03",
+      "outcome": "Apply editing ethics in the context of photography.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "art-ref-5",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Editing ethics",
+      "worked_example_brief": "Use a realistic fictional case involving editing ethics; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to photo portfolio.",
+      "knowledge_check": "Explain editing ethics from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of editing ethics; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Sequencing",
+      "competency": "ART-104.L04",
+      "outcome": "Evaluate and justify decisions about sequencing in the context of photography.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "art-ref-5",
+        "art-ref-2"
+      ],
+      "teaching_focus": "Sequencing",
+      "worked_example_brief": "Use a realistic fictional case involving sequencing; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to photo portfolio.",
+      "knowledge_check": "Explain sequencing from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of sequencing; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Photo portfolio",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "ART-104.L01",
+        "criterion": "Accurate explanation of light and exposure; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-104.L02",
+        "criterion": "Accurate explanation of framing; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-104.L03",
+        "criterion": "Accurate explanation of editing ethics; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "ART-104.L04",
+        "criterion": "Accurate explanation of sequencing; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Practising artist or arts educator; cultural expertise where relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

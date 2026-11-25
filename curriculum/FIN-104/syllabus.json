@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "FIN-104",
+  "title": "Financial psychology",
+  "faculty": "FIN",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "FIN-101"
+  ],
+  "reading": [
+    "fin-ref-1"
+  ],
+  "competencies": [
+    "FIN-104.L01",
+    "FIN-104.L02",
+    "FIN-104.L03",
+    "FIN-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain present bias in the context of financial psychology.",
+    "Compare and distinguish social pressure in the context of financial psychology.",
+    "Apply decision checklist in the context of financial psychology.",
+    "Evaluate and justify decisions about trade-offs in the context of financial psychology."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Present bias",
+      "competency": "FIN-104.L01",
+      "outcome": "Explain present bias in the context of financial psychology.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Present bias",
+      "worked_example_brief": "Use a realistic fictional case involving present bias; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to financial decision journal.",
+      "knowledge_check": "Explain present bias from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of present bias; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Social pressure",
+      "competency": "FIN-104.L02",
+      "outcome": "Compare and distinguish social pressure in the context of financial psychology.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Social pressure",
+      "worked_example_brief": "Use a realistic fictional case involving social pressure; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to financial decision journal.",
+      "knowledge_check": "Explain social pressure from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of social pressure; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Decision checklist",
+      "competency": "FIN-104.L03",
+      "outcome": "Apply decision checklist in the context of financial psychology.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Decision checklist",
+      "worked_example_brief": "Use a realistic fictional case involving decision checklist; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to financial decision journal.",
+      "knowledge_check": "Explain decision checklist from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of decision checklist; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Trade-offs",
+      "competency": "FIN-104.L04",
+      "outcome": "Evaluate and justify decisions about trade-offs in the context of financial psychology.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "fin-ref-1"
+      ],
+      "teaching_focus": "Trade-offs",
+      "worked_example_brief": "Use a realistic fictional case involving trade-offs; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to financial decision journal.",
+      "knowledge_check": "Explain trade-offs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of trade-offs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Financial decision journal",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "FIN-104.L01",
+        "criterion": "Accurate explanation of present bias; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-104.L02",
+        "criterion": "Accurate explanation of social pressure; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-104.L03",
+        "criterion": "Accurate explanation of decision checklist; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "FIN-104.L04",
+        "criterion": "Accurate explanation of trade-offs; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "financial/legal reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

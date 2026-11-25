@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.2.0",
+  "id": "LEA-105",
+  "title": "Organisational psychology",
+  "faculty": "LEA",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 4,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "LEA-102",
+    "INT-104"
+  ],
+  "reading": [
+    "lea-ref-3",
+    "lea-ref-6"
+  ],
+  "competencies": [
+    "LEA-105.L01",
+    "LEA-105.L02",
+    "LEA-105.L03",
+    "LEA-105.L04"
+  ],
+  "learning_outcomes": [
+    "Explain motivation and incentives in the context of organisational psychology.",
+    "Compare and distinguish role conflict in the context of organisational psychology.",
+    "Apply culture measurement in the context of organisational psychology.",
+    "Evaluate and justify decisions about intervention in the context of organisational psychology."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Motivation and incentives",
+      "competency": "LEA-105.L01",
+      "outcome": "Explain motivation and incentives in the context of organisational psychology.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Motivation and incentives",
+      "worked_example_brief": "Use a realistic fictional case involving motivation and incentives; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to organisation case analysis.",
+      "knowledge_check": "Explain motivation and incentives from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of motivation and incentives; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Role conflict",
+      "competency": "LEA-105.L02",
+      "outcome": "Compare and distinguish role conflict in the context of organisational psychology.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Role conflict",
+      "worked_example_brief": "Use a realistic fictional case involving role conflict; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to organisation case analysis.",
+      "knowledge_check": "Explain role conflict from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of role conflict; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Culture measurement",
+      "competency": "LEA-105.L03",
+      "outcome": "Apply culture measurement in the context of organisational psychology.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Culture measurement",
+      "worked_example_brief": "Use a realistic fictional case involving culture measurement; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to organisation case analysis.",
+      "knowledge_check": "Explain culture measurement from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of culture measurement; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Intervention",
+      "competency": "LEA-105.L04",
+      "outcome": "Evaluate and justify decisions about intervention in the context of organisational psychology.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "lea-ref-3",
+        "lea-ref-6"
+      ],
+      "teaching_focus": "Intervention",
+      "worked_example_brief": "Use a realistic fictional case involving intervention; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to organisation case analysis.",
+      "knowledge_check": "Explain intervention from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of intervention; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Organisation case analysis",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "LEA-105.L01",
+        "criterion": "Accurate explanation of motivation and incentives; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-105.L02",
+        "criterion": "Accurate explanation of role conflict; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-105.L03",
+        "criterion": "Accurate explanation of culture measurement; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "LEA-105.L04",
+        "criterion": "Accurate explanation of intervention; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Experienced leader, governance or organisational psychology reviewer."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

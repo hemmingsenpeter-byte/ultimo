@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BIO-108",
+  "title": "Ageing and preventive care",
+  "faculty": "BIO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BIO-106"
+  ],
+  "reading": [
+    "bio-ref-9",
+    "bio-ref-7"
+  ],
+  "competencies": [
+    "BIO-108.L01",
+    "BIO-108.L02",
+    "BIO-108.L03",
+    "BIO-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain ageing and function in the context of ageing and preventive care.",
+    "Compare and distinguish prevention in the context of ageing and preventive care.",
+    "Apply screening trade-offs in the context of ageing and preventive care.",
+    "Evaluate and justify decisions about continuity of care in the context of ageing and preventive care."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Ageing and function",
+      "competency": "BIO-108.L01",
+      "outcome": "Explain ageing and function in the context of ageing and preventive care.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-9",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Ageing and function",
+      "worked_example_brief": "Use a realistic fictional case involving ageing and function; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to preventive care question list.",
+      "knowledge_check": "Explain ageing and function from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of ageing and function; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Prevention",
+      "competency": "BIO-108.L02",
+      "outcome": "Compare and distinguish prevention in the context of ageing and preventive care.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-9",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Prevention",
+      "worked_example_brief": "Use a realistic fictional case involving prevention; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to preventive care question list.",
+      "knowledge_check": "Explain prevention from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of prevention; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Screening trade-offs",
+      "competency": "BIO-108.L03",
+      "outcome": "Apply screening trade-offs in the context of ageing and preventive care.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-9",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Screening trade-offs",
+      "worked_example_brief": "Use a realistic fictional case involving screening trade-offs; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to preventive care question list.",
+      "knowledge_check": "Explain screening trade-offs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of screening trade-offs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Continuity of care",
+      "competency": "BIO-108.L04",
+      "outcome": "Evaluate and justify decisions about continuity of care in the context of ageing and preventive care.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-9",
+        "bio-ref-7"
+      ],
+      "teaching_focus": "Continuity of care",
+      "worked_example_brief": "Use a realistic fictional case involving continuity of care; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to preventive care question list.",
+      "knowledge_check": "Explain continuity of care from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of continuity of care; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Preventive care question list",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BIO-108.L01",
+        "criterion": "Accurate explanation of ageing and function; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-108.L02",
+        "criterion": "Accurate explanation of prevention; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-108.L03",
+        "criterion": "Accurate explanation of screening trade-offs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-108.L04",
+        "criterion": "Accurate explanation of continuity of care; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "clinical reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

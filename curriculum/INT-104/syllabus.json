@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "INT-104",
+  "title": "Scientific reasoning",
+  "faculty": "INT",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-103"
+  ],
+  "reading": [
+    "int-ref-3",
+    "int-ref-2"
+  ],
+  "competencies": [
+    "INT-104.L01",
+    "INT-104.L02",
+    "INT-104.L03",
+    "INT-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain hypotheses in the context of scientific reasoning.",
+    "Compare and distinguish controls and confounding in the context of scientific reasoning.",
+    "Apply causal inference in the context of scientific reasoning.",
+    "Evaluate and justify decisions about replication in the context of scientific reasoning."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Hypotheses",
+      "competency": "INT-104.L01",
+      "outcome": "Explain hypotheses in the context of scientific reasoning.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "int-ref-3",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Hypotheses",
+      "worked_example_brief": "Use a realistic fictional case involving hypotheses; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to experiment protocol.",
+      "knowledge_check": "Explain hypotheses from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of hypotheses; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Controls and confounding",
+      "competency": "INT-104.L02",
+      "outcome": "Compare and distinguish controls and confounding in the context of scientific reasoning.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "int-ref-3",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Controls and confounding",
+      "worked_example_brief": "Use a realistic fictional case involving controls and confounding; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to experiment protocol.",
+      "knowledge_check": "Explain controls and confounding from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of controls and confounding; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Causal inference",
+      "competency": "INT-104.L03",
+      "outcome": "Apply causal inference in the context of scientific reasoning.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "int-ref-3",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Causal inference",
+      "worked_example_brief": "Use a realistic fictional case involving causal inference; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to experiment protocol.",
+      "knowledge_check": "Explain causal inference from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of causal inference; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Replication",
+      "competency": "INT-104.L04",
+      "outcome": "Evaluate and justify decisions about replication in the context of scientific reasoning.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "int-ref-3",
+        "int-ref-2"
+      ],
+      "teaching_focus": "Replication",
+      "worked_example_brief": "Use a realistic fictional case involving replication; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to experiment protocol.",
+      "knowledge_check": "Explain replication from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of replication; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Experiment protocol",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "INT-104.L01",
+        "criterion": "Accurate explanation of hypotheses; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-104.L02",
+        "criterion": "Accurate explanation of controls and confounding; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-104.L03",
+        "criterion": "Accurate explanation of causal inference; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "INT-104.L04",
+        "criterion": "Accurate explanation of replication; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Education, statistics or philosophy specialist as relevant."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-106",
+  "title": "Meaning and purpose",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-105"
+  ],
+  "reading": [
+    "men-ref-5",
+    "rel-ref-6"
+  ],
+  "competencies": [
+    "HAP-106.L01",
+    "HAP-106.L02",
+    "HAP-106.L03",
+    "HAP-106.L04"
+  ],
+  "learning_outcomes": [
+    "Explain meaning and purpose in the context of meaning and purpose.",
+    "Compare and distinguish cultural variation in the context of meaning and purpose.",
+    "Apply values and contribution in the context of meaning and purpose.",
+    "Evaluate and justify decisions about adaptable projects in the context of meaning and purpose."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Meaning and purpose",
+      "competency": "HAP-106.L01",
+      "outcome": "Explain meaning and purpose in the context of meaning and purpose.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "men-ref-5",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Meaning and purpose",
+      "worked_example_brief": "Use a realistic fictional case involving meaning and purpose; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to values-to-action proposal.",
+      "knowledge_check": "Explain meaning and purpose from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of meaning and purpose; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Cultural variation",
+      "competency": "HAP-106.L02",
+      "outcome": "Compare and distinguish cultural variation in the context of meaning and purpose.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "men-ref-5",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Cultural variation",
+      "worked_example_brief": "Use a realistic fictional case involving cultural variation; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to values-to-action proposal.",
+      "knowledge_check": "Explain cultural variation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of cultural variation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Values and contribution",
+      "competency": "HAP-106.L03",
+      "outcome": "Apply values and contribution in the context of meaning and purpose.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "men-ref-5",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Values and contribution",
+      "worked_example_brief": "Use a realistic fictional case involving values and contribution; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to values-to-action proposal.",
+      "knowledge_check": "Explain values and contribution from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of values and contribution; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Adaptable projects",
+      "competency": "HAP-106.L04",
+      "outcome": "Evaluate and justify decisions about adaptable projects in the context of meaning and purpose.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "men-ref-5",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Adaptable projects",
+      "worked_example_brief": "Use a realistic fictional case involving adaptable projects; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to values-to-action proposal.",
+      "knowledge_check": "Explain adaptable projects from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of adaptable projects; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Values-to-action proposal",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-106.L01",
+        "criterion": "Accurate explanation of meaning and purpose; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-106.L02",
+        "criterion": "Accurate explanation of cultural variation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-106.L03",
+        "criterion": "Accurate explanation of values and contribution; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-106.L04",
+        "criterion": "Accurate explanation of adaptable projects; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "COM-109",
+  "title": "Language acquisition",
+  "faculty": "COM",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "reading": [
+    "com-ref-7"
+  ],
+  "competencies": [
+    "COM-109.L01",
+    "COM-109.L02",
+    "COM-109.L03",
+    "COM-109.L04"
+  ],
+  "learning_outcomes": [
+    "Explain functional goals in the context of language acquisition.",
+    "Compare and distinguish input and retrieval in the context of language acquisition.",
+    "Apply corrective feedback in the context of language acquisition.",
+    "Evaluate and justify decisions about contextual exchange in the context of language acquisition."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Functional goals",
+      "competency": "COM-109.L01",
+      "outcome": "Explain functional goals in the context of language acquisition.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "com-ref-7"
+      ],
+      "teaching_focus": "Functional goals",
+      "worked_example_brief": "Use a realistic fictional case involving functional goals; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to language conversation.",
+      "knowledge_check": "Explain functional goals from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of functional goals; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Input and retrieval",
+      "competency": "COM-109.L02",
+      "outcome": "Compare and distinguish input and retrieval in the context of language acquisition.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "com-ref-7"
+      ],
+      "teaching_focus": "Input and retrieval",
+      "worked_example_brief": "Use a realistic fictional case involving input and retrieval; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to language conversation.",
+      "knowledge_check": "Explain input and retrieval from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of input and retrieval; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Corrective feedback",
+      "competency": "COM-109.L03",
+      "outcome": "Apply corrective feedback in the context of language acquisition.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "com-ref-7"
+      ],
+      "teaching_focus": "Corrective feedback",
+      "worked_example_brief": "Use a realistic fictional case involving corrective feedback; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to language conversation.",
+      "knowledge_check": "Explain corrective feedback from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of corrective feedback; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Contextual exchange",
+      "competency": "COM-109.L04",
+      "outcome": "Evaluate and justify decisions about contextual exchange in the context of language acquisition.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "com-ref-7"
+      ],
+      "teaching_focus": "Contextual exchange",
+      "worked_example_brief": "Use a realistic fictional case involving contextual exchange; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to language conversation.",
+      "knowledge_check": "Explain contextual exchange from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of contextual exchange; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Language conversation",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "COM-109.L01",
+        "criterion": "Accurate explanation of functional goals; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-109.L02",
+        "criterion": "Accurate explanation of input and retrieval; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-109.L03",
+        "criterion": "Accurate explanation of corrective feedback; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-109.L04",
+        "criterion": "Accurate explanation of contextual exchange; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Communication instructor; language instructor as needed."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

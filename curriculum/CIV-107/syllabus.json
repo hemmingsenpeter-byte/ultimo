@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "CIV-107",
+  "title": "Scientific revolutions",
+  "faculty": "CIV",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 3,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "reading": [
+    "civ-ref-7",
+    "civ-ref-6"
+  ],
+  "competencies": [
+    "CIV-107.L01",
+    "CIV-107.L02",
+    "CIV-107.L03",
+    "CIV-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain scientific breakthroughs in the context of scientific revolutions.",
+    "Compare and distinguish evidence and paradigms in the context of scientific revolutions.",
+    "Apply technology adoption in the context of scientific revolutions.",
+    "Evaluate and justify decisions about social consequences in the context of scientific revolutions."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Scientific breakthroughs",
+      "competency": "CIV-107.L01",
+      "outcome": "Explain scientific breakthroughs in the context of scientific revolutions.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "civ-ref-7",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Scientific breakthroughs",
+      "worked_example_brief": "Use a realistic fictional case involving scientific breakthroughs; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to scientific history essay.",
+      "knowledge_check": "Explain scientific breakthroughs from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of scientific breakthroughs; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Evidence and paradigms",
+      "competency": "CIV-107.L02",
+      "outcome": "Compare and distinguish evidence and paradigms in the context of scientific revolutions.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "civ-ref-7",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Evidence and paradigms",
+      "worked_example_brief": "Use a realistic fictional case involving evidence and paradigms; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to scientific history essay.",
+      "knowledge_check": "Explain evidence and paradigms from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of evidence and paradigms; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Technology adoption",
+      "competency": "CIV-107.L03",
+      "outcome": "Apply technology adoption in the context of scientific revolutions.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "civ-ref-7",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Technology adoption",
+      "worked_example_brief": "Use a realistic fictional case involving technology adoption; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to scientific history essay.",
+      "knowledge_check": "Explain technology adoption from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of technology adoption; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Social consequences",
+      "competency": "CIV-107.L04",
+      "outcome": "Evaluate and justify decisions about social consequences in the context of scientific revolutions.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "civ-ref-7",
+        "civ-ref-6"
+      ],
+      "teaching_focus": "Social consequences",
+      "worked_example_brief": "Use a realistic fictional case involving social consequences; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to scientific history essay.",
+      "knowledge_check": "Explain social consequences from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of social consequences; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Scientific history essay",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "CIV-107.L01",
+        "criterion": "Accurate explanation of scientific breakthroughs; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-107.L02",
+        "criterion": "Accurate explanation of evidence and paradigms; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-107.L03",
+        "criterion": "Accurate explanation of technology adoption; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "CIV-107.L04",
+        "criterion": "Accurate explanation of social consequences; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Historian, economist, legal or policy specialist as appropriate."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "0.2.0",
+  "id": "HAP-107",
+  "title": "Nature and exploration",
+  "faculty": "HAP",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "hap-ref-4",
+    "hap-ref-2"
+  ],
+  "competencies": [
+    "HAP-107.L01",
+    "HAP-107.L02",
+    "HAP-107.L03",
+    "HAP-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain nature and evidence in the context of nature and exploration.",
+    "Compare and distinguish safety and access in the context of nature and exploration.",
+    "Apply environmental impact in the context of nature and exploration.",
+    "Evaluate and justify decisions about enjoyment in the context of nature and exploration."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Nature and evidence",
+      "competency": "HAP-107.L01",
+      "outcome": "Explain nature and evidence in the context of nature and exploration.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "hap-ref-4",
+        "hap-ref-2"
+      ],
+      "teaching_focus": "Nature and evidence",
+      "worked_example_brief": "Use a realistic fictional case involving nature and evidence; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to accessible nature plan.",
+      "knowledge_check": "Explain nature and evidence from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of nature and evidence; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Safety and access",
+      "competency": "HAP-107.L02",
+      "outcome": "Compare and distinguish safety and access in the context of nature and exploration.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "hap-ref-4",
+        "hap-ref-2"
+      ],
+      "teaching_focus": "Safety and access",
+      "worked_example_brief": "Use a realistic fictional case involving safety and access; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to accessible nature plan.",
+      "knowledge_check": "Explain safety and access from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of safety and access; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Environmental impact",
+      "competency": "HAP-107.L03",
+      "outcome": "Apply environmental impact in the context of nature and exploration.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "hap-ref-4",
+        "hap-ref-2"
+      ],
+      "teaching_focus": "Environmental impact",
+      "worked_example_brief": "Use a realistic fictional case involving environmental impact; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to accessible nature plan.",
+      "knowledge_check": "Explain environmental impact from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of environmental impact; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Enjoyment",
+      "competency": "HAP-107.L04",
+      "outcome": "Evaluate and justify decisions about enjoyment in the context of nature and exploration.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "hap-ref-4",
+        "hap-ref-2"
+      ],
+      "teaching_focus": "Enjoyment",
+      "worked_example_brief": "Use a realistic fictional case involving enjoyment; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to accessible nature plan.",
+      "knowledge_check": "Explain enjoyment from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of enjoyment; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Accessible nature plan",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "HAP-107.L01",
+        "criterion": "Accurate explanation of nature and evidence; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-107.L02",
+        "criterion": "Accurate explanation of safety and access; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-107.L03",
+        "criterion": "Accurate explanation of environmental impact; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "HAP-107.L04",
+        "criterion": "Accurate explanation of enjoyment; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "wellbeing researcher"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

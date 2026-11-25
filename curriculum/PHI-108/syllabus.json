@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "PHI-108",
+  "title": "Practical judgement",
+  "faculty": "PHI",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 5,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "PHI-105"
+  ],
+  "reading": [
+    "phi-ref-1",
+    "phi-ref-7"
+  ],
+  "competencies": [
+    "PHI-108.L01",
+    "PHI-108.L02",
+    "PHI-108.L03",
+    "PHI-108.L04"
+  ],
+  "learning_outcomes": [
+    "Explain rules and judgement in the context of practical judgement.",
+    "Compare and distinguish conflicting duties in the context of practical judgement.",
+    "Apply proportionality in the context of practical judgement.",
+    "Evaluate and justify decisions about consequences in the context of practical judgement."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Rules and judgement",
+      "competency": "PHI-108.L01",
+      "outcome": "Explain rules and judgement in the context of practical judgement.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-7"
+      ],
+      "teaching_focus": "Rules and judgement",
+      "worked_example_brief": "Use a realistic fictional case involving rules and judgement; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to judgement case portfolio.",
+      "knowledge_check": "Explain rules and judgement from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of rules and judgement; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Conflicting duties",
+      "competency": "PHI-108.L02",
+      "outcome": "Compare and distinguish conflicting duties in the context of practical judgement.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-7"
+      ],
+      "teaching_focus": "Conflicting duties",
+      "worked_example_brief": "Use a realistic fictional case involving conflicting duties; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to judgement case portfolio.",
+      "knowledge_check": "Explain conflicting duties from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of conflicting duties; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Proportionality",
+      "competency": "PHI-108.L03",
+      "outcome": "Apply proportionality in the context of practical judgement.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-7"
+      ],
+      "teaching_focus": "Proportionality",
+      "worked_example_brief": "Use a realistic fictional case involving proportionality; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to judgement case portfolio.",
+      "knowledge_check": "Explain proportionality from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of proportionality; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Consequences",
+      "competency": "PHI-108.L04",
+      "outcome": "Evaluate and justify decisions about consequences in the context of practical judgement.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "phi-ref-1",
+        "phi-ref-7"
+      ],
+      "teaching_focus": "Consequences",
+      "worked_example_brief": "Use a realistic fictional case involving consequences; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to judgement case portfolio.",
+      "knowledge_check": "Explain consequences from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of consequences; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Judgement case portfolio",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "PHI-108.L01",
+        "criterion": "Accurate explanation of rules and judgement; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-108.L02",
+        "criterion": "Accurate explanation of conflicting duties; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-108.L03",
+        "criterion": "Accurate explanation of proportionality; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "PHI-108.L04",
+        "criterion": "Accurate explanation of consequences; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Philosopher or scholar of relevant tradition; avoid treating one tradition as universal."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

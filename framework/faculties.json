@@ -2,81 +2,271 @@
   {
     "id": "PHY",
     "title": "Physical",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Build adaptable physical literacy and safe movement practice.",
+    "reviewer_profile": "Qualified exercise professional; aquatic/self-defence specialists where relevant.",
+    "reading": [
+      "phy-ref-1",
+      "phy-ref-2",
+      "phy-ref-3",
+      "phy-ref-4",
+      "phy-ref-5",
+      "phy-ref-6",
+      "phy-ref-7"
+    ]
   },
   {
     "id": "BIO",
     "title": "Physiological",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Understand body systems, health information and healthcare decisions without self-diagnosis.",
+    "reviewer_profile": "Qualified clinician or registered dietitian as appropriate.",
+    "reading": [
+      "bio-ref-1",
+      "phy-ref-1",
+      "bio-ref-3",
+      "bio-ref-4",
+      "bio-ref-5",
+      "bio-ref-6",
+      "bio-ref-7",
+      "bio-ref-8",
+      "bio-ref-9"
+    ]
   },
   {
     "id": "MEN",
     "title": "Mental",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Build sustainable attention, habits and coping skills; recognise when support is needed.",
+    "reviewer_profile": "Psychologist or appropriately qualified mental-health practitioner for clinical claims.",
+    "reading": [
+      "men-ref-1",
+      "men-ref-2",
+      "men-ref-3",
+      "men-ref-4",
+      "men-ref-5",
+      "men-ref-6",
+      "men-ref-7"
+    ]
   },
   {
     "id": "EMO",
     "title": "Emotional",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Recognise, interpret and respond to emotions with autonomy and care.",
+    "reviewer_profile": "Psychologist; trauma-informed and safeguarding review where relevant.",
+    "reading": [
+      "emo-ref-1",
+      "emo-ref-2",
+      "emo-ref-3",
+      "men-ref-3",
+      "emo-ref-5",
+      "emo-ref-6",
+      "emo-ref-7",
+      "emo-ref-8"
+    ]
   },
   {
     "id": "INT",
     "title": "Intellectual",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Reason independently, evaluate evidence, model complexity and learn transferable skills.",
+    "reviewer_profile": "Education, statistics or philosophy specialist as relevant.",
+    "reading": [
+      "int-ref-1",
+      "int-ref-2",
+      "int-ref-3",
+      "scout-mindset",
+      "int-ref-5",
+      "int-ref-6",
+      "int-ref-7",
+      "int-ref-8"
+    ]
   },
   {
     "id": "SOC",
     "title": "Social",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Build reciprocal connection, confidence, inclusion and social judgement without manipulation.",
+    "reviewer_profile": "Social psychologist or experienced facilitator.",
+    "reading": [
+      "soc-ref-1",
+      "soc-ref-2",
+      "soc-ref-3",
+      "soc-ref-4",
+      "soc-ref-5",
+      "soc-ref-6"
+    ]
   },
   {
     "id": "REL",
     "title": "Relationships",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Develop consent-centred relationship literacy, conflict repair and caregiving skills.",
+    "reviewer_profile": "Relationship counsellor, safeguarding specialist or sexual-health clinician as appropriate.",
+    "reading": [
+      "rel-ref-1",
+      "rel-ref-2",
+      "emo-ref-5",
+      "rel-ref-4",
+      "rel-ref-5",
+      "rel-ref-6",
+      "bio-ref-8"
+    ]
   },
   {
     "id": "COM",
     "title": "Communication",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Communicate meaning accurately, listen and negotiate ethically across contexts.",
+    "reviewer_profile": "Communication instructor; language instructor as needed.",
+    "reading": [
+      "com-ref-1",
+      "com-ref-2",
+      "com-ref-3",
+      "com-ref-4",
+      "com-ref-5",
+      "com-ref-6",
+      "com-ref-7"
+    ]
   },
   {
     "id": "FIN",
     "title": "Financial",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Understand money, risk and stewardship; make informed fictional financial comparisons.",
+    "reviewer_profile": "Qualified financial, legal or tax professional in relevant jurisdiction.",
+    "reading": [
+      "fin-ref-1",
+      "fin-ref-2",
+      "fin-ref-3",
+      "fin-ref-4",
+      "fin-ref-5",
+      "fin-ref-6",
+      "fin-ref-7",
+      "fin-ref-8"
+    ]
   },
   {
     "id": "BUS",
     "title": "Professional",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Create, deliver and improve value responsibly across careers, enterprise and technology.",
+    "reviewer_profile": "Practitioner with relevant business, technology or privacy expertise.",
+    "reading": [
+      "bus-ref-1",
+      "bus-ref-2",
+      "bus-ref-3",
+      "bus-ref-4",
+      "bus-ref-5",
+      "bus-ref-6",
+      "bus-ref-7",
+      "bus-ref-8"
+    ]
   },
   {
     "id": "ART",
     "title": "Artistic",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Develop observation, creative craft, cultural literacy and aesthetic judgement.",
+    "reviewer_profile": "Practising artist or arts educator; cultural expertise where relevant.",
+    "reading": [
+      "art-ref-1",
+      "art-ref-2",
+      "art-ref-3",
+      "art-ref-4",
+      "art-ref-5",
+      "art-ref-6",
+      "art-ref-7",
+      "art-ref-8"
+    ]
   },
   {
     "id": "HAP",
     "title": "Happiness",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Explore flourishing and meaning without grading subjective happiness or imposing a life ideal.",
+    "reviewer_profile": "Wellbeing researcher or psychologist for scientific/clinical claims.",
+    "reading": [
+      "hap-ref-1",
+      "hap-ref-2",
+      "hap-ref-3",
+      "hap-ref-4",
+      "men-ref-5",
+      "rel-ref-6",
+      "bus-ref-6",
+      "men-ref-3"
+    ]
   },
   {
     "id": "PHI",
     "title": "Philosophical",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Compare worldviews, evaluate arguments and practise reasoned moral judgement.",
+    "reviewer_profile": "Philosopher or scholar of relevant tradition; avoid treating one tradition as universal.",
+    "reading": [
+      "phi-ref-1",
+      "phi-ref-2",
+      "phi-ref-3",
+      "phi-ref-4",
+      "phi-ref-5",
+      "phi-ref-6",
+      "phi-ref-7",
+      "phi-ref-8",
+      "phi-ref-9",
+      "phi-ref-10"
+    ]
   },
   {
     "id": "PRA",
     "title": "Practical",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Develop safe household, emergency, outdoor and digital self-reliance within competence limits.",
+    "reviewer_profile": "Relevant qualified trade, emergency, road or outdoor instructor; local rules review.",
+    "reading": [
+      "pra-ref-1",
+      "pra-ref-2",
+      "pra-ref-3",
+      "pra-ref-4",
+      "pra-ref-5",
+      "pra-ref-6",
+      "pra-ref-7",
+      "pra-ref-8",
+      "pra-ref-9"
+    ]
   },
   {
     "id": "LEA",
     "title": "Leadership",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Lead with accountability, develop others and coordinate complex decisions ethically.",
+    "reviewer_profile": "Experienced leader, governance or organisational psychology reviewer.",
+    "reading": [
+      "lea-ref-1",
+      "lea-ref-2",
+      "lea-ref-3",
+      "bus-ref-3",
+      "bus-ref-4",
+      "lea-ref-6",
+      "lea-ref-7"
+    ]
   },
   {
     "id": "CIV",
     "title": "Civilisational",
-    "status": "planned"
+    "status": "framework_defined",
+    "mission": "Understand institutions, history, economics and infrastructure; evaluate competing interpretations fairly.",
+    "reviewer_profile": "Historian, economist, legal or policy specialist as appropriate.",
+    "reading": [
+      "civ-ref-1",
+      "civ-ref-2",
+      "civ-ref-3",
+      "civ-ref-4",
+      "civ-ref-5",
+      "civ-ref-6",
+      "civ-ref-7",
+      "civ-ref-8",
+      "civ-ref-9"
+    ]
   }
 ]

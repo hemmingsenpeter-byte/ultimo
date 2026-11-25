@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "REL-101",
+  "title": "Attraction and dating",
+  "faculty": "REL",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "reading": [
+    "bio-ref-8",
+    "rel-ref-6"
+  ],
+  "competencies": [
+    "REL-101.L01",
+    "REL-101.L02",
+    "REL-101.L03",
+    "REL-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain attraction and autonomy in the context of attraction and dating.",
+    "Compare and distinguish interest and entitlement in the context of attraction and dating.",
+    "Apply compatibility in the context of attraction and dating.",
+    "Evaluate and justify decisions about respectful invitations in the context of attraction and dating."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attraction and autonomy",
+      "competency": "REL-101.L01",
+      "outcome": "Explain attraction and autonomy in the context of attraction and dating.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-8",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Attraction and autonomy",
+      "worked_example_brief": "Use a realistic fictional case involving attraction and autonomy; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to dating scenario analysis.",
+      "knowledge_check": "Explain attraction and autonomy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of attraction and autonomy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Interest and entitlement",
+      "competency": "REL-101.L02",
+      "outcome": "Compare and distinguish interest and entitlement in the context of attraction and dating.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Interest and entitlement",
+      "worked_example_brief": "Use a realistic fictional case involving interest and entitlement; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to dating scenario analysis.",
+      "knowledge_check": "Explain interest and entitlement from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of interest and entitlement; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Compatibility",
+      "competency": "REL-101.L03",
+      "outcome": "Apply compatibility in the context of attraction and dating.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Compatibility",
+      "worked_example_brief": "Use a realistic fictional case involving compatibility; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to dating scenario analysis.",
+      "knowledge_check": "Explain compatibility from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of compatibility; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Respectful invitations",
+      "competency": "REL-101.L04",
+      "outcome": "Evaluate and justify decisions about respectful invitations in the context of attraction and dating.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-8",
+        "rel-ref-6"
+      ],
+      "teaching_focus": "Respectful invitations",
+      "worked_example_brief": "Use a realistic fictional case involving respectful invitations; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to dating scenario analysis.",
+      "knowledge_check": "Explain respectful invitations from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of respectful invitations; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Dating scenario analysis",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "REL-101.L01",
+        "criterion": "Accurate explanation of attraction and autonomy; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-101.L02",
+        "criterion": "Accurate explanation of interest and entitlement; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-101.L03",
+        "criterion": "Accurate explanation of compatibility; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "REL-101.L04",
+        "criterion": "Accurate explanation of respectful invitations; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "relationship/safeguarding reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "0.2.0",
+  "id": "BIO-101",
+  "title": "Human biology",
+  "faculty": "BIO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 1,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "reading": [
+    "bio-ref-1",
+    "phy-ref-1"
+  ],
+  "competencies": [
+    "BIO-101.L01",
+    "BIO-101.L02",
+    "BIO-101.L03",
+    "BIO-101.L04"
+  ],
+  "learning_outcomes": [
+    "Explain cells and tissues in the context of human biology.",
+    "Compare and distinguish circulation and respiration in the context of human biology.",
+    "Apply digestion and kidneys in the context of human biology.",
+    "Evaluate and justify decisions about homeostasis in the context of human biology."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Cells and tissues",
+      "competency": "BIO-101.L01",
+      "outcome": "Explain cells and tissues in the context of human biology.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "bio-ref-1",
+        "phy-ref-1"
+      ],
+      "teaching_focus": "Cells and tissues",
+      "worked_example_brief": "Use a realistic fictional case involving cells and tissues; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to organ-system diagram.",
+      "knowledge_check": "Explain cells and tissues from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of cells and tissues; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Circulation and respiration",
+      "competency": "BIO-101.L02",
+      "outcome": "Compare and distinguish circulation and respiration in the context of human biology.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "bio-ref-1",
+        "phy-ref-1"
+      ],
+      "teaching_focus": "Circulation and respiration",
+      "worked_example_brief": "Use a realistic fictional case involving circulation and respiration; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to organ-system diagram.",
+      "knowledge_check": "Explain circulation and respiration from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of circulation and respiration; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Digestion and kidneys",
+      "competency": "BIO-101.L03",
+      "outcome": "Apply digestion and kidneys in the context of human biology.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "bio-ref-1",
+        "phy-ref-1"
+      ],
+      "teaching_focus": "Digestion and kidneys",
+      "worked_example_brief": "Use a realistic fictional case involving digestion and kidneys; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to organ-system diagram.",
+      "knowledge_check": "Explain digestion and kidneys from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of digestion and kidneys; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Homeostasis",
+      "competency": "BIO-101.L04",
+      "outcome": "Evaluate and justify decisions about homeostasis in the context of human biology.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "bio-ref-1",
+        "phy-ref-1"
+      ],
+      "teaching_focus": "Homeostasis",
+      "worked_example_brief": "Use a realistic fictional case involving homeostasis; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to organ-system diagram.",
+      "knowledge_check": "Explain homeostasis from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of homeostasis; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Organ-system diagram",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "BIO-101.L01",
+        "criterion": "Accurate explanation of cells and tissues; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-101.L02",
+        "criterion": "Accurate explanation of circulation and respiration; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-101.L03",
+        "criterion": "Accurate explanation of digestion and kidneys; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "BIO-101.L04",
+        "criterion": "Accurate explanation of homeostasis; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "clinical reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

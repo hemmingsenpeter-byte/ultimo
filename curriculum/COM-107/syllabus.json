@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.2.0",
+  "id": "COM-107",
+  "title": "Difficult conversations",
+  "faculty": "COM",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-106",
+    "COM-103"
+  ],
+  "reading": [
+    "com-ref-2"
+  ],
+  "competencies": [
+    "COM-107.L01",
+    "COM-107.L02",
+    "COM-107.L03",
+    "COM-107.L04"
+  ],
+  "learning_outcomes": [
+    "Explain purpose and facts in the context of difficult conversations.",
+    "Compare and distinguish observation versus interpretation in the context of difficult conversations.",
+    "Apply constructive requests in the context of difficult conversations.",
+    "Evaluate and justify decisions about repair in the context of difficult conversations."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Purpose and facts",
+      "competency": "COM-107.L01",
+      "outcome": "Explain purpose and facts in the context of difficult conversations.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "com-ref-2"
+      ],
+      "teaching_focus": "Purpose and facts",
+      "worked_example_brief": "Use a realistic fictional case involving purpose and facts; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to difficult conversation simulation.",
+      "knowledge_check": "Explain purpose and facts from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of purpose and facts; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Observation versus interpretation",
+      "competency": "COM-107.L02",
+      "outcome": "Compare and distinguish observation versus interpretation in the context of difficult conversations.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "com-ref-2"
+      ],
+      "teaching_focus": "Observation versus interpretation",
+      "worked_example_brief": "Use a realistic fictional case involving observation versus interpretation; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to difficult conversation simulation.",
+      "knowledge_check": "Explain observation versus interpretation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of observation versus interpretation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Constructive requests",
+      "competency": "COM-107.L03",
+      "outcome": "Apply constructive requests in the context of difficult conversations.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "com-ref-2"
+      ],
+      "teaching_focus": "Constructive requests",
+      "worked_example_brief": "Use a realistic fictional case involving constructive requests; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to difficult conversation simulation.",
+      "knowledge_check": "Explain constructive requests from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of constructive requests; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "competency": "COM-107.L04",
+      "outcome": "Evaluate and justify decisions about repair in the context of difficult conversations.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "com-ref-2"
+      ],
+      "teaching_focus": "Repair",
+      "worked_example_brief": "Use a realistic fictional case involving repair; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to difficult conversation simulation.",
+      "knowledge_check": "Explain repair from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Difficult conversation simulation",
+    "mode": "practical artifact or simulation",
+    "criteria": [
+      {
+        "competency": "COM-107.L01",
+        "criterion": "Accurate explanation of purpose and facts; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-107.L02",
+        "criterion": "Accurate explanation of observation versus interpretation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-107.L03",
+        "criterion": "Accurate explanation of constructive requests; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "COM-107.L04",
+        "criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "Communication instructor; language instructor as needed."
+  },
+  "safety": {
+    "review_required": false,
+    "notes": "Respect consent, privacy and applicable rules; source and subject review before publication."
+  }
+}

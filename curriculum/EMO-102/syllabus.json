@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2.0",
+  "id": "EMO-102",
+  "title": "Personality and temperament",
+  "faculty": "EMO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "reading": [
+    "emo-ref-3"
+  ],
+  "competencies": [
+    "EMO-102.L01",
+    "EMO-102.L02",
+    "EMO-102.L03",
+    "EMO-102.L04"
+  ],
+  "learning_outcomes": [
+    "Explain trait models in the context of personality and temperament.",
+    "Compare and distinguish situational variation in the context of personality and temperament.",
+    "Apply measurement in the context of personality and temperament.",
+    "Evaluate and justify decisions about cultural context in the context of personality and temperament."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Trait models",
+      "competency": "EMO-102.L01",
+      "outcome": "Explain trait models in the context of personality and temperament.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "emo-ref-3"
+      ],
+      "teaching_focus": "Trait models",
+      "worked_example_brief": "Use a realistic fictional case involving trait models; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to personality-test critique.",
+      "knowledge_check": "Explain trait models from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of trait models; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Situational variation",
+      "competency": "EMO-102.L02",
+      "outcome": "Compare and distinguish situational variation in the context of personality and temperament.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "emo-ref-3"
+      ],
+      "teaching_focus": "Situational variation",
+      "worked_example_brief": "Use a realistic fictional case involving situational variation; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to personality-test critique.",
+      "knowledge_check": "Explain situational variation from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of situational variation; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Measurement",
+      "competency": "EMO-102.L03",
+      "outcome": "Apply measurement in the context of personality and temperament.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "emo-ref-3"
+      ],
+      "teaching_focus": "Measurement",
+      "worked_example_brief": "Use a realistic fictional case involving measurement; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to personality-test critique.",
+      "knowledge_check": "Explain measurement from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of measurement; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Cultural context",
+      "competency": "EMO-102.L04",
+      "outcome": "Evaluate and justify decisions about cultural context in the context of personality and temperament.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "emo-ref-3"
+      ],
+      "teaching_focus": "Cultural context",
+      "worked_example_brief": "Use a realistic fictional case involving cultural context; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to personality-test critique.",
+      "knowledge_check": "Explain cultural context from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of cultural context; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Personality-test critique",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "EMO-102.L01",
+        "criterion": "Accurate explanation of trait models; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-102.L02",
+        "criterion": "Accurate explanation of situational variation; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-102.L03",
+        "criterion": "Accurate explanation of measurement; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-102.L04",
+        "criterion": "Accurate explanation of cultural context; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "psychology reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}

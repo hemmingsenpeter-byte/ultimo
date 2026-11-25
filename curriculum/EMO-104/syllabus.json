@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.2.0",
+  "id": "EMO-104",
+  "title": "Shame, anger, fear and jealousy",
+  "faculty": "EMO",
+  "framework_status": "defined",
+  "content_status": "planned",
+  "year": 2,
+  "target_level": 2,
+  "extension_target_level": 3,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-103"
+  ],
+  "reading": [
+    "emo-ref-7",
+    "men-ref-3"
+  ],
+  "competencies": [
+    "EMO-104.L01",
+    "EMO-104.L02",
+    "EMO-104.L03",
+    "EMO-104.L04"
+  ],
+  "learning_outcomes": [
+    "Explain shame and guilt in the context of shame, anger, fear and jealousy.",
+    "Compare and distinguish anger fear and jealousy in the context of shame, anger, fear and jealousy.",
+    "Apply needs versus control in the context of shame, anger, fear and jealousy.",
+    "Evaluate and justify decisions about repair in the context of shame, anger, fear and jealousy."
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Shame and guilt",
+      "competency": "EMO-104.L01",
+      "outcome": "Explain shame and guilt in the context of shame, anger, fear and jealousy.",
+      "estimated_minutes": 60,
+      "sequence": 1,
+      "prerequisite_lessons": [],
+      "reading": [
+        "emo-ref-7",
+        "men-ref-3"
+      ],
+      "teaching_focus": "Shame and guilt",
+      "worked_example_brief": "Use a realistic fictional case involving shame and guilt; show reasoning, a contrasting case and limitations.",
+      "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to scenario response portfolio.",
+      "knowledge_check": "Explain shame and guilt from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of shame and guilt; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L02",
+      "title": "Anger fear and jealousy",
+      "competency": "EMO-104.L02",
+      "outcome": "Compare and distinguish anger fear and jealousy in the context of shame, anger, fear and jealousy.",
+      "estimated_minutes": 60,
+      "sequence": 2,
+      "prerequisite_lessons": [
+        "L01"
+      ],
+      "reading": [
+        "emo-ref-7",
+        "men-ref-3"
+      ],
+      "teaching_focus": "Anger fear and jealousy",
+      "worked_example_brief": "Use a realistic fictional case involving anger fear and jealousy; show reasoning, a contrasting case and limitations.",
+      "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to scenario response portfolio.",
+      "knowledge_check": "Explain anger fear and jealousy from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of anger fear and jealousy; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L03",
+      "title": "Needs versus control",
+      "competency": "EMO-104.L03",
+      "outcome": "Apply needs versus control in the context of shame, anger, fear and jealousy.",
+      "estimated_minutes": 60,
+      "sequence": 3,
+      "prerequisite_lessons": [
+        "L02"
+      ],
+      "reading": [
+        "emo-ref-7",
+        "men-ref-3"
+      ],
+      "teaching_focus": "Needs versus control",
+      "worked_example_brief": "Use a realistic fictional case involving needs versus control; show reasoning, a contrasting case and limitations.",
+      "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to scenario response portfolio.",
+      "knowledge_check": "Explain needs versus control from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of needs versus control; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "competency": "EMO-104.L04",
+      "outcome": "Evaluate and justify decisions about repair in the context of shame, anger, fear and jealousy.",
+      "estimated_minutes": 60,
+      "sequence": 4,
+      "prerequisite_lessons": [
+        "L03"
+      ],
+      "reading": [
+        "emo-ref-7",
+        "men-ref-3"
+      ],
+      "teaching_focus": "Repair",
+      "worked_example_brief": "Use a realistic fictional case involving repair; show reasoning, a contrasting case and limitations.",
+      "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to scenario response portfolio.",
+      "knowledge_check": "Explain repair from memory and apply it to a different example; state one limitation.",
+      "evidence_criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits.",
+      "content_status": "not_authored"
+    }
+  ],
+  "assessment": {
+    "artifact": "Scenario response portfolio",
+    "mode": "fictional case or supervised evidence",
+    "criteria": [
+      {
+        "competency": "EMO-104.L01",
+        "criterion": "Accurate explanation of shame and guilt; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-104.L02",
+        "criterion": "Accurate explanation of anger fear and jealousy; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-104.L03",
+        "criterion": "Accurate explanation of needs versus control; correct application to a new case; clear rationale and limits."
+      },
+      {
+        "competency": "EMO-104.L04",
+        "criterion": "Accurate explanation of repair; correct application to a new case; clear rationale and limits."
+      }
+    ],
+    "threshold": "All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review.",
+    "alternate_evidence": "Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.",
+    "reviewer": "psychology reviewer"
+  },
+  "safety": {
+    "review_required": true,
+    "notes": "Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication."
+  }
+}
