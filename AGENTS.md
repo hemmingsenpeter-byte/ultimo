@@ -14,3 +14,6 @@ Before writing, read curriculum/<ID>/syllabus.json and framework/lesson-standard
 
 ## v0.3 content validation
 The foundation semester is a reference implementation. Run python tools/validate_content.py after any content change. Retain draft status until the editorial gates are met. Reference-located is not source-checked; replace paragraph-level source maps with precise claim-level citations during independent review. Keep original exercises clearly distinct from validated findings. Do not promote any course to approved merely because structural checks pass.
+
+## v0.4 platform workflow
+The browser app consumes generated curriculum.json; never hand-edit dist. Keep canonical content and private learner state separate. No remote learner data, API keys, tracking or automatic competency awards. Preserve accessibility and data portability. Run Python and Node tests plus app module syntax check before merging. Treat deployment configuration and independent academic review as separate gates. See platform/README.md.

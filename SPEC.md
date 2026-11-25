@@ -1,4 +1,4 @@
-# Ultimo — Master specification v0.3
+# Ultimo — Master specification v0.4
 Status: framework defined for 134 courses; ten authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
@@ -40,7 +40,7 @@ Public curriculum only. Future student data in a separate private datastore with
 v0.1: framework, catalogue, first draft course, local renderer and tests. Gate: validator and local build pass; owner reviews specification.
 v0.2: 134 course syllabuses, 536 lesson blueprints, mapped competency rubrics, reading candidates, course assessments and prerequisite-ordered pathways. Framework coverage implemented; validation and independent review are gates, not assumed complete.
 v0.3: ten substantive first-semester courses; independent reviews and student pilot.
-v0.4: accessible website, private progress, framework library and export adapter proof.
+v0.4: static student application, local progress and evidence records, searchable libraries and platform-neutral JSON export; deployment, accessibility validation and standards adapters remain separate gates.
 v0.5: curriculum-grounded AI tutor with provenance, refusal boundaries and evals.
 v0.7: evidence portfolios, mentor review and tested progression engine.
 v1.0: complete foundation programme, validated assessments, accessibility and privacy review.
@@ -63,3 +63,6 @@ The four lessons of INT-101 remain intact as draft content. No new lessons are a
 ## v0.3 teaching semester
 
 The first ten courses are listed in pathways/semester-one.json and semester-one.md. Forty complete draft lesson files, companion formative assessment records and draft reference maps, plus course capstones, are now present. The original INT-101 draft lessons have been expanded to the common authoring format. The remaining 124 courses have blueprints, not authored lessons. All ten courses are explicitly draft and still need source-level verification, subject review, safety review as appropriate, pilot testing and editorial expansion. The reference maps link core teaching paragraphs to located references, not certified sentence-level evidence. The 58 indicative study hours exclude extended practice and should be recalibrated during learner pilots. No LMS or competency certification is deployed.
+
+## v0.4 student application
+The Python compiler produces public curriculum.json from canonical records, with authored lesson sections, formative questions, evidence criteria and sources. A dependency-free HTML/CSS/JavaScript frontend provides course and syllabus browsing, a dashboard, self-checked quizzes, prerequisite-aware study planning, spaced reviews, searchable libraries, per-lesson rubrics and a local evidence portfolio. Client data is versioned, validated on import, exportable and erasable. Local browser storage is not encryption or an authenticated multi-user datastore; do not collect confidential data. Completion and self-assessment are not verified competence. No AI tutor or automated assessor. Future framework interactions, human review, SCORM/CASE adapters and accessibility audits remain pending. Deployment requires choosing a hosting target and configuring its account. See platform/README.md.

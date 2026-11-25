@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.4 — Student application pilot
+
+- Responsive, dependency-free static learning interface; all catalogue entries searchable, ten authored courses readable.
+- Dashboard, formative quiz self-checks, study planning and spaced reviews, source and framework libraries, rubric display and local evidence portfolio.
+- Versioned browser-local progress with validated import, export and deletion. No verified mastery or remote learner data.
+- Python compiler, platform tests, Node state tests, manual Pages deployment workflow and Render instructions.
+- Remaining: live deployment confirmation, browser/accessibility testing, independent academic review, authenticated sync, AI tutors and standards export adapters.
+
 ## v0.3 — Foundation semester (draft)
 
 - Ten authored courses spanning nine faculties; 40 lessons, 120 questions and ten capstones.

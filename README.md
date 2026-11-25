@@ -2,8 +2,9 @@
 
 An open curriculum for lifelong human development: capability, character, connection and flourishing.
 
-**v0.3 — foundation semester draft.** 16 faculties, 134 course syllabuses, 536 lesson blueprints, 537 competencies. Ten courses now contain 40 authored draft lessons, 120 knowledge-check questions and ten capstones. Not accredited; independent review pending.
+**v0.4 — student application pilot.** 16 faculties, 134 course syllabuses, 536 lesson blueprints, 537 competencies. Ten courses now contain 40 authored draft lessons, 120 knowledge-check questions and ten capstones. Not accredited; independent review pending.
 
+- [Student application and deployment guide](platform/README.md)
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
 - [Five-year pathway](pathways/five-year.md)
@@ -23,9 +24,10 @@ Requires Python 3.11+; no external packages.
     python tools/validate.py
     python tools/validate_framework.py
     python tools/validate_content.py
+    node tests/test_state.mjs
     python tools/build.py
     python -m http.server 8000 --directory dist
 
-Open http://localhost:8000. The static prototype renders plain text course material; it does not track learner progress. See SPEC.md for future Moodle, LiaScript and Astro adapters.
+Open http://localhost:8000. The application includes course search, lessons, formative quizzes, spaced review, a study planner, framework and reading libraries, and browser-local reading progress and practice notes. No cloud learner data or verified mastery. See platform/README.md for deployment and limitations.
 
 The existing MIT licence is retained. Additional content-licensing decisions are pending owner approval. Do not put private learner records, journals or credentials here.

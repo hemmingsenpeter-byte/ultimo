@@ -1,39 +1,77 @@
-"""Generate a portable static prototype. Markdown is escaped and shown as text."""
-import html
+"""Compile the canonical curriculum to a portable, dependency-free static site."""
 import json
+import re
+import shutil
 from pathlib import Path
-from validate import ROOT, validate
+if __package__:
+    from .validate import ROOT, validate
+    from .validate_framework import validate_framework
+    from .validate_content import validate_content
+else:
+    from validate import ROOT, validate
+    from validate_framework import validate_framework
+    from validate_content import validate_content
 
-def build():
-    validate()
-    out = ROOT / "dist"
-    out.mkdir(exist_ok=True)
-    faculties = json.loads((ROOT / "framework/faculties.json").read_text())
-    catalogue = json.loads((ROOT / "framework/catalogue.json").read_text())
-    def page(title, content):
-        return "<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>" + html.escape(title) + "</title><style>body{max-width:850px;margin:3rem auto;padding:0 1.2rem;font:17px/1.65 system-ui;color:#262722;background:#faf8f2}a{color:#315f50}pre{white-space:pre-wrap;font:inherit}h1{font-family:Georgia,serif}small{color:#555}</style><main>" + content + "</main></html>"
-    sections = ["<h1>Ultimo</h1><p>Open curriculum for lifelong human development.</p><p>Draft catalogue. Only linked courses contain learning materials.</p>"]
-    for faculty in faculties:
-        sections.append("<h2>" + html.escape(faculty["title"]) + "</h2><ul>")
-        for course in catalogue:
-            if course["faculty"] != faculty["id"]:
-                continue
-            cid = course["id"]
-            folder = ROOT / "curriculum" / cid
-            title = html.escape(cid + " — " + course["title"])
-            if (folder / "course.json").exists():
-                sections.append(f"<li><a href='{cid}.html'>{title}</a> <small>(draft)</small></li>")
-                data = json.loads((folder / "course.json").read_text())
-                docs = ["README.md"] + [x["path"] for x in data["lessons"]] + ["assessment.md"]
-                content = "<p><a href='index.html'>← Catalogue</a></p><h1>" + title + "</h1>"
-                for doc in docs:
-                    content += "<hr><pre>" + html.escape((folder / doc).read_text()) + "</pre>"
-                (out / (cid + ".html")).write_text(page(title, content), encoding="utf-8")
-            else:
-                sections.append("<li>" + title + " <small>(planned)</small></li>")
-        sections.append("</ul>")
-    (out / "index.html").write_text(page("Ultimo", "".join(sections)), encoding="utf-8")
-    print("Built dist/index.html")
+def read(path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+def extract_sections(text):
+    """Split known Markdown headings, withholding inline answer key from lesson display."""
+    text = re.sub(r"<details>.*?</details>", "", text, flags=re.S | re.I)
+    sections = []
+    current = {"title": "", "body": ""}
+    for line in text.splitlines():
+        if line.startswith("## ") or line.startswith("### "):
+            if current["body"].strip() or current["title"]:
+                sections.append(current)
+            current = {"title": line.lstrip("# ").strip(), "body": ""}
+        else:
+            current["body"] += line + "\n"
+    if current["body"].strip() or current["title"]:
+        sections.append(current)
+    return sections
+
+def compile_data(root=ROOT):
+    catalogue = read(root / "framework/catalogue.json")
+    courses = []
+    frameworks = []
+    for entry in catalogue:
+        folder = root / "curriculum" / entry["id"]
+        syllabus = read(folder / "syllabus.json")
+        authored = (folder / "course.json").is_file()
+        course = {**syllabus, "authored": authored}
+        if authored:
+            course["overview"] = (folder / "README.md").read_text(encoding="utf-8")
+            course["capstone"] = (folder / "assessment.md").read_text(encoding="utf-8")
+            for lesson in course["lessons"]:
+                lid = lesson["id"]
+                key = entry["id"] + "." + lid
+                lesson["sections"] = extract_sections((folder / (lid + ".md")).read_text(encoding="utf-8"))
+                lesson["assessment_record"] = read(folder / (lid + ".assessment.json"))
+                lesson["source_record"] = read(folder / (lid + ".sources.json"))
+                section = next((s["body"].strip() for s in lesson["sections"] if s["title"] == "Framework"), "")
+                if section:
+                    frameworks.append({"id": key, "course": entry["id"], "title": lesson["title"], "body": section, "status": "draft"})
+        courses.append(course)
+    return {"version": "0.4.0", "faculties": read(root / "framework/faculties.json"),
+            "courses": courses, "sources": read(root / "library/sources.json"),
+            "competencies": read(root / "framework/competencies.json"),
+            "levels": read(root / "framework/levels.json"), "frameworks": frameworks,
+            "pathway": read(root / "pathways/five-year.json"),
+            "semester": read(root / "pathways/semester-one.json")["courses"]}
+
+def build(root=ROOT, out=None):
+    validate(root)
+    validate_framework(root)
+    validate_content(root)
+    out = Path(out) if out is not None else root / "dist"
+    out.mkdir(parents=True, exist_ok=True)
+    for filename in ("index.html", "style.css", "app.js", "state.mjs"):
+        shutil.copyfile(root / "platform" / filename, out / filename)
+    data = compile_data(root)
+    (out / "curriculum.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"Built Ultimo {data['version']}: {len(data['courses'])} courses, {len(data['frameworks'])} draft frameworks.")
+    return data
 
 if __name__ == "__main__":
     build()
