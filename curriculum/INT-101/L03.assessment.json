@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L03",
+  "status": "draft",
+  "competency": "INT-101.L03",
+  "questions": [
+    {
+      "id": "INT-101.L03.Q1",
+      "competency": "INT-101.L03",
+      "prompt": "What makes feedback actionable?",
+      "answer": "A specific discrepancy and a next step.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L03.Q2",
+      "competency": "INT-101.L03",
+      "prompt": "Why use a contrasting case?",
+      "answer": "It exposes limits and tests discrimination.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L03.Q3",
+      "competency": "INT-101.L03",
+      "prompt": "Does success on the identical problem establish transfer?",
+      "answer": "No; the solution may simply have been memorised.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of feedback and transfer; correct application to a new case; clear rationale and limits.",
+    "transfer": "Apply a concept to an unfamiliar professional or creative problem and explain which features transfer and which do not.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

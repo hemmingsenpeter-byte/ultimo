@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "COM-103.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Open questions invite elaboration; closed questions seek a bounded answer. Both are useful. Leading questions suggest the desired answer, while loaded questions embed an assumption. Questions can help people explain their view, but an interrogation can pressure them. Use fewer, relevant questions and allow the speaker to decline. In a sensitive context, ask permission before changing topic.",
+      "source_ids": [
+        "listen-study",
+        "question-study"
+      ],
+      "locators": [
+        {
+          "source_id": "listen-study",
+          "locator": "2014, initial interactions",
+          "limitations": "Context-specific, scripts are original examples"
+        },
+        {
+          "source_id": "question-study",
+          "locator": "2017, abstract; see 2025 correction",
+          "limitations": "Not a guarantee of liking"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

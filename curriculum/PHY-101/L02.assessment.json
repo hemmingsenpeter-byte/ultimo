@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L02",
+  "status": "draft",
+  "competency": "PHY-101.L02",
+  "questions": [
+    {
+      "id": "PHY-101.L02.Q1",
+      "competency": "PHY-101.L02",
+      "prompt": "What do tendons transmit?",
+      "answer": "Muscle force to attached structures.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L02.Q2",
+      "competency": "PHY-101.L02",
+      "prompt": "What is articular cartilage?",
+      "answer": "Tissue covering joint surfaces in synovial joints.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L02.Q3",
+      "competency": "PHY-101.L02",
+      "prompt": "Why does a ball-and-socket allow more axes than a hinge?",
+      "answer": "Its geometry permits broader rotational motion.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of joint anatomy; correct application to a new case; clear rationale and limits.",
+    "transfer": "Annotate a shoulder diagram with bones, joint type and one ordinary movement; do not attempt a loaded test.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

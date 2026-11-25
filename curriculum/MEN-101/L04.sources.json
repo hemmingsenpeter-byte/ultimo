@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Behaviour tracking is a measurement tool, not a verdict on character. Track opportunities and attempts separately: a missed action when its cue never occurred differs from a missed action despite the cue. Review a small sample cautiously. Self-reported automaticity and adherence are distinct. A seven-day trial can identify barriers, but cannot establish a durable habit or cause-and-effect. Adjust the design rather than punish missed days.",
+      "source_ids": [
+        "habit-lally",
+        "habit-plan"
+      ],
+      "locators": [
+        {
+          "source_id": "habit-lally",
+          "locator": "2010, automaticity trajectories",
+          "limitations": "Observational study; no fixed timetable"
+        },
+        {
+          "source_id": "habit-plan",
+          "locator": "1999, publication description",
+          "limitations": "Context-dependent, not a guarantee"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

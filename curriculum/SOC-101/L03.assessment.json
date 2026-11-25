@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L03",
+  "status": "draft",
+  "competency": "SOC-101.L03",
+  "questions": [
+    {
+      "id": "SOC-101.L03.Q1",
+      "competency": "SOC-101.L03",
+      "prompt": "What is repair for?",
+      "answer": "Restoring understanding or addressing harm.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L03.Q2",
+      "competency": "SOC-101.L03",
+      "prompt": "Does an apology require forgiveness?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L03.Q3",
+      "competency": "SOC-101.L03",
+      "prompt": "Why ask a clarification?",
+      "answer": "To avoid assuming meaning or intent.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of conversational repair; correct application to a new case; clear rationale and limits.",
+    "transfer": "Create a fictional dialogue where a misunderstood phrase is corrected and both people can move on or end the exchange.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

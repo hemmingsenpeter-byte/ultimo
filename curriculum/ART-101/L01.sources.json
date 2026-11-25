@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Observation in drawing means looking at actual relationships rather than relying on a symbolic idea of an object. Positive space contains the subject; negative space surrounds or sits between its parts. Both contribute to the composition. Drawing a gap can reveal alignment errors because the gap has a shape of its own. Contours describe boundaries, not every interior detail. These are drawing methods, not claims about artistic worth or a preferred style.",
+      "source_ids": [
+        "art-elements"
+      ],
+      "locators": [
+        {
+          "source_id": "art-elements",
+          "locator": "Web guide, elements and principles",
+          "limitations": "Not universal criteria for artistic worth"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

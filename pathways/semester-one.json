@@ -1,0 +1,16 @@
+{
+  "id": "foundation-semester-v0.3",
+  "status": "draft",
+  "courses": [
+    "INT-101",
+    "BIO-101",
+    "PHY-101",
+    "INT-103",
+    "MEN-101",
+    "EMO-101",
+    "COM-103",
+    "SOC-101",
+    "FIN-101",
+    "ART-101"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Movement observation begins with what can be seen: task, starting position, joint motion, timing and conditions. A description differs from a judgement about normality or injury. People vary in anatomy, experience and task strategy. A video cannot directly reveal tissue forces, pain causes or medical diagnoses. Use observations to ask useful questions and seek qualified guidance where needed; do not require painful or high-load demonstrations.",
+      "source_ids": [
+        "anatomy-motion",
+        "anatomy-levers"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-motion",
+          "locator": "2022, section 9.5",
+          "limitations": "Not a diagnostic movement screen"
+        },
+        {
+          "source_id": "anatomy-levers",
+          "locator": "2022, section 11.1",
+          "limitations": "Simplified lever models, not exact tissue forces"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

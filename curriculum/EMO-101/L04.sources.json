@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A response can acknowledge an emotion while choosing behaviour consistent with values and context. Regulation does not mean suppressing every feeling or always staying calm. In ordinary disagreements, options include asking a clarifying question, expressing a concern, delaying a response with an agreed return time, or seeking support. In unsafe situations, prioritise distance and help rather than conflict skills. The appropriate option depends on urgency, power and safety.",
+      "source_ids": [
+        "emotion-review",
+        "emotion-reg"
+      ],
+      "locators": [
+        {
+          "source_id": "emotion-review",
+          "locator": "1998, abstract and process model",
+          "limitations": "Review, not a diagnostic instrument"
+        },
+        {
+          "source_id": "emotion-reg",
+          "locator": "1998, abstract",
+          "limitations": "Laboratory experiment, not universal clinical advice"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

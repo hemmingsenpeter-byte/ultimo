@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Open questions allow another person to choose how much detail to provide. Follow-up questions connect to what the person just said; they differ from a checklist of unrelated topics. Research has linked question-asking, particularly follow-ups, with interpersonal liking in studied conversations, but liking is not a guaranteed outcome and the original paper has a correction. The goal here is mutual understanding, not manipulating approval. Offer your own relevant contributions and respect unwillingness to answer.",
+      "source_ids": [
+        "question-study",
+        "question-correction"
+      ],
+      "locators": [
+        {
+          "source_id": "question-study",
+          "locator": "2017, abstract; see 2025 correction",
+          "limitations": "Not a guarantee of liking"
+        },
+        {
+          "source_id": "question-correction",
+          "locator": "2025, correction notice",
+          "limitations": "Read with original study"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L04",
+  "status": "draft",
+  "competency": "INT-103.L04",
+  "questions": [
+    {
+      "id": "INT-103.L04.Q1",
+      "competency": "INT-103.L04",
+      "prompt": "What is the base rate in the worked example?",
+      "answer": "1%.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L04.Q2",
+      "competency": "INT-103.L04",
+      "prompt": "Why not use 90% as probability of defect given flag?",
+      "answer": "That is detection given defect, the reverse conditional.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L04.Q3",
+      "competency": "INT-103.L04",
+      "prompt": "What happens with many false positives?",
+      "answer": "The proportion of true positives among flags can be low.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of base rates; correct application to a new case; clear rationale and limits.",
+    "transfer": "Construct a frequency table for a fraud-alert example using fictional rates; explain why a flag is not proof of fraud.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

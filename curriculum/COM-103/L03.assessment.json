@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "COM-103.L03",
+  "status": "draft",
+  "competency": "COM-103.L03",
+  "questions": [
+    {
+      "id": "COM-103.L03.Q1",
+      "competency": "COM-103.L03",
+      "prompt": "Does fair summary require endorsing both claims?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L03.Q2",
+      "competency": "COM-103.L03",
+      "prompt": "What should uncertain facts be called?",
+      "answer": "Unresolved or unverified.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L03.Q3",
+      "competency": "COM-103.L03",
+      "prompt": "Who should be invited to correct the summary?",
+      "answer": "The people whose views are represented.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of fair summary; correct application to a new case; clear rationale and limits.",
+    "transfer": "Summarise a different disagreement, then write the strongest correction each side might make.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

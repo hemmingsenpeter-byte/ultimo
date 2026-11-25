@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L01",
+  "status": "draft",
+  "competency": "EMO-101.L01",
+  "questions": [
+    {
+      "id": "EMO-101.L01.Q1",
+      "competency": "EMO-101.L01",
+      "prompt": "Does a racing heart uniquely identify fear?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "EMO-101.L01.Q2",
+      "competency": "EMO-101.L01",
+      "prompt": "Why use tentative labels?",
+      "answer": "Experiences are ambiguous and individual.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "EMO-101.L01.Q3",
+      "competency": "EMO-101.L01",
+      "prompt": "Does naming an emotion guarantee relief?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of emotion labels; correct application to a new case; clear rationale and limits.",
+    "transfer": "Write a fictional emotion vocabulary map for a stressful and an enjoyable event, including uncertainty.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

@@ -1,12 +1,12 @@
 # Faculty and course index
 
-Every course has a syllabus. Only INT-101 has authored lessons.
+Every course has a syllabus. Ten courses have authored draft lessons; the other 124 have syllabuses only.
 
 ## Physical
 
 Build adaptable physical literacy and safe movement practice.
 
-- [PHY-101 — Anatomy and biomechanics](../curriculum/PHY-101/syllabus.md) · Year 1 · planned
+- [PHY-101 — Anatomy and biomechanics](../curriculum/PHY-101/syllabus.md) · Year 1 · draft
 - [PHY-102 — Strength and hypertrophy](../curriculum/PHY-102/syllabus.md) · Year 1 · planned
 - [PHY-103 — Cardiovascular conditioning](../curriculum/PHY-103/syllabus.md) · Year 1 · planned
 - [PHY-104 — Mobility and injury prevention](../curriculum/PHY-104/syllabus.md) · Year 1 · planned
@@ -18,7 +18,7 @@ Build adaptable physical literacy and safe movement practice.
 
 Understand body systems, health information and healthcare decisions without self-diagnosis.
 
-- [BIO-101 — Human biology](../curriculum/BIO-101/syllabus.md) · Year 1 · planned
+- [BIO-101 — Human biology](../curriculum/BIO-101/syllabus.md) · Year 1 · draft
 - [BIO-102 — Nutrition and metabolism](../curriculum/BIO-102/syllabus.md) · Year 1 · planned
 - [BIO-103 — Sleep](../curriculum/BIO-103/syllabus.md) · Year 1 · planned
 - [BIO-104 — Endocrinology and male physiology](../curriculum/BIO-104/syllabus.md) · Year 2 · planned
@@ -31,7 +31,7 @@ Understand body systems, health information and healthcare decisions without sel
 
 Build sustainable attention, habits and coping skills; recognise when support is needed.
 
-- [MEN-101 — Habits](../curriculum/MEN-101/syllabus.md) · Year 1 · planned
+- [MEN-101 — Habits](../curriculum/MEN-101/syllabus.md) · Year 1 · draft
 - [MEN-102 — Attention and concentration](../curriculum/MEN-102/syllabus.md) · Year 1 · planned
 - [MEN-103 — Motivation and procrastination](../curriculum/MEN-103/syllabus.md) · Year 1 · planned
 - [MEN-104 — Compulsive behaviour](../curriculum/MEN-104/syllabus.md) · Year 2 · planned
@@ -43,7 +43,7 @@ Build sustainable attention, habits and coping skills; recognise when support is
 
 Recognise, interpret and respond to emotions with autonomy and care.
 
-- [EMO-101 — Emotional identification](../curriculum/EMO-101/syllabus.md) · Year 1 · planned
+- [EMO-101 — Emotional identification](../curriculum/EMO-101/syllabus.md) · Year 1 · draft
 - [EMO-102 — Personality and temperament](../curriculum/EMO-102/syllabus.md) · Year 2 · planned
 - [EMO-103 — Emotional regulation](../curriculum/EMO-103/syllabus.md) · Year 2 · planned
 - [EMO-104 — Shame, anger, fear and jealousy](../curriculum/EMO-104/syllabus.md) · Year 2 · planned
@@ -58,7 +58,7 @@ Reason independently, evaluate evidence, model complexity and learn transferable
 
 - [INT-101 — Learning how to learn](../curriculum/INT-101/syllabus.md) · Year 1 · draft
 - [INT-102 — Logic and argument](../curriculum/INT-102/syllabus.md) · Year 1 · planned
-- [INT-103 — Probability and statistics](../curriculum/INT-103/syllabus.md) · Year 1 · planned
+- [INT-103 — Probability and statistics](../curriculum/INT-103/syllabus.md) · Year 1 · draft
 - [INT-104 — Scientific reasoning](../curriculum/INT-104/syllabus.md) · Year 1 · planned
 - [INT-105 — Cognitive biases](../curriculum/INT-105/syllabus.md) · Year 2 · planned
 - [INT-106 — Systems thinking](../curriculum/INT-106/syllabus.md) · Year 2 · planned
@@ -70,7 +70,7 @@ Reason independently, evaluate evidence, model complexity and learn transferable
 
 Build reciprocal connection, confidence, inclusion and social judgement without manipulation.
 
-- [SOC-101 — Conversation](../curriculum/SOC-101/syllabus.md) · Year 1 · planned
+- [SOC-101 — Conversation](../curriculum/SOC-101/syllabus.md) · Year 1 · draft
 - [SOC-102 — Social awareness](../curriculum/SOC-102/syllabus.md) · Year 2 · planned
 - [SOC-103 — Friendship and community](../curriculum/SOC-103/syllabus.md) · Year 2 · planned
 - [SOC-104 — Social confidence](../curriculum/SOC-104/syllabus.md) · Year 2 · planned
@@ -98,7 +98,7 @@ Communicate meaning accurately, listen and negotiate ethically across contexts.
 
 - [COM-101 — Speech and voice](../curriculum/COM-101/syllabus.md) · Year 1 · planned
 - [COM-102 — Writing](../curriculum/COM-102/syllabus.md) · Year 1 · planned
-- [COM-103 — Listening and questioning](../curriculum/COM-103/syllabus.md) · Year 1 · planned
+- [COM-103 — Listening and questioning](../curriculum/COM-103/syllabus.md) · Year 1 · draft
 - [COM-104 — Storytelling](../curriculum/COM-104/syllabus.md) · Year 2 · planned
 - [COM-105 — Rhetoric and public speaking](../curriculum/COM-105/syllabus.md) · Year 2 · planned
 - [COM-106 — Negotiation](../curriculum/COM-106/syllabus.md) · Year 2 · planned
@@ -110,7 +110,7 @@ Communicate meaning accurately, listen and negotiate ethically across contexts.
 
 Understand money, risk and stewardship; make informed fictional financial comparisons.
 
-- [FIN-101 — Budget and balance sheet](../curriculum/FIN-101/syllabus.md) · Year 1 · planned
+- [FIN-101 — Budget and balance sheet](../curriculum/FIN-101/syllabus.md) · Year 1 · draft
 - [FIN-102 — Debt and credit](../curriculum/FIN-102/syllabus.md) · Year 1 · planned
 - [FIN-103 — Tax and insurance](../curriculum/FIN-103/syllabus.md) · Year 2 · planned
 - [FIN-104 — Financial psychology](../curriculum/FIN-104/syllabus.md) · Year 2 · planned
@@ -139,7 +139,7 @@ Create, deliver and improve value responsibly across careers, enterprise and tec
 
 Develop observation, creative craft, cultural literacy and aesthetic judgement.
 
-- [ART-101 — Drawing and observation](../curriculum/ART-101/syllabus.md) · Year 1 · planned
+- [ART-101 — Drawing and observation](../curriculum/ART-101/syllabus.md) · Year 1 · draft
 - [ART-102 — Music](../curriculum/ART-102/syllabus.md) · Year 2 · planned
 - [ART-103 — Literature and poetry](../curriculum/ART-103/syllabus.md) · Year 2 · planned
 - [ART-104 — Photography](../curriculum/ART-104/syllabus.md) · Year 2 · planned

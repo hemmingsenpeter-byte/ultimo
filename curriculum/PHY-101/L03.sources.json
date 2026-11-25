@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Muscles exert forces that may produce rotation about joints. Torque equals force times perpendicular moment arm in the simple static model. A longer external moment arm increases external torque for the same force. Muscles may act as agonists, antagonists or stabilisers depending on the task. Actual joint loads include muscle forces, acceleration and multiple segments, so a simple lever calculation is not a clinical assessment or personalised training prescription.",
+      "source_ids": [
+        "anatomy-levers"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-levers",
+          "locator": "2022, section 11.1",
+          "limitations": "Simplified lever models, not exact tissue forces"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

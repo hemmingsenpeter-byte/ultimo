@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L01",
+  "status": "draft",
+  "competency": "PHY-101.L01",
+  "questions": [
+    {
+      "id": "PHY-101.L01.Q1",
+      "competency": "PHY-101.L01",
+      "prompt": "Which plane divides left and right?",
+      "answer": "Sagittal.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L01.Q2",
+      "competency": "PHY-101.L01",
+      "prompt": "What movement takes a limb away from the midline?",
+      "answer": "Abduction in the relevant context.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L01.Q3",
+      "competency": "PHY-101.L01",
+      "prompt": "Are all movements single-plane?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of planes of motion; correct application to a new case; clear rationale and limits.",
+    "transfer": "Describe a fictional diagonal reaching task using at least two joint actions and explain the limits of a single-plane model.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

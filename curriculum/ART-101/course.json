@@ -1,0 +1,43 @@
+{
+  "id": "ART-101",
+  "title": "Drawing and observation",
+  "faculty": "ART",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "ART-101.L01",
+    "ART-101.L02",
+    "ART-101.L03",
+    "ART-101.L04"
+  ],
+  "reading": [
+    "art-ref-1",
+    "art-ref-2",
+    "art-elements",
+    "art-space"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Observation and negative space",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Proportion",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Tone and composition",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Critique",
+      "path": "L04.md"
+    }
+  ]
+}

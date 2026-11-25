@@ -1,0 +1,46 @@
+{
+  "id": "INT-103",
+  "title": "Probability and statistics",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "competencies": [
+    "INT-103.L01",
+    "INT-103.L02",
+    "INT-103.L03",
+    "INT-103.L04"
+  ],
+  "reading": [
+    "int-ref-2",
+    "int-ref-6",
+    "stats-prob",
+    "stats-descriptive",
+    "stats-sampling"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Probability and events",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Descriptive statistics",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Sampling bias",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Base rates",
+      "path": "L04.md"
+    }
+  ]
+}

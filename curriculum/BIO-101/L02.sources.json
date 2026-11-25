@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Ventilation moves air into and out of the lungs. Gas exchange transfers oxygen and carbon dioxide across thin alveolar and capillary surfaces. Blood carries oxygen, largely bound to haemoglobin, to tissues. The right side of the heart pumps blood toward the lungs and the left side toward systemic tissues; blood returns through veins. Cells use oxygen in aerobic metabolism and produce carbon dioxide. This is a simplified loop: circulation also transports nutrients, hormones and heat.",
+      "source_ids": [
+        "anatomy-structure",
+        "anatomy-resp"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-structure",
+          "locator": "2022, section 1.2",
+          "limitations": "Simplified system descriptions"
+        },
+        {
+          "source_id": "anatomy-resp",
+          "locator": "2022, section 22.1",
+          "limitations": "Detailed circulation requires additional review"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

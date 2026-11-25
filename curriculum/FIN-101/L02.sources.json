@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A budget is a spending plan that assigns income to expenses, saving and other priorities. Start from after-tax income for cash planning, distinguish committed and discretionary costs, and include irregular items. A balance sheet separately lists what is owned and owed at a specific date. For a budget, subtract planned outflows from inflows; a deficit calls for review of options, not a moral judgement. Some expenses cannot be reduced without harm. Financial hardship may warrant free independent support.",
+      "source_ids": [
+        "money-budget"
+      ],
+      "locators": [
+        {
+          "source_id": "money-budget",
+          "locator": "Web guide, income and expenses",
+          "limitations": "Fictional calculations"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

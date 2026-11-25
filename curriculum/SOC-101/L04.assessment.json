@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L04",
+  "status": "draft",
+  "competency": "SOC-101.L04",
+  "questions": [
+    {
+      "id": "SOC-101.L04.Q1",
+      "competency": "SOC-101.L04",
+      "prompt": "Is a future invitation required?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L04.Q2",
+      "competency": "SOC-101.L04",
+      "prompt": "How should refusal be handled?",
+      "answer": "Respect it without pressure.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L04.Q3",
+      "competency": "SOC-101.L04",
+      "prompt": "What does a clear transition accomplish?",
+      "answer": "It signals closure without ambiguity.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of closing respectfully; correct application to a new case; clear rationale and limits.",
+    "transfer": "Role-play a five-minute conversation with an optional future invitation and a gracious response to refusal.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

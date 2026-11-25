@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Stress testing asks how a budget behaves when assumptions change. Construct plausible scenarios rather than predicting one future: lower income, higher essential costs, or a one-off expense. Calculate the new surplus, identify which obligations are fixed, and consider safe options such as support or a revised plan. A financial buffer can absorb some shocks, but it is finite. Use scenarios to reveal fragility, not to prescribe investment or debt decisions.",
+      "source_ids": [
+        "money-budget",
+        "money-buffer"
+      ],
+      "locators": [
+        {
+          "source_id": "money-budget",
+          "locator": "Web guide, income and expenses",
+          "limitations": "Fictional calculations"
+        },
+        {
+          "source_id": "money-buffer",
+          "locator": "Web guide, emergency buffer",
+          "limitations": "Not individual advice"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

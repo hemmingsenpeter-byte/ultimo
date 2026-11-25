@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L04",
+  "status": "draft",
+  "competency": "MEN-101.L04",
+  "questions": [
+    {
+      "id": "MEN-101.L04.Q1",
+      "competency": "MEN-101.L04",
+      "prompt": "What distinguishes adherence from automaticity?",
+      "answer": "Doing the action versus how automatically it occurs.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L04.Q2",
+      "competency": "MEN-101.L04",
+      "prompt": "Why count cue opportunities?",
+      "answer": "To distinguish plan failure from missing contexts.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L04.Q3",
+      "competency": "MEN-101.L04",
+      "prompt": "What can seven days establish?",
+      "answer": "Early feasibility and barriers, not durable mastery.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of iteration; correct application to a new case; clear rationale and limits.",
+    "transfer": "Run the seven-day capstone with a private or fictional log, revise one variable, and compare with a second trial.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

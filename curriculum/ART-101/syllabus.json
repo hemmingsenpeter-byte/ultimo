@@ -4,7 +4,7 @@
   "title": "Drawing and observation",
   "faculty": "ART",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
@@ -12,7 +12,9 @@
   "prerequisites": [],
   "reading": [
     "art-ref-1",
-    "art-ref-2"
+    "art-ref-2",
+    "art-elements",
+    "art-space"
   ],
   "competencies": [
     "ART-101.L01",
@@ -37,14 +39,15 @@
       "prerequisite_lessons": [],
       "reading": [
         "art-ref-1",
-        "art-ref-2"
+        "art-ref-2",
+        "art-elements"
       ],
       "teaching_focus": "Observation and negative space",
       "worked_example_brief": "Use a realistic fictional case involving observation and negative space; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to drawing portfolio.",
       "knowledge_check": "Explain observation and negative space from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of observation and negative space; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -58,14 +61,16 @@
       ],
       "reading": [
         "art-ref-1",
-        "art-ref-2"
+        "art-ref-2",
+        "art-elements",
+        "art-space"
       ],
       "teaching_focus": "Proportion",
       "worked_example_brief": "Use a realistic fictional case involving proportion; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to drawing portfolio.",
       "knowledge_check": "Explain proportion from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of proportion; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -79,14 +84,15 @@
       ],
       "reading": [
         "art-ref-1",
-        "art-ref-2"
+        "art-ref-2",
+        "art-elements"
       ],
       "teaching_focus": "Tone and composition",
       "worked_example_brief": "Use a realistic fictional case involving tone and composition; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to drawing portfolio.",
       "knowledge_check": "Explain tone and composition from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of tone and composition; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -100,14 +106,15 @@
       ],
       "reading": [
         "art-ref-1",
-        "art-ref-2"
+        "art-ref-2",
+        "art-elements"
       ],
       "teaching_focus": "Critique",
       "worked_example_brief": "Use a realistic fictional case involving critique; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to drawing portfolio.",
       "knowledge_check": "Explain critique from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of critique; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

@@ -1,0 +1,44 @@
+{
+  "id": "EMO-101",
+  "title": "Emotional identification",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "EMO-101.L01",
+    "EMO-101.L02",
+    "EMO-101.L03",
+    "EMO-101.L04"
+  ],
+  "reading": [
+    "emo-ref-1",
+    "emo-ref-2",
+    "emotion-review",
+    "emotion-label",
+    "emotion-reg"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Emotion labels",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Event and interpretation",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Needs",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Response choices",
+      "path": "L04.md"
+    }
+  ]
+}

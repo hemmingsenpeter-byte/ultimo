@@ -34,7 +34,7 @@ class FrameworkTests(unittest.TestCase):
         self.mutate("curriculum/INT-101/syllabus.json", lambda s: s["assessment"]["criteria"].pop())
 
     def test_false_authorship(self):
-        self.mutate("curriculum/PHY-101/syllabus.json", lambda s: s["lessons"][0].update(content_status="draft"))
+        self.mutate("curriculum/PHY-102/syllabus.json", lambda s: s["lessons"][0].update(content_status="draft"))
 
     def test_missing_pathway_course(self):
         self.mutate("pathways/five-year.json", lambda y: y[0]["courses"].pop())

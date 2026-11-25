@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L03",
+  "status": "draft",
+  "competency": "ART-101.L03",
+  "questions": [
+    {
+      "id": "ART-101.L03.Q1",
+      "competency": "ART-101.L03",
+      "prompt": "What is value?",
+      "answer": "Relative lightness or darkness.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L03.Q2",
+      "competency": "ART-101.L03",
+      "prompt": "Can asymmetry be balanced?",
+      "answer": "Yes.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L03.Q3",
+      "competency": "ART-101.L03",
+      "prompt": "Why simplify to three tones?",
+      "answer": "To inspect broad value relationships before detail.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of tone and composition; correct application to a new case; clear rationale and limits.",
+    "transfer": "Create a tonal study with an explicit composition intention and compare it to a deliberately different arrangement.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

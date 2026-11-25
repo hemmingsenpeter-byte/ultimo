@@ -1,0 +1,47 @@
+{
+  "id": "FIN-101",
+  "title": "Budget and balance sheet",
+  "faculty": "FIN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "competencies": [
+    "FIN-101.L01",
+    "FIN-101.L02",
+    "FIN-101.L03",
+    "FIN-101.L04"
+  ],
+  "reading": [
+    "fin-ref-7",
+    "fin-ref-1",
+    "money-goals",
+    "money-budget",
+    "money-track",
+    "money-buffer"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Financial stocks and flows",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Budget and balance sheet",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Irregular expenses",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Stress testing",
+      "path": "L04.md"
+    }
+  ]
+}

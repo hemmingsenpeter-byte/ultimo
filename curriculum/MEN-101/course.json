@@ -1,0 +1,45 @@
+{
+  "id": "MEN-101",
+  "title": "Habits",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "competencies": [
+    "MEN-101.L01",
+    "MEN-101.L02",
+    "MEN-101.L03",
+    "MEN-101.L04"
+  ],
+  "reading": [
+    "men-ref-1",
+    "men-ref-4",
+    "habit-lally",
+    "habit-plan"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Cues and routines",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Environmental friction",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Implementation intentions",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Iteration",
+      "path": "L04.md"
+    }
+  ]
+}

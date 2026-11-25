@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Homeostasis is regulation of internal conditions within functional ranges, not absolute constancy. Negative feedback counteracts deviations: a sensor detects change, a coordinating process compares or responds, and effectors alter the condition. Positive feedback amplifies a process until a terminating event, as in some physiological cascades. Real regulation is distributed, with multiple interacting signals, and a measured value cannot diagnose a disease without clinical context.",
+      "source_ids": [
+        "anatomy-home"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-home",
+          "locator": "2022, section 1.5",
+          "limitations": "Simplified feedback models, not diagnosis"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -1,0 +1,46 @@
+{
+  "id": "BIO-101",
+  "title": "Human biology",
+  "faculty": "BIO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "BIO-101.L01",
+    "BIO-101.L02",
+    "BIO-101.L03",
+    "BIO-101.L04"
+  ],
+  "reading": [
+    "bio-ref-1",
+    "phy-ref-1",
+    "anatomy-structure",
+    "anatomy-tissue",
+    "anatomy-resp",
+    "anatomy-digest",
+    "anatomy-home"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Cells and tissues",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Circulation and respiration",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Digestion and kidneys",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Homeostasis",
+      "path": "L04.md"
+    }
+  ]
+}

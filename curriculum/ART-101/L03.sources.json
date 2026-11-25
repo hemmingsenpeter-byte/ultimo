@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Value describes how light or dark a tone appears. Contrast is the difference between elements; strong contrast can attract attention, though placement and context also matter. Composition organises visual elements into relationships. Balance concerns distribution of visual weight and can be symmetrical or asymmetrical. A simple value study using a few tones makes large patterns easier to inspect before adding detail. There is no universal rule that every image needs a central focal point.",
+      "source_ids": [
+        "art-elements"
+      ],
+      "locators": [
+        {
+          "source_id": "art-elements",
+          "locator": "Web guide, elements and principles",
+          "limitations": "Not universal criteria for artistic worth"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

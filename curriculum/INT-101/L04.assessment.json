@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L04",
+  "status": "draft",
+  "competency": "INT-101.L04",
+  "questions": [
+    {
+      "id": "INT-101.L04.Q1",
+      "competency": "INT-101.L04",
+      "prompt": "What is a baseline for?",
+      "answer": "It identifies initial performance for comparison.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L04.Q2",
+      "competency": "INT-101.L04",
+      "prompt": "What does an error log reveal?",
+      "answer": "Recurring misconceptions or recall gaps.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L04.Q3",
+      "competency": "INT-101.L04",
+      "prompt": "Why repeat on another topic?",
+      "answer": "To test transfer and consistency rather than one successful attempt.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of build your own learning system; correct application to a new case; clear rationale and limits.",
+    "transfer": "Complete the seven-day capstone and repeat it on another topic before claiming independent competence.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

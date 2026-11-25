@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L01",
+  "status": "draft",
+  "competency": "INT-103.L01",
+  "questions": [
+    {
+      "id": "INT-103.L01.Q1",
+      "competency": "INT-103.L01",
+      "prompt": "What is a sample space?",
+      "answer": "All possible outcomes in the specified model.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L01.Q2",
+      "competency": "INT-103.L01",
+      "prompt": "Can mutually exclusive positive-probability events be independent?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L01.Q3",
+      "competency": "INT-103.L01",
+      "prompt": "What is P(not A) if P(A)=0.3?",
+      "answer": "0.7.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of probability and events; correct application to a new case; clear rationale and limits.",
+    "transfer": "Create a probability table for drawing one card from a fictional bag with unequal colours and explain assumptions.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

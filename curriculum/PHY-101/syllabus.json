@@ -4,7 +4,7 @@
   "title": "Anatomy and biomechanics",
   "faculty": "PHY",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
@@ -14,7 +14,11 @@
   ],
   "reading": [
     "phy-ref-1",
-    "phy-ref-2"
+    "phy-ref-2",
+    "anatomy-terms",
+    "anatomy-motion",
+    "anatomy-joints",
+    "anatomy-levers"
   ],
   "competencies": [
     "PHY-101.L01",
@@ -39,14 +43,16 @@
       "prerequisite_lessons": [],
       "reading": [
         "phy-ref-1",
-        "phy-ref-2"
+        "phy-ref-2",
+        "anatomy-terms",
+        "anatomy-motion"
       ],
       "teaching_focus": "Planes of motion",
       "worked_example_brief": "Use a realistic fictional case involving planes of motion; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to annotated movement map.",
       "knowledge_check": "Explain planes of motion from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of planes of motion; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -60,14 +66,15 @@
       ],
       "reading": [
         "phy-ref-1",
-        "phy-ref-2"
+        "phy-ref-2",
+        "anatomy-joints"
       ],
       "teaching_focus": "Joint anatomy",
       "worked_example_brief": "Use a realistic fictional case involving joint anatomy; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to annotated movement map.",
       "knowledge_check": "Explain joint anatomy from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of joint anatomy; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -81,14 +88,15 @@
       ],
       "reading": [
         "phy-ref-1",
-        "phy-ref-2"
+        "phy-ref-2",
+        "anatomy-levers"
       ],
       "teaching_focus": "Muscle leverage",
       "worked_example_brief": "Use a realistic fictional case involving muscle leverage; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to annotated movement map.",
       "knowledge_check": "Explain muscle leverage from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of muscle leverage; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -102,14 +110,16 @@
       ],
       "reading": [
         "phy-ref-1",
-        "phy-ref-2"
+        "phy-ref-2",
+        "anatomy-motion",
+        "anatomy-levers"
       ],
       "teaching_focus": "Movement observation",
       "worked_example_brief": "Use a realistic fictional case involving movement observation; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to annotated movement map.",
       "knowledge_check": "Explain movement observation from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of movement observation; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

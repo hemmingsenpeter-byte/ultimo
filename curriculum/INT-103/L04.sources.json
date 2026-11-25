@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A base rate is the prevalence of an event in a relevant population before considering new evidence. Conditional probability asks about an event given information. Confusing P(positive given condition) with P(condition given positive) is a common error. Natural-frequency tables help because every number has a denominator. The following example is hypothetical and not medical advice; real tests require clinical interpretation.",
+      "source_ids": [
+        "stats-prob"
+      ],
+      "locators": [
+        {
+          "source_id": "stats-prob",
+          "locator": "2023, chapter 3 key terms",
+          "limitations": "Introductory probability; fictional examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "An implementation intention links a defined situation to an intended action, often expressed as if-then. It differs from a goal intention: 'I want to read more' describes a desired outcome; 'if I finish lunch, I read one page' identifies an opportunity and action. Research supports implementation intentions in many settings, but they do not guarantee success and can be poorly suited to unpredictable situations. Include a realistic fallback that maintains autonomy.",
+      "source_ids": [
+        "habit-plan"
+      ],
+      "locators": [
+        {
+          "source_id": "habit-plan",
+          "locator": "1999, publication description",
+          "limitations": "Context-dependent, not a guarantee"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

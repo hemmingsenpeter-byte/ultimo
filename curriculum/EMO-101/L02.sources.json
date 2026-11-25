@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Events, interpretations, feelings and actions are analytically distinct even though they can influence each other rapidly. An event is observable information; interpretation is the meaning assigned; a feeling is subjective experience; an action is behaviour. Appraisals can vary between people and across contexts. This educational distinction is not a claim that every emotion is preceded by a conscious thought. Recognising alternative interpretations can prevent premature certainty; it must never be used to dismiss credible danger.",
+      "source_ids": [
+        "emotion-review"
+      ],
+      "locators": [
+        {
+          "source_id": "emotion-review",
+          "locator": "1998, abstract and process model",
+          "limitations": "Review, not a diagnostic instrument"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

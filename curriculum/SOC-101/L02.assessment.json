@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L02",
+  "status": "draft",
+  "competency": "SOC-101.L02",
+  "questions": [
+    {
+      "id": "SOC-101.L02.Q1",
+      "competency": "SOC-101.L02",
+      "prompt": "Does silence necessarily indicate disinterest?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L02.Q2",
+      "competency": "SOC-101.L02",
+      "prompt": "What matters more than equal seconds?",
+      "answer": "Meaningful room to participate.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L02.Q3",
+      "competency": "SOC-101.L02",
+      "prompt": "How can you repair interruption?",
+      "answer": "Acknowledge and invite the person to finish.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of turn-taking; correct application to a new case; clear rationale and limits.",
+    "transfer": "Review a fictional group exchange and identify two opportunities to make participation easier without forcing anyone to speak.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L01",
+  "status": "draft",
+  "competency": "SOC-101.L01",
+  "questions": [
+    {
+      "id": "SOC-101.L01.Q1",
+      "competency": "SOC-101.L01",
+      "prompt": "What distinguishes a follow-up?",
+      "answer": "It responds to previous content.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L01.Q2",
+      "competency": "SOC-101.L01",
+      "prompt": "Do questions guarantee liking?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "SOC-101.L01.Q3",
+      "competency": "SOC-101.L01",
+      "prompt": "Why contribute your own experience?",
+      "answer": "Conversation is reciprocal.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of open questions; correct application to a new case; clear rationale and limits.",
+    "transfer": "Design three possible conversation starters for a community event and one respectful response to a short answer.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

@@ -1,13 +1,12 @@
 # FIN-101 — Budget and balance sheet
 
-Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 1; Level 2 guided practice; Level 3 extension; 6 indicative study hours. [Read the course](README.md).
 
 ## Prerequisites
-- [INT-101 — Learning how to learn](../INT-101/syllabus.md)
+- [INT-101](../INT-101/syllabus.md)
 
-## Lesson blueprints
-
-### L01 — Financial stocks and flows
+## Lesson blueprints and authored materials
+### [L01 — Financial stocks and flows](L01.md)
 
 - **Outcome:** Explain financial stocks and flows in the context of budget and balance sheet.
 - **Example brief:** Use a realistic fictional case involving financial stocks and flows; show reasoning, a contrasting case and limitations.
@@ -15,8 +14,9 @@ Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice,
 - **Knowledge check:** Explain financial stocks and flows from memory and apply it to a different example; state one limitation.
 - **Evidence:** Accurate explanation of financial stocks and flows; correct application to a new case; clear rationale and limits.
 - **Competency ID:** `FIN-101.L01`
+- [Assessment](L01.assessment.json) · [Source map](L01.sources.json)
 
-### L02 — Budget and balance sheet
+### [L02 — Budget and balance sheet](L02.md)
 
 - **Outcome:** Compare and distinguish budget and balance sheet in the context of budget and balance sheet.
 - **Example brief:** Use a realistic fictional case involving budget and balance sheet; show reasoning, a contrasting case and limitations.
@@ -24,8 +24,9 @@ Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice,
 - **Knowledge check:** Explain budget and balance sheet from memory and apply it to a different example; state one limitation.
 - **Evidence:** Accurate explanation of budget and balance sheet; correct application to a new case; clear rationale and limits.
 - **Competency ID:** `FIN-101.L02`
+- [Assessment](L02.assessment.json) · [Source map](L02.sources.json)
 
-### L03 — Irregular expenses
+### [L03 — Irregular expenses](L03.md)
 
 - **Outcome:** Apply irregular expenses in the context of budget and balance sheet.
 - **Example brief:** Use a realistic fictional case involving irregular expenses; show reasoning, a contrasting case and limitations.
@@ -33,8 +34,9 @@ Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice,
 - **Knowledge check:** Explain irregular expenses from memory and apply it to a different example; state one limitation.
 - **Evidence:** Accurate explanation of irregular expenses; correct application to a new case; clear rationale and limits.
 - **Competency ID:** `FIN-101.L03`
+- [Assessment](L03.assessment.json) · [Source map](L03.sources.json)
 
-### L04 — Stress testing
+### [L04 — Stress testing](L04.md)
 
 - **Outcome:** Evaluate and justify decisions about stress testing in the context of budget and balance sheet.
 - **Example brief:** Use a realistic fictional case involving stress testing; show reasoning, a contrasting case and limitations.
@@ -42,18 +44,17 @@ Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice,
 - **Knowledge check:** Explain stress testing from memory and apply it to a different example; state one limitation.
 - **Evidence:** Accurate explanation of stress testing; correct application to a new case; clear rationale and limits.
 - **Competency ID:** `FIN-101.L04`
+- [Assessment](L04.assessment.json) · [Source map](L04.sources.json)
 
-## Reading candidates
+## Reading candidates and references
 - Sorted financial education — Te Ara Ahunga Ora Retirement Commission (https://sorted.org.nz/)
 - The Psychology of Money — Morgan Housel
-
-Sources are reading candidates pending claim and chapter review; books are not substitutes for original lessons.
+- Sorted: How to set money goals in NZ — Sorted (https://sorted.org.nz/guides/planning-and-budgeting/setting-goals/)
+- Sorted: How to build a budget step by step — Sorted (https://sorted.org.nz/guides/planning-and-budgeting/how-to-build-a-budget-step-by-step/)
+- Sorted: Where does your money go? — Sorted (https://sorted.org.nz/guides/planning-and-budgeting/money-tracking/)
+- Sorted: Start your emergency fund — Sorted (https://sorted.org.nz/6-steps-to-get-your-money-sorted/start-your-emergency-fund/)
 
 ## Assessment
-**Artifact:** Fictional household budget.
-
-All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review. Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.
+Fictional household budget. All mapped criteria at level 2; no averaging away missing criteria. Level 3 requires independent novel application, delayed reassessment and appropriate review. Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required.
 
 **Review:** financial/legal reviewer. Draft educational framework only. Use fictional cases; no personal diagnosis, prescription, hazardous practice, financial/legal instruction or unqualified certification. Obtain qualified/local review before publication.
-
-[Machine-readable syllabus](syllabus.json) · [Programme index](../../framework/faculty-index.md)

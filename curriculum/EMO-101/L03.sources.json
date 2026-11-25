@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Emotions can draw attention to concerns, but the underlying need is a hypothesis to explore, not something reliably decoded from a single label. Frustration might relate to clarity, fairness, rest or an unmet expectation. Needs differ from demands: wanting predictability does not entitle someone to control another person's schedule. Name the concern and consider options that preserve both parties' choices. Some emotions have multiple causes and require no immediate resolution.",
+      "source_ids": [
+        "emotion-review"
+      ],
+      "locators": [
+        {
+          "source_id": "emotion-review",
+          "locator": "1998, abstract and process model",
+          "limitations": "Review, not a diagnostic instrument"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

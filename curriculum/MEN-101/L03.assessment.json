@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L03",
+  "status": "draft",
+  "competency": "MEN-101.L03",
+  "questions": [
+    {
+      "id": "MEN-101.L03.Q1",
+      "competency": "MEN-101.L03",
+      "prompt": "How does an if-then plan differ from a goal?",
+      "answer": "It links a situation with an action.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L03.Q2",
+      "competency": "MEN-101.L03",
+      "prompt": "Why include a fallback?",
+      "answer": "To accommodate predictable disruption.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L03.Q3",
+      "competency": "MEN-101.L03",
+      "prompt": "Is the action compulsory when circumstances change?",
+      "answer": "No; revise or skip safely.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of implementation intentions; correct application to a new case; clear rationale and limits.",
+    "transfer": "Design a fallback for a fictional shift worker whose work schedule changes daily.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

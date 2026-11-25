@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L01",
+  "status": "draft",
+  "competency": "INT-101.L01",
+  "questions": [
+    {
+      "id": "INT-101.L01.Q1",
+      "competency": "INT-101.L01",
+      "prompt": "What distinguishes recall from recognition?",
+      "answer": "Recall reconstructs without seeing the answer; recognition identifies a presented answer.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L01.Q2",
+      "competency": "INT-101.L01",
+      "prompt": "Why delay a test?",
+      "answer": "Immediate fluency can exaggerate durable retention.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L01.Q3",
+      "competency": "INT-101.L01",
+      "prompt": "What does a novel problem test?",
+      "answer": "Whether the idea can be applied beyond the original example.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of learning versus familiarity; correct application to a new case; clear rationale and limits.",
+    "transfer": "Select an unfamiliar concept from a different field and test it again tomorrow without notes; record both recall and application.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

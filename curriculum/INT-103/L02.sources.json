@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "The mean adds values and divides by their count. The median is the middle ordered value (or mean of the two middle values). Range is maximum minus minimum; standard deviation describes dispersion around the mean. Measures answer different questions. The mean can be influenced by extreme values; the median is less sensitive to their magnitude. Always state units and sample definition. A single summary can conceal skew, clusters or unusual cases.",
+      "source_ids": [
+        "stats-descriptive"
+      ],
+      "locators": [
+        {
+          "source_id": "stats-descriptive",
+          "locator": "2023, section 2.8",
+          "limitations": "Choice of measure depends on context"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L02",
+  "status": "draft",
+  "competency": "INT-101.L02",
+  "questions": [
+    {
+      "id": "INT-101.L02.Q1",
+      "competency": "INT-101.L02",
+      "prompt": "What makes a retrieval attempt genuine?",
+      "answer": "Try before viewing notes.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L02.Q2",
+      "competency": "INT-101.L02",
+      "prompt": "Is day 3 universally optimal?",
+      "answer": "No; timing depends on the goal and material.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-101.L02.Q3",
+      "competency": "INT-101.L02",
+      "prompt": "What should happen after an incorrect answer?",
+      "answer": "Check a reliable source, correct it and schedule another attempt.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of retrieval and spaced practice; correct application to a new case; clear rationale and limits.",
+    "transfer": "Build a review calendar for a different topic and explain why the interval may need adjusting.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

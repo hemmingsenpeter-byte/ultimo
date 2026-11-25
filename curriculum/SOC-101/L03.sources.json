@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Conversational repair addresses a misunderstanding, interruption or awkward moment. It often begins by acknowledging uncertainty or your own contribution rather than defending an assumed interpretation. Clarifying questions can distinguish meaning from intent. If harm occurred, acknowledge it specifically and change behaviour; an apology does not demand forgiveness. Ordinary conversational repair is not a substitute for safety in threatening situations.",
+      "source_ids": [
+        "listen-study"
+      ],
+      "locators": [
+        {
+          "source_id": "listen-study",
+          "locator": "2014, initial interactions",
+          "limitations": "Context-specific, scripts are original examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

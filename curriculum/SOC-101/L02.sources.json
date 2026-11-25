@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Turn-taking allows participants to contribute and respond. Signals such as pauses, phrasing and direct invitations can help, but vary across languages, cultures and individuals. Some overlaps express enthusiasm rather than rudeness; some silences allow thinking. Do not infer interest from eye contact or speed alone. A useful aim is mutual intelligibility and room to participate, not equal seconds of speech.",
+      "source_ids": [
+        "listen-study"
+      ],
+      "locators": [
+        {
+          "source_id": "listen-study",
+          "locator": "2014, initial interactions",
+          "limitations": "Context-specific, scripts are original examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

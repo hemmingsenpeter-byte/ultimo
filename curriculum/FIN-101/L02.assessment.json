@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L02",
+  "status": "draft",
+  "competency": "FIN-101.L02",
+  "questions": [
+    {
+      "id": "FIN-101.L02.Q1",
+      "competency": "FIN-101.L02",
+      "prompt": "Why use after-tax income?",
+      "answer": "It reflects available cash.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L02.Q2",
+      "competency": "FIN-101.L02",
+      "prompt": "What is a deficit?",
+      "answer": "Outflows exceed inflows for the period.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L02.Q3",
+      "competency": "FIN-101.L02",
+      "prompt": "What is the difference between budget and balance sheet?",
+      "answer": "A period plan versus a point-in-time snapshot.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of budget and balance sheet; correct application to a new case; clear rationale and limits.",
+    "transfer": "Design an alternative budget for variable income without assuming every month equals the average.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Cells are living units with a membrane that regulates exchange and internal machinery that performs functions. Specialised cells form tissues; tissues combine into organs and organs into systems. Epithelial tissue lines surfaces, connective tissue supports and connects, muscle tissue contracts, and nervous tissue communicates. An organ typically contains multiple tissue types. Anatomy describes structures; physiology describes functions. The distinction helps explain why a change in tissue structure may affect an organ's performance.",
+      "source_ids": [
+        "anatomy-structure",
+        "anatomy-tissue"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-structure",
+          "locator": "2022, section 1.2",
+          "limitations": "Simplified system descriptions"
+        },
+        {
+          "source_id": "anatomy-tissue",
+          "locator": "2022, section 4.1",
+          "limitations": "Introductory tissue classification"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L04",
+  "status": "draft",
+  "competency": "PHY-101.L04",
+  "questions": [
+    {
+      "id": "PHY-101.L04.Q1",
+      "competency": "PHY-101.L04",
+      "prompt": "What distinguishes observation from diagnosis?",
+      "answer": "Observation describes visible facts; diagnosis requires appropriate clinical evaluation.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L04.Q2",
+      "competency": "PHY-101.L04",
+      "prompt": "Name two contextual factors.",
+      "answer": "Chair height and body proportions, for example.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "PHY-101.L04.Q3",
+      "competency": "PHY-101.L04",
+      "prompt": "Can a camera show exact tissue forces?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of movement observation; correct application to a new case; clear rationale and limits.",
+    "transfer": "Complete the course movement map with a second example, noting when qualified assessment is necessary.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

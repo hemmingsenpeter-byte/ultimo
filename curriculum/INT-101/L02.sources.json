@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Retrieval strengthens access to studied material by requiring an attempt to remember, whereas spacing distributes attempts over time. In research on learning techniques, practice testing and distributed practice show broad utility. Their effect depends on content, timing, prior knowledge and the test. Use corrective feedback so mistakes do not remain unchallenged. A schedule of day 1, 3, 7 and 30 is a starting plan, not an empirically universal optimum. A card asking why or how can test understanding better than a card containing only a definition.",
+      "source_ids": [
+        "learn-review",
+        "learn-test"
+      ],
+      "locators": [
+        {
+          "source_id": "learn-review",
+          "locator": "2013, review of practice testing, spacing and self-explanation",
+          "limitations": "Broad review; no universal schedule or guarantee of transfer"
+        },
+        {
+          "source_id": "learn-test",
+          "locator": "2006, abstract and delayed retention",
+          "limitations": "Specific prose learning tasks"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

@@ -11,3 +11,6 @@ Do not add personal records, secrets, scraped books or unlicensed text. Never cl
 
 ## v0.2 authoring workflow
 Before writing, read curriculum/<ID>/syllabus.json and framework/lesson-standard.md, assessment-policy.md and review-policy.md. The four lesson IDs and outcomes are canonical; do not generate placeholder lessons or alter scope without review. Add actual lesson, assessment and source-map files, then update syllabus and catalogue content statuses together as appropriate. Preserve the existing course schema for authored course records and validate both layers. Run python tools/validate_framework.py in addition to prior tests. Syllabus.md is a readable mirror; update it with the canonical JSON. Open one focused PR per course/faculty. Framework coverage is not academic approval.
+
+## v0.3 content validation
+The foundation semester is a reference implementation. Run python tools/validate_content.py after any content change. Retain draft status until the editorial gates are met. Reference-located is not source-checked; replace paragraph-level source maps with precise claim-level citations during independent review. Keep original exercises clearly distinct from validated findings. Do not promote any course to approved merely because structural checks pass.

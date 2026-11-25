@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Environmental friction is a practical design heuristic: effort, time and interruptions can make a behaviour less convenient. Changing the surroundings may make a desired action easier to start. It does not remove structural constraints such as long work hours or caring duties. Avoid equating convenience with moral virtue; the goal is to reduce unnecessary barriers and preserve choice. A change should be reversible and safe.",
+      "source_ids": [
+        "habit-lally"
+      ],
+      "locators": [
+        {
+          "source_id": "habit-lally",
+          "locator": "2010, automaticity trajectories",
+          "limitations": "Observational study; no fixed timetable"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

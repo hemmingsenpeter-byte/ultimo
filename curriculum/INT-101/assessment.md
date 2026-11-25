@@ -1,18 +1,22 @@
-# Assessment — seven-day learning cycle
+# INT-101 — Practical assessment
 
-Submit privately: baseline, five retrieval questions, a schedule, three documented attempts, corrections, delayed test and novel application. Include a short reflection on what changed. A mentor can inspect an anonymised example if you choose.
+Draft; use private or fictional evidence.
 
-| Criterion | Level 1 | Level 2 | Level 3 evidence candidate |
+## Capstone
+
+Seven-day learning cycle: baseline, five questions, three spaced attempts, corrections, delayed test, novel application; repeat with another topic.
+
+## Rubric
+
+| Competency | Level 1 | Level 2 guided evidence | Level 3 independent extension |
 |---|---|---|---|
-| Concepts | Explains recall and spacing | Correctly applies both with a template | Explains trade-offs and independently chooses technique |
-| Practice | Describes a plan | Completes guided sessions and feedback | Executes and adapts independent plan |
-| Evaluation | Identifies a test | Completes delayed test and corrections | Uses delayed and novel tasks, interprets limitations |
-| Transfer | Explains transfer | Solves a guided novel case | Repeats independently across another topic |
+| L01: Learning versus familiarity | Explains the idea accurately | Distinguishes recognition and recall | Repeats this criterion in a novel case without prompts and justifies limitations. |
+| L02: Retrieval and spaced practice | Explains the idea accurately | uses spaced retrieval with corrections | Repeats this criterion in a novel case without prompts and justifies limitations. |
+| L03: Feedback and transfer | Explains the idea accurately | tests novel application and records misconception | Repeats this criterion in a novel case without prompts and justifies limitations. |
+| L04: Build your own learning system | Explains the idea accurately | revises plan using delayed results | Repeats this criterion in a novel case without prompts and justifies limitations. |
 
-Level 2 requires all four criteria at Level 2 or above. No aggregate score masks a missing criterion. Repeat across another topic with independent review for Level 3; a single week is not enough to certify mastery.
+All four criteria must reach Level 2; do not average away missing or safety-critical criteria. Knowledge checks are formative. Level 3 needs delayed independent evidence and appropriate review. Higher levels require repeated application and qualified judgement.
 
-### Answer guidance
-L01: delayed closed-book retrieval plus application; recognition alone is weak evidence.
-L02: spaced retrieval with feedback is generally better supported for retention, but prior knowledge, question quality and timing matter.
-L03: an identical task could show memorisation; a novel case probes transfer.
-L04: evaluate against the criteria, not time spent or perceived effort.
+## Feedback
+
+Submit artifact, assumptions, corrections and reflection privately. Reviewer identifies one strength, gap and next practice action. Retest the unmet criterion. Equivalent accessible written, oral, visual, simulated or supervised evidence; no personal disclosure required. Respect consent, privacy and applicable rules; source and subject review before publication.

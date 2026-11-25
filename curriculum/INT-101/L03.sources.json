@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Feedback describes the difference between intended and actual performance. Useful feedback specifies the error, offers a way to improve and is followed by a second attempt. Transfer is using learning outside the original exercise. Identical questions can reveal recall but not necessarily flexible application. Transfer is particularly difficult when the new situation shares an underlying structure but looks different. Self-explanation is a useful technique in some conditions; do not treat all forms of practice or feedback as equally effective.",
+      "source_ids": [
+        "learn-review"
+      ],
+      "locators": [
+        {
+          "source_id": "learn-review",
+          "locator": "2013, review of practice testing, spacing and self-explanation",
+          "limitations": "Broad review; no universal schedule or guarantee of transfer"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

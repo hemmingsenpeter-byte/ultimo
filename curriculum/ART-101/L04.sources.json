@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Art critique compares a work with its stated intention using observable features. Describe before interpreting: line, shape, proportion, value and space are evidence you can discuss. Then explain how those features contribute to the intended effect and propose a specific revision. A critique should distinguish craft objectives from subjective preference, cultural context and accessibility. Improvement is not necessarily making every drawing realistic.",
+      "source_ids": [
+        "art-elements"
+      ],
+      "locators": [
+        {
+          "source_id": "art-elements",
+          "locator": "Web guide, elements and principles",
+          "limitations": "Not universal criteria for artistic worth"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

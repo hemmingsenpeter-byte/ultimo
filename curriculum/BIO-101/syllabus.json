@@ -4,7 +4,7 @@
   "title": "Human biology",
   "faculty": "BIO",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
@@ -12,7 +12,12 @@
   "prerequisites": [],
   "reading": [
     "bio-ref-1",
-    "phy-ref-1"
+    "phy-ref-1",
+    "anatomy-structure",
+    "anatomy-tissue",
+    "anatomy-resp",
+    "anatomy-digest",
+    "anatomy-home"
   ],
   "competencies": [
     "BIO-101.L01",
@@ -37,14 +42,16 @@
       "prerequisite_lessons": [],
       "reading": [
         "bio-ref-1",
-        "phy-ref-1"
+        "phy-ref-1",
+        "anatomy-structure",
+        "anatomy-tissue"
       ],
       "teaching_focus": "Cells and tissues",
       "worked_example_brief": "Use a realistic fictional case involving cells and tissues; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to organ-system diagram.",
       "knowledge_check": "Explain cells and tissues from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of cells and tissues; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -58,14 +65,16 @@
       ],
       "reading": [
         "bio-ref-1",
-        "phy-ref-1"
+        "phy-ref-1",
+        "anatomy-structure",
+        "anatomy-resp"
       ],
       "teaching_focus": "Circulation and respiration",
       "worked_example_brief": "Use a realistic fictional case involving circulation and respiration; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to organ-system diagram.",
       "knowledge_check": "Explain circulation and respiration from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of circulation and respiration; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -79,14 +88,16 @@
       ],
       "reading": [
         "bio-ref-1",
-        "phy-ref-1"
+        "phy-ref-1",
+        "anatomy-digest",
+        "anatomy-structure"
       ],
       "teaching_focus": "Digestion and kidneys",
       "worked_example_brief": "Use a realistic fictional case involving digestion and kidneys; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to organ-system diagram.",
       "knowledge_check": "Explain digestion and kidneys from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of digestion and kidneys; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -100,14 +111,15 @@
       ],
       "reading": [
         "bio-ref-1",
-        "phy-ref-1"
+        "phy-ref-1",
+        "anatomy-home"
       ],
       "teaching_focus": "Homeostasis",
       "worked_example_brief": "Use a realistic fictional case involving homeostasis; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to organ-system diagram.",
       "knowledge_check": "Explain homeostasis from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of homeostasis; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "COM-103.L04",
+  "status": "draft",
+  "competency": "COM-103.L04",
+  "questions": [
+    {
+      "id": "COM-103.L04.Q1",
+      "competency": "COM-103.L04",
+      "prompt": "What makes consent meaningful?",
+      "answer": "A real option to decline without undue pressure.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L04.Q2",
+      "competency": "COM-103.L04",
+      "prompt": "Why consider power?",
+      "answer": "People may feel unable to refuse someone with authority.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L04.Q3",
+      "competency": "COM-103.L04",
+      "prompt": "What should you record?",
+      "answer": "Only necessary information with appropriate permission.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of consent-based questioning; correct application to a new case; clear rationale and limits.",
+    "transfer": "Create a fictional meeting script with a permission question, a neutral prompt and a response to refusal.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

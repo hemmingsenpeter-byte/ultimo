@@ -4,7 +4,7 @@
   "title": "Emotional identification",
   "faculty": "EMO",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
@@ -12,7 +12,10 @@
   "prerequisites": [],
   "reading": [
     "emo-ref-1",
-    "emo-ref-2"
+    "emo-ref-2",
+    "emotion-review",
+    "emotion-label",
+    "emotion-reg"
   ],
   "competencies": [
     "EMO-101.L01",
@@ -37,14 +40,16 @@
       "prerequisite_lessons": [],
       "reading": [
         "emo-ref-1",
-        "emo-ref-2"
+        "emo-ref-2",
+        "emotion-review",
+        "emotion-label"
       ],
       "teaching_focus": "Emotion labels",
       "worked_example_brief": "Use a realistic fictional case involving emotion labels; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to fictional emotion map.",
       "knowledge_check": "Explain emotion labels from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of emotion labels; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -58,14 +63,15 @@
       ],
       "reading": [
         "emo-ref-1",
-        "emo-ref-2"
+        "emo-ref-2",
+        "emotion-review"
       ],
       "teaching_focus": "Event and interpretation",
       "worked_example_brief": "Use a realistic fictional case involving event and interpretation; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to fictional emotion map.",
       "knowledge_check": "Explain event and interpretation from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of event and interpretation; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -79,14 +85,15 @@
       ],
       "reading": [
         "emo-ref-1",
-        "emo-ref-2"
+        "emo-ref-2",
+        "emotion-review"
       ],
       "teaching_focus": "Needs",
       "worked_example_brief": "Use a realistic fictional case involving needs; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to fictional emotion map.",
       "knowledge_check": "Explain needs from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of needs; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -100,14 +107,16 @@
       ],
       "reading": [
         "emo-ref-1",
-        "emo-ref-2"
+        "emo-ref-2",
+        "emotion-review",
+        "emotion-reg"
       ],
       "teaching_focus": "Response choices",
       "worked_example_brief": "Use a realistic fictional case involving response choices; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to fictional emotion map.",
       "knowledge_check": "Explain response choices from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of response choices; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

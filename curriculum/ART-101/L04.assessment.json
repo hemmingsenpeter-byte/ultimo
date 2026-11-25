@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L04",
+  "status": "draft",
+  "competency": "ART-101.L04",
+  "questions": [
+    {
+      "id": "ART-101.L04.Q1",
+      "competency": "ART-101.L04",
+      "prompt": "What makes critique actionable?",
+      "answer": "Specific observable evidence and a testable revision.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L04.Q2",
+      "competency": "ART-101.L04",
+      "prompt": "Is realism the only criterion?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L04.Q3",
+      "competency": "ART-101.L04",
+      "prompt": "Why state intention first?",
+      "answer": "It gives a basis for evaluating choices.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of critique; correct application to a new case; clear rationale and limits.",
+    "transfer": "Assemble four studies from the course, add annotations and revise one after voluntary peer or self-feedback.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

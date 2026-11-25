@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L01",
+  "status": "draft",
+  "competency": "MEN-101.L01",
+  "questions": [
+    {
+      "id": "MEN-101.L01.Q1",
+      "competency": "MEN-101.L01",
+      "prompt": "What is a contextual cue?",
+      "answer": "A recurring situation associated with a behaviour.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L01.Q2",
+      "competency": "MEN-101.L01",
+      "prompt": "Does repetition guarantee automaticity on day 21?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L01.Q3",
+      "competency": "MEN-101.L01",
+      "prompt": "Why define the behaviour precisely?",
+      "answer": "To observe whether it occurred and revise the plan.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of cues and routines; correct application to a new case; clear rationale and limits.",
+    "transfer": "Compare two possible cues for the same reading routine; explain which is more stable and why.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

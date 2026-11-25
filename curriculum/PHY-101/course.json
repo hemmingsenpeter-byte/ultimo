@@ -1,0 +1,47 @@
+{
+  "id": "PHY-101",
+  "title": "Anatomy and biomechanics",
+  "faculty": "PHY",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "BIO-101"
+  ],
+  "competencies": [
+    "PHY-101.L01",
+    "PHY-101.L02",
+    "PHY-101.L03",
+    "PHY-101.L04"
+  ],
+  "reading": [
+    "phy-ref-1",
+    "phy-ref-2",
+    "anatomy-terms",
+    "anatomy-motion",
+    "anatomy-joints",
+    "anatomy-levers"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Planes of motion",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Joint anatomy",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Muscle leverage",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Movement observation",
+      "path": "L04.md"
+    }
+  ]
+}

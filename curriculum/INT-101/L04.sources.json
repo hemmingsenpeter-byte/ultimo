@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A learning system converts a vague ambition into a testable goal, a baseline and manageable practice. It should specify what evidence would count as improvement before study begins. Use a small number of questions, spaced attempts, corrective feedback and a novel application. Keep an error log to distinguish misunderstanding from forgetting. Rest and workload are constraints, not moral tests. The seven-day cycle is an Ultimo design exercise, not a validated certification of mastery.",
+      "source_ids": [
+        "learn-review",
+        "learn-test"
+      ],
+      "locators": [
+        {
+          "source_id": "learn-review",
+          "locator": "2013, review of practice testing, spacing and self-explanation",
+          "limitations": "Broad review; no universal schedule or guarantee of transfer"
+        },
+        {
+          "source_id": "learn-test",
+          "locator": "2006, abstract and delayed retention",
+          "limitations": "Specific prose learning tasks"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

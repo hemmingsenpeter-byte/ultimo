@@ -13,7 +13,9 @@
   "reading": [
     "make-it-stick",
     "dunlosky-2013",
-    "roediger-karpicke-2006"
+    "roediger-karpicke-2006",
+    "learn-review",
+    "learn-test"
   ],
   "competencies": [
     "INT-101.L01",
@@ -39,7 +41,9 @@
       "reading": [
         "make-it-stick",
         "dunlosky-2013",
-        "roediger-karpicke-2006"
+        "roediger-karpicke-2006",
+        "learn-review",
+        "learn-test"
       ],
       "teaching_focus": "Learning versus familiarity",
       "worked_example_brief": "Use a realistic fictional case involving learning versus familiarity; show reasoning, a contrasting case and limitations.",
@@ -61,7 +65,9 @@
       "reading": [
         "make-it-stick",
         "dunlosky-2013",
-        "roediger-karpicke-2006"
+        "roediger-karpicke-2006",
+        "learn-review",
+        "learn-test"
       ],
       "teaching_focus": "Retrieval and spaced practice",
       "worked_example_brief": "Use a realistic fictional case involving retrieval and spaced practice; show reasoning, a contrasting case and limitations.",
@@ -83,7 +89,8 @@
       "reading": [
         "make-it-stick",
         "dunlosky-2013",
-        "roediger-karpicke-2006"
+        "roediger-karpicke-2006",
+        "learn-review"
       ],
       "teaching_focus": "Feedback and transfer",
       "worked_example_brief": "Use a realistic fictional case involving feedback and transfer; show reasoning, a contrasting case and limitations.",
@@ -105,7 +112,9 @@
       "reading": [
         "make-it-stick",
         "dunlosky-2013",
-        "roediger-karpicke-2006"
+        "roediger-karpicke-2006",
+        "learn-review",
+        "learn-test"
       ],
       "teaching_focus": "Build your own learning system",
       "worked_example_brief": "Use a realistic fictional case involving build your own learning system; show reasoning, a contrasting case and limitations.",

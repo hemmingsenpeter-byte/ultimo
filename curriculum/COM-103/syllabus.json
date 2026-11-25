@@ -4,14 +4,16 @@
   "title": "Listening and questioning",
   "faculty": "COM",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
   "estimated_hours": 6,
   "prerequisites": [],
   "reading": [
-    "com-ref-2"
+    "com-ref-2",
+    "listen-study",
+    "question-study"
   ],
   "competencies": [
     "COM-103.L01",
@@ -35,14 +37,15 @@
       "sequence": 1,
       "prerequisite_lessons": [],
       "reading": [
-        "com-ref-2"
+        "com-ref-2",
+        "listen-study"
       ],
       "teaching_focus": "Reflective listening",
       "worked_example_brief": "Use a realistic fictional case involving reflective listening; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to listening simulation.",
       "knowledge_check": "Explain reflective listening from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of reflective listening; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -55,14 +58,16 @@
         "L01"
       ],
       "reading": [
-        "com-ref-2"
+        "com-ref-2",
+        "listen-study",
+        "question-study"
       ],
       "teaching_focus": "Question types",
       "worked_example_brief": "Use a realistic fictional case involving question types; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to listening simulation.",
       "knowledge_check": "Explain question types from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of question types; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -75,14 +80,15 @@
         "L02"
       ],
       "reading": [
-        "com-ref-2"
+        "com-ref-2",
+        "listen-study"
       ],
       "teaching_focus": "Fair summary",
       "worked_example_brief": "Use a realistic fictional case involving fair summary; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to listening simulation.",
       "knowledge_check": "Explain fair summary from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of fair summary; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -95,14 +101,16 @@
         "L03"
       ],
       "reading": [
-        "com-ref-2"
+        "com-ref-2",
+        "listen-study",
+        "question-study"
       ],
       "teaching_focus": "Consent-based questioning",
       "worked_example_brief": "Use a realistic fictional case involving consent-based questioning; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to listening simulation.",
       "knowledge_check": "Explain consent-based questioning from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of consent-based questioning; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

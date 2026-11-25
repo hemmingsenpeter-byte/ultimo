@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L04",
+  "status": "draft",
+  "competency": "EMO-101.L04",
+  "questions": [
+    {
+      "id": "EMO-101.L04.Q1",
+      "competency": "EMO-101.L04",
+      "prompt": "Is emotional regulation the same as hiding feelings?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "EMO-101.L04.Q2",
+      "competency": "EMO-101.L04",
+      "prompt": "When should safety take priority?",
+      "answer": "When danger or coercion is credible.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "EMO-101.L04.Q3",
+      "competency": "EMO-101.L04",
+      "prompt": "Why review impact?",
+      "answer": "To learn whether the response served the goal and respected boundaries.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of response choices; correct application to a new case; clear rationale and limits.",
+    "transfer": "Write two possible responses to an unfamiliar situation, justify each, and identify a safety or referral boundary.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L02",
+  "status": "draft",
+  "competency": "MEN-101.L02",
+  "questions": [
+    {
+      "id": "MEN-101.L02.Q1",
+      "competency": "MEN-101.L02",
+      "prompt": "What is friction?",
+      "answer": "A barrier such as time, effort or extra steps.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L02.Q2",
+      "competency": "MEN-101.L02",
+      "prompt": "Why change one variable?",
+      "answer": "It makes interpretation of results easier.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "MEN-101.L02.Q3",
+      "competency": "MEN-101.L02",
+      "prompt": "Can friction fixes solve all barriers?",
+      "answer": "No; capacity and resources may require different changes.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of environmental friction; correct application to a new case; clear rationale and limits.",
+    "transfer": "Redesign a fictional kitchen routine without removing someone else's access or creating a hazard.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

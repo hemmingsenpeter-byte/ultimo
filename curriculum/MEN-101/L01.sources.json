@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Habits are learned tendencies for behaviour to occur in recurring contexts; not every repeated action is automatic. Context cues can become associated with a response over time. Lally and colleagues studied repeated everyday behaviours and found variability in automaticity trajectories; no fixed number of days guarantees a habit. A cue should be observable, frequent enough and connected to an action that is feasible. Motivation may help initiate a routine but is not a substitute for a workable environment.",
+      "source_ids": [
+        "habit-lally"
+      ],
+      "locators": [
+        {
+          "source_id": "habit-lally",
+          "locator": "2010, automaticity trajectories",
+          "limitations": "Observational study; no fixed timetable"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

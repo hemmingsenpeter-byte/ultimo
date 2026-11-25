@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Proportion is the size relationship between parts. Use comparative measurement: choose a reference unit, estimate other lengths relative to it, and check alignments. Perspective describes how spatial relationships appear from a viewpoint; distant equal-sized objects may appear smaller, and parallel lines receding in certain directions can appear to converge. Not every image follows linear perspective, and deliberate distortion may serve an artistic purpose.",
+      "source_ids": [
+        "art-elements",
+        "art-space"
+      ],
+      "locators": [
+        {
+          "source_id": "art-elements",
+          "locator": "Web guide, elements and principles",
+          "limitations": "Not universal criteria for artistic worth"
+        },
+        {
+          "source_id": "art-space",
+          "locator": "Web guide, space and perspective",
+          "limitations": "Linear perspective is one method"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

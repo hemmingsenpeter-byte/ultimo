@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Recognition is the feeling that material is familiar when it is in front of you. Recall is producing it without the material, while understanding involves explaining relationships and applying them in a new situation. These are distinct tests. Familiarity can increase during rereading without demonstrating durable learning. Retrieval practice has strong research support for delayed retention, but a correct answer can still be memorised without understanding. Use a novel problem as a second test. Separate immediate performance from learning that survives a delay.",
+      "source_ids": [
+        "learn-review",
+        "learn-test"
+      ],
+      "locators": [
+        {
+          "source_id": "learn-review",
+          "locator": "2013, review of practice testing, spacing and self-explanation",
+          "limitations": "Broad review; no universal schedule or guarantee of transfer"
+        },
+        {
+          "source_id": "learn-test",
+          "locator": "2006, abstract and delayed retention",
+          "limitations": "Specific prose learning tasks"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

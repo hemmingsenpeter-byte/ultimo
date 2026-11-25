@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L03",
+  "status": "draft",
+  "competency": "BIO-101.L03",
+  "questions": [
+    {
+      "id": "BIO-101.L03.Q1",
+      "competency": "BIO-101.L03",
+      "prompt": "Where does much nutrient absorption occur?",
+      "answer": "Small intestine.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L03.Q2",
+      "competency": "BIO-101.L03",
+      "prompt": "What do kidneys regulate?",
+      "answer": "Fluid, electrolytes and wastes among other functions.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L03.Q3",
+      "competency": "BIO-101.L03",
+      "prompt": "Is faecal elimination identical to urinary excretion?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of digestion and kidneys; correct application to a new case; clear rationale and limits.",
+    "transfer": "Compare the routes of an absorbed sugar molecule and an undigested fibre component in a simplified model.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

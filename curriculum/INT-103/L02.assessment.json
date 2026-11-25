@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L02",
+  "status": "draft",
+  "competency": "INT-103.L02",
+  "questions": [
+    {
+      "id": "INT-103.L02.Q1",
+      "competency": "INT-103.L02",
+      "prompt": "What is median for 3,7,9,20?",
+      "answer": "8.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L02.Q2",
+      "competency": "INT-103.L02",
+      "prompt": "What happens to mean when an extreme high value increases?",
+      "answer": "It increases.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "INT-103.L02.Q3",
+      "competency": "INT-103.L02",
+      "prompt": "Why show spread?",
+      "answer": "Centre alone hides variability.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of descriptive statistics; correct application to a new case; clear rationale and limits.",
+    "transfer": "Compare two fictional commute-time datasets with equal means and different spreads; explain why reliability differs.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

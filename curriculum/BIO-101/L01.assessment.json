@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L01",
+  "status": "draft",
+  "competency": "BIO-101.L01",
+  "questions": [
+    {
+      "id": "BIO-101.L01.Q1",
+      "competency": "BIO-101.L01",
+      "prompt": "What is a tissue?",
+      "answer": "A group of cells and associated material organised for functions.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L01.Q2",
+      "competency": "BIO-101.L01",
+      "prompt": "What distinguishes anatomy and physiology?",
+      "answer": "Structure and function respectively.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L01.Q3",
+      "competency": "BIO-101.L01",
+      "prompt": "Why can an organ contain multiple tissues?",
+      "answer": "Different specialised functions cooperate.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of cells and tissues; correct application to a new case; clear rationale and limits.",
+    "transfer": "Choose an organ from an anatomical reference and identify at least two tissue types and their roles.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

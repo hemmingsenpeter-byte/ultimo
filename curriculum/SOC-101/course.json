@@ -1,0 +1,44 @@
+{
+  "id": "SOC-101",
+  "title": "Conversation",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "SOC-101.L01",
+    "SOC-101.L02",
+    "SOC-101.L03",
+    "SOC-101.L04"
+  ],
+  "reading": [
+    "soc-ref-1",
+    "soc-ref-3",
+    "question-study",
+    "question-correction",
+    "listen-study"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Open questions",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Turn-taking",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Conversational repair",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Closing respectfully",
+      "path": "L04.md"
+    }
+  ]
+}

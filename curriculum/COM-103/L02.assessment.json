@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "COM-103.L02",
+  "status": "draft",
+  "competency": "COM-103.L02",
+  "questions": [
+    {
+      "id": "COM-103.L02.Q1",
+      "competency": "COM-103.L02",
+      "prompt": "When is a closed question useful?",
+      "answer": "To confirm a specific fact or choice.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L02.Q2",
+      "competency": "COM-103.L02",
+      "prompt": "What is a leading question?",
+      "answer": "One that steers the respondent toward an answer.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "COM-103.L02.Q3",
+      "competency": "COM-103.L02",
+      "prompt": "Why ask permission on sensitive topics?",
+      "answer": "To respect autonomy and boundaries.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of question types; correct application to a new case; clear rationale and limits.",
+    "transfer": "Design five questions for a fictional interview; label each open, closed or leading and revise the leading one.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

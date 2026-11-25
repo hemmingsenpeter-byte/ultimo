@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Emotions involve experience, appraisals, bodily responses and action tendencies, and people differ in how they label them. A racing heart can occur with excitement, fear, exertion or other causes; it is not proof of a particular emotion. A label is a tentative description, not a diagnosis. Research on affect labelling has investigated responses to emotional stimuli, but laboratory findings do not guarantee that naming an emotion will resolve distress. Practise descriptive vocabulary and allow uncertainty.",
+      "source_ids": [
+        "emotion-review",
+        "emotion-label"
+      ],
+      "locators": [
+        {
+          "source_id": "emotion-review",
+          "locator": "1998, abstract and process model",
+          "limitations": "Review, not a diagnostic instrument"
+        },
+        {
+          "source_id": "emotion-label",
+          "locator": "2007, abstract",
+          "limitations": "Laboratory neural responses do not guarantee relief"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

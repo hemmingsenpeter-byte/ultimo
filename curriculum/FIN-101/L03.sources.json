@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Irregular expenses occur less frequently than the budget period. Annual insurance, repairs or gifts may be predictable in amount or timing even when they do not recur monthly. A sinking-fund allocation spreads an expected cost across periods; an emergency buffer addresses uncertainty. Do not count the same saving transfer and later spending twice when consolidating accounts. Distinguish planned allocations from actual expenses and reconcile monthly.",
+      "source_ids": [
+        "money-track",
+        "money-buffer"
+      ],
+      "locators": [
+        {
+          "source_id": "money-track",
+          "locator": "Web guide, irregular expenses",
+          "limitations": "Estimates may differ from actual costs"
+        },
+        {
+          "source_id": "money-buffer",
+          "locator": "Web guide, emergency buffer",
+          "limitations": "Not individual advice"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

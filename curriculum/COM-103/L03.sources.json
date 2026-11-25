@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "COM-103.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A fair summary distinguishes established facts, each participant's position, areas of agreement and unresolved issues. It should represent viewpoints in terms their holders could recognise, without implying all claims have equal evidential weight. Separate interpretation from quotation, and ask participants to correct the summary. This is an educational meeting technique; it does not resolve every conflict or replace formal mediation.",
+      "source_ids": [
+        "listen-study"
+      ],
+      "locators": [
+        {
+          "source_id": "listen-study",
+          "locator": "2014, initial interactions",
+          "limitations": "Context-specific, scripts are original examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

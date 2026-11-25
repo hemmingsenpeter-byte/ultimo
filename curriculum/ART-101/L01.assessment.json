@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "ART-101.L01",
+  "status": "draft",
+  "competency": "ART-101.L01",
+  "questions": [
+    {
+      "id": "ART-101.L01.Q1",
+      "competency": "ART-101.L01",
+      "prompt": "What is negative space?",
+      "answer": "Space around or between subjects.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L01.Q2",
+      "competency": "ART-101.L01",
+      "prompt": "Why inspect gaps?",
+      "answer": "They reveal shape and alignment relationships.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "ART-101.L01.Q3",
+      "competency": "ART-101.L01",
+      "prompt": "Is stylisation necessarily an error?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of observation and negative space; correct application to a new case; clear rationale and limits.",
+    "transfer": "Make a second study of a chair or plant, focusing on gaps between parts rather than details.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

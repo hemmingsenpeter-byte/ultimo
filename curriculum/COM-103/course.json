@@ -1,0 +1,42 @@
+{
+  "id": "COM-103",
+  "title": "Listening and questioning",
+  "faculty": "COM",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [],
+  "competencies": [
+    "COM-103.L01",
+    "COM-103.L02",
+    "COM-103.L03",
+    "COM-103.L04"
+  ],
+  "reading": [
+    "com-ref-2",
+    "listen-study",
+    "question-study"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Reflective listening",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Question types",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Fair summary",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Consent-based questioning",
+      "path": "L04.md"
+    }
+  ]
+}

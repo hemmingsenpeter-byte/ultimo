@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L03",
+  "status": "draft",
+  "competency": "FIN-101.L03",
+  "questions": [
+    {
+      "id": "FIN-101.L03.Q1",
+      "competency": "FIN-101.L03",
+      "prompt": "What is a sinking fund for?",
+      "answer": "Expected future expenditure.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L03.Q2",
+      "competency": "FIN-101.L03",
+      "prompt": "What is the monthly allocation for $840 yearly?",
+      "answer": "$70.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L03.Q3",
+      "competency": "FIN-101.L03",
+      "prompt": "Why reconcile actual spending?",
+      "answer": "Estimates and actual costs can differ.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of irregular expenses; correct application to a new case; clear rationale and limits.",
+    "transfer": "Create an irregular-cost calendar with a high/low estimate and explain how it affects a fictional cash plan.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

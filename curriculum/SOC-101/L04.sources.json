@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-101.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "A respectful close recognises that conversations have constraints. Signal the transition clearly, acknowledge the exchange, and if appropriate offer a low-pressure next step. If the other person seems ready to leave, do not block or prolong the exchange. A future invitation should be optional; a polite goodbye is sufficient. Follow-up contact requires permission and context, especially when personal details are involved.",
+      "source_ids": [
+        "question-study",
+        "listen-study"
+      ],
+      "locators": [
+        {
+          "source_id": "question-study",
+          "locator": "2017, abstract; see 2025 correction",
+          "limitations": "Not a guarantee of liking"
+        },
+        {
+          "source_id": "listen-study",
+          "locator": "2014, initial interactions",
+          "limitations": "Context-specific, scripts are original examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

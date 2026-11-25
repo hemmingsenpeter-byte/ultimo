@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "PHY-101.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Anatomical position provides a shared reference for describing movement. The sagittal plane divides left and right, frontal divides anterior and posterior, and transverse divides superior and inferior portions. Flexion and extension generally occur in sagittal motion, abduction and adduction often in frontal motion, and axial rotation often in transverse motion. Actual tasks can involve multiple planes; a camera angle is not a movement plane. Use joint-specific description rather than assuming every body moves identically.",
+      "source_ids": [
+        "anatomy-terms",
+        "anatomy-motion"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-terms",
+          "locator": "2022, section 1.6",
+          "limitations": "Standard reference position and planes"
+        },
+        {
+          "source_id": "anatomy-motion",
+          "locator": "2022, section 9.5",
+          "limitations": "Not a diagnostic movement screen"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

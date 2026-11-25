@@ -1,5 +1,5 @@
-# Ultimo — Master specification v0.2
-Status: framework defined for all 134 courses; owner and subject review still required.
+# Ultimo — Master specification v0.3
+Status: framework defined for 134 courses; ten authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
 Develop a well-rounded adult who can live independently, think critically, care for others, create, contribute and enjoy life. The initial audience is adult men, but the curriculum is inclusive and does not prescribe a single life path, personality, relationship arrangement, body type or worldview. Character and agency matter more than status. Achievement is not human worth. Protect autonomy, rest, safety, privacy, consent and intellectual humility.
@@ -59,3 +59,7 @@ Content licence (existing MIT preserved; consider CC BY-SA for future original c
 - schemas/syllabus.schema.json and tools/validate_framework.py: blueprint contract and cross-record consistency checks.
 
 The four lessons of INT-101 remain intact as draft content. No new lessons are authored in this release. Default estimated study time is six hours per course (four lesson hours plus assessment) except INT-101 retains four hours plus its extended practice cycle. Programme sequencing is indicative and can be revised; yearly workload is intentionally not equal. The framework uses backward design (MIT Teaching + Learning Lab), retrieval/distributed practice research (Dunlosky et al.) and CAST UDL Guidelines 3.0. Sources are in library/sources.json. No claim of CASE certification or clinical accreditation.
+
+## v0.3 teaching semester
+
+The first ten courses are listed in pathways/semester-one.json and semester-one.md. Forty complete draft lesson files, companion formative assessment records and draft reference maps, plus course capstones, are now present. The original INT-101 draft lessons have been expanded to the common authoring format. The remaining 124 courses have blueprints, not authored lessons. All ten courses are explicitly draft and still need source-level verification, subject review, safety review as appropriate, pilot testing and editorial expansion. The reference maps link core teaching paragraphs to located references, not certified sentence-level evidence. The 58 indicative study hours exclude extended practice and should be recalibrated during learner pilots. No LMS or competency certification is deployed.

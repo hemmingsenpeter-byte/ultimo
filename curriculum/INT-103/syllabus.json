@@ -4,7 +4,7 @@
   "title": "Probability and statistics",
   "faculty": "INT",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 1,
   "target_level": 2,
   "extension_target_level": 3,
@@ -14,7 +14,10 @@
   ],
   "reading": [
     "int-ref-2",
-    "int-ref-6"
+    "int-ref-6",
+    "stats-prob",
+    "stats-descriptive",
+    "stats-sampling"
   ],
   "competencies": [
     "INT-103.L01",
@@ -39,14 +42,15 @@
       "prerequisite_lessons": [],
       "reading": [
         "int-ref-2",
-        "int-ref-6"
+        "int-ref-6",
+        "stats-prob"
       ],
       "teaching_focus": "Probability and events",
       "worked_example_brief": "Use a realistic fictional case involving probability and events; show reasoning, a contrasting case and limitations.",
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to worked probability and survey critique.",
       "knowledge_check": "Explain probability and events from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of probability and events; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -60,14 +64,15 @@
       ],
       "reading": [
         "int-ref-2",
-        "int-ref-6"
+        "int-ref-6",
+        "stats-descriptive"
       ],
       "teaching_focus": "Descriptive statistics",
       "worked_example_brief": "Use a realistic fictional case involving descriptive statistics; show reasoning, a contrasting case and limitations.",
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to worked probability and survey critique.",
       "knowledge_check": "Explain descriptive statistics from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of descriptive statistics; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -81,14 +86,15 @@
       ],
       "reading": [
         "int-ref-2",
-        "int-ref-6"
+        "int-ref-6",
+        "stats-sampling"
       ],
       "teaching_focus": "Sampling bias",
       "worked_example_brief": "Use a realistic fictional case involving sampling bias; show reasoning, a contrasting case and limitations.",
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to worked probability and survey critique.",
       "knowledge_check": "Explain sampling bias from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of sampling bias; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -102,14 +108,15 @@
       ],
       "reading": [
         "int-ref-2",
-        "int-ref-6"
+        "int-ref-6",
+        "stats-prob"
       ],
       "teaching_focus": "Base rates",
       "worked_example_brief": "Use a realistic fictional case involving base rates; show reasoning, a contrasting case and limitations.",
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to worked probability and survey critique.",
       "knowledge_check": "Explain base rates from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of base rates; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

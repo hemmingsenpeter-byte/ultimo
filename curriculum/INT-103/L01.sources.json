@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-103.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Probability describes uncertainty about a defined event under a model. The sample space contains possible outcomes; an event is a subset. For equally likely outcomes, probability is favourable outcomes divided by total outcomes. Independent events have probabilities that do not change when the other occurs; mutually exclusive events cannot occur together. These concepts differ. For empirical forecasts the equal-likelihood assumption may fail, so explain the source of probabilities rather than treating them as facts.",
+      "source_ids": [
+        "stats-prob"
+      ],
+      "locators": [
+        {
+          "source_id": "stats-prob",
+          "locator": "2023, chapter 3 key terms",
+          "limitations": "Introductory probability; fictional examples"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}

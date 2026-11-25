@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L01",
+  "status": "draft",
+  "competency": "FIN-101.L01",
+  "questions": [
+    {
+      "id": "FIN-101.L01.Q1",
+      "competency": "FIN-101.L01",
+      "prompt": "What is net worth?",
+      "answer": "Assets minus liabilities at a date.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L01.Q2",
+      "competency": "FIN-101.L01",
+      "prompt": "Is monthly pay a stock?",
+      "answer": "No, it is a flow over time.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L01.Q3",
+      "competency": "FIN-101.L01",
+      "prompt": "Can positive net worth coexist with low cash?",
+      "answer": "Yes.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of financial stocks and flows; correct application to a new case; clear rationale and limits.",
+    "transfer": "Build a simple fictional balance sheet and monthly flow statement; explain one way the two interact.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

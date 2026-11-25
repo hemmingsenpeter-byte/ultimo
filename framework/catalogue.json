@@ -3,7 +3,7 @@
     "id": "PHY-101",
     "faculty": "PHY",
     "title": "Anatomy and biomechanics",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/PHY-101/syllabus.json",
     "year": 1
@@ -66,7 +66,7 @@
     "id": "BIO-101",
     "faculty": "BIO",
     "title": "Human biology",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/BIO-101/syllabus.json",
     "year": 1
@@ -138,7 +138,7 @@
     "id": "MEN-101",
     "faculty": "MEN",
     "title": "Habits",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-101/syllabus.json",
     "year": 1
@@ -201,7 +201,7 @@
     "id": "EMO-101",
     "faculty": "EMO",
     "title": "Emotional identification",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-101/syllabus.json",
     "year": 1
@@ -291,7 +291,7 @@
     "id": "INT-103",
     "faculty": "INT",
     "title": "Probability and statistics",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-103/syllabus.json",
     "year": 1
@@ -354,7 +354,7 @@
     "id": "SOC-101",
     "faculty": "SOC",
     "title": "Conversation",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-101/syllabus.json",
     "year": 1
@@ -516,7 +516,7 @@
     "id": "COM-103",
     "faculty": "COM",
     "title": "Listening and questioning",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/COM-103/syllabus.json",
     "year": 1
@@ -579,7 +579,7 @@
     "id": "FIN-101",
     "faculty": "FIN",
     "title": "Budget and balance sheet",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/FIN-101/syllabus.json",
     "year": 1
@@ -750,7 +750,7 @@
     "id": "ART-101",
     "faculty": "ART",
     "title": "Drawing and observation",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/ART-101/syllabus.json",
     "year": 1

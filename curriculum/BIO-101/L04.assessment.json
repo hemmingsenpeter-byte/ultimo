@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L04",
+  "status": "draft",
+  "competency": "BIO-101.L04",
+  "questions": [
+    {
+      "id": "BIO-101.L04.Q1",
+      "competency": "BIO-101.L04",
+      "prompt": "Does homeostasis mean an unchanging number?",
+      "answer": "No, regulation within ranges.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L04.Q2",
+      "competency": "BIO-101.L04",
+      "prompt": "What does negative feedback do?",
+      "answer": "Opposes deviation.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "BIO-101.L04.Q3",
+      "competency": "BIO-101.L04",
+      "prompt": "What does positive feedback do?",
+      "answer": "Amplifies a process until limited or terminated.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of homeostasis; correct application to a new case; clear rationale and limits.",
+    "transfer": "Construct a fictional feedback diagram for fluid regulation using a textbook; explain one limitation of the diagram.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

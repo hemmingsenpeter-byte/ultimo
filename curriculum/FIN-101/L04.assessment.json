@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "FIN-101.L04",
+  "status": "draft",
+  "competency": "FIN-101.L04",
+  "questions": [
+    {
+      "id": "FIN-101.L04.Q1",
+      "competency": "FIN-101.L04",
+      "prompt": "What is a stress test?",
+      "answer": "A scenario calculation with changed assumptions.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L04.Q2",
+      "competency": "FIN-101.L04",
+      "prompt": "Why include fixed obligations?",
+      "answer": "They limit feasible adjustments.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    },
+    {
+      "id": "FIN-101.L04.Q3",
+      "competency": "FIN-101.L04",
+      "prompt": "Does a buffer solve a permanent deficit?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Compare against the answer, correct errors and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only.",
+    "practice": "Accurate explanation of stress testing; correct application to a new case; clear rationale and limits.",
+    "transfer": "Complete a fictional baseline, downside and recovery budget with a decision trigger and qualified help option.",
+    "pass": "All mapped criteria require evidence at Level 2; no mastery from quiz score alone."
+  }
+}

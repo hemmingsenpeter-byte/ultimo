@@ -6,12 +6,18 @@
   "estimated_hours": 4,
   "prerequisites": [],
   "competencies": [
-    "INT.learning"
+    "INT.learning",
+    "INT-101.L01",
+    "INT-101.L02",
+    "INT-101.L03",
+    "INT-101.L04"
   ],
   "reading": [
     "make-it-stick",
     "dunlosky-2013",
-    "roediger-karpicke-2006"
+    "roediger-karpicke-2006",
+    "learn-review",
+    "learn-test"
   ],
   "status": "draft",
   "lessons": [

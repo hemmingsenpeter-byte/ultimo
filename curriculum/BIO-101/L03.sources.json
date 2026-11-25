@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "BIO-101.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Digestion breaks food into substances that can be absorbed; the small intestine is a major site of absorption. The liver processes absorbed nutrients and produces bile; the pancreas supplies digestive secretions. Kidneys filter blood and selectively reabsorb or secrete substances, regulating water, electrolytes and wastes. Excretion of urine is different from elimination of undigested material in faeces. These processes rely on circulation and regulation and are not independent plumbing systems.",
+      "source_ids": [
+        "anatomy-digest",
+        "anatomy-structure"
+      ],
+      "locators": [
+        {
+          "source_id": "anatomy-digest",
+          "locator": "2022, section 23.2",
+          "limitations": "Detailed renal physiology requires additional review"
+        },
+        {
+          "source_id": "anatomy-structure",
+          "locator": "2022, section 1.2",
+          "limitations": "Simplified system descriptions"
+        }
+      ],
+      "verification": "Relevant references located; full sentence-level verification and independent review pending."
+    }
+  ],
+  "original_material": "Framework, fictional cases, exercises and quizzes are original teaching examples; not independently validated interventions.",
+  "review_required": true
+}
