@@ -1,0 +1,39 @@
+{
+  "id": "INT-101",
+  "title": "Learning how to learn",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 4,
+  "prerequisites": [],
+  "competencies": [
+    "INT.learning"
+  ],
+  "reading": [
+    "make-it-stick",
+    "dunlosky-2013",
+    "roediger-karpicke-2006"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Learning versus familiarity",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Retrieval and spaced practice",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Feedback and transfer",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Build your own learning system",
+      "path": "L04.md"
+    }
+  ]
+}

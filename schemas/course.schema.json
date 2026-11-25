@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "faculty",
+    "target_level",
+    "estimated_hours",
+    "prerequisites",
+    "competencies",
+    "reading",
+    "status",
+    "lessons"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "faculty": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "target_level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6
+    },
+    "estimated_hours": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "competencies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "reading": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "source_checked",
+        "subject_reviewed",
+        "pilot_tested",
+        "approved",
+        "published"
+      ]
+    },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "path"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^L[0-9]{2}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^L[0-9]{2}\\.md$"
+          }
+        }
+      }
+    }
+  }
+}

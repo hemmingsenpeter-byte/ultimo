@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PHY",
+    "title": "Physical",
+    "status": "planned"
+  },
+  {
+    "id": "BIO",
+    "title": "Physiological",
+    "status": "planned"
+  },
+  {
+    "id": "MEN",
+    "title": "Mental",
+    "status": "planned"
+  },
+  {
+    "id": "EMO",
+    "title": "Emotional",
+    "status": "planned"
+  },
+  {
+    "id": "INT",
+    "title": "Intellectual",
+    "status": "planned"
+  },
+  {
+    "id": "SOC",
+    "title": "Social",
+    "status": "planned"
+  },
+  {
+    "id": "REL",
+    "title": "Relationships",
+    "status": "planned"
+  },
+  {
+    "id": "COM",
+    "title": "Communication",
+    "status": "planned"
+  },
+  {
+    "id": "FIN",
+    "title": "Financial",
+    "status": "planned"
+  },
+  {
+    "id": "BUS",
+    "title": "Professional",
+    "status": "planned"
+  },
+  {
+    "id": "ART",
+    "title": "Artistic",
+    "status": "planned"
+  },
+  {
+    "id": "HAP",
+    "title": "Happiness",
+    "status": "planned"
+  },
+  {
+    "id": "PHI",
+    "title": "Philosophical",
+    "status": "planned"
+  },
+  {
+    "id": "PRA",
+    "title": "Practical",
+    "status": "planned"
+  },
+  {
+    "id": "LEA",
+    "title": "Leadership",
+    "status": "planned"
+  },
+  {
+    "id": "CIV",
+    "title": "Civilisational",
+    "status": "planned"
+  }
+]

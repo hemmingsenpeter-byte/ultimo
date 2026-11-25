@@ -1,0 +1,16 @@
+[
+  {
+    "id": "INT.learning",
+    "faculty": "INT",
+    "title": "Independent learning",
+    "levels": [
+      "No evidence yet",
+      "Explain retrieval, spacing and feedback",
+      "Use retrieval and spacing with a template",
+      "Plan, execute and evaluate an independent learning cycle",
+      "Transfer the cycle to unfamiliar domains and adjust from evidence",
+      "Coach another learner and document sustained outcomes",
+      "Integrate learning with decision-making and professional or creative practice"
+    ]
+  }
+]

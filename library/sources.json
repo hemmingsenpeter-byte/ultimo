@@ -1,0 +1,29 @@
+[
+  {
+    "id": "make-it-stick",
+    "title": "Make It Stick: The Science of Successful Learning",
+    "authors": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+    "type": "book",
+    "notes": "Read selectively; compare claims with research."
+  },
+  {
+    "id": "dunlosky-2013",
+    "title": "Improving Students’ Learning With Effective Learning Techniques",
+    "authors": "John Dunlosky et al.",
+    "type": "research",
+    "url": "https://doi.org/10.1177/1529100612453266"
+  },
+  {
+    "id": "roediger-karpicke-2006",
+    "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+    "authors": "Henry L. Roediger III and Jeffrey D. Karpicke",
+    "type": "research",
+    "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x"
+  },
+  {
+    "id": "scout-mindset",
+    "title": "The Scout Mindset",
+    "authors": "Julia Galef",
+    "type": "book"
+  }
+]

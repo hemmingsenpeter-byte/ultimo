@@ -1,0 +1,37 @@
+[
+  {
+    "level": 0,
+    "title": "Untrained",
+    "description": "Baseline not yet demonstrated"
+  },
+  {
+    "level": 1,
+    "title": "Foundation",
+    "description": "Explain core concepts with examples"
+  },
+  {
+    "level": 2,
+    "title": "Practitioner",
+    "description": "Apply skills with guidance"
+  },
+  {
+    "level": 3,
+    "title": "Competent",
+    "description": "Perform independently in ordinary contexts with evidence"
+  },
+  {
+    "level": 4,
+    "title": "Advanced",
+    "description": "Adapt to unfamiliar or demanding contexts"
+  },
+  {
+    "level": 5,
+    "title": "Master",
+    "description": "Demonstrate sustained expertise and teach within scope"
+  },
+  {
+    "level": 6,
+    "title": "Integrated",
+    "description": "Synthesize expertise across domains; not a universal rank"
+  }
+]

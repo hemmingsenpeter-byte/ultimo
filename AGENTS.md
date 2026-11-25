@@ -1,0 +1,10 @@
+# Ultimo agent instructions
+
+Read SPEC.md before editing. Do not change the mission, stable IDs, licence, assessment policy or privacy boundaries without owner approval.
+1. Select a small course/competency scope; map outcomes and prerequisites.
+2. Research credible sources. Verify exact claims and links; never invent citations.
+3. Write original Markdown, worked examples, retrieval prompts, transfer tasks and a rubric.
+4. Add structured records and tests. Use draft status unless evidence of independent review exists.
+5. Run python -m unittest discover -s tests -v; python tools/validate.py; python tools/build.py.
+6. Submit a focused PR with source audit, assumptions, remaining limitations and test results.
+Do not add personal records, secrets, scraped books or unlicensed text. Never claim medical, psychological or financial expertise or award competency automatically. For higher-risk topics require subject-matter review. Avoid generic motivational filler. Extend schemas with migration notes. Keep source content independent of frontend frameworks.

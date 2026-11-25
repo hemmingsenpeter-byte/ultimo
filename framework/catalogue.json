@@ -1,0 +1,806 @@
+[
+  {
+    "id": "PHY-101",
+    "faculty": "PHY",
+    "title": "Anatomy and biomechanics",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-102",
+    "faculty": "PHY",
+    "title": "Strength and hypertrophy",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-103",
+    "faculty": "PHY",
+    "title": "Cardiovascular conditioning",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-104",
+    "faculty": "PHY",
+    "title": "Mobility and injury prevention",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-105",
+    "faculty": "PHY",
+    "title": "Swimming and coordination",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-106",
+    "faculty": "PHY",
+    "title": "Self-defence and de-escalation",
+    "status": "planned"
+  },
+  {
+    "id": "PHY-107",
+    "faculty": "PHY",
+    "title": "Athletic programming",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-101",
+    "faculty": "BIO",
+    "title": "Human biology",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-102",
+    "faculty": "BIO",
+    "title": "Nutrition and metabolism",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-103",
+    "faculty": "BIO",
+    "title": "Sleep",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-104",
+    "faculty": "BIO",
+    "title": "Endocrinology and male physiology",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-105",
+    "faculty": "BIO",
+    "title": "Genetics and disease",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-106",
+    "faculty": "BIO",
+    "title": "Medical literacy",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-107",
+    "faculty": "BIO",
+    "title": "Sexual and reproductive health",
+    "status": "planned"
+  },
+  {
+    "id": "BIO-108",
+    "faculty": "BIO",
+    "title": "Ageing and preventive care",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-101",
+    "faculty": "MEN",
+    "title": "Habits",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-102",
+    "faculty": "MEN",
+    "title": "Attention and concentration",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-103",
+    "faculty": "MEN",
+    "title": "Motivation and procrastination",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-104",
+    "faculty": "MEN",
+    "title": "Compulsive behaviour",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-105",
+    "faculty": "MEN",
+    "title": "Resilience",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-106",
+    "faculty": "MEN",
+    "title": "Stress management",
+    "status": "planned"
+  },
+  {
+    "id": "MEN-107",
+    "faculty": "MEN",
+    "title": "Performance under pressure",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-101",
+    "faculty": "EMO",
+    "title": "Emotional identification",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-102",
+    "faculty": "EMO",
+    "title": "Personality and temperament",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-103",
+    "faculty": "EMO",
+    "title": "Emotional regulation",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-104",
+    "faculty": "EMO",
+    "title": "Shame, anger, fear and jealousy",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-105",
+    "faculty": "EMO",
+    "title": "Attachment and development",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-106",
+    "faculty": "EMO",
+    "title": "Boundaries and assertiveness",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-107",
+    "faculty": "EMO",
+    "title": "Grief and vulnerability",
+    "status": "planned"
+  },
+  {
+    "id": "EMO-108",
+    "faculty": "EMO",
+    "title": "Empathy",
+    "status": "planned"
+  },
+  {
+    "id": "INT-101",
+    "faculty": "INT",
+    "title": "Learning how to learn",
+    "status": "draft"
+  },
+  {
+    "id": "INT-102",
+    "faculty": "INT",
+    "title": "Logic and argument",
+    "status": "planned"
+  },
+  {
+    "id": "INT-103",
+    "faculty": "INT",
+    "title": "Probability and statistics",
+    "status": "planned"
+  },
+  {
+    "id": "INT-104",
+    "faculty": "INT",
+    "title": "Scientific reasoning",
+    "status": "planned"
+  },
+  {
+    "id": "INT-105",
+    "faculty": "INT",
+    "title": "Cognitive biases",
+    "status": "planned"
+  },
+  {
+    "id": "INT-106",
+    "faculty": "INT",
+    "title": "Systems thinking",
+    "status": "planned"
+  },
+  {
+    "id": "INT-107",
+    "faculty": "INT",
+    "title": "Mathematics and science literacy",
+    "status": "planned"
+  },
+  {
+    "id": "INT-108",
+    "faculty": "INT",
+    "title": "Forecasting and decisions",
+    "status": "planned"
+  },
+  {
+    "id": "INT-109",
+    "faculty": "INT",
+    "title": "Epistemology",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-101",
+    "faculty": "SOC",
+    "title": "Conversation",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-102",
+    "faculty": "SOC",
+    "title": "Social awareness",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-103",
+    "faculty": "SOC",
+    "title": "Friendship and community",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-104",
+    "faculty": "SOC",
+    "title": "Social confidence",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-105",
+    "faculty": "SOC",
+    "title": "Charisma and humour",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-106",
+    "faculty": "SOC",
+    "title": "Group dynamics",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-107",
+    "faculty": "SOC",
+    "title": "Etiquette and presentation",
+    "status": "planned"
+  },
+  {
+    "id": "SOC-108",
+    "faculty": "SOC",
+    "title": "Networking",
+    "status": "planned"
+  },
+  {
+    "id": "REL-101",
+    "faculty": "REL",
+    "title": "Attraction and dating",
+    "status": "planned"
+  },
+  {
+    "id": "REL-102",
+    "faculty": "REL",
+    "title": "Attachment and compatibility",
+    "status": "planned"
+  },
+  {
+    "id": "REL-103",
+    "faculty": "REL",
+    "title": "Intimacy and consent",
+    "status": "planned"
+  },
+  {
+    "id": "REL-104",
+    "faculty": "REL",
+    "title": "Shared values",
+    "status": "planned"
+  },
+  {
+    "id": "REL-105",
+    "faculty": "REL",
+    "title": "Conflict repair",
+    "status": "planned"
+  },
+  {
+    "id": "REL-106",
+    "faculty": "REL",
+    "title": "Long-term partnership",
+    "status": "planned"
+  },
+  {
+    "id": "REL-107",
+    "faculty": "REL",
+    "title": "Parenting",
+    "status": "planned"
+  },
+  {
+    "id": "REL-108",
+    "faculty": "REL",
+    "title": "Relationships through adversity",
+    "status": "planned"
+  },
+  {
+    "id": "COM-101",
+    "faculty": "COM",
+    "title": "Speech and voice",
+    "status": "planned"
+  },
+  {
+    "id": "COM-102",
+    "faculty": "COM",
+    "title": "Writing",
+    "status": "planned"
+  },
+  {
+    "id": "COM-103",
+    "faculty": "COM",
+    "title": "Listening and questioning",
+    "status": "planned"
+  },
+  {
+    "id": "COM-104",
+    "faculty": "COM",
+    "title": "Storytelling",
+    "status": "planned"
+  },
+  {
+    "id": "COM-105",
+    "faculty": "COM",
+    "title": "Rhetoric and public speaking",
+    "status": "planned"
+  },
+  {
+    "id": "COM-106",
+    "faculty": "COM",
+    "title": "Negotiation",
+    "status": "planned"
+  },
+  {
+    "id": "COM-107",
+    "faculty": "COM",
+    "title": "Difficult conversations",
+    "status": "planned"
+  },
+  {
+    "id": "COM-108",
+    "faculty": "COM",
+    "title": "Debate",
+    "status": "planned"
+  },
+  {
+    "id": "COM-109",
+    "faculty": "COM",
+    "title": "Language acquisition",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-101",
+    "faculty": "FIN",
+    "title": "Budget and balance sheet",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-102",
+    "faculty": "FIN",
+    "title": "Debt and credit",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-103",
+    "faculty": "FIN",
+    "title": "Tax and insurance",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-104",
+    "faculty": "FIN",
+    "title": "Financial psychology",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-105",
+    "faculty": "FIN",
+    "title": "Investing",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-106",
+    "faculty": "FIN",
+    "title": "Property",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-107",
+    "faculty": "FIN",
+    "title": "Business valuation",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-108",
+    "faculty": "FIN",
+    "title": "Capital allocation",
+    "status": "planned"
+  },
+  {
+    "id": "FIN-109",
+    "faculty": "FIN",
+    "title": "Succession",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-101",
+    "faculty": "BUS",
+    "title": "Career design",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-102",
+    "faculty": "BUS",
+    "title": "Business fundamentals",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-103",
+    "faculty": "BUS",
+    "title": "Sales",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-104",
+    "faculty": "BUS",
+    "title": "Digital literacy",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-105",
+    "faculty": "BUS",
+    "title": "Marketing",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-106",
+    "faculty": "BUS",
+    "title": "Operations",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-107",
+    "faculty": "BUS",
+    "title": "Product development",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-108",
+    "faculty": "BUS",
+    "title": "AI and automation",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-109",
+    "faculty": "BUS",
+    "title": "Entrepreneurship and strategy",
+    "status": "planned"
+  },
+  {
+    "id": "BUS-110",
+    "faculty": "BUS",
+    "title": "Organisational design",
+    "status": "planned"
+  },
+  {
+    "id": "ART-101",
+    "faculty": "ART",
+    "title": "Drawing and observation",
+    "status": "planned"
+  },
+  {
+    "id": "ART-102",
+    "faculty": "ART",
+    "title": "Music",
+    "status": "planned"
+  },
+  {
+    "id": "ART-103",
+    "faculty": "ART",
+    "title": "Literature and poetry",
+    "status": "planned"
+  },
+  {
+    "id": "ART-104",
+    "faculty": "ART",
+    "title": "Photography",
+    "status": "planned"
+  },
+  {
+    "id": "ART-105",
+    "faculty": "ART",
+    "title": "Architecture and design",
+    "status": "planned"
+  },
+  {
+    "id": "ART-106",
+    "faculty": "ART",
+    "title": "Creative writing",
+    "status": "planned"
+  },
+  {
+    "id": "ART-107",
+    "faculty": "ART",
+    "title": "Dance",
+    "status": "planned"
+  },
+  {
+    "id": "ART-108",
+    "faculty": "ART",
+    "title": "Aesthetic judgement",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-101",
+    "faculty": "HAP",
+    "title": "Science of wellbeing",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-102",
+    "faculty": "HAP",
+    "title": "Gratitude and contentment",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-103",
+    "faculty": "HAP",
+    "title": "Mindfulness",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-104",
+    "faculty": "HAP",
+    "title": "Play and leisure",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-105",
+    "faculty": "HAP",
+    "title": "Flow",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-106",
+    "faculty": "HAP",
+    "title": "Meaning and purpose",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-107",
+    "faculty": "HAP",
+    "title": "Nature and exploration",
+    "status": "planned"
+  },
+  {
+    "id": "HAP-108",
+    "faculty": "HAP",
+    "title": "Life design",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-101",
+    "faculty": "PHI",
+    "title": "Ancient Greek philosophy",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-102",
+    "faculty": "PHI",
+    "title": "Stoicism and Epicureanism",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-103",
+    "faculty": "PHI",
+    "title": "Eastern philosophy",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-104",
+    "faculty": "PHI",
+    "title": "Comparative religion",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-105",
+    "faculty": "PHI",
+    "title": "Ethics",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-106",
+    "faculty": "PHI",
+    "title": "Existentialism",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-107",
+    "faculty": "PHI",
+    "title": "Mortality and consciousness",
+    "status": "planned"
+  },
+  {
+    "id": "PHI-108",
+    "faculty": "PHI",
+    "title": "Practical judgement",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-101",
+    "faculty": "PRA",
+    "title": "Cooking",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-102",
+    "faculty": "PRA",
+    "title": "First aid",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-103",
+    "faculty": "PRA",
+    "title": "Household maintenance",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-104",
+    "faculty": "PRA",
+    "title": "Tools and carpentry",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-105",
+    "faculty": "PRA",
+    "title": "Driving and mechanics",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-106",
+    "faculty": "PRA",
+    "title": "Navigation and outdoor skills",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-107",
+    "faculty": "PRA",
+    "title": "Gardening",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-108",
+    "faculty": "PRA",
+    "title": "Digital security",
+    "status": "planned"
+  },
+  {
+    "id": "PRA-109",
+    "faculty": "PRA",
+    "title": "Emergency preparedness",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-101",
+    "faculty": "LEA",
+    "title": "Personal responsibility",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-102",
+    "faculty": "LEA",
+    "title": "Team dynamics",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-103",
+    "faculty": "LEA",
+    "title": "Delegation",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-104",
+    "faculty": "LEA",
+    "title": "Coaching",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-105",
+    "faculty": "LEA",
+    "title": "Organisational psychology",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-106",
+    "faculty": "LEA",
+    "title": "Power and institutions",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-107",
+    "faculty": "LEA",
+    "title": "Strategy and execution",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-108",
+    "faculty": "LEA",
+    "title": "Crisis leadership",
+    "status": "planned"
+  },
+  {
+    "id": "LEA-109",
+    "faculty": "LEA",
+    "title": "Governance",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-101",
+    "faculty": "CIV",
+    "title": "World history",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-102",
+    "faculty": "CIV",
+    "title": "Economics",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-103",
+    "faculty": "CIV",
+    "title": "Law and rights",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-104",
+    "faculty": "CIV",
+    "title": "Geography and geopolitics",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-105",
+    "faculty": "CIV",
+    "title": "Governance",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-106",
+    "faculty": "CIV",
+    "title": "Energy and infrastructure",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-107",
+    "faculty": "CIV",
+    "title": "Scientific revolutions",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-108",
+    "faculty": "CIV",
+    "title": "Media literacy",
+    "status": "planned"
+  },
+  {
+    "id": "CIV-109",
+    "faculty": "CIV",
+    "title": "Civilisational futures",
+    "status": "planned"
+  }
+]
