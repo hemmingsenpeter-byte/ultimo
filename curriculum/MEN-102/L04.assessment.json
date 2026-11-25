@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L04",
+  "status": "draft",
+  "competency": "MEN-102.L04",
+  "questions": [
+    {
+      "id": "MEN-102.L04.Q1",
+      "competency": "MEN-102.L04",
+      "prompt": "What did the micro-break review find about overall performance?",
+      "answer": "The pooled overall performance effect was not statistically significant, despite small average benefits for fatigue and vigour.",
+      "points": 1,
+      "feedback": "Avoid translating well-being benefits into guaranteed output gains."
+    },
+    {
+      "id": "MEN-102.L04.Q2",
+      "competency": "MEN-102.L04",
+      "prompt": "Can breaks substitute for adequate sleep?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Distinguish short-term relief from sleep opportunity."
+    },
+    {
+      "id": "MEN-102.L04.Q3",
+      "competency": "MEN-102.L04",
+      "prompt": "Why might a rising error rate not prove fatigue?",
+      "answer": "Task difficulty, practice order and other factors may differ.",
+      "points": 1,
+      "feedback": "Name a competing explanation."
+    },
+    {
+      "id": "MEN-102.L04.Q4",
+      "competency": "MEN-102.L04",
+      "prompt": "What should persistent or impairing fatigue prompt?",
+      "answer": "Review workload and health context and seek appropriate professional advice if needed.",
+      "points": 1,
+      "feedback": "Avoid diagnosing from the exercise."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Justifies a recovery choice using quality and safety, recognises competing explanations and appropriate referral.",
+    "transfer": "Submit a fictional attention audit covering demands, interruption triage, two protected-session designs and a recovery decision. Include output measures and one condition requiring professional or organisational support. Repeat the audit on a novel case after a delay.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

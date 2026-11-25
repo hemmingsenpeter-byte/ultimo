@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "General stress-management education can offer practical coping skills for adversity.",
+      "source_ids": [
+        "men-who-guide"
+      ],
+      "locators": [
+        {
+          "source_id": "men-who-guide",
+          "locator": "2020 publication overview, skills for coping with adversity",
+          "limitations": "Original activities here are not reproduced WHO exercises or clinical treatment"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Work-related psychosocial risks can require organisational interventions.",
+      "source_ids": [
+        "men-who-work"
+      ],
+      "locators": [
+        {
+          "source_id": "men-who-work",
+          "locator": "Fact sheet, psychosocial risks and organisational interventions; accessed 2026-11-26",
+          "limitations": "General occupational guidance; local duties and individual circumstances differ"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

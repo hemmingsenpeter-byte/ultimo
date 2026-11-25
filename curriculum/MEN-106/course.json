@@ -1,0 +1,43 @@
+{
+  "id": "MEN-106",
+  "title": "Stress management",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "MEN-106.L01",
+    "MEN-106.L02",
+    "MEN-106.L03",
+    "MEN-106.L04"
+  ],
+  "reading": [
+    "men-ref-3",
+    "men-ref-4"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Acute and chronic stress",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Demands and resources",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Coping choices",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Escalation",
+      "path": "L04.md"
+    }
+  ]
+}

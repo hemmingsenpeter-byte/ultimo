@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L01",
+  "status": "draft",
+  "competency": "MEN-103.L01",
+  "questions": [
+    {
+      "id": "MEN-103.L01.Q1",
+      "competency": "MEN-103.L01",
+      "prompt": "Why is not all delay procrastination?",
+      "answer": "A delay may be justified, necessary or caused by unavailable resources.",
+      "points": 1,
+      "feedback": "Give a counterexample."
+    },
+    {
+      "id": "MEN-103.L01.Q2",
+      "competency": "MEN-103.L01",
+      "prompt": "What does the mood-regulation account propose?",
+      "answer": "Avoiding an aversive task may temporarily relieve unpleasant feelings, making postponement attractive.",
+      "points": 1,
+      "feedback": "Treat it as one mechanism, not a universal explanation."
+    },
+    {
+      "id": "MEN-103.L01.Q3",
+      "competency": "MEN-103.L01",
+      "prompt": "Why identify immediate and later consequences separately?",
+      "answer": "Short-term relief and longer-term costs can point to different incentives.",
+      "points": 1,
+      "feedback": "Explain both for one case."
+    },
+    {
+      "id": "MEN-103.L01.Q4",
+      "competency": "MEN-103.L01",
+      "prompt": "What if a structural barrier prevents the task?",
+      "answer": "Address the barrier or negotiate the goal rather than attributing delay to motivation.",
+      "points": 1,
+      "feedback": "Specify the missing prerequisite."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Distinguishes avoidance from justified delay and structural barriers and proposes a proportionate response.",
+    "transfer": "Create two fictional delay chains with the same outward behaviour but different causes. Suggest a different response for each, and explain the evidence needed to distinguish them.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

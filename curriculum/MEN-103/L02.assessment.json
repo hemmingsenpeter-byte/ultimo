@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L02",
+  "status": "draft",
+  "competency": "MEN-103.L02",
+  "questions": [
+    {
+      "id": "MEN-103.L02.Q1",
+      "competency": "MEN-103.L02",
+      "prompt": "What distinguishes a deliverable from an action?",
+      "answer": "A deliverable is a required output; an action is work undertaken to produce it.",
+      "points": 1,
+      "feedback": "Name one of each."
+    },
+    {
+      "id": "MEN-103.L02.Q2",
+      "competency": "MEN-103.L02",
+      "prompt": "Why specify dependencies?",
+      "answer": "They identify what must be available or completed before another action is feasible.",
+      "points": 1,
+      "feedback": "Show a simple arrow."
+    },
+    {
+      "id": "MEN-103.L02.Q3",
+      "competency": "MEN-103.L02",
+      "prompt": "What makes a first action observable?",
+      "answer": "It has a clear verb, object and identifiable completion condition.",
+      "points": 1,
+      "feedback": "Replace a vague action such as 'prepare'."
+    },
+    {
+      "id": "MEN-103.L02.Q4",
+      "competency": "MEN-103.L02",
+      "prompt": "When can decomposition become counterproductive?",
+      "answer": "When planning itself displaces useful work or ignores a genuine constraint.",
+      "points": 1,
+      "feedback": "State a limit on planning effort."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Decomposes an outcome into deliverables, dependencies, a feasible first action and explicit acceptance criteria.",
+    "transfer": "Take a different fictional objective and create a dependency map with at least one missing prerequisite. Specify one action that can be taken safely now and one that must wait. Review whether the plan is proportional to the task.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

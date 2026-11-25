@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Persistent stress that interferes with daily functioning may warrant help from an appropriate provider.",
+      "source_ids": [
+        "men-who-stress"
+      ],
+      "locators": [
+        {
+          "source_id": "men-who-stress",
+          "locator": "Web Q&A, stress, daily functioning and seeking help; accessed 2026-11-26",
+          "limitations": "General guidance; cannot distinguish individual conditions"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Health New Zealand lists 111 for immediate danger and free call/text 1737 for counselling support.",
+      "source_ids": [
+        "men-nz-support"
+      ],
+      "locators": [
+        {
+          "source_id": "men-nz-support",
+          "locator": "Web page, support options and immediate danger; accessed 2026-11-26",
+          "limitations": "New Zealand only; review contact details before publication"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

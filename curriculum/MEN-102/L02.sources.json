@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Task switching can impose processing costs sensitive to complexity and cues.",
+      "source_ids": [
+        "men-switch-cost"
+      ],
+      "locators": [
+        {
+          "source_id": "men-switch-cost",
+          "locator": "2001, abstract, rule complexity and task cues",
+          "limitations": "Laboratory switching tasks; cannot estimate universal workplace time losses"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Prior-task engagement can affect subsequent task performance in studied transitions.",
+      "source_ids": [
+        "men-attention-residue"
+      ],
+      "locators": [
+        {
+          "source_id": "men-attention-residue",
+          "locator": "2009, abstract, transitions between work tasks",
+          "limitations": "Specific experiments; not every interruption causes the same impairment"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

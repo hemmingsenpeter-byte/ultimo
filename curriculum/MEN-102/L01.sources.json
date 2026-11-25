@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Attention and short-term memory capacity estimates depend on controlled task conditions and grouping.",
+      "source_ids": [
+        "men-memory-capacity"
+      ],
+      "locators": [
+        {
+          "source_id": "men-memory-capacity",
+          "locator": "2001, abstract, conditions for capacity estimates",
+          "limitations": "Controlled memory tasks; no fixed universal attention-span duration"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Switching costs vary with task-rule complexity and available cues.",
+      "source_ids": [
+        "men-switch-cost"
+      ],
+      "locators": [
+        {
+          "source_id": "men-switch-cost",
+          "locator": "2001, abstract, rule complexity and task cues",
+          "limitations": "Laboratory switching tasks; cannot estimate universal workplace time losses"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

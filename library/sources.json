@@ -1549,5 +1549,148 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-memory-capacity",
+    "title": "The magical number 4 in short-term memory: a reconsideration of mental storage capacity",
+    "authors": "Nelson Cowan",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11515286/",
+    "locator": "2001, abstract, conditions for capacity estimates",
+    "limitations": "Controlled memory tasks; no fixed universal attention-span duration",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-switch-cost",
+    "title": "Executive control of cognitive processes in task switching",
+    "authors": "Rubinstein, Meyer and Evans",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11518143/",
+    "locator": "2001, abstract, rule complexity and task cues",
+    "limitations": "Laboratory switching tasks; cannot estimate universal workplace time losses",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-attention-residue",
+    "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+    "authors": "Sophie Leroy",
+    "url": "https://doi.org/10.1016/j.obhdp.2009.04.002",
+    "locator": "2009, abstract, transitions between work tasks",
+    "limitations": "Specific experiments; not every interruption causes the same impairment",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-microbreaks",
+    "title": "Give me a break! A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance",
+    "authors": "Albulescu et al.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36044424/",
+    "locator": "2022, abstract and pooled results",
+    "limitations": "Small average fatigue/vigour effects; overall performance effect not statistically significant",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-sleep-health",
+    "title": "Sleep deprivation and deficiency: How sleep affects your health",
+    "authors": "National Heart, Lung, and Blood Institute",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+    "locator": "2022, daytime functioning and health effects",
+    "limitations": "General health education; not individual assessment",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-procrast-review",
+    "title": "The nature of procrastination: a meta-analytic and theoretical review",
+    "authors": "Piers Steel",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17201571/",
+    "locator": "2007, abstract, predictors and temporal motivation theory",
+    "limitations": "Associations and theoretical synthesis; not diagnosis or individual causation",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-mood",
+    "title": "Procrastination and the Priority of Short-Term Mood Regulation",
+    "authors": "Fuschia Sirois and Timothy Pychyl",
+    "url": "https://doi.org/10.1111/spc3.12011",
+    "locator": "2013, abstract, short-term mood repair account",
+    "limitations": "Theoretical account; avoidance can have other mechanisms",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-ifthen",
+    "title": "Implementation intentions and goal achievement: a meta-analysis of effects and processes",
+    "authors": "Peter Gollwitzer and Paschal Sheeran",
+    "url": "https://doi.org/10.1016/S0065-2601%2806%2938002-1",
+    "locator": "2006, abstract and review of situation-response plans",
+    "limitations": "Average effects across diverse studies; no guaranteed individual result",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-procrast-treatment",
+    "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis",
+    "authors": "Rozental et al.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6125391/",
+    "locator": "2018, intervention literature and limitations",
+    "limitations": "Clinical intervention evidence is not evidence for every classroom task or a substitute for care",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-who-stress",
+    "title": "Stress",
+    "authors": "World Health Organization",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+    "locator": "Web Q&A, stress, daily functioning and seeking help; accessed 2026-11-26",
+    "limitations": "General guidance; cannot distinguish individual conditions",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-who-work",
+    "title": "Mental health at work",
+    "authors": "World Health Organization",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+    "locator": "Fact sheet, psychosocial risks and organisational interventions; accessed 2026-11-26",
+    "limitations": "General occupational guidance; local duties and individual circumstances differ",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-who-guide",
+    "title": "Doing What Matters in Times of Stress",
+    "authors": "World Health Organization",
+    "url": "https://www.who.int/publications/i/item/9789240003927",
+    "locator": "2020 publication overview, skills for coping with adversity",
+    "limitations": "Original activities here are not reproduced WHO exercises or clinical treatment",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
+  },
+  {
+    "id": "men-nz-support",
+    "title": "Where to get help for mental health",
+    "authors": "Health New Zealand | Te Whatu Ora",
+    "url": "https://www.healthnz.govt.nz/health-topics/mental-health/where-to-get-help",
+    "locator": "Web page, support options and immediate danger; accessed 2026-11-26",
+    "limitations": "New Zealand only; review contact details before publication",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-26"
   }
 ]

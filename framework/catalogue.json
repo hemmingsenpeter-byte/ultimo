@@ -147,7 +147,7 @@
     "id": "MEN-102",
     "faculty": "MEN",
     "title": "Attention and concentration",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-102/syllabus.json",
     "year": 1
@@ -156,7 +156,7 @@
     "id": "MEN-103",
     "faculty": "MEN",
     "title": "Motivation and procrastination",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-103/syllabus.json",
     "year": 1
@@ -183,7 +183,7 @@
     "id": "MEN-106",
     "faculty": "MEN",
     "title": "Stress management",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-106/syllabus.json",
     "year": 2

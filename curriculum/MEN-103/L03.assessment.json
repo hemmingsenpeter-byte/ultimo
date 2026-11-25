@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L03",
+  "status": "draft",
+  "competency": "MEN-103.L03",
+  "questions": [
+    {
+      "id": "MEN-103.L03.Q1",
+      "competency": "MEN-103.L03",
+      "prompt": "How does an implementation intention differ from a goal intention?",
+      "answer": "It specifies a situation and the response to enact when it occurs.",
+      "points": 1,
+      "feedback": "Write an if–then example."
+    },
+    {
+      "id": "MEN-103.L03.Q2",
+      "competency": "MEN-103.L03",
+      "prompt": "Why might a plan fail when the cue never occurs?",
+      "answer": "There is no opportunity for the specified response to be triggered.",
+      "points": 1,
+      "feedback": "Choose a more reliable cue."
+    },
+    {
+      "id": "MEN-103.L03.Q3",
+      "competency": "MEN-103.L03",
+      "prompt": "What is a coping plan?",
+      "answer": "A conditional response to a foreseeable obstacle.",
+      "points": 1,
+      "feedback": "Provide a safe fallback."
+    },
+    {
+      "id": "MEN-103.L03.Q4",
+      "competency": "MEN-103.L03",
+      "prompt": "Do favourable average research effects guarantee individual success?",
+      "answer": "No; applicability depends on goals, conditions and resources.",
+      "points": 1,
+      "feedback": "State one limitation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Writes specific initiation and coping plans, tests them and adapts failures without overriding safety.",
+    "transfer": "Write one initiation plan and one coping plan for a fictional learning task. Simulate five opportunities in a table with cue, response, barrier and adjustment. Distinguish cue failure from response failure.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

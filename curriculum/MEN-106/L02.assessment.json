@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L02",
+  "status": "draft",
+  "competency": "MEN-106.L02",
+  "questions": [
+    {
+      "id": "MEN-106.L02.Q1",
+      "competency": "MEN-106.L02",
+      "prompt": "What counts as a resource besides time?",
+      "answer": "Information, skills, autonomy, accessible tools, support, staffing or recovery opportunity.",
+      "points": 1,
+      "feedback": "Connect a resource to a specific demand."
+    },
+    {
+      "id": "MEN-106.L02.Q2",
+      "competency": "MEN-106.L02",
+      "prompt": "Why is a workload mismatch not necessarily an individual coping problem?",
+      "answer": "The demands may exceed available capacity and require organisational change.",
+      "points": 1,
+      "feedback": "Name the responsible decision-maker."
+    },
+    {
+      "id": "MEN-106.L02.Q3",
+      "competency": "MEN-106.L02",
+      "prompt": "What is the gap if demands require 24 hours and 16 are available?",
+      "answer": "Eight estimated hours, before other constraints or uncertainty.",
+      "points": 1,
+      "feedback": "Do not treat estimates as exact."
+    },
+    {
+      "id": "MEN-106.L02.Q4",
+      "competency": "MEN-106.L02",
+      "prompt": "What should be protected when reprioritising?",
+      "answer": "Safety-critical requirements, legitimate duties and equitable treatment.",
+      "points": 1,
+      "feedback": "Explain how to avoid transferring harm."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Builds a demand-resource matrix, calculates a mismatch and justifies authorised, safe structural changes.",
+    "transfer": "Create a demand-resource matrix for a novel fictional study, household or workplace scenario. Include at least one non-negotiable duty, one missing resource and one action requiring another person's agreement. Compare alternatives and name a review trigger.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

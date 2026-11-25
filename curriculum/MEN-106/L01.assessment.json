@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L01",
+  "status": "draft",
+  "competency": "MEN-106.L01",
+  "questions": [
+    {
+      "id": "MEN-106.L01.Q1",
+      "competency": "MEN-106.L01",
+      "prompt": "What distinguishes acute from chronic stress in this lesson?",
+      "answer": "The time pattern of the demands or responses and opportunities for recovery, not a fixed diagnostic threshold.",
+      "points": 1,
+      "feedback": "Describe two contrasting patterns."
+    },
+    {
+      "id": "MEN-106.L01.Q2",
+      "competency": "MEN-106.L01",
+      "prompt": "Does a stress response establish a diagnosis?",
+      "answer": "No; responses vary and symptoms may have other causes.",
+      "points": 1,
+      "feedback": "State the limits of the timeline."
+    },
+    {
+      "id": "MEN-106.L01.Q3",
+      "competency": "MEN-106.L01",
+      "prompt": "Why distinguish a stressor from appraisal?",
+      "answer": "The circumstance and its interpretation are related but not identical; real demands still matter.",
+      "points": 1,
+      "feedback": "Avoid implying that structural problems are imaginary."
+    },
+    {
+      "id": "MEN-106.L01.Q4",
+      "competency": "MEN-106.L01",
+      "prompt": "How should sudden serious physical symptoms be handled?",
+      "answer": "Do not assume they are stress; seek appropriate urgent medical care.",
+      "points": 1,
+      "feedback": "Prioritise safety over a classroom technique."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Distinguishes time patterns, resources and recovery without diagnosis; identifies appropriate urgent and organisational responses.",
+    "transfer": "Draw two fictional demand-response-recovery timelines. Identify a stressor, an observable response, a resource and a possible organisational change for each. Explain why duration is insufficient to judge severity.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}
