@@ -24,7 +24,7 @@ Acceptance criteria:
 
 Validation: 25 Python tests, both Node suites, all content validators and the static build pass. A scripted Chromium journey passed 43 checks for plan selection, prerequisite unlocking, backup migration, shared recommendations, keyboard focus and layouts at 320, 390 and 768 pixels. Screen-reader and representative learner testing remain part of the next milestone.
 
-## 2. Browser and accessibility pilot — next
+## 2. Browser and accessibility pilot — in progress
 
 Exercise the complete learning flow with representative learners and assistive technology before expanding the application.
 
@@ -34,6 +34,8 @@ Acceptance criteria:
 - Complete the same flows using only a keyboard; verify visible focus, labels, headings, focus order and clear feedback with a screen reader.
 - Check narrow mobile screens, touch controls and text zoom for readable content, usable forms and no blocked actions.
 - Record browser/device coverage and learner feedback without private records; fix blocking issues and retest affected flows.
+
+The automated browser baseline and CI regression suite are implemented. It covers the synthetic learning/backup journey, keyboard focus, route titles, narrow layouts, text enlargement, touch emulation and axe accessibility rules. Initial findings corrected lost focus after view updates, skipped result-heading levels and the mobile menu remaining open when its current page is selected. The dated results, repeatable commands and pending human tasks are in [docs/PILOT.md](docs/PILOT.md). Representative learner sessions, real screen-reader/device checks and further browser engines remain pending; this milestone is not complete.
 
 ## 3. Criterion-linked local evidence and reassessment
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Browser and accessibility pilot baseline
+
+- Add a reproducible Chromium learner journey and automated accessibility checks in CI, using synthetic records and development-only browser dependencies.
+- Preserve keyboard focus after view updates, evidence deletion, reading and review completion; add page-specific titles, disclosure focus styles and ordered result headings.
+- Close the mobile navigation when the current page is selected.
+- Add the learner, screen-reader and independent INT-101 review protocol. Human pilot and review gates remain pending.
+
 ## v0.5 — Tutor studio and personalised learning pilot
 
 - Six curriculum-grounded tutor roles, searchable passage guidance, formative practice questions and portable tutor prompts.

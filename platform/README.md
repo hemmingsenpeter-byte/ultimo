@@ -32,6 +32,8 @@ python3 -m http.server 8000 --directory dist
 ```
 Open http://localhost:8000. Build output is dist/; serve over HTTP, not file://. Python 3.11+ and Node 20+ for development tests; no external packages needed.
 
+The optional browser regression suite uses Node 22.12+ and development-only npm dependencies: run `npm ci`, `npx playwright install --with-deps chromium`, then `npm run test:browser`. To use system Chromium instead, set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its executable path. The suite builds and serves its own isolated test site, uses synthetic learner records, and checks keyboard flows, backups, mobile layouts and automated accessibility rules. Published assets still have no package dependencies. See the [pilot protocol and coverage limits](../docs/PILOT.md) for the human checks still required.
+
 ## Deployment
 A static host can publish dist/ after running python3 tools/build.py. Render static site: connect this repository, main, build command python3 tools/build.py, publish directory dist. Select the intended workspace before creating a site; do not provision paid services. GitHub Pages: set Settings > Pages > Source to GitHub Actions and run the included manual Publish Ultimo workflow. The hash-based routes work under repository subpaths. Deployment is not automatic until explicitly configured.
 

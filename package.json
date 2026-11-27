@@ -1,0 +1,17 @@
+{
+  "name": "ultimo-browser-checks",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Development-only browser and accessibility checks; the published app has no package dependencies.",
+  "license": "MIT",
+  "scripts": {
+    "test:browser": "python3 tools/build.py && node tests/test_browser.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.1",
+    "playwright": "1.65.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -4,3 +4,4 @@ __pycache__/
 .env
 .venv/
 learner-data/
+node_modules/
