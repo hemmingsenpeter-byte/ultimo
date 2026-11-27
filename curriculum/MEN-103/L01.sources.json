@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Theoretical and meta-analytic work identifies several correlates and mechanisms of procrastination.",
+      "source_ids": [
+        "men-procrast-review"
+      ],
+      "locators": [
+        {
+          "source_id": "men-procrast-review",
+          "locator": "2007, abstract, predictors and temporal motivation theory",
+          "limitations": "Associations and theoretical synthesis; not diagnosis or individual causation"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Short-term mood regulation is one proposed account of procrastination.",
+      "source_ids": [
+        "men-mood"
+      ],
+      "locators": [
+        {
+          "source_id": "men-mood",
+          "locator": "2013, abstract, short-term mood repair account",
+          "limitations": "Theoretical account; avoidance can have other mechanisms"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

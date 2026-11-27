@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Social support research distinguishes general effects and stress-buffering models, with findings depending on measurement and context.",
+      "source_ids": [
+        "men-social-buffer"
+      ],
+      "locators": [
+        {
+          "source_id": "men-social-buffer",
+          "locator": "1985, abstract, main-effect and buffering models",
+          "limitations": "Effects vary with support type, measures and context"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

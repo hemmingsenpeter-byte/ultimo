@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L02",
+  "status": "draft",
+  "competency": "MEN-102.L02",
+  "questions": [
+    {
+      "id": "MEN-102.L02.Q1",
+      "competency": "MEN-102.L02",
+      "prompt": "What is the difference between distraction and interruption?",
+      "answer": "Distraction may divert attention; interruption suspends the ongoing task.",
+      "points": 1,
+      "feedback": "Give one example of each."
+    },
+    {
+      "id": "MEN-102.L02.Q2",
+      "competency": "MEN-102.L02",
+      "prompt": "Why might an unfinished task affect a new one?",
+      "answer": "Some attention can remain engaged with the prior task.",
+      "points": 1,
+      "feedback": "Do not infer a universal duration or effect."
+    },
+    {
+      "id": "MEN-102.L02.Q3",
+      "competency": "MEN-102.L02",
+      "prompt": "What makes a resumption cue useful?",
+      "answer": "It specifies the prior state and next verifiable action.",
+      "points": 1,
+      "feedback": "Write a cue, not just a task name."
+    },
+    {
+      "id": "MEN-102.L02.Q4",
+      "competency": "MEN-102.L02",
+      "prompt": "When should a protected session be interrupted?",
+      "answer": "When safety or a legitimate time-critical duty requires it.",
+      "points": 1,
+      "feedback": "Prioritise responsibility over uninterrupted time."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Classifies interruptions proportionately, preserves urgent obligations and demonstrates reliable resumption.",
+    "transfer": "Design a five-entry simulated interruption log for a different work or learning context. Distinguish source, urgency, response and resumption cost; propose one team-level change and one individual change. Explain what would make either inappropriate.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

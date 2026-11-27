@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Implementation intentions specify contingent situation-response plans; research evaluates average goal-attainment effects.",
+      "source_ids": [
+        "men-ifthen"
+      ],
+      "locators": [
+        {
+          "source_id": "men-ifthen",
+          "locator": "2006, abstract and review of situation-response plans",
+          "limitations": "Average effects across diverse studies; no guaranteed individual result"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

@@ -147,7 +147,7 @@
     "id": "MEN-102",
     "faculty": "MEN",
     "title": "Attention and concentration",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-102/syllabus.json",
     "year": 1
@@ -156,7 +156,7 @@
     "id": "MEN-103",
     "faculty": "MEN",
     "title": "Motivation and procrastination",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-103/syllabus.json",
     "year": 1
@@ -165,7 +165,7 @@
     "id": "MEN-104",
     "faculty": "MEN",
     "title": "Compulsive behaviour",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-104/syllabus.json",
     "year": 2
@@ -174,7 +174,7 @@
     "id": "MEN-105",
     "faculty": "MEN",
     "title": "Resilience",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-105/syllabus.json",
     "year": 2
@@ -183,7 +183,7 @@
     "id": "MEN-106",
     "faculty": "MEN",
     "title": "Stress management",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-106/syllabus.json",
     "year": 2
@@ -192,7 +192,7 @@
     "id": "MEN-107",
     "faculty": "MEN",
     "title": "Performance under pressure",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/MEN-107/syllabus.json",
     "year": 3

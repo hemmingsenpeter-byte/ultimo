@@ -1,6 +1,6 @@
 # MEN-107 — Performance under pressure
 
-Framework defined; lesson content: **planned**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [MEN-102 — Attention and concentration](../MEN-102/syllabus.md)

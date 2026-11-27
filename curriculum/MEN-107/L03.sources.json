@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Outcome knowledge can influence evaluation of previous decisions; outcome bias research supports distinguishing process and result.",
+      "source_ids": [
+        "bias-outcome"
+      ],
+      "locators": [
+        {
+          "source_id": "bias-outcome",
+          "locator": "1988, abstract and outcome-bias experiments",
+          "limitations": "Experimental judgement tasks, not a test of decision journals"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "Simulation education highlights alignment with outcome measures and feedback.",
+      "source_ids": [
+        "men-simulation-review"
+      ],
+      "locators": [
+        {
+          "source_id": "men-simulation-review",
+          "locator": "2010, abstract, feedback, practice, fidelity and transfer",
+          "limitations": "Medical training research; no claim that the specific classroom exercise is validated"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L01",
+  "status": "draft",
+  "competency": "MEN-102.L01",
+  "questions": [
+    {
+      "id": "MEN-102.L01.Q1",
+      "competency": "MEN-102.L01",
+      "prompt": "How does working memory differ from sustained attention?",
+      "answer": "Working memory retains/manipulates task information; sustained attention maintains engagement with a task goal.",
+      "points": 1,
+      "feedback": "Describe a task that needs both."
+    },
+    {
+      "id": "MEN-102.L01.Q2",
+      "competency": "MEN-102.L01",
+      "prompt": "Why is a memory-capacity estimate not a universal concentration timer?",
+      "answer": "Memory experiments measure performance under specific conditions, not a fixed duration of focus.",
+      "points": 1,
+      "feedback": "Distinguish number of items from elapsed time."
+    },
+    {
+      "id": "MEN-102.L01.Q3",
+      "competency": "MEN-102.L01",
+      "prompt": "What does a checklist change?",
+      "answer": "It externalises some memory demands and can help maintain the task rule.",
+      "points": 1,
+      "feedback": "Do not equate aid use with incompetence."
+    },
+    {
+      "id": "MEN-102.L01.Q4",
+      "competency": "MEN-102.L01",
+      "prompt": "Why can the worked comparison not isolate the benefit of the table?",
+      "answer": "It changed two factors and the trial order may matter.",
+      "points": 1,
+      "feedback": "Propose a one-factor comparison."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Distinguishes three attentional demands, identifies a task-specific support and interprets a comparison without diagnosing ability.",
+    "transfer": "Create an attention-demand map for a novel fictional task such as comparing three supplier quotes. Identify two competing demands, one external support and a meaningful quality measure. Explain why the support suits the task, and design a fairer follow-up comparison.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

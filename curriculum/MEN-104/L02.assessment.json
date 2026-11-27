@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L02",
+  "status": "draft",
+  "competency": "MEN-104.L02",
+  "questions": [
+    {
+      "id": "MEN-104.L02.Q1",
+      "competency": "MEN-104.L02",
+      "prompt": "Does an antecedent necessarily cause the following behaviour?",
+      "answer": "No; temporal order alone does not establish causation.",
+      "points": 1,
+      "feedback": "Offer one rival explanation."
+    },
+    {
+      "id": "MEN-104.L02.Q2",
+      "competency": "MEN-104.L02",
+      "prompt": "Why consider commercial and structural influences?",
+      "answer": "Access, promotion and social conditions may shape behaviour and harm beyond individual choices.",
+      "points": 1,
+      "feedback": "Avoid attributing all responsibility to willpower."
+    },
+    {
+      "id": "MEN-104.L02.Q3",
+      "competency": "MEN-104.L02",
+      "prompt": "May learners deliberately provoke a clinical trigger to investigate it?",
+      "answer": "No; this lesson uses fictional observations only.",
+      "points": 1,
+      "feedback": "Clinical exposure belongs with qualified care."
+    },
+    {
+      "id": "MEN-104.L02.Q4",
+      "competency": "MEN-104.L02",
+      "prompt": "What is a proportionate environmental option?",
+      "answer": "A voluntary, low-risk adjustment or support request consistent with the person's wishes.",
+      "points": 1,
+      "feedback": "Do not impose surveillance or restrictions."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Maps contextual influences, distinguishes hypotheses from causes and proposes voluntary support without inducing distress.",
+    "transfer": "Produce a context map for a novel fictional case. Include an environmental influence, an unknown internal experience, two rival explanations and a consent-based support option. Explain why the map cannot determine a clinical intervention.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

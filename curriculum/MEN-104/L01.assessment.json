@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L01",
+  "status": "draft",
+  "competency": "MEN-104.L01",
+  "questions": [
+    {
+      "id": "MEN-104.L01.Q1",
+      "competency": "MEN-104.L01",
+      "prompt": "Why is frequent repetition alone insufficient to identify a disorder?",
+      "answer": "Function, clinical context, difficulty controlling behaviour, distress and impact may differ.",
+      "points": 1,
+      "feedback": "Compare the two checking examples."
+    },
+    {
+      "id": "MEN-104.L01.Q2",
+      "competency": "MEN-104.L01",
+      "prompt": "What is functional impairment?",
+      "answer": "Interference with important areas of ordinary functioning.",
+      "points": 1,
+      "feedback": "Describe an effect without diagnosing its cause."
+    },
+    {
+      "id": "MEN-104.L01.Q3",
+      "competency": "MEN-104.L01",
+      "prompt": "Does physical dependence necessarily establish addiction?",
+      "answer": "No; physiological adaptation can occur without addiction.",
+      "points": 1,
+      "feedback": "Distinguish the mechanism from a behavioural diagnosis."
+    },
+    {
+      "id": "MEN-104.L01.Q4",
+      "competency": "MEN-104.L01",
+      "prompt": "What is the learner's role when impairment is reported?",
+      "answer": "Offer proportionate support and encourage qualified assessment, rather than diagnosing or treating.",
+      "points": 1,
+      "feedback": "Respect consent and privacy."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Distinguishes routine, possible compulsion, reported impairment and physical dependence without diagnosing; identifies appropriate support.",
+    "transfer": "Construct two fictional descriptions with similar repetition but different functions and impacts. Produce a neutral comparison and one appropriate referral option. Identify three pieces of information that are unknown rather than speculating.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

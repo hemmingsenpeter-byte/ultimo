@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Clinical descriptions of OCD distinguish obsessions and compulsions and note distress or interference with daily functioning.",
+      "source_ids": [
+        "men-ocd"
+      ],
+      "locators": [
+        {
+          "source_id": "men-ocd",
+          "locator": "Signs and symptoms; treatments",
+          "limitations": "Public clinical education; not a diagnostic instrument"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "WHO descriptions of gambling and gaming disorders include impaired control and adverse consequences; engagement alone is insufficient.",
+      "source_ids": [
+        "men-gambling",
+        "men-gaming"
+      ],
+      "locators": [
+        {
+          "source_id": "men-gambling",
+          "locator": "Gambling disorder and risk factors",
+          "limitations": "Public health overview; not individual diagnosis"
+        },
+        {
+          "source_id": "men-gaming",
+          "locator": "Definition, impairment and prevalence context",
+          "limitations": "Gaming engagement alone does not establish disorder"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    },
+    {
+      "claim": "Physical dependence can arise with prescribed benzodiazepines and withdrawal may occur after changes.",
+      "source_ids": [
+        "men-benzo-withdrawal"
+      ],
+      "locators": [
+        {
+          "source_id": "men-benzo-withdrawal",
+          "locator": "2020, physical dependence and patient precautions",
+          "limitations": "Drug class warning; no individual discontinuation plan"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

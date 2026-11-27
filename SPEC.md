@@ -1,5 +1,5 @@
 # Ultimo — Master specification v0.5
-Status: framework defined for 134 courses; seventeen authored draft courses; owner and subject review still required.
+Status: framework defined for 134 courses; twenty-three authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
 Develop a well-rounded adult who can live independently, think critically, care for others, create, contribute and enjoy life. The initial audience is adult men, but the curriculum is inclusive and does not prescribe a single life path, personality, relationship arrangement, body type or worldview. Character and agency matter more than status. Achievement is not human worth. Protect autonomy, rest, safety, privacy, consent and intellectual humility.
@@ -77,3 +77,11 @@ INT-102 and INT-104 now include eight additional authored draft lessons, 24 ques
 ## Intellectual Faculty draft completion
 
 All nine Intellectual Faculty courses now have authored draft lessons (36 in total). INT-105 through INT-109 add 20 lessons, 60 formative questions and five capstones. Across the programme, 17 courses and 68 lessons are authored; 117 courses and 468 lessons remain blueprint-only. The existing ten-course foundation semester is unchanged. Source mapping, qualified review and learner pilots remain required.
+
+## Mental Faculty expansion — attention, motivation and stress literacy
+
+MEN-102, MEN-103 and MEN-106 add twelve substantive draft lessons, 48 formative questions with answer-specific feedback and three capstones. Programme totals: 20 authored courses, 80 lessons and 252 questions; 114 courses and 456 lessons remain blueprint-only. Mental Faculty totals: four of seven courses and sixteen of 28 lessons authored. Original teaching worksheets are distinguished from clinical interventions. Relevant research abstracts and official guidance have been located; independent claim-level source verification, qualified subject and safety review, and learner testing remain mandatory. The ten-course foundation semester, stable identifiers, prerequisites and privacy boundaries are unchanged.
+
+## Mental Faculty draft completion
+
+MEN-104, MEN-105 and MEN-107 add twelve original lesson drafts, 48 formative questions with answer-specific feedback and three capstones. All seven Mental Faculty courses now have 28 authored lessons. Programme totals: 23 courses, 92 lessons, 300 questions and 23 capstones; 111 courses and 444 lessons remain blueprint-only. Compulsive behaviour is taught as recognition, context and referral literacy; no diagnostic instruments, clinical exposure exercises or substance/medication cessation protocols. The original 10-course semester and stable curriculum IDs remain unchanged. Independent source, qualified subject, safety and learner review remain required.

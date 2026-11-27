@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L01",
+  "status": "draft",
+  "competency": "MEN-105.L01",
+  "questions": [
+    {
+      "id": "MEN-105.L01.Q1",
+      "competency": "MEN-105.L01",
+      "prompt": "Why is resilience not a fixed personal trait in this lesson?",
+      "answer": "Adaptation varies across contexts, time, resources and domains.",
+      "points": 1,
+      "feedback": "Distinguish a trajectory from a label."
+    },
+    {
+      "id": "MEN-105.L01.Q2",
+      "competency": "MEN-105.L01",
+      "prompt": "Give one resource beyond the individual.",
+      "answer": "Social support, accessible services, secure housing or institutional flexibility.",
+      "points": 1,
+      "feedback": "Explain its relevance to the challenge."
+    },
+    {
+      "id": "MEN-105.L01.Q3",
+      "competency": "MEN-105.L01",
+      "prompt": "Does emotional distress rule out adaptation?",
+      "answer": "No; distress and functioning may coexist or change differently.",
+      "points": 1,
+      "feedback": "Avoid judging appearances."
+    },
+    {
+      "id": "MEN-105.L01.Q4",
+      "competency": "MEN-105.L01",
+      "prompt": "Why reduce preventable adversity?",
+      "answer": "Changing harmful conditions may support adaptation more directly than asking individuals to endure them.",
+      "points": 1,
+      "feedback": "Name a structural action."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Describes adaptation in context, distinguishes resources from outcomes and identifies structural as well as personal support.",
+    "transfer": "Create an adversity-resource map for a novel fictional disruption. Include at least one resource at three different levels and a modest functional objective. Explain why the objective cannot serve as a universal resilience score.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

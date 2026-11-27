@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L04",
+  "status": "draft",
+  "competency": "MEN-103.L04",
+  "questions": [
+    {
+      "id": "MEN-103.L04.Q1",
+      "competency": "MEN-103.L04",
+      "prompt": "Why count cue occurrences separately from planned sessions?",
+      "answer": "It separates whether the opportunity arose from whether the response began.",
+      "points": 1,
+      "feedback": "Use the correct denominator."
+    },
+    {
+      "id": "MEN-103.L04.Q2",
+      "competency": "MEN-103.L04",
+      "prompt": "If initiation occurs but output is incorrect, what might be needed?",
+      "answer": "Skill feedback, clarification or task redesign rather than merely a stronger cue.",
+      "points": 1,
+      "feedback": "Distinguish initiation from performance."
+    },
+    {
+      "id": "MEN-103.L04.Q3",
+      "competency": "MEN-103.L04",
+      "prompt": "Can a five-opportunity comparison prove a treatment effect?",
+      "answer": "No; it is a small descriptive learning exercise with uncontrolled factors.",
+      "points": 1,
+      "feedback": "Name a possible confounder."
+    },
+    {
+      "id": "MEN-103.L04.Q4",
+      "competency": "MEN-103.L04",
+      "prompt": "When may additional support be appropriate?",
+      "answer": "When persistent distress or functional impairment occurs, or resources and accessibility needs exceed the learner's capacity to address alone.",
+      "points": 1,
+      "feedback": "Avoid clinical conclusions from a worksheet."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Analyses opportunity-level evidence, selects a justified modification and recognises structural and professional support needs.",
+    "transfer": "Complete the procrastination experiment capstone with a fictional baseline, delay classification, dependency plan, if–then plans and two synthetic sets of opportunities. Compare the results with explicit denominators; state what you would revise and when outside support is appropriate.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

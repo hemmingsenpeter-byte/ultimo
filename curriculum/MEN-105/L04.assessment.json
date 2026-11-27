@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L04",
+  "status": "draft",
+  "competency": "MEN-105.L04",
+  "questions": [
+    {
+      "id": "MEN-105.L04.Q1",
+      "competency": "MEN-105.L04",
+      "prompt": "Does recovery require a return to the exact previous state?",
+      "answer": "No; adaptation may involve changed routines, resources or goals.",
+      "points": 1,
+      "feedback": "Describe one valid alternative."
+    },
+    {
+      "id": "MEN-105.L04.Q2",
+      "competency": "MEN-105.L04",
+      "prompt": "Name two occupational recovery experience categories.",
+      "answer": "Detachment, relaxation, mastery or control over leisure time.",
+      "points": 1,
+      "feedback": "Do not prescribe all four."
+    },
+    {
+      "id": "MEN-105.L04.Q3",
+      "competency": "MEN-105.L04",
+      "prompt": "Why include a review point?",
+      "answer": "Conditions and functioning can change, requiring adjustment or further assistance.",
+      "points": 1,
+      "feedback": "Specify a fictional change."
+    },
+    {
+      "id": "MEN-105.L04.Q4",
+      "competency": "MEN-105.L04",
+      "prompt": "Can a recovery plan certify fitness for work?",
+      "answer": "No; clinical or occupational clearance belongs with appropriate qualified processes.",
+      "points": 1,
+      "feedback": "Respect safety restrictions."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Designs a flexible recovery plan, recognises resource changes and distinguishes educational planning from clinical clearance.",
+    "transfer": "Complete the fictional recovery plan capstone: adversity and resource map, actionability matrix, consent-based support requests, flexible review plan and explicit boundaries. Compare two possible recovery trajectories and revise the plan after a synthetic change in circumstances.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

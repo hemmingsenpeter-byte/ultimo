@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Experimental research distinguishes distraction and explicit monitoring as possible pathways to pressure-related skill failure.",
+      "source_ids": [
+        "men-pressure-routes"
+      ],
+      "locators": [
+        {
+          "source_id": "men-pressure-routes",
+          "locator": "2011, abstract, distraction and explicit monitoring",
+          "limitations": "Experimental categorisation tasks; generalisation to presentations requires caution"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

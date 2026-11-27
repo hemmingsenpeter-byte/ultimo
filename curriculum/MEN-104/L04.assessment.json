@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-104.L04",
+  "status": "draft",
+  "competency": "MEN-104.L04",
+  "questions": [
+    {
+      "id": "MEN-104.L04.Q1",
+      "competency": "MEN-104.L04",
+      "prompt": "Why is abrupt cessation not a universal safe strategy?",
+      "answer": "Some substance or medicine withdrawal can be medically dangerous.",
+      "points": 1,
+      "feedback": "Identify the need for assessment without giving a cessation plan."
+    },
+    {
+      "id": "MEN-104.L04.Q2",
+      "competency": "MEN-104.L04",
+      "prompt": "Who should advise on prescribed benzodiazepine discontinuation?",
+      "answer": "A qualified medical professional, normally the prescribing clinician.",
+      "points": 1,
+      "feedback": "Do not provide taper schedules."
+    },
+    {
+      "id": "MEN-104.L04.Q3",
+      "competency": "MEN-104.L04",
+      "prompt": "What should serious acute symptoms prompt?",
+      "answer": "Prompt emergency medical assistance.",
+      "points": 1,
+      "feedback": "Do not substitute a helpline or worksheet for emergency care."
+    },
+    {
+      "id": "MEN-104.L04.Q4",
+      "competency": "MEN-104.L04",
+      "prompt": "Is difficulty stopping a recreational activity equivalent to medical withdrawal risk?",
+      "answer": "No; categories, mechanisms and care requirements differ.",
+      "points": 1,
+      "feedback": "Avoid generalising from a behavioural example."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Recognises withdrawal-related referral boundaries and selects medical or emergency help without giving a discontinuation plan.",
+    "transfer": "Complete the fictional support map capstone. Include one routine case, one impairment case and one withdrawal-related case. Explicitly distinguish immediate emergency response from non-emergency professional referral. Identify which decisions require medical expertise.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

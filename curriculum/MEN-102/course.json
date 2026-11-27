@@ -1,0 +1,43 @@
+{
+  "id": "MEN-102",
+  "title": "Attention and concentration",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "MEN-101"
+  ],
+  "competencies": [
+    "MEN-102.L01",
+    "MEN-102.L02",
+    "MEN-102.L03",
+    "MEN-102.L04"
+  ],
+  "reading": [
+    "men-ref-2",
+    "men-ref-7"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attention limits",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Interruptions",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Protected practice",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Rest",
+      "path": "L04.md"
+    }
+  ]
+}

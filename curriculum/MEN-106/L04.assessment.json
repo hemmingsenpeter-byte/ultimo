@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L04",
+  "status": "draft",
+  "competency": "MEN-106.L04",
+  "questions": [
+    {
+      "id": "MEN-106.L04.Q1",
+      "competency": "MEN-106.L04",
+      "prompt": "Is escalation limited to emergencies?",
+      "answer": "No; structural or persistent difficulties may warrant early organisational or professional support.",
+      "points": 1,
+      "feedback": "Give a non-emergency example."
+    },
+    {
+      "id": "MEN-106.L04.Q2",
+      "competency": "MEN-106.L04",
+      "prompt": "When should immediate emergency services be used?",
+      "answer": "When there is immediate danger or a medical emergency.",
+      "points": 1,
+      "feedback": "Use the local emergency number; in NZ 111."
+    },
+    {
+      "id": "MEN-106.L04.Q3",
+      "competency": "MEN-106.L04",
+      "prompt": "What is the role of 1737 in NZ?",
+      "answer": "Free call/text counselling support, not a replacement for emergency services.",
+      "points": 1,
+      "feedback": "Check current official contact details."
+    },
+    {
+      "id": "MEN-106.L04.Q4",
+      "competency": "MEN-106.L04",
+      "prompt": "Why avoid asking a peer for private clinical details?",
+      "answer": "Support should respect autonomy and privacy, and peers are not qualified to diagnose.",
+      "points": 1,
+      "feedback": "Offer practical support without interrogation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Selects appropriate support routes, distinguishes emergencies from routine help and demonstrates role and privacy boundaries.",
+    "transfer": "Complete the demand-resource audit capstone. Include a timeline, matrix, two coping choices and an escalation map distinguishing ordinary support, organisational help, professional care and emergency response. Identify the learner's competence boundary and a plan for verifying local services.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

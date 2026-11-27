@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-107.L04",
+  "status": "draft",
+  "competency": "MEN-107.L04",
+  "questions": [
+    {
+      "id": "MEN-107.L04.Q1",
+      "competency": "MEN-107.L04",
+      "prompt": "What distinguishes observation from interpretation?",
+      "answer": "Observation describes recorded behaviour; interpretation proposes its meaning or cause.",
+      "points": 1,
+      "feedback": "Rewrite a personal judgement as an observation."
+    },
+    {
+      "id": "MEN-107.L04.Q2",
+      "competency": "MEN-107.L04",
+      "prompt": "Why include strengths as well as gaps?",
+      "answer": "The review should preserve effective actions while correcting specific weaknesses.",
+      "points": 1,
+      "feedback": "Identify one of each."
+    },
+    {
+      "id": "MEN-107.L04.Q3",
+      "competency": "MEN-107.L04",
+      "prompt": "Do debrief studies guarantee a fixed improvement?",
+      "answer": "No; average effects depend on contexts and implementation.",
+      "points": 1,
+      "feedback": "Do not promise a percentage gain."
+    },
+    {
+      "id": "MEN-107.L04.Q4",
+      "competency": "MEN-107.L04",
+      "prompt": "What should follow a useful debrief?",
+      "answer": "A specific, feasible change tested against a comparable task criterion.",
+      "points": 1,
+      "feedback": "Define the next attempt."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Conducts an evidence-based, respectful debrief that identifies a testable improvement without making a personal or clinical judgement.",
+    "transfer": "Complete the presentation rehearsal capstone with a task-pressure map, two low-stakes rounds, process/outcome scorecard and structured debrief. Include one revised attempt on a novel fictional case and a clear limit on what the evidence establishes.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

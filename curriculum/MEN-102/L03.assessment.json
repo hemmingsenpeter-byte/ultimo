@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-102.L03",
+  "status": "draft",
+  "competency": "MEN-102.L03",
+  "questions": [
+    {
+      "id": "MEN-102.L03.Q1",
+      "competency": "MEN-102.L03",
+      "prompt": "Why start with an observable deliverable?",
+      "answer": "It provides a criterion for checking what the session achieved.",
+      "points": 1,
+      "feedback": "Replace 'focus more' with a specific output."
+    },
+    {
+      "id": "MEN-102.L03.Q2",
+      "competency": "MEN-102.L03",
+      "prompt": "What is an example of an if–then contingency?",
+      "answer": "If a routine request arrives during the agreed block, capture it for the agreed response window.",
+      "points": 1,
+      "feedback": "Keep essential and urgent duties exempt."
+    },
+    {
+      "id": "MEN-102.L03.Q3",
+      "competency": "MEN-102.L03",
+      "prompt": "Does protected practice mean no interruption is permitted?",
+      "answer": "No; it is subject to safety and legitimate responsibilities.",
+      "points": 1,
+      "feedback": "State the exception policy."
+    },
+    {
+      "id": "MEN-102.L03.Q4",
+      "competency": "MEN-102.L03",
+      "prompt": "How should a practice block be evaluated?",
+      "answer": "Check task quality and feasibility; elapsed time alone does not establish learning.",
+      "points": 1,
+      "feedback": "Name an actual quality criterion."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Designs accessible, bounded practice with a measurable deliverable, resumption and safety exceptions.",
+    "transfer": "Plan one low-risk learning session and an alternative version for a disrupted schedule. Complete either a fictional simulation or actual non-sensitive task. Record the output criterion, an observed gap, and a single design change for the next session.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

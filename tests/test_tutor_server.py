@@ -16,8 +16,16 @@ class TutorServerTests(unittest.TestCase):
         self.assertTrue(ctx["passages"])
         self.assertTrue(all(p["id"].startswith("INT-101.L01#") for p in ctx["passages"]))
         self.assertTrue(ctx["references"])
+        # Select a blueprint dynamically; authoring a course must not break this test.
+        # At full curriculum coverage, the unknown-ID rejection still applies.
+        for course in self.data["courses"]:
+            if not course["authored"]:
+                key = course["id"] + "." + course["lessons"][0]["id"]
+                with self.assertRaises(ValueError):
+                    context_for(self.data, key)
+                break
         with self.assertRaises(ValueError):
-            context_for(self.data, "MEN-102.L01")
+            context_for(self.data, "ZZZ-999.L01")
 
     def test_messages(self):
         messages, ids = make_messages(self.data, self.payload())

@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-103.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Procrastination research distinguishes multiple correlates and treatment approaches; clinical intervention findings cannot validate an individual classroom experiment.",
+      "source_ids": [
+        "men-procrast-review",
+        "men-procrast-treatment"
+      ],
+      "locators": [
+        {
+          "source_id": "men-procrast-review",
+          "locator": "2007, abstract, predictors and temporal motivation theory",
+          "limitations": "Associations and theoretical synthesis; not diagnosis or individual causation"
+        },
+        {
+          "source_id": "men-procrast-treatment",
+          "locator": "2018, intervention literature and limitations",
+          "limitations": "Clinical intervention evidence is not evidence for every classroom task or a substitute for care"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    },
+    {
+      "claim": "Persistent stress-related functional interference can warrant professional support.",
+      "source_ids": [
+        "men-who-stress"
+      ],
+      "locators": [
+        {
+          "source_id": "men-who-stress",
+          "locator": "Web Q&A, stress, daily functioning and seeking help; accessed 2026-11-26",
+          "limitations": "General guidance; cannot distinguish individual conditions"
+        }
+      ],
+      "verification": "Relevant abstract or official web guidance located at authoring; full-text and independent sentence-level review required."
+    }
+  ],
+  "original_material": "Lesson frameworks, fictional scenarios, calculations, exercises, questions and feedback are original teaching material, not validated diagnostic or therapeutic instruments.",
+  "review_required": true
+}

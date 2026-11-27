@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L03",
+  "status": "draft",
+  "competency": "MEN-105.L03",
+  "questions": [
+    {
+      "id": "MEN-105.L03.Q1",
+      "competency": "MEN-105.L03",
+      "prompt": "Why is the number of contacts not enough to measure support?",
+      "answer": "Availability, quality and fit with the need matter.",
+      "points": 1,
+      "feedback": "Give an example of a mismatch."
+    },
+    {
+      "id": "MEN-105.L03.Q2",
+      "competency": "MEN-105.L03",
+      "prompt": "What is stress buffering?",
+      "answer": "A proposed pattern in which support moderates the adverse relationship between stress and well-being.",
+      "points": 1,
+      "feedback": "Do not claim every interaction buffers stress."
+    },
+    {
+      "id": "MEN-105.L03.Q3",
+      "competency": "MEN-105.L03",
+      "prompt": "What makes a request respectful?",
+      "answer": "It is specific, bounded, voluntary and allows refusal.",
+      "points": 1,
+      "feedback": "Include a fallback."
+    },
+    {
+      "id": "MEN-105.L03.Q4",
+      "competency": "MEN-105.L03",
+      "prompt": "Can peer support replace professional assessment?",
+      "answer": "No; it can complement qualified care and help with access.",
+      "points": 1,
+      "feedback": "Identify the relevant boundary."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer, formative only; use specific feedback and delayed retest.",
+    "practice": "Matches support types to needs and drafts consent-based requests, alternatives and role boundaries.",
+    "transfer": "Create a fictional support network map with four support types, a specific request for two and an alternative for each. Explain how consent and the helper's capacity change the plan. No names or personal contact information are needed.",
+    "pass": "All mapped criteria require Level 2 evidence; never average away missing or safety-critical evidence. Quizzes cannot certify competence."
+  }
+}

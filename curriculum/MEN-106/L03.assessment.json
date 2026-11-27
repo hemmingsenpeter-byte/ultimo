@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-106.L03",
+  "status": "draft",
+  "competency": "MEN-106.L03",
+  "questions": [
+    {
+      "id": "MEN-106.L03.Q1",
+      "competency": "MEN-106.L03",
+      "prompt": "How do problem-directed and response-directed actions differ?",
+      "answer": "One aims to alter the demand; the other supports functioning or manages its effects.",
+      "points": 1,
+      "feedback": "Give paired examples."
+    },
+    {
+      "id": "MEN-106.L03.Q2",
+      "competency": "MEN-106.L03",
+      "prompt": "Is response-directed coping always avoidance?",
+      "answer": "No; it can support functioning while a problem is addressed or cannot yet be changed.",
+      "points": 1,
+      "feedback": "State when it becomes insufficient."
+    },
+    {
+      "id": "MEN-106.L03.Q3",
+      "competency": "MEN-106.L03",
+      "prompt": "Why include a review point?",
+      "answer": "To decide whether the demand changed, the plan is manageable or further support is needed.",
+      "points": 1,
+      "feedback": "Use an observable condition."
+    },
+    {
+      "id": "MEN-106.L03.Q4",
+      "competency": "MEN-106.L03",
+      "prompt": "What takes priority in a threatening situation?",
+      "answer": "Safety and appropriate assistance rather than a general coping exercise.",
+      "points": 1,
+      "feedback": "Do not substitute a worksheet for support."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Selects proportionate problem-directed and response-directed actions, with consent, review and escalation boundaries.",
+    "transfer": "Prepare a two-column coping choice worksheet for two fictional demands, one modifiable and one currently outside the learner's control. Include safe alternatives, a review date and an escalation condition. Explain why doing more is not always the best response.",
+    "pass": "All four mapped course criteria require Level 2 evidence; no averaging away omissions or safety boundaries. Quiz score alone cannot certify competency."
+  }
+}

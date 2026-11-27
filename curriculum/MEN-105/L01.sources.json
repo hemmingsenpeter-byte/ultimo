@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "MEN-105.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Resilience definitions vary and emphasise adaptation over time; determinants span individual and social or economic levels.",
+      "source_ids": [
+        "men-resilience-def",
+        "men-resilience-resources"
+      ],
+      "locators": [
+        {
+          "source_id": "men-resilience-def",
+          "locator": "2014, abstract and interdisciplinary definitions",
+          "limitations": "Expert discussion; no single accepted resilience metric"
+        },
+        {
+          "source_id": "men-resilience-resources",
+          "locator": "2011 review, taxonomy of resilience resources",
+          "limitations": "Conceptual taxonomy; not a validated individual prediction tool"
+        }
+      ],
+      "verification": "Relevant research abstract or official web guidance located. Full-text appraisal and independent sentence-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, exercises, quizzes and rubrics are original teaching material; not diagnostic instruments or validated treatments.",
+  "review_required": true
+}

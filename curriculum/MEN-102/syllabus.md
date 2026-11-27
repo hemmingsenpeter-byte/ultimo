@@ -1,6 +1,6 @@
 # MEN-102 — Attention and concentration
 
-Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [MEN-101 — Habits](../MEN-101/syllabus.md)

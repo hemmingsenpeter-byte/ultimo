@@ -1,0 +1,43 @@
+{
+  "id": "MEN-103",
+  "title": "Motivation and procrastination",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "MEN-101"
+  ],
+  "competencies": [
+    "MEN-103.L01",
+    "MEN-103.L02",
+    "MEN-103.L03",
+    "MEN-103.L04"
+  ],
+  "reading": [
+    "men-ref-1",
+    "men-ref-4"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Avoidance",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Task decomposition",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "If-then plans",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Barrier review",
+      "path": "L04.md"
+    }
+  ]
+}

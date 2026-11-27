@@ -1,0 +1,43 @@
+{
+  "id": "MEN-105",
+  "title": "Resilience",
+  "faculty": "MEN",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "MEN-105.L01",
+    "MEN-105.L02",
+    "MEN-105.L03",
+    "MEN-105.L04"
+  ],
+  "reading": [
+    "men-ref-3",
+    "men-ref-5"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Resilience and resources",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Actionable stressors",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Social support",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Recovery",
+      "path": "L04.md"
+    }
+  ]
+}
