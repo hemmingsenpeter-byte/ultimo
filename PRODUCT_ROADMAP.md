@@ -24,9 +24,11 @@ Acceptance criteria:
 
 Validation: 25 Python tests, both Node suites, all content validators and the static build pass. A scripted Chromium journey passed 43 checks for plan selection, prerequisite unlocking, backup migration, shared recommendations, keyboard focus and layouts at 320, 390 and 768 pixels. Screen-reader and representative learner testing remain part of the next milestone.
 
-## 2. Browser and accessibility pilot — next
+## 2. Browser and accessibility pilot — in progress
 
 Exercise the complete learning flow with representative learners and assistive technology before expanding the application.
+
+The scoped engineering pass is complete: 12 browser tests, eleven axe route scans, keyboard learning flows and reflow checks pass, with a browser CI job added. Human learner and manual screen-reader sessions remain pending. Follow the [ready-to-run learner pilot protocol](docs/learner-pilot.md), and record builds, tested combinations, findings and retests in the [accessibility audit](docs/accessibility-audit.md). Engineering readiness and human pilot completion are separate decisions; automated results alone do not complete this milestone.
 
 Acceptance criteria:
 
@@ -34,6 +36,7 @@ Acceptance criteria:
 - Complete the same flows using only a keyboard; verify visible focus, labels, headings, focus order and clear feedback with a screen reader.
 - Check narrow mobile screens, touch controls and text zoom for readable content, usable forms and no blocked actions.
 - Record browser/device coverage and learner feedback without private records; fix blocking issues and retest affected flows.
+- Record engineering readiness only after scoped checks and blocking fixes pass. Mark the human pilot complete only after actual voluntary learner and manual screen-reader sessions, findings and necessary retests are documented; untested combinations remain explicit limitations.
 
 ## 3. Criterion-linked local evidence and reassessment
 

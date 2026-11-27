@@ -30,13 +30,25 @@ node --check --input-type=module < platform/app.js
 python3 tools/build.py
 python3 -m http.server 8000 --directory dist
 ```
-Open http://localhost:8000. Build output is dist/; serve over HTTP, not file://. Python 3.11+ and Node 20+ for development tests; no external packages needed.
+Open http://localhost:8000. Build output is dist/; serve over HTTP, not file://. Python 3.11+ and Node 20+ support the unit/module checks above, which need no external packages. Browser checks use the separate development tools below.
+
+### Browser and accessibility tests
+
+The browser development tools require Node 22.12+ and Python 3.11+. From the repository root:
+
+```sh
+npm ci
+npx playwright install chromium
+npm run test:browser
+```
+
+The Playwright harness builds the site, serves the test copy at `http://127.0.0.1:3001`, and runs Chromium journeys, axe checks and layout assertions using fictional records. Keep port 3001 free. An installed Chromium can be selected with `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`; record the actual browser version used. These npm packages are development dependencies only: the static application and Python build remain dependency-free, and deployment does not require npm. See [the audit](../docs/accessibility-audit.md) for scope/results and [the learner pilot protocol](../docs/learner-pilot.md) for manual checks that automation cannot complete.
 
 ## Deployment
 A static host can publish dist/ after running python3 tools/build.py. Render static site: connect this repository, main, build command python3 tools/build.py, publish directory dist. Select the intended workspace before creating a site; do not provision paid services. GitHub Pages: set Settings > Pages > Source to GitHub Actions and run the included manual Publish Ultimo workflow. The hash-based routes work under repository subpaths. Deployment is not automatic until explicitly configured.
 
 ## Boundaries
-Draft materials only. No source-level approval, independent assessor, cloud sync, mentor verification, identity system or publicly hosted AI inference. No CASE/SCORM export yet; the portable versioned curriculum.json is a platform-neutral internal export, not a standards-certified adapter. The simple reader supports the Markdown subset used by current lessons, not arbitrary HTML/Markdown. Keyboard, screen-reader and device testing still required. All evidence is self-recorded; no levels are awarded. See SPEC.md and framework/review-policy.md.
+Draft materials only. No source-level approval, independent assessor, cloud sync, mentor verification, identity system or publicly hosted AI inference. No CASE/SCORM export yet; the portable versioned curriculum.json is a platform-neutral internal export, not a standards-certified adapter. The simple reader supports the Markdown subset used by current lessons, not arbitrary HTML/Markdown. Scoped automated keyboard, semantic and reflow checks are recorded in docs/accessibility-audit.md; real screen-reader, device and learner sessions remain required. All evidence is self-recorded; no levels are awarded. See SPEC.md and framework/review-policy.md.
 
 ## Tutor studio
 Six role-based deterministic guides, curriculum passage retrieval, open-answer practice questions, prompt export and a review-first adaptive queue. A configured local Ollama or OpenAI gateway adds generative tutoring; see ../tutor/README.md. The public static site does not perform model inference.
