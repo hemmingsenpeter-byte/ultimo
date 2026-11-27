@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import {fresh,clean,today,addDays,complete,review,due,courseProgress,nextLessons,plan} from "../platform/state.mjs";
+import {fresh,clean,today,addDays,complete,review,due,courseProgress,nextLessons,plan,studyOptions,studySelection} from "../platform/state.mjs";
 const c1={id:"INT-101",authored:true,prerequisites:[],lessons:[{id:"L01"},{id:"L02"}]};
 const c2={id:"MEN-101",authored:true,prerequisites:["INT-101"],lessons:[{id:"L01"}]};
 const c3={id:"MEN-102",authored:false,prerequisites:["MEN-101"],lessons:[{id:"L01"}]};
@@ -35,4 +35,70 @@ assert.equal(imported.hours,5);
 assert.equal(imported.quizzes["INT-101.L01"],undefined);
 assert.equal(imported.evidence.length,1);
 assert.throws(()=>clean({version:2},valid,ids));
-console.log("Ultimo local-state, prerequisite, review and import tests passed.");
+
+const foundation={...c1,faculty:"INT"};
+const bridge={id:"INT-102",faculty:"INT",authored:true,prerequisites:[foundation.id],lessons:[{id:"L01"}]};
+const attention={id:"MEN-102",faculty:"MEN",authored:true,prerequisites:[bridge.id],lessons:[{id:"L01"}]};
+const motivation={...attention,id:"MEN-103"};
+const unwritten={...attention,id:"MEN-104",authored:false,prerequisites:[]};
+const focusData={courses:[foundation,attention,motivation,bridge,unwritten],semester:[foundation.id],faculties:[{id:"INT",title:"Intellectual"},{id:"MEN",title:"Mental"}]};
+assert.deepEqual(studyOptions(focusData),[
+  {id:"foundation",title:"Foundation semester"},{id:"all",title:"All written courses"},
+  {id:"faculty:INT",title:"Intellectual faculty"},{id:"faculty:MEN",title:"Mental faculty"}
+]);
+const focused=fresh();
+assert.equal(focused.studyPlan,"foundation");
+assert.deepEqual(studySelection(focused,focusData).targets,[foundation.id]);
+focused.studyPlan="faculty:MEN";
+assert.deepEqual(studySelection(focused,focusData),{
+  id:"faculty:MEN",title:"Mental faculty",order:[foundation.id,bridge.id,attention.id,motivation.id],
+  targets:[attention.id,motivation.id],prerequisites:[foundation.id,bridge.id],unavailable:[unwritten.id],blocked:[]
+});
+assert.deepEqual(nextLessons(focused,focusData.courses,studySelection(focused,focusData).order),["INT-101.L01"]);
+complete(focused,"INT-101.L01",day);complete(focused,"INT-101.L02",day);
+assert.deepEqual(nextLessons(focused,focusData.courses,studySelection(focused,focusData).order),["INT-102.L01"]);
+complete(focused,"INT-102.L01",day);
+assert.deepEqual(nextLessons(focused,focusData.courses,studySelection(focused,focusData).order),["MEN-102.L01","MEN-103.L01"]);
+const progress=JSON.stringify(focused.completed);
+focused.studyPlan="foundation";
+assert.deepEqual(nextLessons(focused,focusData.courses,studySelection(focused,focusData).order),[]);
+focused.studyPlan="all";
+assert.deepEqual(studySelection(focused,focusData).unavailable,[]);
+assert.deepEqual(studySelection(focused,focusData).targets,[foundation.id,attention.id,motivation.id,bridge.id]);
+assert.deepEqual(nextLessons(focused,focusData.courses,studySelection(focused,focusData).order),["MEN-102.L01","MEN-103.L01"]);
+assert.equal(JSON.stringify(focused.completed),progress,"Changing focus preserves all reading records");
+focused.studyPlan="faculty:UNKNOWN";
+assert.equal(studySelection(focused,focusData).id,"foundation");
+
+const unreadyBridge={...bridge,prerequisites:[unwritten.id,"MISSING-101"]};
+const blockedData={...focusData,courses:[foundation,attention,motivation,unreadyBridge,unwritten]};
+focused.studyPlan="faculty:MEN";
+const blockedSelection=studySelection(focused,blockedData);
+assert.deepEqual(blockedSelection.order,[unwritten.id,bridge.id,attention.id,motivation.id]);
+assert.deepEqual(blockedSelection.prerequisites,[unwritten.id,bridge.id]);
+assert.deepEqual(blockedSelection.blocked,[
+  {course:attention.id,prerequisites:[unwritten.id,"MISSING-101"]},
+  {course:motivation.id,prerequisites:[unwritten.id,"MISSING-101"]}
+]);
+assert.deepEqual(nextLessons(focused,blockedData.courses,blockedSelection.order),[],"An unread transitive prerequisite cannot be bypassed by manually marking its dependent course read");
+const cycleA={...attention,id:"CYCLE-A",prerequisites:["CYCLE-B"]},cycleB={...attention,id:"CYCLE-B",prerequisites:["CYCLE-A"]};
+const cycleData={...focusData,courses:[cycleA,cycleB]};
+const cyclicSelection=studySelection(focused,cycleData);
+assert.deepEqual(cyclicSelection.order,[cycleB.id,cycleA.id]);
+assert.deepEqual(nextLessons(fresh(),cycleData.courses,cyclicSelection.order),[]);
+const unknownSemester={...focusData,semester:["MISSING-COURSE",foundation.id,foundation.id]};
+assert.deepEqual(studySelection(fresh(),unknownSemester).unavailable,["MISSING-COURSE"]);
+assert.deepEqual(studySelection(fresh(),unknownSemester).order,[foundation.id]);
+
+const focusValid=new Set(focusData.courses.filter(c=>c.authored).flatMap(c=>c.lessons.map(l=>c.id+"."+l.id)));
+const focusCourseIds=new Set(focusData.courses.filter(c=>c.authored).map(c=>c.id));
+const planIds=new Set(studyOptions(focusData).map(p=>p.id));
+const legacy=JSON.parse(JSON.stringify(focused));delete legacy.studyPlan;
+assert.equal(clean(legacy,focusValid,focusCourseIds,planIds).studyPlan,"foundation","Old version 1 backups retain their supported format");
+const backup=JSON.parse(JSON.stringify({...focused,studyPlan:"faculty:MEN"}));
+assert.deepEqual(clean(backup,focusValid,focusCourseIds,planIds),backup,"Validated focus and records survive a JSON backup roundtrip");
+assert.equal(clean({...backup,studyPlan:"faculty:UNKNOWN"},focusValid,focusCourseIds,planIds).studyPlan,"foundation");
+assert.equal(clean({...backup,studyPlan:7},focusValid,focusCourseIds,planIds).studyPlan,"foundation");
+assert.equal(clean({...backup,studyPlan:"all"},focusValid,focusCourseIds).studyPlan,"all");
+assert.equal(clean(backup,focusValid,focusCourseIds).studyPlan,"foundation","Faculty selection needs a known curriculum plan ID");
+console.log("Ultimo local-state, study selection, prerequisite, review and import tests passed.");

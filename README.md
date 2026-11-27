@@ -6,6 +6,7 @@ An open curriculum for lifelong human development: capability, character, connec
 
 - [Tutor architecture and local model setup](tutor/README.md)
 - [Student application and deployment guide](platform/README.md)
+- [Product roadmap](PRODUCT_ROADMAP.md)
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
 - [Five-year pathway](pathways/five-year.md)
