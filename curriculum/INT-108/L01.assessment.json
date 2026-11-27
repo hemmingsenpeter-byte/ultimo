@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-108.L01",
+  "status": "draft",
+  "competency": "INT-108.L01",
+  "questions": [
+    {
+      "id": "INT-108.L01.Q1",
+      "competency": "INT-108.L01",
+      "prompt": "What is a resolution criterion?",
+      "answer": "A predefined rule for deciding the forecast outcome from evidence.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-108.L01.Q2",
+      "competency": "INT-108.L01",
+      "prompt": "Why timestamp a prediction?",
+      "answer": "To preserve what was forecast before later information arrived.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-108.L01.Q3",
+      "competency": "INT-108.L01",
+      "prompt": "Does missing resolution evidence necessarily imply no?",
+      "answer": "No; the predefined rule may require an ambiguous or void outcome.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Writes an independently resolvable question and tests boundary cases.",
+    "transfer": "Write five low-stakes forecasting questions about fictional or publicly verifiable events. Include one numeric outcome, one binary event and one conditional question. Define resolution rules before assigning probabilities.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

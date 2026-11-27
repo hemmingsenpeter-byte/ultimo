@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L03",
+  "status": "draft",
+  "competency": "INT-107.L03",
+  "questions": [
+    {
+      "id": "INT-107.L03.Q1",
+      "competency": "INT-107.L03",
+      "prompt": "What does the slope of a time-series line represent?",
+      "answer": "Change in the vertical quantity per unit of time.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-107.L03.Q2",
+      "competency": "INT-107.L03",
+      "prompt": "Does a rising line with falling slope mean the level falls?",
+      "answer": "No; the level can increase at a diminishing rate.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-107.L03.Q3",
+      "competency": "INT-107.L03",
+      "prompt": "Why inspect histogram bins?",
+      "answer": "Grouping choices can change the displayed distribution.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Accurately extracts levels and changes and identifies misleading graphical choices.",
+    "transfer": "Compare two representations of the same fictional dataset, one using a zero baseline and one zoomed. State the question each answers, and propose a clearer label for the scale.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

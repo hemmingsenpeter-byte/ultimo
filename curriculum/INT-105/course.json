@@ -1,0 +1,42 @@
+{
+  "id": "INT-105",
+  "title": "Cognitive biases",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-104"
+  ],
+  "competencies": [
+    "INT-105.L01",
+    "INT-105.L02",
+    "INT-105.L03",
+    "INT-105.L04"
+  ],
+  "reading": [
+    "scout-mindset"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Confirmation bias",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Anchoring and availability",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Counterexamples",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Decision journals",
+      "path": "L04.md"
+    }
+  ]
+}

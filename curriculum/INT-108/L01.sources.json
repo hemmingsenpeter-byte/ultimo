@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-108.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Resolvable forecasting questions need explicit criteria for when and how outcomes are determined.",
+      "source_ids": [
+        "forecast-questions"
+      ],
+      "locators": [
+        {
+          "source_id": "forecast-questions",
+          "locator": "Resolution criteria guidance",
+          "limitations": "Platform-specific operational practice"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

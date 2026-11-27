@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-109.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Traditional justified-true-belief analysis faces Gettier-style challenges involving epistemic luck.",
+      "source_ids": [
+        "epi-knowledge"
+      ],
+      "locators": [
+        {
+          "source_id": "epi-knowledge",
+          "locator": "Sections on justified true belief, Gettier problems and alternative analyses",
+          "limitations": "Philosophical survey; no settled universal analysis"
+        }
+      ],
+      "verification": "Relevant reference located; exact sentence-level support and independent academic review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional cases, numerical examples, practice and questions are original instructional material; no claim of independent intervention validation.",
+  "review_required": true
+}

@@ -1,0 +1,43 @@
+{
+  "id": "INT-102",
+  "title": "Logic and argument",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-101"
+  ],
+  "competencies": [
+    "INT-102.L01",
+    "INT-102.L02",
+    "INT-102.L03",
+    "INT-102.L04"
+  ],
+  "reading": [
+    "int-ref-1",
+    "scout-mindset"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Premises and conclusions",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Validity and soundness",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Induction and fallacies",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Steelmanning",
+      "path": "L04.md"
+    }
+  ]
+}

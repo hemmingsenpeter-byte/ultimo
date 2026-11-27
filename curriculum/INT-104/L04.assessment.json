@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L04",
+  "status": "draft",
+  "competency": "INT-104.L04",
+  "questions": [
+    {
+      "id": "INT-104.L04.Q1",
+      "competency": "INT-104.L04",
+      "prompt": "What distinguishes computational reproduction from replication here?",
+      "answer": "Reproduction uses the same data and analysis; replication examines the question with new data.",
+      "points": 1,
+      "feedback": "State which inputs change."
+    },
+    {
+      "id": "INT-104.L04.Q2",
+      "competency": "INT-104.L04",
+      "prompt": "Does one failed replication conclusively disprove a result?",
+      "answer": "No; compare uncertainty, methods, contexts and potential errors.",
+      "points": 1,
+      "feedback": "List two reasons estimates may differ."
+    },
+    {
+      "id": "INT-104.L04.Q3",
+      "competency": "INT-104.L04",
+      "prompt": "Why document deviations from a protocol?",
+      "answer": "So readers can assess how departures may affect interpretation and distinguish planned from exploratory analysis.",
+      "points": 1,
+      "feedback": "Give an example of a meaningful deviation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Produces a usable repeatability packet and interprets agreement or discrepancy without overclaiming.",
+    "transfer": "Exchange a synthetic-data protocol with another learner or simulate a second study yourself. Record deviations and explain how a different estimate should change your confidence, without claiming definitive proof or disproof.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

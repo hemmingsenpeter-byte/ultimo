@@ -1,6 +1,6 @@
 # INT-104 — Scientific reasoning
 
-Framework defined; lesson content: **planned**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 1; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [INT-103 — Probability and statistics](../INT-103/syllabus.md)

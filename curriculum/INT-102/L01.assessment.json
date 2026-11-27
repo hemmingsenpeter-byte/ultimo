@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-102.L01",
+  "status": "draft",
+  "competency": "INT-102.L01",
+  "questions": [
+    {
+      "id": "INT-102.L01.Q1",
+      "competency": "INT-102.L01",
+      "prompt": "What makes a statement a premise rather than a conclusion?",
+      "answer": "Its role is to provide support for another statement in that argument.",
+      "points": 1,
+      "feedback": "Name the relationship, not the location in the paragraph."
+    },
+    {
+      "id": "INT-102.L01.Q2",
+      "competency": "INT-102.L01",
+      "prompt": "What is missing from ‘The room is cold, therefore we should buy a heater’?",
+      "answer": "A bridge connecting the temperature to a purchase decision, including alternatives and acceptable cost.",
+      "points": 1,
+      "feedback": "Distinguish the observed fact from the decision criterion."
+    },
+    {
+      "id": "INT-102.L01.Q3",
+      "competency": "INT-102.L01",
+      "prompt": "Can a conclusion also be a premise?",
+      "answer": "Yes, an intermediate conclusion may support a further conclusion.",
+      "points": 1,
+      "feedback": "Draw a two-stage chain."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Correctly identifies claims, supporting premises and a plausible marked bridge.",
+    "transfer": "Choose a public recommendation about a low-stakes issue. Write two explicit premises, a conclusion and one inferred premise; identify a fact that would weaken the argument. Revisit tomorrow without the original text.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

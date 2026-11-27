@@ -1,0 +1,43 @@
+{
+  "id": "INT-107",
+  "title": "Mathematics and science literacy",
+  "faculty": "INT",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "INT-103"
+  ],
+  "competencies": [
+    "INT-107.L01",
+    "INT-107.L02",
+    "INT-107.L03",
+    "INT-107.L04"
+  ],
+  "reading": [
+    "int-ref-6",
+    "int-ref-2"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Units and ratios",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Linear and exponential models",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Graph interpretation",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Quantitative claims",
+      "path": "L04.md"
+    }
+  ]
+}

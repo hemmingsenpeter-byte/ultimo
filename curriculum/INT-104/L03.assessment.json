@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-104.L03",
+  "status": "draft",
+  "competency": "INT-104.L03",
+  "questions": [
+    {
+      "id": "INT-104.L03.Q1",
+      "competency": "INT-104.L03",
+      "prompt": "What is the counterfactual in a causal comparison?",
+      "answer": "The outcome under the alternative exposure or intervention for the relevant unit or population.",
+      "points": 1,
+      "feedback": "Name the comparison precisely."
+    },
+    {
+      "id": "INT-104.L03.Q2",
+      "competency": "INT-104.L03",
+      "prompt": "Why can an observational association be misleading?",
+      "answer": "Confounding, reverse causation, selection or chance can generate it.",
+      "points": 1,
+      "feedback": "Supply one plausible alternative path."
+    },
+    {
+      "id": "INT-104.L03.Q3",
+      "competency": "INT-104.L03",
+      "prompt": "Does a causal result automatically generalise?",
+      "answer": "No; other populations, settings or implementations may respond differently.",
+      "points": 1,
+      "feedback": "State the study boundary."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Articulates a counterfactual, alternative causal paths, study design assumptions and bounded conclusion.",
+    "transfer": "Take a fictional causal headline, construct two rival diagrams and propose a design that discriminates between them. Specify which conclusion would still be unwarranted even after a positive test.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

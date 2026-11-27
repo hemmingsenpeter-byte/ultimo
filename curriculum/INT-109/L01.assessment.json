@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-109.L01",
+  "status": "draft",
+  "competency": "INT-109.L01",
+  "questions": [
+    {
+      "id": "INT-109.L01.Q1",
+      "competency": "INT-109.L01",
+      "prompt": "How does belief differ from truth?",
+      "answer": "Belief is an attitude; truth concerns whether the proposition is actually the case.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-109.L01.Q2",
+      "competency": "INT-109.L01",
+      "prompt": "Can a justified belief be false?",
+      "answer": "Yes; reasonable grounds may be misleading.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-109.L01.Q3",
+      "competency": "INT-109.L01",
+      "prompt": "Why do Gettier-style cases matter?",
+      "answer": "They challenge whether justified true belief alone is sufficient for knowledge.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Distinguishes belief, truth and justification and recognises epistemic luck.",
+    "transfer": "Build an epistemic audit of three fictional propositions, separating belief, evidence, actual status and possible epistemic luck. Include a claim whose truth remains unresolved.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

@@ -282,7 +282,7 @@
     "id": "INT-102",
     "faculty": "INT",
     "title": "Logic and argument",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-102/syllabus.json",
     "year": 1
@@ -300,7 +300,7 @@
     "id": "INT-104",
     "faculty": "INT",
     "title": "Scientific reasoning",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-104/syllabus.json",
     "year": 1
@@ -309,7 +309,7 @@
     "id": "INT-105",
     "faculty": "INT",
     "title": "Cognitive biases",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-105/syllabus.json",
     "year": 2
@@ -318,7 +318,7 @@
     "id": "INT-106",
     "faculty": "INT",
     "title": "Systems thinking",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-106/syllabus.json",
     "year": 2
@@ -327,7 +327,7 @@
     "id": "INT-107",
     "faculty": "INT",
     "title": "Mathematics and science literacy",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-107/syllabus.json",
     "year": 3
@@ -336,7 +336,7 @@
     "id": "INT-108",
     "faculty": "INT",
     "title": "Forecasting and decisions",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-108/syllabus.json",
     "year": 3
@@ -345,7 +345,7 @@
     "id": "INT-109",
     "faculty": "INT",
     "title": "Epistemology",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/INT-109/syllabus.json",
     "year": 5

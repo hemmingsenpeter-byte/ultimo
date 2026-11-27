@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-105.L04",
+  "status": "draft",
+  "competency": "INT-105.L04",
+  "questions": [
+    {
+      "id": "INT-105.L04.Q1",
+      "competency": "INT-105.L04",
+      "prompt": "What is outcome bias?",
+      "answer": "Judging the quality of a prior decision partly by its known outcome rather than the evidence available at the time.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-105.L04.Q2",
+      "competency": "INT-105.L04",
+      "prompt": "Why preserve the original entry?",
+      "answer": "It enables comparison without rewriting prior beliefs in light of the result.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-105.L04.Q3",
+      "competency": "INT-105.L04",
+      "prompt": "Should outcomes be ignored?",
+      "answer": "No; they are new evidence for evaluating assumptions and future decisions.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Records prior reasoning and separates outcome, luck and process during review.",
+    "transfer": "Complete a bias audit containing a confirmation-bias table, anchoring and availability checks, a counterexample and a two-pass journal. Use synthetic cases rather than private decisions.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

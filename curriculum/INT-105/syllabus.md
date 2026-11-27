@@ -1,6 +1,6 @@
 # INT-105 — Cognitive biases
 
-Framework defined; lesson content: **planned**. Year 2; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 2; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [INT-104 — Scientific reasoning](../INT-104/syllabus.md)

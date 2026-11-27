@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "INT-107.L04",
+  "status": "draft",
+  "competency": "INT-107.L04",
+  "questions": [
+    {
+      "id": "INT-107.L04.Q1",
+      "competency": "INT-107.L04",
+      "prompt": "What is the absolute reduction from 2% to 1%?",
+      "answer": "One percentage point.",
+      "points": 1,
+      "feedback": "Check the definition and explain it in your own words before retrying."
+    },
+    {
+      "id": "INT-107.L04.Q2",
+      "competency": "INT-107.L04",
+      "prompt": "How should group averages be combined?",
+      "answer": "Weight by relevant group sizes when calculating a pooled average.",
+      "points": 1,
+      "feedback": "Check the distinction or calculation against the worked case; correct the first unsupported step."
+    },
+    {
+      "id": "INT-107.L04.Q3",
+      "competency": "INT-107.L04",
+      "prompt": "Does a statistically described difference prove causality?",
+      "answer": "No; causal interpretation requires an appropriate design and assumptions.",
+      "points": 1,
+      "feedback": "State a concrete implication or limitation and retry without notes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Reconstructs quantitative claims, states absolute and relative differences and qualifies inference.",
+    "transfer": "Complete the quantitative problem set using one rate conversion, one model comparison, one graph critique and one claim audit. Explain uncertainties and show calculations.",
+    "pass": "All mapped criteria require Level 2 evidence; quiz score alone is insufficient."
+  }
+}

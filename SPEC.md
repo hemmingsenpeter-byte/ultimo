@@ -1,5 +1,5 @@
 # Ultimo — Master specification v0.5
-Status: framework defined for 134 courses; ten authored draft courses; owner and subject review still required.
+Status: framework defined for 134 courses; seventeen authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
 Develop a well-rounded adult who can live independently, think critically, care for others, create, contribute and enjoy life. The initial audience is adult men, but the curriculum is inclusive and does not prescribe a single life path, personality, relationship arrangement, body type or worldview. Character and agency matter more than status. Achievement is not human worth. Protect autonomy, rest, safety, privacy, consent and intellectual humility.
@@ -69,3 +69,11 @@ The Python compiler produces public curriculum.json from canonical records, with
 
 ## v0.5 tutoring and recommendations
 The tutor studio supplies six roles scoped to authored lessons and reference IDs. The public static site supports deterministic retrieval, self-check examinations and export of curriculum-grounded prompts. A separate optional loopback-only provider gateway supports Ollama and OpenAI, with explicit consent, bounded conversation history, no automatic award of competency and no private portfolio in prompts. Hosted generative tutoring requires separate approval and production security. Study recommendations prioritise due reviews, low self-check scores and prerequisite-ready lessons within the weekly budget. Model-level evaluations, academic review and hosted inference remain gates. See tutor/README.md.
+
+## Curriculum expansion — Intellectual Faculty
+
+INT-102 and INT-104 now include eight additional authored draft lessons, 24 questions and two capstones. The foundation semester remains unchanged; 122 courses remain syllabus-only. Source maps are preliminary and independent review is pending.
+
+## Intellectual Faculty draft completion
+
+All nine Intellectual Faculty courses now have authored draft lessons (36 in total). INT-105 through INT-109 add 20 lessons, 60 formative questions and five capstones. Across the programme, 17 courses and 68 lessons are authored; 117 courses and 468 lessons remain blueprint-only. The existing ten-course foundation semester is unchanged. Source mapping, qualified review and learner pilots remain required.
