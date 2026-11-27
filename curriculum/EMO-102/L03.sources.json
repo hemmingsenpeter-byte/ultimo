@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "ITC guidance requires reliability and validity evidence appropriate to the intended purpose and context.",
+      "source_ids": [
+        "emo-itc-test-use"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-itc-test-use",
+          "locator": "Guidelines overview, reliability and validity for intended purpose, context",
+          "limitations": "Professional guidance; does not validate any specific instrument"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "BFI-2 research developed and assessed a specific hierarchical inventory, not arbitrary personality claims.",
+      "source_ids": [
+        "emo-bfi2"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-bfi2",
+          "locator": "2017, abstract, hierarchical five-domain/fifteen-facet model",
+          "limitations": "Validation studies of one inventory; not a universal personality taxonomy or diagnosis"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

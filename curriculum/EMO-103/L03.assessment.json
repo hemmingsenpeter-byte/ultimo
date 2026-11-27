@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L03",
+  "status": "draft",
+  "competency": "EMO-103.L03",
+  "questions": [
+    {
+      "id": "EMO-103.L03.Q1",
+      "competency": "EMO-103.L03",
+      "prompt": "Name two strategy families in Gross's process model.",
+      "answer": "Any two of situation selection/modification, attentional deployment, cognitive change and response modulation.",
+      "points": 1,
+      "feedback": "Give distinct examples."
+    },
+    {
+      "id": "EMO-103.L03.Q2",
+      "competency": "EMO-103.L03",
+      "prompt": "Is emotion regulation identical to reducing all emotions?",
+      "answer": "No; it concerns influencing experience, timing or expression in relation to goals.",
+      "points": 1,
+      "feedback": "Name a goal other than calmness."
+    },
+    {
+      "id": "EMO-103.L03.Q3",
+      "competency": "EMO-103.L03",
+      "prompt": "Why is flexibility important?",
+      "answer": "Context, goals and feedback can change which strategies are suitable.",
+      "points": 1,
+      "feedback": "Avoid a universal best technique."
+    },
+    {
+      "id": "EMO-103.L03.Q4",
+      "competency": "EMO-103.L03",
+      "prompt": "What should take priority in immediate danger?",
+      "answer": "Safety and appropriate emergency assistance.",
+      "points": 1,
+      "feedback": "Do not substitute a coping exercise."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Compares regulation options across contexts, selects proportionate strategies and identifies feedback and safety limits.",
+    "transfer": "Use the matrix for two fictional cases: an ordinary disagreement with a flexible deadline and an urgent legitimate responsibility. Select different strategy mixes, state why and identify feedback that would prompt a revision.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

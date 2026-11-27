@@ -1,0 +1,43 @@
+{
+  "id": "EMO-106",
+  "title": "Boundaries and assertiveness",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "EMO-106.L01",
+    "EMO-106.L02",
+    "EMO-106.L03",
+    "EMO-106.L04"
+  ],
+  "reading": [
+    "emo-ref-6",
+    "emo-ref-1"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Boundaries versus control",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Assertive requests",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Declining",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Safety and follow-through",
+      "path": "L04.md"
+    }
+  ]
+}

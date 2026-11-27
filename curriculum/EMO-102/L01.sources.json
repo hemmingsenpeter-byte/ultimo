@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Five-factor inventories represent broad dimensions and narrower facets; BFI-2 specifies fifteen facets.",
+      "source_ids": [
+        "emo-bfi2",
+        "emo-openstax-traits"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-bfi2",
+          "locator": "2017, abstract, hierarchical five-domain/fifteen-facet model",
+          "limitations": "Validation studies of one inventory; not a universal personality taxonomy or diagnosis"
+        },
+        {
+          "source_id": "emo-openstax-traits",
+          "locator": "§11.7, Five Factor Model",
+          "limitations": "Textbook survey; descriptive trait dimensions are not moral ratings"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "Introductory accounts of temperament distinguish reactivity and regulation within development.",
+      "source_ids": [
+        "emo-openstax-bio"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-openstax-bio",
+          "locator": "§11.6, temperament and individual differences",
+          "limitations": "Introductory account; not genetic prediction of a particular person"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

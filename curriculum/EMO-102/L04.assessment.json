@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L04",
+  "status": "draft",
+  "competency": "EMO-102.L04",
+  "questions": [
+    {
+      "id": "EMO-102.L04.Q1",
+      "competency": "EMO-102.L04",
+      "prompt": "Why is literal translation insufficient?",
+      "answer": "Meaning, relevance, response patterns and cultural conditions may still differ.",
+      "points": 1,
+      "feedback": "Identify one ambiguous item."
+    },
+    {
+      "id": "EMO-102.L04.Q2",
+      "competency": "EMO-102.L04",
+      "prompt": "What is measurement equivalence concerned with?",
+      "answer": "Whether scores support comparable interpretations across relevant groups or settings.",
+      "points": 1,
+      "feedback": "Do not assume equivalence without evidence."
+    },
+    {
+      "id": "EMO-102.L04.Q3",
+      "competency": "EMO-102.L04",
+      "prompt": "Does a group mean determine an individual's score?",
+      "answer": "No; group averages do not establish an individual's characteristics.",
+      "points": 1,
+      "feedback": "Explain within-group variation."
+    },
+    {
+      "id": "EMO-102.L04.Q4",
+      "competency": "EMO-102.L04",
+      "prompt": "What is a fairer response to a questionable imported test?",
+      "answer": "Review intended use, local context, comparability and appropriate alternative evidence with qualified input.",
+      "points": 1,
+      "feedback": "Do not rank cultures."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Critiques cultural comparability, avoids stereotyping and recommends a justified alternative or qualified review.",
+    "transfer": "Complete the personality-test critique capstone. Explain a trait model, analyse a synthetic state distribution, audit a fictional test and critique cultural comparability. Include alternative explanations, limitations and a recommendation about an intended use. No real test administration.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

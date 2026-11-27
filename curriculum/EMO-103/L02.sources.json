@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Reappraisal and expressive suppression are distinguishable regulation strategies with different studied consequences and associations.",
+      "source_ids": [
+        "emo-gross-process",
+        "emo-gross-john"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-gross-process",
+          "locator": "2015, process model and consequences of regulation strategies",
+          "limitations": "Theoretical review; not a treatment protocol"
+        },
+        {
+          "source_id": "emo-gross-john",
+          "locator": "2003, abstract, reappraisal and suppression associations",
+          "limitations": "Associations do not establish universal causal effects or best strategy"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    },
+    {
+      "claim": "Regulatory flexibility considers context, available strategies and feedback.",
+      "source_ids": [
+        "emo-flexibility"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-flexibility",
+          "locator": "2013, abstract, context sensitivity, repertoire and feedback",
+          "limitations": "Proposed framework and research review; not a validated classroom intervention"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

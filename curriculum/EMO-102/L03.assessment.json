@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L03",
+  "status": "draft",
+  "competency": "EMO-102.L03",
+  "questions": [
+    {
+      "id": "EMO-102.L03.Q1",
+      "competency": "EMO-102.L03",
+      "prompt": "What does reliability concern?",
+      "answer": "Consistency of measurement under relevant conditions.",
+      "points": 1,
+      "feedback": "Distinguish repeatability from correctness."
+    },
+    {
+      "id": "EMO-102.L03.Q2",
+      "competency": "EMO-102.L03",
+      "prompt": "What does validity concern?",
+      "answer": "Evidence supporting a score interpretation for its intended use.",
+      "points": 1,
+      "feedback": "Identify the intended use explicitly."
+    },
+    {
+      "id": "EMO-102.L03.Q3",
+      "competency": "EMO-102.L03",
+      "prompt": "What does a 70th percentile represent?",
+      "answer": "Relative position in a specified norm distribution, not 70% possession of a trait.",
+      "points": 1,
+      "feedback": "Ask which norm population was used."
+    },
+    {
+      "id": "EMO-102.L03.Q4",
+      "competency": "EMO-102.L03",
+      "prompt": "Can research validity automatically justify recruitment use?",
+      "answer": "No; evidence must support the particular consequential use and population.",
+      "points": 1,
+      "feedback": "Require relevant professional review."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Audits a fictional instrument's construct, consistency, validity, norms and intended use without administering or diagnosing.",
+    "transfer": "Prepare a one-page critique of a fictional personality tool. Include a construct definition, distinction between reliability and validity, interpretation of a hypothetical percentile and three evidence gaps. Recommend a bounded use, or explain why no use is justified.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

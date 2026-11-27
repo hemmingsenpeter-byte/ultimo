@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L01",
+  "status": "draft",
+  "competency": "EMO-106.L01",
+  "questions": [
+    {
+      "id": "EMO-106.L01.Q1",
+      "competency": "EMO-106.L01",
+      "prompt": "How does a self-directed boundary differ from control?",
+      "answer": "It concerns one's own limits and appropriate actions rather than coercively governing another person's choices.",
+      "points": 1,
+      "feedback": "Assess the actual effect, not just wording."
+    },
+    {
+      "id": "EMO-106.L01.Q2",
+      "competency": "EMO-106.L01",
+      "prompt": "What distinguishes an agreement from a request?",
+      "answer": "An agreement is mutually accepted; a request proposes a change that may be declined or negotiated.",
+      "points": 1,
+      "feedback": "Identify existing obligations."
+    },
+    {
+      "id": "EMO-106.L01.Q3",
+      "competency": "EMO-106.L01",
+      "prompt": "Are all restrictions illegitimate control?",
+      "answer": "No; lawful, authorised and proportionate safety or role requirements may be legitimate.",
+      "points": 1,
+      "feedback": "Explain authority and purpose."
+    },
+    {
+      "id": "EMO-106.L01.Q4",
+      "competency": "EMO-106.L01",
+      "prompt": "When might asserting a boundary be unsafe?",
+      "answer": "Where coercion, credible threats or significant power imbalance creates risk.",
+      "points": 1,
+      "feedback": "Prioritise appropriate support rather than confrontation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Distinguishes self-directed limits, requests, agreements, legitimate rules and coercion, with authority and safety checks.",
+    "transfer": "Create three fictional boundary statements, one mutual agreement and one legitimate role rule. Apply the test to each and revise an ambiguous statement into a non-coercive request or self-directed action. Explain a context where communication could be unsafe.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-26",
+  "claims": [
+    {
+      "claim": "Experience-sampling studies support examining personality-related states and within-person distributions across daily life.",
+      "source_ids": [
+        "emo-state-distributions"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-state-distributions",
+          "locator": "2001, abstract, experience sampling of behavioural states",
+          "limitations": "Short sampling studies; cannot infer an individual's stable traits from isolated behaviour"
+        }
+      ],
+      "verification": "Relevant abstract, textbook section or official guidance checked at authoring; full-text appraisal and independent claim-level review pending."
+    }
+  ],
+  "original_material": "Frameworks, fictional examples, calculations, exercises, questions and feedback are original teaching material; no validated test or therapy is reproduced.",
+  "review_required": true
+}

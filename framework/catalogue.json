@@ -210,7 +210,7 @@
     "id": "EMO-102",
     "faculty": "EMO",
     "title": "Personality and temperament",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-102/syllabus.json",
     "year": 2
@@ -219,7 +219,7 @@
     "id": "EMO-103",
     "faculty": "EMO",
     "title": "Emotional regulation",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-103/syllabus.json",
     "year": 2
@@ -246,7 +246,7 @@
     "id": "EMO-106",
     "faculty": "EMO",
     "title": "Boundaries and assertiveness",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-106/syllabus.json",
     "year": 2

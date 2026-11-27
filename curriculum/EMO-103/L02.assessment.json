@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L02",
+  "status": "draft",
+  "competency": "EMO-103.L02",
+  "questions": [
+    {
+      "id": "EMO-103.L02.Q1",
+      "competency": "EMO-103.L02",
+      "prompt": "What is cognitive reappraisal?",
+      "answer": "Changing the interpretation of a situation to influence its emotional meaning.",
+      "points": 1,
+      "feedback": "Distinguish it from denying the facts."
+    },
+    {
+      "id": "EMO-103.L02.Q2",
+      "competency": "EMO-103.L02",
+      "prompt": "Why generate more than one interpretation?",
+      "answer": "It reduces premature certainty and reveals what evidence could distinguish alternatives.",
+      "points": 1,
+      "feedback": "Include a real-problem possibility."
+    },
+    {
+      "id": "EMO-103.L02.Q3",
+      "competency": "EMO-103.L02",
+      "prompt": "Does explaining behaviour remove its impact?",
+      "answer": "No; explanation and accountability are separate.",
+      "points": 1,
+      "feedback": "State a legitimate boundary or request."
+    },
+    {
+      "id": "EMO-103.L02.Q4",
+      "competency": "EMO-103.L02",
+      "prompt": "When should reappraisal not replace practical action?",
+      "answer": "When credible harm, unmet obligations or safety issues require action or support.",
+      "points": 1,
+      "feedback": "Preserve safety and evidence."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Develops evidence-compatible alternative interpretations and chooses a response that preserves accountability and safety.",
+    "transfer": "Develop a fact–hypotheses–evidence table for a novel fictional conflict. Identify a plausible uncomfortable interpretation and a plausible benign one. Draft a response that is appropriate under both, plus the information that would change it.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

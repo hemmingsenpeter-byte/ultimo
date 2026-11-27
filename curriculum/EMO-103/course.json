@@ -1,0 +1,43 @@
+{
+  "id": "EMO-103",
+  "title": "Emotional regulation",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "EMO-103.L01",
+    "EMO-103.L02",
+    "EMO-103.L03",
+    "EMO-103.L04"
+  ],
+  "reading": [
+    "emo-ref-1",
+    "men-ref-3"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Triggers and appraisals",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Alternative interpretations",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Regulation strategies",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Constructive responses",
+      "path": "L04.md"
+    }
+  ]
+}

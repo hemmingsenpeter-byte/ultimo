@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L04",
+  "status": "draft",
+  "competency": "EMO-106.L04",
+  "questions": [
+    {
+      "id": "EMO-106.L04.Q1",
+      "competency": "EMO-106.L04",
+      "prompt": "What makes follow-through proportionate?",
+      "answer": "It is safe, lawful, feasible, within authority and consistent with legitimate duties.",
+      "points": 1,
+      "feedback": "Do not confuse follow-through with punishment."
+    },
+    {
+      "id": "EMO-106.L04.Q2",
+      "competency": "EMO-106.L04",
+      "prompt": "Can direct boundary-setting be unsafe?",
+      "answer": "Yes; coercion, threats and power imbalances can increase risk.",
+      "points": 1,
+      "feedback": "Choose specialist support where appropriate."
+    },
+    {
+      "id": "EMO-106.L04.Q3",
+      "competency": "EMO-106.L04",
+      "prompt": "What is the emergency number in New Zealand for immediate danger?",
+      "answer": "111.",
+      "points": 1,
+      "feedback": "Use the local emergency number elsewhere and verify current guidance."
+    },
+    {
+      "id": "EMO-106.L04.Q4",
+      "competency": "EMO-106.L04",
+      "prompt": "What is outside the course's scope?",
+      "answer": "Individual danger assessment, personalised safety planning, diagnosis and treatment.",
+      "points": 1,
+      "feedback": "Refer to qualified specialist services."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Chooses safe, proportionate follow-through and distinguishes ordinary disagreement, organisational support, specialist help and emergencies.",
+    "transfer": "Complete the boundary scripts capstone with safe ordinary requests, refusals and follow-through, plus a contrasting case requiring organisational or specialist support. Distinguish emergency assistance from routine support and explain why the plan cannot determine individual safety.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

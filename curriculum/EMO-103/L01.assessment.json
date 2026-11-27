@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-103.L01",
+  "status": "draft",
+  "competency": "EMO-103.L01",
+  "questions": [
+    {
+      "id": "EMO-103.L01.Q1",
+      "competency": "EMO-103.L01",
+      "prompt": "What distinguishes an event from an appraisal?",
+      "answer": "An event is a circumstance; appraisal concerns its evaluated meaning or relevance.",
+      "points": 1,
+      "feedback": "Separate the actual words from inferred intent."
+    },
+    {
+      "id": "EMO-103.L01.Q2",
+      "competency": "EMO-103.L01",
+      "prompt": "Does a genuine emotion establish that an interpretation is accurate?",
+      "answer": "No; the experience can be real while the external interpretation remains uncertain.",
+      "points": 1,
+      "feedback": "Name evidence needed to test the interpretation."
+    },
+    {
+      "id": "EMO-103.L01.Q3",
+      "competency": "EMO-103.L01",
+      "prompt": "Why is the process model not a fixed one-way sequence?",
+      "answer": "Responses and changing situations can feed back into attention and appraisal.",
+      "points": 1,
+      "feedback": "Give an example of feedback."
+    },
+    {
+      "id": "EMO-103.L01.Q4",
+      "competency": "EMO-103.L01",
+      "prompt": "When is reinterpretation insufficient?",
+      "answer": "When genuine danger or material constraints require safety action, support or structural change.",
+      "points": 1,
+      "feedback": "Do not minimise credible threats."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Separates observed events, appraisals, responses and action tendencies; recognises feedback, uncertainty and safety constraints.",
+    "transfer": "Write a novel fictional event–appraisal–response map with two plausible interpretations and a safety exception. Describe one possible feedback loop, such as how a response might change subsequent information.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

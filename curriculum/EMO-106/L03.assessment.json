@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-106.L03",
+  "status": "draft",
+  "competency": "EMO-106.L03",
+  "questions": [
+    {
+      "id": "EMO-106.L03.Q1",
+      "competency": "EMO-106.L03",
+      "prompt": "Does every optional refusal require a detailed explanation?",
+      "answer": "No; a clear respectful refusal may be sufficient.",
+      "points": 1,
+      "feedback": "Avoid unnecessary disclosure."
+    },
+    {
+      "id": "EMO-106.L03.Q2",
+      "competency": "EMO-106.L03",
+      "prompt": "How does a counterproposal differ from a refusal?",
+      "answer": "It declines the original terms while offering a feasible alternative.",
+      "points": 1,
+      "feedback": "Do not offer an alternative you cannot deliver."
+    },
+    {
+      "id": "EMO-106.L03.Q3",
+      "competency": "EMO-106.L03",
+      "prompt": "What if declining affects an existing safety duty?",
+      "answer": "Use authorised handover, negotiation or escalation; do not abandon the duty.",
+      "points": 1,
+      "feedback": "Identify authority."
+    },
+    {
+      "id": "EMO-106.L03.Q4",
+      "competency": "EMO-106.L03",
+      "prompt": "Should a learner always decline directly in an unsafe relationship?",
+      "answer": "No; safety and specialist support may be more appropriate than confrontation.",
+      "points": 1,
+      "feedback": "Do not grade courage by direct refusal."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Selects and communicates a proportionate refusal or counterproposal while respecting duties, privacy, consent and safety.",
+    "transfer": "Prepare three fictional refusal scripts and one counterproposal. Include an obligation check, an accessible communication option and a safe alternative route. Explain why an offer of alternative assistance must be realistic and voluntary.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

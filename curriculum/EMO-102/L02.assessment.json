@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-102.L02",
+  "status": "draft",
+  "competency": "EMO-102.L02",
+  "questions": [
+    {
+      "id": "EMO-102.L02.Q1",
+      "competency": "EMO-102.L02",
+      "prompt": "How does a state differ from a trait?",
+      "answer": "A state refers to a particular occasion; a trait describes broader tendencies across occasions.",
+      "points": 1,
+      "feedback": "Use the meeting example."
+    },
+    {
+      "id": "EMO-102.L02.Q2",
+      "competency": "EMO-102.L02",
+      "prompt": "Can equal averages hide different behavioural distributions?",
+      "answer": "Yes; variation, range and context patterns may differ.",
+      "points": 1,
+      "feedback": "Show an example from the synthetic data."
+    },
+    {
+      "id": "EMO-102.L02.Q3",
+      "competency": "EMO-102.L02",
+      "prompt": "Why compare similar opportunities?",
+      "answer": "Unequal roles, duration or access can confound raw behaviour counts.",
+      "points": 1,
+      "feedback": "Identify one confounder."
+    },
+    {
+      "id": "EMO-102.L02.Q4",
+      "competency": "EMO-102.L02",
+      "prompt": "Does situational variation contradict the existence of traits?",
+      "answer": "Not necessarily; characteristic distributions can coexist with substantial variation.",
+      "points": 1,
+      "feedback": "Avoid assuming every occasion is identical."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only. Use answer-specific feedback and delayed retest.",
+    "practice": "Compares fictional behavioural distributions and contextual conditions, calculates descriptive summaries and avoids unsupported stable-trait claims.",
+    "transfer": "Construct a fictional six-observation dataset for a different behaviour, with two contexts and equal observation windows. Summarise average, range and contextual variation. Identify why the pattern may not generalise and how a better sampling design could reduce uncertainty.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}
