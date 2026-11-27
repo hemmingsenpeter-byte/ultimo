@@ -1,9 +1,9 @@
 // All learner records remain local. Nothing here grants verified competency.
 export const KEY = "ultimo.learner.v1";
-export const fresh = () => ({version:1,completed:{},reviews:{},quizzes:{},evidence:[],hours:5,last:null});
+export const fresh = () => ({version:1,completed:{},reviews:{},quizzes:{},evidence:[],hours:5,last:null,studyPlan:"foundation"});
 const object = v => v !== null && typeof v === "object" && !Array.isArray(v);
 const safeDate = v => typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v+"T00:00:00Z"));
-export function clean(raw, valid, courseIds) {
+export function clean(raw, valid, courseIds, planIds=new Set(["foundation","all"])) {
   if (!object(raw) || raw.version !== 1) throw new Error("Unsupported learner data version.");
   const s=fresh();
   for (const k of valid) {
@@ -20,7 +20,44 @@ export function clean(raw, valid, courseIds) {
   if(Array.isArray(raw.evidence)) s.evidence=raw.evidence.slice(0,500).filter(e=>object(e)&&courseIds.has(e.course)&&typeof e.id==="string"&&/^[a-zA-Z0-9-]{1,80}$/.test(e.id)&&typeof e.note==="string"&&e.note.length<=4000&&safeDate(e.date)).map(e=>({id:e.id,course:e.course,note:e.note,date:e.date}));
   if(Number.isFinite(raw.hours)&&raw.hours>=1&&raw.hours<=20)s.hours=Math.round(raw.hours);
   if(valid.has(raw.last))s.last=raw.last;
+  if(typeof raw.studyPlan==="string"&&planIds.has(raw.studyPlan))s.studyPlan=raw.studyPlan;
   return s;
+}
+const prerequisiteIds = course => Array.isArray(course?.prerequisites)?course.prerequisites.filter(id=>typeof id==="string"):[];
+export function studyOptions(data){
+  return [{id:"foundation",title:"Foundation semester"},{id:"all",title:"All written courses"},
+    ...(data.faculties??[]).map(f=>({id:"faculty:"+f.id,title:f.title+" faculty"}))];
+}
+export function studySelection(state,data){
+  const options=studyOptions(data), selected=options.find(p=>p.id===state.studyPlan)??options[0];
+  const map=new Map(data.courses.map(c=>[c.id,c]));
+  const selectedIds=selected.id==="foundation"?(data.semester??[]):data.courses.filter(c=>selected.id==="all"?c.authored:c.faculty===selected.id.slice("faculty:".length)).map(c=>c.id);
+  const ids=[...new Set(selectedIds)], targets=ids.filter(id=>map.get(id)?.authored), unavailable=ids.filter(id=>!map.get(id)?.authored);
+  const order=[],visited=new Set(),visiting=new Set();
+  const visit=id=>{
+    if(visited.has(id)||visiting.has(id)||!map.has(id))return;
+    visiting.add(id);
+    for(const p of prerequisiteIds(map.get(id)))visit(p);
+    visiting.delete(id);visited.add(id);order.push(id);
+  };
+  targets.forEach(visit);
+  const blocked=[];
+  for(const id of targets){
+    const seen=new Set([id]), missing=new Set();
+    const inspect=course=>{
+      for(const p of prerequisiteIds(course)){
+        if(seen.has(p))continue;
+        seen.add(p);
+        const prerequisite=map.get(p);
+        if(!prerequisite?.authored)missing.add(p);
+        if(prerequisite)inspect(prerequisite);
+      }
+    };
+    inspect(map.get(id));
+    if(missing.size)blocked.push({course:id,prerequisites:[...missing]});
+  }
+  const targetSet=new Set(targets);
+  return {id:selected.id,title:selected.title,order,targets,prerequisites:order.filter(id=>!targetSet.has(id)),unavailable,blocked};
 }
 export function today(now=new Date()) {
   return [now.getFullYear(),String(now.getMonth()+1).padStart(2,"0"),String(now.getDate()).padStart(2,"0")].join("-");
@@ -42,10 +79,21 @@ export function due(s,date=today()){
 export function courseProgress(s,course){return course.lessons.filter(l=>s.completed[course.id+"."+l.id]).length;}
 export function nextLessons(s, courses, order){
   const map=new Map(courses.map(c=>[c.id,c]));
+  const ready=new Map();
+  const requirementsMet=(id,visiting=new Set())=>{
+    if(visiting.has(id))return false;
+    if(ready.has(id))return ready.get(id);
+    visiting.add(id);
+    const result=prerequisiteIds(map.get(id)).every(p=>{
+      const c=map.get(p);
+      return c?.authored&&courseProgress(s,c)===c.lessons.length&&requirementsMet(p,visiting);
+    });
+    visiting.delete(id);ready.set(id,result);return result;
+  };
   const result=[];
-  for(const id of order){
+  for(const id of new Set(order)){
     const c=map.get(id);if(!c||!c.authored)continue;
-    if(c.prerequisites.some(p=>{const x=map.get(p);return !x||!x.authored||courseProgress(s,x)!==x.lessons.length;}))continue;
+    if(!requirementsMet(id))continue;
     const next=c.lessons.find(l=>!s.completed[id+"."+l.id]);
     if(next)result.push(id+"."+next.id);
   }

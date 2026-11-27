@@ -7,9 +7,16 @@ A static, dependency-free browser application. Canonical content lives in curric
 - Search all 134 courses and preview 536 lesson blueprints. The twenty-six authored courses have full readers.
 - Formative open-answer quizzes with model answer reveal and learner self-marking.
 - Prerequisite-aware rolling study queue and four suggested spaced reviews (roughly day 1, 3, 7, 30 when performed on time).
+- Selectable local study plans: foundation semester, an authored faculty pathway, or all authored courses, with required prerequisites in the dashboard course list and new-study recommendations. The tutor studio highlights the next planner recommendation.
 - Search the reading library and the 104 frameworks extracted from written lessons.
 - Local practice evidence notes and per-lesson competency rubric display; no automatic certification.
 - Export, validated import and deletion of learner data.
+
+## Study plans and backup compatibility
+
+The selected study plan is a local preference. Changing it preserves progress, reviews, quiz records and evidence; prerequisite completion still controls which new lessons are ready. Faculty pathways include required prerequisites outside the selected faculty. Due reviews and practice from saved weak self-checks remain eligible across all courses. The planner combines these with new study in one queue within the weekly budget, and also shows the complete due-review list. The tutor studio highlights the next item in that same recommendation queue; its lesson selector still allows any written lesson. Dashboard totals remain across all courses. Reading progress and recommendations do not certify competency.
+
+`studyPlan` is an optional additive field in learner state version 1 (`ultimo.learner.v1`). Identifiers are `foundation`, `all`, or `faculty:<ID>` (for example, `faculty:MEN`). Existing version-1 records and backups without the field use `foundation`. Unknown, invalid or unavailable plan identifiers also use that default while retaining valid learner records. New exports include the selected preference, and import validates it against the available plans. No curriculum schema or stable course/lesson ID changes are required. See [the product roadmap](../PRODUCT_ROADMAP.md) for acceptance criteria and the remaining browser/accessibility pilot.
 
 ## Privacy
 No user accounts, analytics or remote database on the static site. Optional model tutoring requires a separately configured loopback gateway and explicit consent. The curriculum is public. Learner records use browser localStorage; they are neither encrypted nor synced and are accessible to scripts on the same origin and to someone with access to that profile. Keep records non-sensitive and use fictional or anonymised practice evidence. Typed quiz attempts are not stored. Downloads contain private records; store securely. Use separate origins for deployment. Future multi-user accounts, consent and access control require a separate security design.

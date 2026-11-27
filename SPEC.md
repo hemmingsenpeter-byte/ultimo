@@ -1,5 +1,5 @@
 # Ultimo — Master specification v0.5
-Status: framework defined for 134 courses; twenty-three authored draft courses; owner and subject review still required.
+Status: framework defined for 134 courses; twenty-six authored draft courses; owner and subject review still required.
 
 ## Mission and constitution
 Develop a well-rounded adult who can live independently, think critically, care for others, create, contribute and enjoy life. The initial audience is adult men, but the curriculum is inclusive and does not prescribe a single life path, personality, relationship arrangement, body type or worldview. Character and agency matter more than status. Achievement is not human worth. Protect autonomy, rest, safety, privacy, consent and intellectual humility.
@@ -48,6 +48,12 @@ v2.0: full five-year curriculum. No fixed calendar or guaranteed learning outcom
 
 ## Decisions pending
 Content licence (existing MIT preserved; consider CC BY-SA for future original course content), public site deployment, learner account design, review panel, complete taxonomy and institutional accreditation claims. The first pilot is Intellectual Mastery. The catalogue has complete syllabus coverage but not completed course content.
+
+## Current application work — selectable local study plans
+
+Learners can choose the foundation semester, an authored faculty pathway or all authored courses. The selected scope includes required prerequisites and controls the dashboard course list and next unread lesson, plus new study in the weekly planner. Due reviews and practice from saved weak self-checks remain eligible across all courses; the planner combines them with new study in one queue within the weekly budget and keeps the complete due-review list visible separately. The tutor studio highlights the next item from that recommendation queue while permitting any written lesson. Dashboard totals remain across all courses. Prerequisite completion determines new-study eligibility; changing plans preserves existing learner records and never awards competence. See [PRODUCT_ROADMAP.md](PRODUCT_ROADMAP.md) for the product sequence and verification gates.
+
+Learner-state migration is additive within version 1 (`ultimo.learner.v1`): optional `studyPlan` stores `foundation`, `all` or `faculty:<ID>` (for example, `faculty:MEN`) and is included in new backups. Existing version-1 records/backups without it default to `foundation`. Invalid, unknown or unavailable plan identifiers also fall back to `foundation` without discarding valid progress, reviews, quizzes or evidence. Import validates the preference against available plans. Canonical curriculum schemas and stable IDs are unchanged.
 
 ## v0.2 canonical artefacts
 
