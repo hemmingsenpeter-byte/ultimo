@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — Criterion-linked local evidence and reassessment
+
+- Add lesson/competency evidence, explicit self-judgements, reassessment dates and attempt history with saved criterion/rubric snapshots; keep existing course notes separate.
+- Surface due competency reassessments across study plans outside the budgeted reading/review queue. Self-assessments never award competence or create reviewer verification.
+- Compile content-derived rubric versions for authored lessons without changing canonical curriculum or review status.
+- Migrate learner payloads to version 2 under the existing storage key when writes are available; preserve valid version-1 notes and records, require an explicit portfolios collection, validate new history strictly, and provide recovery of unloadable original storage before replacement.
+- Document the local format, limits and portability. Human learner/assistive technology sessions and independent academic review remain pending.
+
 ## Unreleased — Take-away learner pilot kit
 
 - Reproducible ZIP packaging of the canonical static app, fictional starter data, participant task card, facilitator/consent guide and blank feedback template.

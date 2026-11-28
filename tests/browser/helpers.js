@@ -73,11 +73,15 @@ export async function seedRecord(page, record) {
   }, {key: learnerKey, record, marker});
 }
 
-export async function readDownload(download) {
+export async function readDownloadText(download) {
   const stream = await download.createReadStream();
   const chunks = [];
   for await (const chunk of stream) chunks.push(chunk);
-  return JSON.parse(Buffer.concat(chunks).toString('utf8'));
+  return Buffer.concat(chunks).toString('utf8');
+}
+
+export async function readDownload(download) {
+  return JSON.parse(await readDownloadText(download));
 }
 
 export async function importRecord(page, record) {

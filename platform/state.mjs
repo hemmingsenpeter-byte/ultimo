@@ -1,10 +1,12 @@
+import {isISODate,validatePortfolios,assertBackupSize} from "./portfolio.mjs";
 // All learner records remain local. Nothing here grants verified competency.
 export const KEY = "ultimo.learner.v1";
-export const fresh = () => ({version:1,completed:{},reviews:{},quizzes:{},evidence:[],hours:5,last:null,studyPlan:"foundation"});
+export const fresh = () => ({version:2,completed:{},reviews:{},quizzes:{},evidence:[],portfolios:[],hours:5,last:null,studyPlan:"foundation"});
 const object = v => v !== null && typeof v === "object" && !Array.isArray(v);
-const safeDate = v => typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v+"T00:00:00Z"));
-export function clean(raw, valid, courseIds, planIds=new Set(["foundation","all"])) {
-  if (!object(raw) || raw.version !== 1) throw new Error("Unsupported learner data version.");
+const safeDate = isISODate;
+export function clean(raw, valid, courseIds, planIds=new Set(["foundation","all"]),targets) {
+  if (!object(raw) || ![1,2].includes(raw.version)) throw new Error("Unsupported learner data version.");
+  if(raw.version===2&&!Object.hasOwn(raw,"portfolios"))throw new Error("Version 2 learner data must include its evidence portfolios; no history was removed.");
   const s=fresh();
   for (const k of valid) {
     if (object(raw.completed) && safeDate(raw.completed[k])) s.completed[k]=raw.completed[k];
@@ -21,7 +23,8 @@ export function clean(raw, valid, courseIds, planIds=new Set(["foundation","all"
   if(Number.isFinite(raw.hours)&&raw.hours>=1&&raw.hours<=20)s.hours=Math.round(raw.hours);
   if(valid.has(raw.last))s.last=raw.last;
   if(typeof raw.studyPlan==="string"&&planIds.has(raw.studyPlan))s.studyPlan=raw.studyPlan;
-  return s;
+  if(Object.hasOwn(raw,"portfolios"))s.portfolios=validatePortfolios(raw.portfolios,targets);
+  return assertBackupSize(s);
 }
 const prerequisiteIds = course => Array.isArray(course?.prerequisites)?course.prerequisites.filter(id=>typeof id==="string"):[];
 export function studyOptions(data){

@@ -120,12 +120,12 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_json(403, {"error": "Use the loopback address"}); return
         if self.path == "/api/tutor/status":
             self.send_json(200, {"enabled": True, "provider": self.server.config[0], "csrf": self.server.csrf}); return
-        if self.path not in ("/", "/index.html", "/style.css", "/app.js", "/state.mjs", "/tutor.mjs", "/curriculum.json"):
+        if self.path not in ("/", "/index.html", "/style.css", "/app.js", "/state.mjs", "/tutor.mjs", "/portfolio.mjs", "/curriculum.json"):
             self.send_error(404); return
         super().do_GET()
 
     def do_HEAD(self):
-        if not self.allowed_host() or self.path not in ("/", "/index.html", "/style.css", "/app.js", "/state.mjs", "/tutor.mjs", "/curriculum.json"):
+        if not self.allowed_host() or self.path not in ("/", "/index.html", "/style.css", "/app.js", "/state.mjs", "/tutor.mjs", "/portfolio.mjs", "/curriculum.json"):
             self.send_error(403); return
         super().do_HEAD()
 

@@ -47,7 +47,7 @@ class PilotPackageTests(unittest.TestCase):
 
     def test_exact_public_manifest_and_canonical_curriculum(self):
         expected = {
-            "site/index.html", "site/style.css", "site/app.js", "site/state.mjs", "site/tutor.mjs", "site/curriculum.json",
+            "site/index.html", "site/style.css", "site/app.js", "site/state.mjs", "site/tutor.mjs", "site/portfolio.mjs", "site/curriculum.json",
             "pilot/fictional-fixture.json", "pilot/participant-tasks.md", "pilot/facilitator.md", "pilot/feedback.csv",
             "README.md", "start-pilot.py", "manifest.json",
         }

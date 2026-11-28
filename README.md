@@ -9,6 +9,7 @@ An open curriculum for lifelong human development: capability, character, connec
 - [Product roadmap](PRODUCT_ROADMAP.md)
 - [Prepare the take-away phone/desktop pilot kit](docs/learner-pilot.md#build-the-take-away-pilot-kit)
 - [Learner and assistive technology pilot](docs/learner-pilot.md), [engineering audit](docs/accessibility-audit.md) and [independent INT-101 review brief](docs/INT101_REVIEW_BRIEF.md)
+- [Local competency evidence, reassessment and backup migration](docs/LEARNER_STATE.md)
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
 - [Five-year pathway](pathways/five-year.md)
@@ -29,6 +30,7 @@ Requires Python 3.11+ and Node 22.12+ for the development checks below. The appl
     python tools/validate_framework.py
     python tools/validate_content.py
     node tests/test_state.mjs
+    node tests/test_portfolio.mjs
     node tests/test_tutor.mjs
     python tools/build.py
     python -m http.server 8000 --directory dist

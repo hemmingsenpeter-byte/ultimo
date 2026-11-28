@@ -9,14 +9,20 @@ A static, dependency-free browser application. Canonical content lives in curric
 - Prerequisite-aware rolling study queue and four suggested spaced reviews (roughly day 1, 3, 7, 30 when performed on time).
 - Selectable local study plans: foundation semester, an authored faculty pathway, or all authored courses, with required prerequisites in the dashboard course list and new-study recommendations. The tutor studio highlights the next planner recommendation.
 - Search the reading library and the 104 frameworks extracted from written lessons.
-- Local practice evidence notes and per-lesson competency rubric display; no automatic certification.
+- Local course notes plus criterion-linked evidence with self-judgements, dated reassessments and preserved attempt/rubric history; no automatic certification.
 - Export, validated import and deletion of learner data.
 
 ## Study plans and backup compatibility
 
 The selected study plan is a local preference. Changing it preserves progress, reviews, quiz records and evidence; prerequisite completion still controls which new lessons are ready. Faculty pathways include required prerequisites outside the selected faculty. Due reviews and practice from saved weak self-checks remain eligible across all courses. The planner combines these with new study in one queue within the weekly budget, and also shows the complete due-review list. The tutor studio highlights the next item in that same recommendation queue; its lesson selector still allows any written lesson. Dashboard totals remain across all courses. Reading progress and recommendations do not certify competency.
 
-`studyPlan` is an optional additive field in learner state version 1 (`ultimo.learner.v1`). Identifiers are `foundation`, `all`, or `faculty:<ID>` (for example, `faculty:MEN`). Existing version-1 records and backups without the field use `foundation`. Unknown, invalid or unavailable plan identifiers also use that default while retaining valid learner records. New exports include the selected preference, and import validates it against the available plans. No curriculum schema or stable course/lesson ID changes are required. See [the product roadmap](../PRODUCT_ROADMAP.md) for acceptance criteria and the remaining browser/accessibility pilot.
+`studyPlan` was introduced as an optional additive field in learner state version 1. Identifiers are `foundation`, `all`, or `faculty:<ID>` (for example, `faculty:MEN`). Existing records without the field use `foundation`; unknown, invalid or unavailable identifiers also use that default while retaining valid learner records. Current payloads and exports use version 2 under the unchanged storage key `ultimo.learner.v1`, so existing records are still discovered. Import validates the preference against available plans. See [the learner-state migration guide](../docs/LEARNER_STATE.md) for the complete format and recovery behaviour.
+
+### Criterion evidence and reassessment
+
+The evidence page keeps course notes separate from new lesson/competency evidence. Learners describe fictional or non-sensitive practice, record **Not yet demonstrated**, **Developing** or **Meets criterion** as their own judgement, and optionally set a reassessment date. A reassessment appends a new attempt with the current criterion and rubric; earlier attempts retain their saved snapshots. The dashboard and planner show due competency reassessments across all study plans, separately from the budgeted reading/review queue.
+
+Version-1 course notes remain course notes; migration does not assign them a competency or award. A valid version-1 load is upgraded under the same key when storage is available. Version 2 requires an explicit `portfolios` array; its records are strictly validated on restore, including history, dates, targets and rubric snapshots. Invalid or missing history rejects the import rather than dropping attempts. Unloadable existing storage is preserved with writes blocked until explicit restore or erasure; Data & settings provides an original-data recovery download. See [LEARNER_STATE.md](../docs/LEARNER_STATE.md) for limits, rubric hashes, historical versions and backup portability. Self-assessments never certify competence or create mentor verification. The human pilot remains pending under [the roadmap](../PRODUCT_ROADMAP.md).
 
 ## Privacy
 No user accounts, analytics or remote database on the static site. Optional model tutoring requires a separately configured loopback gateway and explicit consent. The curriculum is public. Learner records use browser localStorage; they are neither encrypted nor synced and are accessible to scripts on the same origin and to someone with access to that profile. Keep records non-sensitive and use fictional or anonymised practice evidence. Typed quiz attempts are not stored. Downloads contain private records; store securely. Use separate origins for deployment. Future multi-user accounts, consent and access control require a separate security design.
@@ -25,6 +31,7 @@ No user accounts, analytics or remote database on the static site. Optional mode
 ```sh
 python3 -m unittest discover -s tests -v
 node tests/test_state.mjs
+node tests/test_portfolio.mjs
 node tests/test_tutor.mjs
 node --check --input-type=module < platform/app.js
 python3 tools/build.py

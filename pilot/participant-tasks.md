@@ -13,6 +13,8 @@ Use your usual phone or computer browser. A facilitator will prepare a clean tes
 7. **Transfer a backup.** Download your test records. Change the study plan, then restore the downloaded backup. First cancel replacement, then try again and accept it. Check which records returned.
 8. **Erase the test records.** First cancel erasure, then confirm it. Reload and check the result. Delete your test downloads when the facilitator asks.
 
+**Optional competency-evidence extension, before final cleanup:** reuse your fictional course note for a chosen lesson criterion. Save your own judgement and a follow-up date. Open the history and record another fictional attempt; check the earlier attempt and original note remain. Transfer a backup and check the whole history returns. Delete the test records when finished. This immediate rehearsal tests the interface, not delayed learning.
+
 Afterwards, tell the facilitator:
 
 - Which task was hardest to find or understand?

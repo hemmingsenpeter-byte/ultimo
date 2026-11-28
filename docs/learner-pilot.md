@@ -69,6 +69,12 @@ Use the controls as presented, without development tools. These are expected out
 
 Optional engineering checks, separate from the learner's unaided tasks: restore a copy with `studyPlan` omitted, then one with an unknown identifier. Each uses the foundation default while retaining valid fictional records. An invalid JSON file or file over 5 MB must be rejected without replacing existing records. Use disposable files only.
 
+## Criterion-evidence extension
+
+Also test the new competency flow with fictional records before erasure: use an earlier course note for competency evidence, choose its lesson criterion and self-judgement, and set an optional follow-up date. Confirm the original course note remains unlinked and unchanged. Open the new history, record another fictional attempt, then check that both attempts retain their own notes, judgements and saved rubric. Export/restore the backup and check the entire history. Cancel and then confirm deleting the evidence record. Run the same flow using keyboard, a real screen reader and a real phone when those sessions are available.
+
+An immediate second attempt rehearses the interface only; it does not demonstrate delayed retention. Record elapsed-day learning results separately. Verify that a self-rating never changes reading marks or awards verified competence, and that due competency reassessments remain visible when study focus changes. The engineering suite uses synthetic dates and rubric revisions; real participant comprehension remains untested.
+
 ## Delayed INT-101 follow-up — pending
 
 Separately allow the four lessons and extended seven-day learning cycle to be attempted over time. Record actual time, comprehension difficulties, workload and task feasibility; the walkthrough alone cannot validate the four-hour estimate or durable learning. Ask the learner to:
