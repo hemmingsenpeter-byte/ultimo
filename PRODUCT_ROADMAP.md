@@ -26,6 +26,8 @@ Validation: 25 Python tests, both Node suites, all content validators and the st
 
 ## 2. Browser and accessibility pilot — in progress
 
+A reusable local pilot ZIP can now be built with `python3 tools/build_pilot.py`. It supplies phone/desktop launch instructions, fictional starter data, participant tasks, a facilitator guide and blank private-feedback template. An AI preliminary INT-101 source audit provides review questions and full-text locators. Actual learner sessions, screen-reader/device testing and independent source/subject review remain pending.
+
 Exercise the complete learning flow with representative learners and assistive technology before expanding the application.
 
 The browser automation and accessibility fixes from PRs #5 and #6 are consolidated into one `@playwright/test` suite and one browser CI job. The integrated local run passed 21 browser tests, including twelve axe route scans with no violations; committed CI verification is separate. Human learner, real-device and manual screen-reader sessions remain pending. Follow the [canonical learner pilot protocol](docs/learner-pilot.md), and record tested revisions, combinations, findings and retests in the [engineering audit](docs/accessibility-audit.md). Engineering readiness and human pilot completion are separate decisions; automated results alone do not complete this milestone.

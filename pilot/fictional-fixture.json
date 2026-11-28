@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "completed": {"INT-101.L02": "2020-01-01"},
+  "reviews": {"INT-101.L02": {"due": "2020-01-02", "step": 0}},
+  "quizzes": {},
+  "evidence": [],
+  "hours": 5,
+  "last": null,
+  "studyPlan": "foundation"
+}

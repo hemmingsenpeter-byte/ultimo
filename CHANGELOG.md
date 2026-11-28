@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Take-away learner pilot kit
+
+- Reproducible ZIP packaging of the canonical static app, fictional starter data, participant task card, facilitator/consent guide and blank feedback template.
+- Dependency-free local launcher with optional same-Wi-Fi phone access, fixed fixture download and file-hash manifest.
+- Packaging checks for expected content, reproducibility, path containment and exclusion of adjacent private files.
+- AI preliminary INT-101 evidence audit with full-text locators and review questions. Human sessions, independent academic review and course approval remain pending; teaching content is unchanged.
+
 ## Unreleased — Browser and accessibility pilot baseline
 
 - Consolidate the Chromium learner journeys, axe scans, layout checks and synthetic tutor interactions into one `@playwright/test` runner and one browser CI job, using fictional records and development-only dependencies.

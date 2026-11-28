@@ -2,6 +2,22 @@
 
 Status: protocol prepared; representative learner, real-device and manual screen-reader sessions remain pending. This is the canonical human pilot protocol. Use [the accessibility audit](accessibility-audit.md) for engineering results and [the INT-101 review brief](INT101_REVIEW_BRIEF.md) for the separate independent academic review. A scripted browser pass does not complete this pilot or establish curriculum quality.
 
+## Build the take-away pilot kit
+
+From the repository root, with Python 3.11+:
+
+```sh
+python3 tools/build_pilot.py
+```
+
+This produces `pilot-dist/ultimo-pilot.zip` from the canonical curriculum and the four fixed files in [pilot/](../pilot/). It includes the browser app, a standard-library launcher, participant task card, facilitator/consent guide, fictional starter backup and blank feedback CSV. A manifest records the source revision, curriculum version and file hashes. The archive contains no participant results, research papers or model gateway. Output is ignored by Git; completed feedback belongs in a separate private location.
+
+Extract the ZIP on a computer and run `python3 start-pilot.py` (Windows: `py -3 start-pilot.py`). Open the printed browser URL. When ready to test a phone on the same trusted Wi-Fi, restart with `--lan` and open the printed LAN URL on the phone. Download the fictional fixture from the printed `/pilot-fixture.json` URL and import it through **Data & settings**. The default server is computer-only; LAN access is an explicit option. Stop with Ctrl+C after use.
+
+Read the kit README before starting: each hostname/port/device has separate browser records, and a busy port may produce a new origin. No installation of npm packages, learner account, model provider or feedback service is required to run the extracted kit. The participant's browser records are local to their device.
+
+Use [the preliminary evidence audit](INT101_PRELIMINARY_AUDIT.md) as a handoff for an independent reviewer. It identifies wording and source-map questions; canonical teaching material and draft statuses are unchanged. Preparing or launching this kit does not create a completed human session.
+
 ## Session setup and voluntary consent
 
 Start with a small formative group, for example 3–5 adult learners spanning study experience and device needs, including an experienced screen-reader user. This is a practical starting sample, not a policy threshold or evidence of population-wide effectiveness. Record gaps in representation and arrange further sessions when findings require them.

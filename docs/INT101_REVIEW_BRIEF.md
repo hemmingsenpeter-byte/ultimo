@@ -2,6 +2,8 @@
 
 Status: brief prepared; independent full-text, exact-claim and subject review remain pending. This is not a completed source audit. Follow [SPEC.md](../SPEC.md), the [review policy](../framework/review-policy.md) and [assessment policy](../framework/assessment-policy.md). [Learner testing](learner-pilot.md) and [application engineering checks](accessibility-audit.md) supply different evidence.
 
+An [AI preliminary evidence audit](INT101_PRELIMINARY_AUDIT.md) now supplies full-text locators and claim-level questions as a starting point. It does not replace the independent reviewer or change any course status.
+
 ## Scope and sources
 
 Review all four INT-101 lessons, their `.assessment.json` and `.sources.json` files, [syllabus.json](../curriculum/INT-101/syllabus.json) and the [capstone/rubric](../curriculum/INT-101/assessment.md). Preserve the canonical outcomes, IDs and draft status. Current source maps contain broad teaching paragraphs and generic locators, explicitly marked `draft_reference_mapping`; located references do not verify individual claims.

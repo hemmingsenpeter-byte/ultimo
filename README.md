@@ -7,6 +7,7 @@ An open curriculum for lifelong human development: capability, character, connec
 - [Tutor architecture and local model setup](tutor/README.md)
 - [Student application and deployment guide](platform/README.md)
 - [Product roadmap](PRODUCT_ROADMAP.md)
+- [Prepare the take-away phone/desktop pilot kit](docs/learner-pilot.md#build-the-take-away-pilot-kit)
 - [Learner and assistive technology pilot](docs/learner-pilot.md), [engineering audit](docs/accessibility-audit.md) and [independent INT-101 review brief](docs/INT101_REVIEW_BRIEF.md)
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
