@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 learner-data/
 node_modules/
+playwright-report/
+test-results/

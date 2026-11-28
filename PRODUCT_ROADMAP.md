@@ -28,14 +28,17 @@ Validation: 25 Python tests, both Node suites, all content validators and the st
 
 Exercise the complete learning flow with representative learners and assistive technology before expanding the application.
 
+The browser automation and accessibility fixes from PRs #5 and #6 are consolidated into one `@playwright/test` suite and one browser CI job. The integrated local run passed 21 browser tests, including twelve axe route scans with no violations; committed CI verification is separate. Human learner, real-device and manual screen-reader sessions remain pending. Follow the [canonical learner pilot protocol](docs/learner-pilot.md), and record tested revisions, combinations, findings and retests in the [engineering audit](docs/accessibility-audit.md). Engineering readiness and human pilot completion are separate decisions; automated results alone do not complete this milestone.
+
 Acceptance criteria:
 
 - Test plan selection, dashboard navigation, lesson reading, quiz self-check, review completion, evidence notes and backup export/import/deletion.
 - Complete the same flows using only a keyboard; verify visible focus, labels, headings, focus order and clear feedback with a screen reader.
 - Check narrow mobile screens, touch controls and text zoom for readable content, usable forms and no blocked actions.
 - Record browser/device coverage and learner feedback without private records; fix blocking issues and retest affected flows.
+- Record engineering readiness only after scoped checks and blocking fixes pass. Mark the human pilot complete only after actual voluntary learner and manual screen-reader sessions, findings and necessary retests are documented; untested combinations remain explicit limitations.
 
-The automated browser baseline and CI regression suite are implemented. It covers the synthetic learning/backup journey, keyboard focus, route titles, narrow layouts, text enlargement, touch emulation and axe accessibility rules. Initial findings corrected lost focus after view updates, skipped result-heading levels and the mobile menu remaining open when its current page is selected. The dated results, repeatable commands and pending human tasks are in [docs/PILOT.md](docs/PILOT.md). Representative learner sessions, real screen-reader/device checks and further browser engines remain pending; this milestone is not complete.
+The engineering scope covers the synthetic learning/backup journey, keyboard focus, route titles, narrow layouts, text enlargement, touch emulation, axe rules and optional tutor controls with synthetic responses. Fixes address focus after redraws, persistent field errors and control names, heading order, mobile navigation, contrast and disclosure targets. Independent INT-101 full-text and exact-claim source/subject review is still pending; see the [review brief](docs/INT101_REVIEW_BRIEF.md). Product validation does not approve curriculum.
 
 ## 3. Criterion-linked local evidence and reassessment
 
