@@ -1,6 +1,6 @@
 # Accessibility engineering audit and pilot status
 
-Status: scoped engineering integration checks passed; committed CI verification remains pending. Representative learner, real-device and manual screen-reader sessions remain pending. This is a scoped engineering record, not a WCAG conformance claim or academic approval. Pending checks are not passes.
+Status: scoped local engineering integration checks passed. See [the consolidated PR's CI checks](https://github.com/hemmingsenpeter-byte/ultimo/pull/6/checks) for committed and bundled-browser verification. Representative learner, real-device and manual screen-reader sessions remain pending. This is a scoped engineering record, not a WCAG conformance claim or academic approval. Pending checks are not passes.
 
 ## Scope and tested build
 
@@ -9,7 +9,7 @@ Baseline: merged study-plan PR #4 (`6d52159`), with 26 authored draft courses an
 | Field | Integrated observation |
 |---|---|
 | Audit date / tester | 2026-11-28; Codex engineering integration |
-| Tested revision | Consolidated PR #5/#6 working tree based on `6d52159`; local run passed before the integration commit. The subsequent CI run must identify the exact committed SHA. |
+| Tested revision | Integrated product code and browser suite in `e53ed84`, based on `6d52159`; local run passed before that integration commit. Later documentation updates do not change the tested product code. CI checks identify their exact committed SHA. |
 | Test origin | `http://127.0.0.1:3001`; isolated static build served by the test harness |
 | Environment / exact browser and tool versions | Linux/Debian 13; Python 3.12.14; Node 24.22.3; system Chromium 156.0.8078.79; `@playwright/test` 1.65.1; axe/axe Playwright adapter 4.14.1. CI's bundled Chromium is a separate observation. |
 | Automated checks / final count | 21 Playwright tests passed in approximately one minute; twelve axe route scans reported no violations. Scans are steps within a test. |
@@ -75,7 +75,7 @@ Severity follows the [human pilot guide](learner-pilot.md#severity-and-exit-deci
 
 ## Readiness and remaining work
 
-- Engineering readiness: the local integrated suite and existing regressions passed; independent integrated code review found no blockers in this scope. Committed CI URL/SHA and bundled-browser result remain to be recorded. These scoped results do not close the human pilot.
+- Engineering readiness: the local integrated suite and existing regressions passed; independent integrated code review found no blockers in this scope. Consult [PR #6 checks](https://github.com/hemmingsenpeter-byte/ultimo/pull/6/checks) for the exact CI revision and bundled-browser result. These scoped results do not close the human pilot.
 - Human pilot completion: pending actual voluntary learner, real screen-reader and device sessions under [learner-pilot.md](learner-pilot.md), with findings and successful retests. No participant or actual assistive technology result is claimed here.
 - Coverage limits: Chromium automation does not establish other engines, real touch, actual browser zoom, screen-reader announcements or native-dialog usability. Only documented combinations are covered.
 - Independent INT-101 source/subject review remains pending under [the review brief](INT101_REVIEW_BRIEF.md). Teaching efficacy, model safety/quality, deployment and hosted inference remain separate gates.
