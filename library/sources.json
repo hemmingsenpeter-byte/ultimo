@@ -1978,5 +1978,71 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-26"
+  },
+  {
+    "id": "emo-moral-emotions",
+    "title": "Moral Emotions and Moral Behavior",
+    "authors": "Tangney, Stuewig and Mashek",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3083636/",
+    "locator": "2007, shame and guilt distinction",
+    "limitations": "Review; tendencies, not diagnoses",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-appraisal-jealousy",
+    "title": "Love, hate, anger, and jealousy in close relationships: a prototype and cognitive appraisal analysis",
+    "authors": "Fitness and Fletcher",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8246116/",
+    "locator": "1993, abstract, appraisal analysis",
+    "limitations": "Close relationship research; no universal individual prediction",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-apologies",
+    "title": "An Exploration of the Structure of Effective Apologies",
+    "authors": "Lewicki, Polin and Lount",
+    "url": "https://doi.org/10.1111/ncmr.12073",
+    "locator": "2016, abstract and apology components",
+    "limitations": "Scenario studies of perceived effectiveness; no guarantee of reconciliation",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-child-attachment",
+    "title": "Introduction to children's attachment",
+    "authors": "National Collaborating Centre for Mental Health",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK356196/",
+    "locator": "2015, attachment theory, secure base",
+    "limitations": "Clinical guideline background; no individual classification from vignettes",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-caregiver-sensitivity",
+    "title": "Maternal and paternal sensitivity: Key determinants of child attachment security examined through meta-analysis",
+    "authors": "See author metadata in PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38709619/",
+    "locator": "2024, abstract, pooled association r=.25",
+    "limitations": "Group-level association; no individual causal prediction",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-adult-attachment",
+    "title": "Adult attachment, stress, and romantic relationships",
+    "authors": "Simpson and Rholes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28813288/",
+    "locator": "2017, abstract, adult attachment orientations and stress",
+    "limitations": "Review; context and relationship-specific limits",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
   }
 ]

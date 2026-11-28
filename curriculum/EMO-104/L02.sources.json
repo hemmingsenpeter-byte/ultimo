@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Appraisal research examines different emotion prototypes in close relationships.",
+      "source_ids": [
+        "emo-appraisal-jealousy"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-appraisal-jealousy",
+          "locator": "1993, abstract, appraisal analysis",
+          "limitations": "Close relationship research; no universal individual prediction"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    },
+    {
+      "claim": "Emotion generation and regulation distinguish appraisal and response processes.",
+      "source_ids": [
+        "emo-gross-process"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-gross-process",
+          "locator": "2015, process model and consequences of regulation strategies",
+          "limitations": "Theoretical review; not a treatment protocol"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated test or therapy reproduced.",
+  "review_required": true
+}

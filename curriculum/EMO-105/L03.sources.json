@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Adult attachment research examines anxiety and avoidance orientations and contextual responses to stress.",
+      "source_ids": [
+        "emo-adult-attachment"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-adult-attachment",
+          "locator": "2017, abstract, adult attachment orientations and stress",
+          "limitations": "Review; context and relationship-specific limits"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated test or therapy reproduced.",
+  "review_required": true
+}

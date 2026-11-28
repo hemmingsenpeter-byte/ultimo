@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Apology research examines apology components and perceived effectiveness in trust-violation scenarios.",
+      "source_ids": [
+        "emo-apologies"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-apologies",
+          "locator": "2016, abstract and apology components",
+          "limitations": "Scenario studies of perceived effectiveness; no guarantee of reconciliation"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated test or therapy reproduced.",
+  "review_required": true
+}

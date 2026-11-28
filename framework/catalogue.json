@@ -228,7 +228,7 @@
     "id": "EMO-104",
     "faculty": "EMO",
     "title": "Shame, anger, fear and jealousy",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-104/syllabus.json",
     "year": 2
@@ -237,7 +237,7 @@
     "id": "EMO-105",
     "faculty": "EMO",
     "title": "Attachment and development",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-105/syllabus.json",
     "year": 2

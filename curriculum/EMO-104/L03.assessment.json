@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L03",
+  "status": "draft",
+  "competency": "EMO-104.L03",
+  "questions": [
+    {
+      "id": "EMO-104.L03.Q1",
+      "competency": "EMO-104.L03",
+      "prompt": "Is a need identical to a proposed solution?",
+      "answer": "No; several options may meet the same need.",
+      "points": 1,
+      "feedback": "Generate a second option."
+    },
+    {
+      "id": "EMO-104.L03.Q2",
+      "competency": "EMO-104.L03",
+      "prompt": "Does emotional intensity create an obligation?",
+      "answer": "No; obligations depend on agreements, authority and actual duties.",
+      "points": 1,
+      "feedback": "Distinguish requests and duties."
+    },
+    {
+      "id": "EMO-104.L03.Q3",
+      "competency": "EMO-104.L03",
+      "prompt": "What makes a request non-coercive?",
+      "answer": "It respects autonomy and communicates legitimate requirements transparently.",
+      "points": 1,
+      "feedback": "Evaluate effect, not wording alone."
+    },
+    {
+      "id": "EMO-104.L03.Q4",
+      "competency": "EMO-104.L03",
+      "prompt": "When may negotiation be unsafe?",
+      "answer": "When coercion, threats or power imbalance creates risk.",
+      "points": 1,
+      "feedback": "Consider appropriate support."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Separates needs from preferred solutions and coercive demands, respects duties and identifies feasible alternatives.",
+    "transfer": "Build a fictional need-options table with three possible solutions, a consent check and a fallback. Rewrite a controlling demand into a respectful request or a self-directed decision. Explain when formal or specialist support is preferable to direct communication.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

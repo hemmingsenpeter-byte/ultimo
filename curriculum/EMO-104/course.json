@@ -1,0 +1,43 @@
+{
+  "id": "EMO-104",
+  "title": "Shame, anger, fear and jealousy",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-103"
+  ],
+  "competencies": [
+    "EMO-104.L01",
+    "EMO-104.L02",
+    "EMO-104.L03",
+    "EMO-104.L04"
+  ],
+  "reading": [
+    "emo-ref-7",
+    "men-ref-3"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Shame and guilt",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Anger fear and jealousy",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Needs versus control",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "path": "L04.md"
+    }
+  ]
+}

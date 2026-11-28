@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L01",
+  "status": "draft",
+  "competency": "EMO-104.L01",
+  "questions": [
+    {
+      "id": "EMO-104.L01.Q1",
+      "competency": "EMO-104.L01",
+      "prompt": "How do shame and guilt often differ in scope?",
+      "answer": "Shame tends to evaluate the whole self; guilt tends to evaluate conduct.",
+      "points": 1,
+      "feedback": "Treat the distinction as a tendency, not a fixed rule."
+    },
+    {
+      "id": "EMO-104.L01.Q2",
+      "competency": "EMO-104.L01",
+      "prompt": "Does guilt establish responsibility?",
+      "answer": "No; responsibility depends on evidence of actions, duties and impact.",
+      "points": 1,
+      "feedback": "Give an example of guilt without control."
+    },
+    {
+      "id": "EMO-104.L01.Q3",
+      "competency": "EMO-104.L01",
+      "prompt": "What is accountability distinct from?",
+      "answer": "Global self-condemnation or punishment; it identifies responsibility and feasible correction.",
+      "points": 1,
+      "feedback": "Name an observable remedy."
+    },
+    {
+      "id": "EMO-104.L01.Q4",
+      "competency": "EMO-104.L01",
+      "prompt": "What if responsibility is disputed?",
+      "answer": "Clarify the evidence and applicable obligation before accepting or assigning blame.",
+      "points": 1,
+      "feedback": "Do not invent admissions."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Distinguishes appraisal scope, establishes responsibility using evidence and proposes proportionate correction and prevention.",
+    "transfer": "Create a fictional accountability map for a missed commitment. Include one legitimate responsibility, one factor outside control, a correction and prevention step, and one rival explanation. Revise the map if later evidence shows that no breach occurred.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}
