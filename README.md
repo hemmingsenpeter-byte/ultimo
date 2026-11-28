@@ -7,6 +7,7 @@ An open curriculum for lifelong human development: capability, character, connec
 - [Tutor architecture and local model setup](tutor/README.md)
 - [Student application and deployment guide](platform/README.md)
 - [Product roadmap](PRODUCT_ROADMAP.md)
+- [Learner and assistive technology pilot](docs/learner-pilot.md), [engineering audit](docs/accessibility-audit.md) and [independent INT-101 review brief](docs/INT101_REVIEW_BRIEF.md)
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
 - [Five-year pathway](pathways/five-year.md)
@@ -20,7 +21,7 @@ An open curriculum for lifelong human development: capability, character, connec
 
 ## Run locally
 
-Requires Python 3.11+; no external packages.
+Requires Python 3.11+ and Node 22.12+ for the development checks below. The application and Python build have no external package dependencies. Optional browser checks use locked npm development dependencies.
 
     python -m unittest discover -s tests -v
     python tools/validate.py
@@ -32,6 +33,8 @@ Requires Python 3.11+; no external packages.
     python -m http.server 8000 --directory dist
 
 Open http://localhost:8000. The application includes course search, lessons, formative quizzes, spaced review, a study planner, framework and reading libraries, and browser-local reading progress and practice notes. No cloud learner data or verified mastery. See platform/README.md for deployment and limitations.
+
+Run the single browser suite with `npm ci`, `npx playwright install --with-deps chromium`, then `npm run test:browser`. It builds and serves its own test site. To use system Chromium instead of downloading a browser, replace the installation step and final command with `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser`. See the [engineering audit](docs/accessibility-audit.md) for scope, results and coverage limits. Actual learner, screen-reader/device and independent academic reviews remain pending; the browser/accessibility pilot is in progress.
 
 The existing MIT licence is retained. Additional content-licensing decisions are pending owner approval. Do not put private learner records, journals or credentials here.
 

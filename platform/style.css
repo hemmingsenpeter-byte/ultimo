@@ -6,3 +6,12 @@
 progress.progress{width:100%;display:block;appearance:none;border:0;color:var(--green);accent-color:var(--green)}progress.progress::-webkit-progress-bar{background:#e5e7dd;border-radius:20px}progress.progress::-webkit-progress-value{background:var(--green);border-radius:20px}progress.progress::-moz-progress-bar{background:var(--green);border-radius:20px}
 
 .tutor-controls{grid-template-columns:2fr 1fr}.tutor-controls>div:first-child{grid-column:auto}#tutorConversation{overflow-wrap:anywhere}@media(max-width:660px){.tutor-controls{grid-template-columns:1fr}}
+.field-error{color:#943c31}.field-error:empty{margin:0}
+[tabindex="-1"]:focus{outline:3px solid #8b6b34;outline-offset:4px;scroll-margin-block:5rem}
+
+/* Keep control boundaries and keyboard focus visible on both surface colours. */
+input,select,textarea{border-color:#73816d}
+summary{min-height:24px;padding:2px 0;outline-offset:4px}
+summary:focus-visible{outline:3px solid #8b6b34}
+aside :focus-visible,.mobile-head :focus-visible{outline-color:#f0d391}
+:where(a,button,input,select,textarea,summary,[tabindex]):focus{scroll-margin-block:6rem}

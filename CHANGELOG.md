@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Browser and accessibility pilot baseline
+
+- Consolidate the Chromium learner journeys, axe scans, layout checks and synthetic tutor interactions into one `@playwright/test` runner and one browser CI job, using fictional records and development-only dependencies.
+- Preserve useful keyboard focus after view updates, reading/review, evidence, backups and delayed tutor replies; add persistent field errors, meaningful repeated-control names and page-specific titles.
+- Correct result-heading order, skip-link reuse and mobile navigation Escape/current-page handling; improve form/focus contrast and disclosure targets.
+- Maintain one learner/screen-reader protocol, engineering audit and independent INT-101 source/subject review brief. Representative learner, real assistive technology/device and academic review gates remain pending; roadmap milestone 2 stays in progress.
+
 ## v0.5 — Tutor studio and personalised learning pilot
 
 - Six curriculum-grounded tutor roles, searchable passage guidance, formative practice questions and portable tutor prompts.
