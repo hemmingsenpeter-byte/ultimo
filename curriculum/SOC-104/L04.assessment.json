@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L04",
+  "status": "draft",
+  "competency": "SOC-104.L04",
+  "questions": [
+    {
+      "id": "SOC-104.L04.Q1",
+      "competency": "SOC-104.L04",
+      "prompt": "Does quietness establish social anxiety disorder?",
+      "answer": "No; individual diagnosis requires qualified assessment.",
+      "points": 1,
+      "feedback": "Distinguish preference and impairment."
+    },
+    {
+      "id": "SOC-104.L04.Q2",
+      "competency": "SOC-104.L04",
+      "prompt": "What is an appropriate response to an access barrier?",
+      "answer": "Seek an authorised accommodation or suitable alternative.",
+      "points": 1,
+      "feedback": "Do not treat it as lack of motivation."
+    },
+    {
+      "id": "SOC-104.L04.Q3",
+      "competency": "SOC-104.L04",
+      "prompt": "When may qualified care be appropriate?",
+      "answer": "When wanted or when persistent difficulties interfere with functioning.",
+      "points": 1,
+      "feedback": "Do not diagnose."
+    },
+    {
+      "id": "SOC-104.L04.Q4",
+      "competency": "SOC-104.L04",
+      "prompt": "What takes priority in immediate danger?",
+      "answer": "Local emergency assistance.",
+      "points": 1,
+      "feedback": "Do not substitute ordinary practice."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Distinguishes preference, access, skill and clinical support needs; selects appropriate, consent-based routes.",
+    "transfer": "Complete a fictional low-stakes practice plan with separate perceived-capability and skill evidence, voluntary task variants, specific feedback and a support decision. Include access, refusal and a contrasting clinical or emergency route; explain the limits of the evidence.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Hattie and Timperley's review distinguishes feedback functions, levels and context-dependent effects.",
+      "source_ids": [
+        "soc-feedback"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-feedback",
+          "locator": "2007, review, goals, progress and next steps",
+          "limitations": "Educational research; effects depend on feedback design and context"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Debrief research examines structured learning reviews and performance outcomes.",
+      "source_ids": [
+        "men-debrief-review"
+      ],
+      "locators": [
+        {
+          "source_id": "men-debrief-review",
+          "locator": "2013, abstract, structured debriefs and performance",
+          "limitations": "Heterogeneous training settings; no guaranteed gain for any individual"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

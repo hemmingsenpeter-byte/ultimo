@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Hall's studies relate time and shared activities to reported friendship closeness, with observational limitations.",
+      "source_ids": [
+        "soc-friendship-hours"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-friendship-hours",
+          "locator": "2019 issue; first published 2018, studies of time and friendship closeness",
+          "limitations": "Observational and self-report findings; no required hours or guarantee of friendship"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

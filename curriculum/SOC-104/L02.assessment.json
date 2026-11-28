@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L02",
+  "status": "draft",
+  "competency": "SOC-104.L02",
+  "questions": [
+    {
+      "id": "SOC-104.L02.Q1",
+      "competency": "SOC-104.L02",
+      "prompt": "What does graded practice mean here?",
+      "answer": "Varying ordinary task demands in voluntary learning exercises.",
+      "points": 1,
+      "feedback": "Not clinical exposure."
+    },
+    {
+      "id": "SOC-104.L02.Q2",
+      "competency": "SOC-104.L02",
+      "prompt": "Does practice require deliberate distress?",
+      "answer": "No; task complexity and feedback can be varied without inducing distress.",
+      "points": 1,
+      "feedback": "Avoid humiliation or coercion."
+    },
+    {
+      "id": "SOC-104.L02.Q3",
+      "competency": "SOC-104.L02",
+      "prompt": "Why use a novel case?",
+      "answer": "To assess transfer beyond memorising one response.",
+      "points": 1,
+      "feedback": "Keep criteria comparable."
+    },
+    {
+      "id": "SOC-104.L02.Q4",
+      "competency": "SOC-104.L02",
+      "prompt": "Can a learner decline oral role-play?",
+      "answer": "Yes; equivalent accessible formats may demonstrate the same objective.",
+      "points": 1,
+      "feedback": "Respect consent."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Designs voluntary, accessible, low-risk task practice with feedback, transfer and clear non-clinical boundaries.",
+    "transfer": "Create a three-variant low-stakes practice plan for a fictional social skill. Include criteria, an accessible format, a stop option and a comparable new case. Explain how it differs from clinical exposure.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

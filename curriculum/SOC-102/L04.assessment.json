@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L04",
+  "status": "draft",
+  "competency": "SOC-102.L04",
+  "questions": [
+    {
+      "id": "SOC-102.L04.Q1",
+      "competency": "SOC-102.L04",
+      "prompt": "What makes a question loaded?",
+      "answer": "It presupposes a disputed or unverified fact.",
+      "points": 1,
+      "feedback": "Rewrite an accusation neutrally."
+    },
+    {
+      "id": "SOC-102.L04.Q2",
+      "competency": "SOC-102.L04",
+      "prompt": "When is a closed question useful?",
+      "answer": "When confirming a specific relevant detail.",
+      "points": 1,
+      "feedback": "Give a scheduling example."
+    },
+    {
+      "id": "SOC-102.L04.Q3",
+      "competency": "SOC-102.L04",
+      "prompt": "What should determine the information requested?",
+      "answer": "The legitimate decision and minimum information needed.",
+      "points": 1,
+      "feedback": "Avoid unnecessary private details."
+    },
+    {
+      "id": "SOC-102.L04.Q4",
+      "competency": "SOC-102.L04",
+      "prompt": "What if an optional question is declined?",
+      "answer": "Respect the refusal and retain uncertainty or use appropriate authorised information.",
+      "points": 1,
+      "feedback": "Do not pressure a preferred answer."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Writes proportionate, neutral questions and updates decisions while respecting privacy, autonomy and safety.",
+    "transfer": "Complete a social scenario analysis with ambiguous cues, contextual explanations, group norms and clarifying questions. Include one case where asking is unnecessary, one access alternative and a revised decision after hypothetical new information.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

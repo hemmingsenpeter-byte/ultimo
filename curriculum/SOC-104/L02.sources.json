@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Self-efficacy theory examines perceived capability and experience, without validating the specific classroom activity.",
+      "source_ids": [
+        "soc-efficacy"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-efficacy",
+          "locator": "1977, theoretical account of efficacy expectations",
+          "limitations": "Historical theory; perceived capability is not demonstrated competence"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "NIMH describes social anxiety disorder and qualified treatment routes.",
+      "source_ids": [
+        "soc-anxiety-nimh"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-anxiety-nimh",
+          "locator": "Public guidance, symptoms and professional support",
+          "limitations": "US public education; no individual diagnosis or self-treatment protocol"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

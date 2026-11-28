@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L03",
+  "status": "draft",
+  "competency": "SOC-104.L03",
+  "questions": [
+    {
+      "id": "SOC-104.L03.Q1",
+      "competency": "SOC-104.L03",
+      "prompt": "What makes feedback actionable?",
+      "answer": "A relevant criterion, observable evidence and a specific next step.",
+      "points": 1,
+      "feedback": "Avoid global judgments."
+    },
+    {
+      "id": "SOC-104.L03.Q2",
+      "competency": "SOC-104.L03",
+      "prompt": "Can feedback be mistaken?",
+      "answer": "Yes; check evidence and revise when corrected.",
+      "points": 1,
+      "feedback": "Allow disagreement."
+    },
+    {
+      "id": "SOC-104.L03.Q3",
+      "competency": "SOC-104.L03",
+      "prompt": "Why preserve an observed strength?",
+      "answer": "The learner can retain useful actions while correcting a gap.",
+      "points": 1,
+      "feedback": "Do not focus only on failure."
+    },
+    {
+      "id": "SOC-104.L03.Q4",
+      "competency": "SOC-104.L03",
+      "prompt": "What should the next attempt test?",
+      "answer": "The specific improvement on a comparable new task.",
+      "points": 1,
+      "feedback": "Keep the criterion stable."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Provides specific, evidence-based feedback, incorporates correction and designs a comparable retest.",
+    "transfer": "Produce feedback for two fictional practice attempts using the same criteria. Include one strength, one gap, a learner correction, a revised action and a novel retest. Explain why confidence ratings are not a substitute for task evidence.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

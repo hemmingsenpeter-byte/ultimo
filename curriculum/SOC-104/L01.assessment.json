@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L01",
+  "status": "draft",
+  "competency": "SOC-104.L01",
+  "questions": [
+    {
+      "id": "SOC-104.L01.Q1",
+      "competency": "SOC-104.L01",
+      "prompt": "What is self-efficacy concerned with?",
+      "answer": "Belief about capability to perform actions in context.",
+      "points": 1,
+      "feedback": "Distinguish belief from performance."
+    },
+    {
+      "id": "SOC-104.L01.Q2",
+      "competency": "SOC-104.L01",
+      "prompt": "Can nervousness coexist with competent communication?",
+      "answer": "Yes.",
+      "points": 1,
+      "feedback": "Use observable evidence."
+    },
+    {
+      "id": "SOC-104.L01.Q3",
+      "competency": "SOC-104.L01",
+      "prompt": "What should a communication rubric avoid?",
+      "answer": "Irrelevant style requirements and personal character judgments.",
+      "points": 1,
+      "feedback": "Name a task-relevant criterion."
+    },
+    {
+      "id": "SOC-104.L01.Q4",
+      "competency": "SOC-104.L01",
+      "prompt": "What if the learner lacks instructions?",
+      "answer": "Address the access or instruction barrier first.",
+      "points": 1,
+      "feedback": "Do not infer low ability."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Separates perceived capability, observed skill and contextual barriers and selects task-appropriate support.",
+    "transfer": "Create a fictional confidence-skill matrix for a social task, with four scenarios and differentiated support options. Define two observable criteria and one accessibility alternative. Explain what the matrix cannot establish about the learner.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

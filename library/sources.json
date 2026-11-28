@@ -2110,5 +2110,93 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-email-cues",
+    "title": "Egocentrism over e-mail: can we communicate as well as we think?",
+    "authors": "Kruger, Epley, Parker and Ng",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16393025/",
+    "locator": "2005, abstract and experimental studies on communicating tone",
+    "limitations": "Email studies; not a universal rule for every written exchange",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-perspective-anchor",
+    "title": "Perspective taking as egocentric anchoring and adjustment",
+    "authors": "Epley, Keysar, Van Boven and Gilovich",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15382983/",
+    "locator": "2004, abstract and perspective-taking experiments",
+    "limitations": "Experimental research; cannot infer individual intentions",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-intercultural",
+    "title": "Measuring intercultural dialogue: a conceptual and technical framework",
+    "authors": "UNESCO",
+    "url": "https://www.unesco.org/en/articles/measuring-intercultural-dialogue-conceptual-and-technical-framework",
+    "locator": "2020, overview of dialogue and cultural diversity",
+    "limitations": "Policy-level framework, not a guide to any individual's customs",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-norms",
+    "title": "A Focus Theory of Normative Conduct: A Theoretical Refinement and Reevaluation of the Role of Norms in Human Behavior",
+    "authors": "Cialdini, Kallgren and Reno",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065260108603305",
+    "locator": "1991, abstract, descriptive and injunctive norms",
+    "limitations": "Context-dependent norm effects; prevalence does not establish ethical legitimacy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-friendship-hours",
+    "title": "How many hours does it take to make a friend?",
+    "authors": "Jeffrey A. Hall",
+    "url": "https://doi.org/10.1177/0265407518761225",
+    "locator": "2019 issue; first published 2018, studies of time and friendship closeness",
+    "limitations": "Observational and self-report findings; no required hours or guarantee of friendship",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-efficacy",
+    "title": "Self-efficacy: toward a unifying theory of behavioral change",
+    "authors": "Albert Bandura",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/847061/",
+    "locator": "1977, theoretical account of efficacy expectations",
+    "limitations": "Historical theory; perceived capability is not demonstrated competence",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-feedback",
+    "title": "The Power of Feedback",
+    "authors": "John Hattie and Helen Timperley",
+    "url": "https://doi.org/10.3102/003465430298487",
+    "locator": "2007, review, goals, progress and next steps",
+    "limitations": "Educational research; effects depend on feedback design and context",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-anxiety-nimh",
+    "title": "Social Anxiety Disorder: What You Need to Know",
+    "authors": "National Institute of Mental Health",
+    "url": "https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness",
+    "locator": "Public guidance, symptoms and professional support",
+    "limitations": "US public education; no individual diagnosis or self-treatment protocol",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
   }
 ]

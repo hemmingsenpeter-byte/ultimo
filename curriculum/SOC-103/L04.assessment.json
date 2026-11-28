@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L04",
+  "status": "draft",
+  "competency": "SOC-103.L04",
+  "questions": [
+    {
+      "id": "SOC-103.L04.Q1",
+      "competency": "SOC-103.L04",
+      "prompt": "Is repair equivalent to saying sorry?",
+      "answer": "No; correction and prevention may be needed.",
+      "points": 1,
+      "feedback": "Identify an observable remedy."
+    },
+    {
+      "id": "SOC-103.L04.Q2",
+      "competency": "SOC-103.L04",
+      "prompt": "What if the issue is a structural access barrier?",
+      "answer": "Change the relevant group process rather than relying on apology alone.",
+      "points": 1,
+      "feedback": "Identify responsible authority."
+    },
+    {
+      "id": "SOC-103.L04.Q3",
+      "competency": "SOC-103.L04",
+      "prompt": "Does repair require reconciliation?",
+      "answer": "No; the affected person retains choice.",
+      "points": 1,
+      "feedback": "Respect refusal."
+    },
+    {
+      "id": "SOC-103.L04.Q4",
+      "competency": "SOC-103.L04",
+      "prompt": "What if serious misconduct continues?",
+      "answer": "Use appropriate formal or specialist support, prioritising safety.",
+      "points": 1,
+      "feedback": "Do not insist on direct confrontation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Designs feasible community repair addressing actual impact, process changes, autonomy and appropriate escalation.",
+    "transfer": "Complete the community plan: recurring opportunities, reciprocal support and obligations, inclusive invitations and a repair pathway. Include an access barrier, consent and refusal, a structural improvement and a contrasting case requiring formal support.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

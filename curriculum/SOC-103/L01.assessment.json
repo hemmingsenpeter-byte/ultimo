@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L01",
+  "status": "draft",
+  "competency": "SOC-103.L01",
+  "questions": [
+    {
+      "id": "SOC-103.L01.Q1",
+      "competency": "SOC-103.L01",
+      "prompt": "Does recurring contact guarantee friendship?",
+      "answer": "No; it creates opportunities and closeness requires mutual choice.",
+      "points": 1,
+      "feedback": "Avoid hour targets as obligations."
+    },
+    {
+      "id": "SOC-103.L01.Q2",
+      "competency": "SOC-103.L01",
+      "prompt": "What does Hall's research examine?",
+      "answer": "Associations between time, activities and reported friendship closeness.",
+      "points": 1,
+      "feedback": "Distinguish association from guarantee."
+    },
+    {
+      "id": "SOC-103.L01.Q3",
+      "competency": "SOC-103.L01",
+      "prompt": "Why consider accessibility and cost?",
+      "answer": "They affect whether participation is feasible and sustainable.",
+      "points": 1,
+      "feedback": "Identify one barrier."
+    },
+    {
+      "id": "SOC-103.L01.Q4",
+      "competency": "SOC-103.L01",
+      "prompt": "Is an activity-based relationship valid without closer friendship?",
+      "answer": "Yes; people may prefer different kinds of connection.",
+      "points": 1,
+      "feedback": "Respect the relationship's actual scope."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Designs sustainable opportunities for recurring contact and distinguishes opportunity from mutual friendship outcomes.",
+    "transfer": "Design a fictional recurring-contact plan with two settings, an access and cost check, realistic availability and a review point. Explain why it creates opportunities rather than guaranteeing friendship.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}
