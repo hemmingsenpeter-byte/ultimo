@@ -51,6 +51,8 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser
 Set that variable to the actual executable path and record its version; leave it unset for the bundled browser. These npm packages are development dependencies only: the static application and Python build remain dependency-free, and deployment does not require npm. See [the engineering audit](../docs/accessibility-audit.md) for scope/results, [the canonical learner pilot](../docs/learner-pilot.md) for human checks and [the INT-101 review brief](../docs/INT101_REVIEW_BRIEF.md) for independent academic review. Those human and academic reviews remain pending.
 
 ## Deployment
+
+For a later local learner pilot, run `python3 tools/build_pilot.py` from the repository root and extract `pilot-dist/ultimo-pilot.zip`. Its launcher serves the included app without npm or model credentials, with loopback-only access by default and an explicit `--lan` option for phone testing on the same Wi-Fi. See the [pilot-kit instructions](../docs/learner-pilot.md#build-the-take-away-pilot-kit). This is a local test package; normal hosting configuration is a separate step.
 A static host can publish dist/ after running python3 tools/build.py. Render static site: connect this repository, main, build command python3 tools/build.py, publish directory dist. Select the intended workspace before creating a site; do not provision paid services. GitHub Pages: set Settings > Pages > Source to GitHub Actions and run the included manual Publish Ultimo workflow. The hash-based routes work under repository subpaths. Deployment is not automatic until explicitly configured.
 
 ## Boundaries

@@ -7,3 +7,4 @@ learner-data/
 node_modules/
 playwright-report/
 test-results/
+pilot-dist/
