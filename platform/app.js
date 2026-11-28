@@ -1,7 +1,8 @@
-import {KEY,fresh,clean,today,complete,review,due,courseProgress,nextLessons,studyOptions,studySelection} from "./state.mjs";
+import {KEY,fresh,clean,today,addDays,complete,review,due,courseProgress,nextLessons,studyOptions,studySelection} from "./state.mjs";
 import {ROLES,grounding,guide,makePrompt,recommendations} from "./tutor.mjs";
+import {LIMITS,JUDGEMENTS,isISODate,evidenceTargets,newAttempt,makePortfolio,appendAttempt,validatePortfolios,duePortfolios,assertBackupSize} from "./portfolio.mjs";
 const main=document.querySelector("#main"), notice=document.querySelector("#notice");
-let data, courses, sourceMap, compMap, facultyMap, valid, courseIds, state, storageOK=true;
+let data, courses, sourceMap, compMap, facultyMap, valid, courseIds, targets, state, storageOK=true, storageBlocked=false, recoveryData=null, sessionSnapshot=null;
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const href=(page,id="")=>"#"+page+(id?"/"+encodeURIComponent(id):"");
 const link=(page,id,label,cls="")=>'<a class="'+cls+'" href="'+href(page,id)+'">'+esc(label)+'</a>';
@@ -52,13 +53,87 @@ function clearFieldError(selector,messageId){
  document.querySelector(selector).addEventListener("input",e=>{if(e.target.hasAttribute("aria-invalid")){e.target.removeAttribute("aria-invalid");document.querySelector("#"+messageId).textContent="";}});
 }
 function persist(){
-  try{localStorage.setItem(KEY,JSON.stringify(state));storageOK=true;}catch{storageOK=false;flash("Browser storage unavailable. Export before leaving.");}
+  let serialized;
+  try{assertBackupSize(state);serialized=JSON.stringify(state);}catch(error){if(sessionSnapshot)state=JSON.parse(sessionSnapshot);storageOK=false;flash(error.message);return false;}
+  sessionSnapshot=serialized;
+  if(storageBlocked){storageOK=false;flash("Original saved data is protected. Export this session or recover it in Data & settings.");return false;}
+  try{localStorage.setItem(KEY,serialized);storageOK=true;return true;}catch{storageOK=false;flash("Browser storage unavailable or full. Export before leaving.");return false;}
 }
 function loadState(){
-  try{const raw=localStorage.getItem(KEY);return raw?clean(JSON.parse(raw),valid,courseIds,planIds()):fresh();}
-  catch{storageOK=false;return fresh();}
+  let raw;
+  try{raw=localStorage.getItem(KEY);}catch{storageOK=false;storageBlocked=true;return fresh();}
+  if(!raw)return fresh();
+  let restored;
+  try{restored=clean(JSON.parse(raw),valid,courseIds,planIds(),targets);}
+  catch{storageOK=false;storageBlocked=true;recoveryData=raw;return fresh();}
+  // Upgrade on the existing origin/key so valid older records remain discoverable.
+  try{localStorage.setItem(KEY,JSON.stringify(restored));}catch{storageOK=false;}
+  return restored;
 }
-function setPage(html){main.innerHTML=html+'<footer>Ultimo · v0.5 pilot · Curriculum drafts, not accredited instruction.</footer>';document.querySelector("#studyPlanLabel").textContent=studySelection(state,data).title;}
+function setPage(html){main.innerHTML=(storageBlocked?'<div class="notice" role="status">Saved records could not be loaded. The original is protected in browser storage. '+link("settings","","Recover original data in Data & settings")+'. New work is for this session only.</div>':'')+html+'<footer>Ultimo · v0.5 pilot · Curriculum drafts, not accredited instruction.</footer>';document.querySelector("#studyPlanLabel").textContent=studySelection(state,data).title;}
+
+const evidenceId=()=>globalThis.crypto?.randomUUID?.()??"evidence-"+Date.now()+"-"+Math.random().toString(36).slice(2);
+const shortRubric=version=>version.slice(7,19);
+function portfolioDueSection(){
+ const records=duePortfolios(state);
+ return '<section class="section portfolio-due">'+heading("Evidence reassessments due")+'<p class="muted">Follow-ups for your own evidence across all study plans. Allow extra time; these are separate from the weekly reading queue.</p>'+(records.length?box(records.map(record=>'<div class="review"><strong>'+esc(lessonTitle(record.course+"."+record.lesson))+'</strong><p class="compact">Due '+esc(record.attempts.at(-1).reassessOn)+' · '+esc(JUDGEMENTS[record.attempts.at(-1).judgement])+'</p>'+link("portfolio",record.id,"Reassess evidence","primary")+'</div>').join("")):'<p class="empty">No evidence reassessments due.</p>')+'</section>';
+}
+function criterionMarkup(target){
+ return '<p><strong>'+esc(target.competency)+'</strong></p><p>'+esc(target.rubric.criterion)+'</p><details><summary>View current rubric</summary><ol start="0">'+target.rubric.levels.map((level,i)=>'<li><strong>'+esc(data.levels[i].title)+':</strong> '+esc(level)+'</li>').join("")+'</ol><p class="compact muted">Rubric version <code title="'+esc(target.rubric.version)+'">'+esc(shortRubric(target.rubric.version))+'</code>. These criteria are draft; recording evidence does not award a level.</p></details>';
+}
+function portfolioContent(arg){
+ const record=state.portfolios.find(item=>item.id===arg), selectedTarget=targets.get(arg);
+ const course=record?.course??selectedTarget?.course??(courses.get(arg)?.authored?arg:available()[0].id);
+ const lessonKey=record?record.course+"."+record.lesson:selectedTarget?.key??[...targets.values()].find(item=>item.course===course).key;
+ const target=targets.get(lessonKey), choices=available();
+ const composer='<section class="section" id="attemptComposer"'+(record?' hidden':'')+'>'+heading(record?"Record another attempt":"Add competency evidence")+box(
+ '<label for="pCourse">Evidence course</label><select id="pCourse"'+(record?' disabled':'')+'>'+choices.map(item=>'<option value="'+esc(item.id)+'"'+(item.id===course?' selected':'')+'>'+esc(item.title)+'</option>').join("")+'</select>'+
+ '<label for="pLesson">Lesson and competency</label><select id="pLesson"'+(record?' disabled':'')+'>'+courses.get(course).lessons.map(lesson=>'<option value="'+esc(course+"."+lesson.id)+'"'+(course+"."+lesson.id===lessonKey?' selected':'')+'>'+esc(lesson.id+" · "+lesson.title)+'</option>').join("")+'</select>'+
+ '<div id="pCriterion" class="notice">'+criterionMarkup(target)+'</div>'+
+ '<p class="compact">Describe a fictional or non-sensitive written, oral, diagrammatic or simulated demonstration. The criterion and rubric are saved with each attempt.</p>'+
+ '<label for="pNote">Evidence for this attempt (max 4,000 characters)</label><textarea id="pNote" maxlength="4000" aria-describedby="pError"></textarea>'+
+ '<label for="pJudgement">Your judgement against this criterion</label><select id="pJudgement" aria-describedby="pError">'+Object.entries(JUDGEMENTS).map(([value,label])=>'<option value="'+value+'">'+esc(label)+'</option>').join("")+'</select>'+
+ '<label for="pReview">Next reassessment date (optional)</label><input id="pReview" type="date" min="'+today()+'" value="'+addDays(today(),7)+'" aria-describedby="pError"><p id="pError" role="alert" class="field-error"></p>'+button("savePortfolio",record?"Save reassessment":"Save competency evidence",true))+'</section>';
+ if(!record){
+  const list=state.portfolios.length?'<div class="cards">'+state.portfolios.map(item=>{
+   const latest=item.attempts.at(-1);
+   return box('<h3>'+esc(lessonTitle(item.course+"."+item.lesson))+'</h3><p>'+esc(JUDGEMENTS[latest.judgement])+'</p><p class="compact">'+item.attempts.length+' attempt(s) · '+esc(latest.reassessOn?"Follow-up "+latest.reassessOn:"No follow-up scheduled")+'</p>'+link("portfolio",item.id,"View evidence and history","primary"));
+  }).join("")+'</div>':'<p class="empty">No competency evidence recorded yet. Not yet demonstrated.</p>';
+  return '<p id="portfolioStatus" tabindex="-1" role="status"></p>'+composer+portfolioDueSection()+'<section class="section">'+heading("Competency evidence")+'<p class="muted">Your judgements are self-assessments. No competency has been independently verified here.</p>'+list+'</section>';
+ }
+ const history=record.attempts.map((attempt,index)=>{
+  const changed=JSON.stringify(attempt.rubric)!==JSON.stringify(target.rubric);
+  return '<li class="card evidence-attempt"><h3>Attempt '+(index+1)+' · '+esc(attempt.date)+'</h3><p>'+esc(JUDGEMENTS[attempt.judgement])+'</p><p class="evidence-note">'+esc(attempt.note)+'</p><p>Follow-up: '+esc(attempt.reassessOn??"None scheduled")+'</p><details><summary>Saved criterion and rubric for attempt '+(index+1)+'</summary><p>'+esc(attempt.rubric.criterion)+'</p><ol start="0">'+attempt.rubric.levels.map(level=>'<li>'+esc(level)+'</li>').join("")+'</ol><p class="compact">Saved rubric version <code title="'+esc(attempt.rubric.version)+'">'+esc(shortRubric(attempt.rubric.version))+'</code></p>'+(changed?'<p class="notice">The current rubric differs. This earlier attempt retains its saved criteria.</p>':'')+'</details></li>';
+ }).join("");
+ return '<section class="section">'+link("portfolio","","← All competency evidence")+heading(lessonTitle(record.course+"."+record.lesson))+'<p>'+esc(record.competency)+' · Self-assessment only; no verified competence awarded.</p><p id="portfolioStatus" tabindex="-1" role="status"></p><div class="row">'+button("newAttempt","Record reassessment",true)+'<button id="deletePortfolio" class="danger" type="button">Delete evidence and all attempts</button></div></section>'+composer+'<section class="section">'+heading("Attempt history")+'<p>Earlier attempts are retained when you reassess. New attempts use the current curriculum rubric.</p><ol id="attemptHistory" class="attempt-history">'+history+'</ol></section>';
+}
+function wirePortfolio(arg){
+ const record=state.portfolios.find(item=>item.id===arg);
+ const updateCriterion=()=>{const target=targets.get(document.querySelector("#pLesson").value);document.querySelector("#pCriterion").innerHTML=criterionMarkup(target);};
+ document.querySelector("#pCourse").addEventListener("change",event=>{
+  const course=courses.get(event.target.value);document.querySelector("#pLesson").innerHTML=course.lessons.map(lesson=>'<option value="'+esc(course.id+"."+lesson.id)+'">'+esc(lesson.id+" · "+lesson.title)+'</option>').join("");updateCriterion();
+ });
+ document.querySelector("#pLesson").addEventListener("change",updateCriterion);
+ for(const selector of ["#pNote","#pJudgement","#pReview"])clearFieldError(selector,"pError");
+ document.querySelector("#newAttempt")?.addEventListener("click",()=>{document.querySelector("#attemptComposer").hidden=false;focus("#pNote");});
+ document.querySelector("#savePortfolio").addEventListener("click",()=>{
+  const note=document.querySelector("#pNote").value.trim(),judgement=document.querySelector("#pJudgement").value,reassessOn=document.querySelector("#pReview").value||null;
+  if(!note||note.length>LIMITS.note){fieldError("#pNote","pError","Describe this attempt using 1–4,000 characters.");return;}
+  if(document.querySelector("#pReview").validity.badInput||(reassessOn&&(!isISODate(reassessOn)||reassessOn<today()))){fieldError("#pReview","pError","Choose today or a later valid date, or leave it blank.");return;}
+  try{
+   const target=targets.get(document.querySelector("#pLesson").value),attempt=newAttempt(target,{id:evidenceId(),date:today(),note,judgement,reassessOn});
+   const next=record?appendAttempt(record,target,attempt):makePortfolio(target,{id:evidenceId(),attempt});
+   const portfolios=record?state.portfolios.map(item=>item.id===record.id?next:item):[next,...state.portfolios];
+   if(portfolios.length>LIMITS.records)throw Error("Evidence record limit reached. Export your records before removing old entries.");
+   state=assertBackupSize({...state,portfolios:validatePortfolios(portfolios,targets)});persist();history.replaceState(null,"",href("portfolio",next.id));portfolio(next.id);
+   document.querySelector("#portfolioStatus").textContent=storageOK?"Evidence attempt saved locally. No verified competency awarded.":"Attempt kept for this session only. Export before leaving; original stored data is unchanged.";focus("#portfolioStatus");
+  }catch(error){fieldError("#pNote","pError",error.message);}
+ });
+ document.querySelector("#deletePortfolio")?.addEventListener("click",()=>{
+  if(!confirm("Delete this competency evidence and its entire attempt history?"))return;
+  state={...state,portfolios:state.portfolios.filter(item=>item.id!==record.id)};persist();history.replaceState(null,"",href("portfolio"));portfolio(record.course);focus("#pNote");flash(storageOK?"Evidence and attempt history deleted.":"Removed for this session only. Browser storage is unchanged.");
+ });
+}
 function courseCard(c,level=3){
  const done=courseProgress(state,c);
  return '<a class="card card-link" href="'+href("course",c.id)+'"><div class="row between"><span class="eyebrow">'+esc(c.id)+'</span>'+badge(c.authored?"Draft lessons":"Syllabus only",c.authored)+'</div><h'+level+'>'+esc(c.title)+'</h'+level+'><p class="muted compact">'+esc(facultyMap.get(c.faculty).title)+' · Year '+c.year+' · '+c.estimated_hours+'h</p>'+(c.authored?bar(done,c.lessons.length,c.title+" lessons completed")+'<small>'+done+' / '+c.lessons.length+' lessons completed</small>':'<small>'+c.lessons.length+' lesson blueprints</small>')+'</a>';
@@ -70,7 +145,7 @@ function home(){
  '<div class="stats">'+box('<p class="eyebrow">Lessons completed</p><div class="stat">'+countDone()+' / '+valid.size+'</div>')+box('<p class="eyebrow">Courses read</p><div class="stat">'+numDoneCourses()+' / '+available().length+'</div>')+box('<p class="eyebrow">Reviews due</p><div class="stat">'+reviews.length+'</div>')+'</div>'+
  '<section class="section split">'+resume+box('<p class="eyebrow">Your study plan</p><h2 id="activePlanTitle">'+esc(selection.title)+'</h2><p>'+state.hours+' hours / week · '+reviews.length+' reviews due across all courses.</p>'+link("planner","","Change study plan","primary"))+'</section>'+
  '<section class="section">'+box('<p class="eyebrow">Tutorials</p><h2>Meet your faculty tutors</h2><p>Explore the curriculum with guided explanations, practice examinations and personalised study recommendations.</p>'+link("tutor","","Open tutor studio","primary"))+'</section>'+
- '<section class="section">'+heading("Your faculties")+'<p class="muted compact">Reading progress only, not a measure of your competence or worth.</p>'+box(data.faculties.map(f=>{const cs=data.courses.filter(c=>c.faculty===f.id);const n=cs.reduce((a,c)=>a+courseProgress(state,c),0),d=cs.reduce((a,c)=>a+c.lessons.length,0);return '<div class="bar"><span>'+esc(f.title)+'</span>'+bar(n,d,f.title+" completion")+'<span>'+n+' / '+d+'</span></div>';}).join(""))+'</section>'+
+ portfolioDueSection()+'<section class="section">'+heading("Your faculties")+'<p class="muted compact">Reading progress only, not a measure of your competence or worth.</p>'+box(data.faculties.map(f=>{const cs=data.courses.filter(c=>c.faculty===f.id);const n=cs.reduce((a,c)=>a+courseProgress(state,c),0),d=cs.reduce((a,c)=>a+c.lessons.length,0);return '<div class="bar"><span>'+esc(f.title)+'</span>'+bar(n,d,f.title+" completion")+'<span>'+n+' / '+d+'</span></div>';}).join(""))+'</section>'+
  '<section class="section"><div class="row between">'+heading("Courses in your study plan")+link("courses","","Full catalogue")+'</div><p class="muted">'+esc(selection.title)+' · Written courses and any prerequisites.</p><div class="cards">'+(selection.order.length?selection.order.map(id=>courseCard(courses.get(id))).join(""):'<p class="empty">No written courses are available for this focus yet. Choose another study plan or explore the catalogue.</p>')+'</div></section>');
 }
 function catalogue(){
@@ -107,7 +182,7 @@ function showLesson(key){
  '<p>'+link("tutor",key,"Study with a tutor","primary")+'</p><div class="article">'+l.sections.filter(s=>s.title&&s.title!=="Knowledge check").map(s=>'<section><h2>'+esc(s.title)+'</h2>'+md(s.body)+'</section>').join("")+
  '<section class="section" id="quiz">'+heading("Knowledge check")+'<p>Recall an answer before opening the model response, then mark whether your own answer was correct. This is formative self-assessment, not AI grading.</p>'+
  box(q.map((x,i)=>'<div class="quiz-item"><p id="question'+i+'"><strong>'+ (i+1)+'. '+esc(x.prompt)+'</strong></p><label for="attempt'+i+'">Your answer to question '+(i+1)+' (not saved)</label><textarea id="attempt'+i+'" aria-describedby="question'+i+'"></textarea><details><summary>Reveal model answer for question '+(i+1)+'</summary><div class="answer">'+esc(x.answer)+'</div><p class="muted compact">'+esc(x.feedback)+'</p><label class="checkbox"><input class="correct" type="checkbox" aria-labelledby="selfCheck'+i+' question'+i+'"> <span id="selfCheck'+i+'">My answer matched the essential idea</span></label></details></div>').join("")+button("saveQuiz","Save self-check",true)+'<p id="quizResult" class="muted" aria-live="polite">'+(state.quizzes[key]?"Previous self-check: "+state.quizzes[key].correct+" / "+state.quizzes[key].total:"No saved self-check yet.")+'</p>')+'</section>'+
- '<section class="section">'+heading("Competency & evidence")+box('<p>'+esc(l.evidence_criterion)+'</p><details><summary>View progression rubric</summary><ol start="0">'+competency.levels.map((x,i)=>'<li><strong>'+esc(data.levels[i].title)+':</strong> '+esc(x)+'</li>').join("")+'</ol></details><p class="muted compact">Reading and self-check scores never award a verified competency level.</p>'+link("portfolio",c.id,"Add practice evidence"))+'</section>'+
+ '<section class="section">'+heading("Competency & evidence")+box('<p>'+esc(l.evidence_criterion)+'</p><details><summary>View progression rubric</summary><ol start="0">'+competency.levels.map((x,i)=>'<li><strong>'+esc(data.levels[i].title)+':</strong> '+esc(x)+'</li>').join("")+'</ol></details><p class="muted compact">Reading and self-check scores never award a verified competency level.</p>'+link("portfolio",key,"Add practice evidence"))+'</section>'+
  '<section class="section">'+heading("Review and completion")+box('<p id="completionState" tabindex="-1">'+(done?"Marked read "+esc(state.completed[key]):"Mark complete after reading and attempting the practice.")+'</p>'+button("complete",done?"Already marked read":"Mark lesson read",true)+(r&&r.step<4?'<p>Review '+(r.step+1)+' of 4 due '+esc(r.due)+'</p>'+button("reviewLesson","Complete due review"):''))+'</section>'+nav+'</div>');
  document.querySelector("#saveQuiz").addEventListener("click",()=>{
   const unopened=[...document.querySelectorAll("#quiz details")].find(d=>!d.open);if(unopened){document.querySelector("#quizResult").textContent="Reveal and compare every answer before saving.";unopened.querySelector("summary").focus();return;}
@@ -128,7 +203,7 @@ function planner(){
  box('<label for="studyPlan">Study focus</label><select id="studyPlan" aria-describedby="planHelp">'+studyOptions(data).map(p=>'<option value="'+esc(p.id)+'"'+(p.id===selection.id?' selected':'')+'>'+esc(p.title)+'</option>').join("")+'</select><p id="planHelp" class="muted compact">Required courses from other faculties are included automatically. Changing focus keeps all your progress, practice notes and review dates.</p><label for="hours">Available study hours per week (1–20)</label><input id="hours" aria-describedby="hoursError" type="number" min="1" max="20" step="1" value="'+state.hours+'"><p id="hoursError" role="alert" class="field-error"></p><p class="muted compact">One hour per new lesson, fifteen minutes per review and twenty minutes per self-check practice. Capstone time is separate. These are estimates, not targets you must meet.</p>'+button("savePlan","Update study plan",true))+
  '<section class="section" id="studyQueue">'+heading("This week’s study queue")+'<p>'+esc(selection.title)+' · '+adaptive.minutes+' / '+adaptive.budget+' minutes planned.</p><p class="muted">New lessons follow your study focus. Due reviews and practice from saved self-checks remain visible across all courses. Reading progress is not verified competence.</p>'+(adaptive.queue.length?box(adaptive.queue.map(x=>'<div class="review row between"><div><strong>'+esc(lessonTitle(x.key))+'</strong><br><small>'+esc(x.reason)+' · '+x.minutes+' min</small></div>'+link("lesson",x.key,"Study")+'</div>').join("")):'<p class="empty">No recommendations are ready for this plan. Check the course list below, choose another focus or browse the catalogue.</p>')+'</section>'+
  '<section class="section">'+heading("Courses in your plan")+'<p>'+selection.targets.length+' written courses in your focus'+(selection.prerequisites.length?' · '+selection.prerequisites.length+' prerequisite courses included':'')+'.</p>'+(selection.unavailable.length?'<p class="muted">'+selection.unavailable.length+' further courses have syllabuses only and are not included in the study queue yet.</p>':'')+(selection.blocked.length?'<p class="notice">Some courses are waiting for prerequisites that have not been written yet. They will enter the queue when those lessons become available and are marked read.</p>':'')+(courseRows?box(courseRows):'<p class="empty">No written courses are available for this focus yet. '+link("courses","","Explore the course catalogue")+'.</p>')+'</section>'+
- '<section class="section">'+heading("All due reviews")+'<p class="muted">Your full review list stays here even when it exceeds this week’s budget.</p>'+(reviews.length?box(reviews.map(k=>'<div class="review row between"><div><strong>'+esc(lessonTitle(k))+'</strong><br><small>Due '+esc(state.reviews[k].due)+'</small></div>'+link("lesson",k,"Review lesson")+'</div>').join("")):'<p class="empty">No reviews due. Reviews appear after you mark a lesson read.</p>')+'</section>');
+ portfolioDueSection()+'<section class="section">'+heading("All due reviews")+'<p class="muted">Your full review list stays here even when it exceeds this week’s budget.</p>'+(reviews.length?box(reviews.map(k=>'<div class="review row between"><div><strong>'+esc(lessonTitle(k))+'</strong><br><small>Due '+esc(state.reviews[k].due)+'</small></div>'+link("lesson",k,"Review lesson")+'</div>').join("")):'<p class="empty">No reviews due. Reviews appear after you mark a lesson read.</p>')+'</section>');
  clearFieldError("#hours","hoursError");
  document.querySelector("#savePlan").addEventListener("click",()=>{const n=Number(document.querySelector("#hours").value),id=document.querySelector("#studyPlan").value;if(!Number.isInteger(n)||n<1||n>20){fieldError("#hours","hoursError","Enter a whole number from 1 to 20.");return;}if(!planIds().has(id))return;state.hours=n;state.studyPlan=id;persist();planner();document.querySelector("#savePlan").focus();flash(storageOK?"Study plan saved in this browser.":"Study plan updated for this session. Export before leaving.");});
 }
@@ -144,22 +219,50 @@ function frameworks(){
  const update=()=>{const q=document.querySelector("#frameworkSearch").value.toLowerCase().trim(),rows=data.frameworks.filter(f=>[f.title,f.body,courseTitle(f.course)].join(" ").toLowerCase().includes(q));document.querySelector("#frameworkCount").textContent=rows.length+" frameworks";document.querySelector("#frameworkResults").innerHTML=rows.length?rows.map(f=>box('<p class="eyebrow">'+esc(courseTitle(f.course))+'</p><h2>'+esc(f.title)+'</h2>'+md(f.body)+link("lesson",f.id,"Study original lesson"))).join(""):'<p class="empty">No matching frameworks.</p>';};document.querySelector("#frameworkSearch").addEventListener("input",update);update();
 }
 function portfolio(selected=""){
+ const portfolioArg=selected,record=state.portfolios.find(item=>item.id===selected);
+ selected=record?.course??targets.get(selected)?.course??selected;
  const choices=available();
- setPage(hero("Practice & evidence","Evidence portfolio","Keep a brief record of fictional or non-sensitive practical work. These notes are self-recorded and are not assessed or certified by Ultimo.")+
+ setPage(hero("Practice & evidence","Evidence portfolio","Record fictional or non-sensitive demonstrations, compare them with a criterion, and revisit your progress. All judgements here are self-assessments.")+
  '<p class="notice">Stored only in this browser, not encrypted or synchronised. Do not enter health records, financial account details, intimate information or confidential work.</p>'+
- box('<label for="eCourse">Course</label><select id="eCourse">'+choices.map(c=>'<option value="'+esc(c.id)+'"'+(c.id===selected?" selected":"")+'>'+esc(c.title)+'</option>').join("")+'</select><label for="eNote">Practice evidence (max 4,000 characters)</label><textarea id="eNote" aria-describedby="eNoteError" maxlength="4000" placeholder="Describe the task, your reasoning, feedback and next step. Use fictional or anonymised examples."></textarea><p id="eNoteError" role="alert" class="field-error"></p>'+button("addEvidence","Save practice note",true))+
- '<section class="section">'+heading("Saved practice notes")+(state.evidence.length?box(state.evidence.map((e,i)=>'<div class="evidence-row"><div class="row between"><strong>'+esc(courseTitle(e.course))+'</strong><small>'+esc(e.date)+'</small></div><p>'+esc(e.note)+'</p><button type="button" aria-label="Delete note for '+esc(courseTitle(e.course))+' dated '+esc(e.date)+'" data-delete-evidence="'+i+'" class="danger">Delete note</button></div>').join("")):'<p class="empty">No practice notes recorded yet.</p>')+'</section>');
+ portfolioContent(portfolioArg)+'<section class="section">'+heading("Course notes")+'<p class="muted">Your earlier notes are kept here. They remain unlinked until you choose a competency; reusing a note keeps the original.</p>'+
+ box('<label for="eCourse">Course</label><select id="eCourse">'+choices.map(c=>'<option value="'+esc(c.id)+'"'+(c.id===selected?' selected':'')+'>'+esc(c.title)+'</option>').join("")+'</select><label for="eNote">Practice evidence (max 4,000 characters)</label><textarea id="eNote" aria-describedby="eNoteError" maxlength="4000" placeholder="Describe the task, your reasoning, feedback and next step. Use fictional or anonymised examples."></textarea><p id="eNoteError" role="alert" class="field-error"></p>'+button("addEvidence","Save practice note",true))+
+ '<section class="section">'+heading("Saved practice notes")+(state.evidence.length?box(state.evidence.map((e,i)=>'<div class="evidence-row"><div class="row between"><strong>'+esc(courseTitle(e.course))+'</strong><small>'+esc(e.date)+'</small></div><p>'+esc(e.note)+'</p><div class="row"><button type="button" data-reuse-evidence="'+i+'">Use note for competency evidence</button><button type="button" aria-label="Delete note for '+esc(courseTitle(e.course))+' dated '+esc(e.date)+'" data-delete-evidence="'+i+'" class="danger">Delete note</button></div></div>').join("")):'<p class="empty">No practice notes recorded yet.</p>')+'</section></section>');
+ wirePortfolio(portfolioArg);
  clearFieldError("#eNote","eNoteError");
- document.querySelector("#addEvidence").addEventListener("click",()=>{const course=document.querySelector("#eCourse").value,note=document.querySelector("#eNote").value.trim();if(!note||note.length>4000){fieldError("#eNote","eNoteError","Enter a brief practice note.");return;}if(state.evidence.length>=500){fieldError("#eNote","eNoteError","Portfolio limit reached. Export and remove old notes.");return;}const id=globalThis.crypto?.randomUUID?.()??Date.now()+"-"+Math.random().toString(36).slice(2);state.evidence.unshift({id,course,note,date:today()});persist();portfolio(course);focus("#eNote");flash("Practice note saved locally.");});
- document.querySelectorAll("[data-delete-evidence]").forEach(b=>b.addEventListener("click",()=>{if(!confirm("Delete this note?"))return;state.evidence.splice(Number(b.dataset.deleteEvidence),1);persist();portfolio(selected);focus("#eNote");flash("Note deleted.");}));
+ document.querySelector("#addEvidence").addEventListener("click",()=>{
+  const course=document.querySelector("#eCourse").value,note=document.querySelector("#eNote").value.trim();
+  if(!note||note.length>4000){fieldError("#eNote","eNoteError","Enter a brief practice note.");return;}
+  if(state.evidence.length>=500){fieldError("#eNote","eNoteError","Course-note limit reached. Export and remove old notes.");return;}
+  try{const entry={id:evidenceId(),course,note,date:today()};state=assertBackupSize({...state,evidence:[entry,...state.evidence]});persist();portfolio(course);focus("#eNote");flash(storageOK?"Practice note saved locally.":"Practice note kept for this session only. Export before leaving.");}catch(error){fieldError("#eNote","eNoteError",error.message);}
+ });
+ document.querySelectorAll("[data-reuse-evidence]").forEach(button=>button.addEventListener("click",()=>{const entry=state.evidence[Number(button.dataset.reuseEvidence)];history.replaceState(null,"",href("portfolio",entry.course));portfolio(entry.course);document.querySelector("#pNote").value=entry.note;focus("#pLesson");flash("Choose the competency and your judgement. The original note is retained.");}));
+ document.querySelectorAll("[data-delete-evidence]").forEach(button=>button.addEventListener("click",()=>{if(!confirm("Delete this note?"))return;state.evidence.splice(Number(button.dataset.deleteEvidence),1);persist();portfolio(selected);focus("#eNote");flash(storageOK?"Note deleted.":"Note removed for this session only. Browser storage is unchanged.");}));
+}
+function downloadRecords(content,filename){
+ const url=URL.createObjectURL(new Blob([content],{type:"application/json"})),anchor=document.createElement("a");anchor.href=url;anchor.download=filename;anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 function settings(){
- setPage(hero("Privacy & portability","Data and settings","You own your learning records. No account, analytics or cloud storage is used. Optional model tutoring is available only through the separately configured local gateway or by copying a prompt into a model of your choice.")+
- '<div class="notice">'+(storageOK?"Browser storage is available.":"Browser storage could not be read or written. Export before closing this page.")+' Data is local to this browser and website origin, not encrypted. Anyone with access to this browser profile may access it.</div>'+
- '<section class="section stack">'+box('<h2>Export your records</h2><p>Download a JSON backup containing your study plan, read marks, review dates, quiz self-check scores and practice notes. Treat it as private.</p>'+button("exportData","Download JSON backup",true))+box('<h2>Restore a backup</h2><p>Restoring replaces local records. Only valid curriculum IDs and supported data fields are accepted.</p><label for="importData">Choose JSON file (max 5 MB)</label><input id="importData" aria-describedby="importResult" type="file" accept=".json,application/json"><p id="importResult" role="status" class="muted"></p>')+box('<h2>Erase local records</h2><p>Removes all Ultimo learner records from this browser. It does not remove exported copies.</p><button type="button" id="erase" class="danger">Erase all local data</button><p id="eraseResult" role="status"></p>')+'</section>');
- document.querySelector("#exportData").addEventListener("click",()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:"application/json"}));const a=document.createElement("a");a.href=url;a.download="ultimo-backup-"+today()+".json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
- document.querySelector("#importData").addEventListener("change",async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>5*1024*1024)throw Error("Backup exceeds 5 MB.");const imported=clean(JSON.parse(await file.text()),valid,courseIds,planIds());if(!confirm("Replace all existing local records with this backup?"))return;state=imported;persist();settings();document.querySelector("#importResult").textContent="Backup restored.";focus("#importData");}catch(err){fieldError("#importData","importResult","Import failed: "+err.message);}finally{e.target.value="";}});
- document.querySelector("#erase").addEventListener("click",()=>{if(!confirm("Permanently erase all local Ultimo records?"))return;state=fresh();try{localStorage.removeItem(KEY);storageOK=true;}catch{storageOK=false;}settings();document.querySelector("#eraseResult").textContent=storageOK?"Local data erased.":"In-memory data erased; browser storage unavailable.";focus("#erase");});
+ const recovery=recoveryData===null?"":box('<h2>Recover original saved data</h2><p>The saved data could not be loaded. It has been kept without modification. Download the original before choosing to replace or erase it.</p>'+button("exportOriginalData","Download original saved data",true));
+ setPage(hero("Privacy & portability","Data and settings","You own your learning records. Evidence attempts, self-assessments and saved rubrics stay in this browser. No accounts, tracking or cloud sync are used.")+
+ '<div class="notice">'+(storageBlocked?"Original saved data is protected from automatic writes.":storageOK?"Browser storage is available.":"Browser storage could not be read or written. Export before closing this page.")+' Data is local to this browser and website origin, not encrypted. Anyone with access to this browser profile may access it.</div>'+
+ '<section class="section stack">'+recovery+box('<h2>Export your records</h2><p>Download a JSON backup containing your study plan, reading and quiz records, course notes, competency evidence, rubric snapshots and every saved attempt. Treat it as private.</p>'+button("exportData","Download JSON backup",true))+box('<h2>Restore a backup</h2><p>Restoring replaces local records. Earlier backups migrate without assigning their notes to competencies. Invalid evidence histories are rejected without replacing your records.</p><label for="importData">Choose JSON file (max 5 MB)</label><input id="importData" aria-describedby="importResult" type="file" accept=".json,application/json"><p id="importResult" role="status" class="muted"></p>')+box('<h2>Erase local records</h2><p>Removes all Ultimo learner records from this browser. It does not remove exported copies.</p><button type="button" id="erase" class="danger">Erase all local data</button><p id="eraseResult" role="status"></p>')+'</section>');
+ document.querySelector("#exportData").addEventListener("click",()=>downloadRecords(JSON.stringify(state),"ultimo-backup-"+today()+".json"));
+ document.querySelector("#exportOriginalData")?.addEventListener("click",()=>downloadRecords(recoveryData,"ultimo-original-"+today()+".json"));
+ document.querySelector("#importData").addEventListener("change",async event=>{
+  const file=event.target.files[0];if(!file)return;
+  try{
+   if(file.size>LIMITS.backupBytes)throw Error("Backup exceeds 5 MB.");
+   const imported=clean(JSON.parse(await file.text()),valid,courseIds,planIds(),targets);
+   if(!confirm("Replace all existing local records with this backup?"))return;
+   state=imported;storageBlocked=false;const saved=persist();if(saved)recoveryData=null;
+   settings();document.querySelector("#importResult").textContent=saved?"Backup restored.":"Backup restored for this session only. Browser storage is unavailable; export before leaving.";focus("#importData");
+  }catch(error){fieldError("#importData","importResult","Import failed: "+error.message);}finally{event.target.value="";}
+ });
+ document.querySelector("#erase").addEventListener("click",()=>{
+  if(!confirm("Permanently erase all local Ultimo records?"))return;
+  state=fresh();sessionSnapshot=JSON.stringify(state);try{localStorage.removeItem(KEY);storageOK=true;storageBlocked=false;recoveryData=null;}catch{storageOK=false;storageBlocked=true;try{recoveryData=localStorage.getItem(KEY);}catch{}}
+  settings();document.querySelector("#eraseResult").textContent=storageOK?"Local data erased.":"Session data cleared; browser storage could not be erased. Saved data remains protected.";focus("#erase");
+ });
 }
 let tutorSession=null;
 function tutorStudio(initial=""){
@@ -214,7 +317,7 @@ function route(focus=true){
 async function boot(){
  try{
   const response=await fetch("./curriculum.json");if(!response.ok)throw Error("Curriculum data unavailable");
-  data=await response.json();courses=new Map(data.courses.map(c=>[c.id,c]));sourceMap=new Map(data.sources.map(s=>[s.id,s]));compMap=new Map(data.competencies.map(c=>[c.id,c]));facultyMap=new Map(data.faculties.map(f=>[f.id,f]));valid=new Set(available().flatMap(c=>c.lessons.map(l=>c.id+"."+l.id)));courseIds=new Set(available().map(c=>c.id));state=loadState();
+  data=await response.json();courses=new Map(data.courses.map(c=>[c.id,c]));sourceMap=new Map(data.sources.map(s=>[s.id,s]));compMap=new Map(data.competencies.map(c=>[c.id,c]));facultyMap=new Map(data.faculties.map(f=>[f.id,f]));valid=new Set(available().flatMap(c=>c.lessons.map(l=>c.id+"."+l.id)));courseIds=new Set(available().map(c=>c.id));targets=evidenceTargets(data);state=loadState();sessionSnapshot=JSON.stringify(state);
   window.addEventListener("hashchange",()=>route());
   document.querySelector("#menu").addEventListener("click",()=>{const open=document.querySelector("#sidebar").classList.toggle("open");document.querySelector("#menu").setAttribute("aria-expanded",String(open));});
   // The current route does not emit hashchange, but its menu must still close.

@@ -90,10 +90,10 @@ test('legacy and unknown-plan backups migrate while unsupported versions preserv
   delete legacy.studyPlan;
   await importRecord(page, legacy);
   await expect(page.locator('#importData')).toBeFocused();
-  expect(await storedRecord(page)).toEqual({...record, studyPlan: 'foundation'});
+  expect(await storedRecord(page)).toEqual({...record, version: 2, portfolios: [], studyPlan: 'foundation'});
   await openRoute(page, '#settings');
   await importRecord(page, {...record, studyPlan: 'faculty:INVALID'});
-  expect(await storedRecord(page)).toEqual({...record, studyPlan: 'foundation'});
+  expect(await storedRecord(page)).toEqual({...record, version: 2, portfolios: [], studyPlan: 'foundation'});
   const before = await storedRecord(page);
   await page.locator('#importData').setInputFiles({
     name: 'unsupported-synthetic-backup.json', mimeType: 'application/json',

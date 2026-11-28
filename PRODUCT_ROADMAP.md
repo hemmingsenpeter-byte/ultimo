@@ -5,7 +5,7 @@ This roadmap covers the learner application. Curriculum remains draft; product c
 ## Current baseline
 
 - Static browser app with 134 course syllabuses; 26 authored draft courses, 104 lessons and 348 formative questions.
-- Course readers, self-checked quizzes, spaced reviews, local evidence notes, searchable libraries and portable learner backups.
+- Course readers, self-checked quizzes, spaced reviews, local course notes, criterion-linked evidence history, searchable libraries and portable learner backups.
 - Deterministic tutor guides and an optional single-user loopback model gateway; no learner accounts or cloud sync.
 
 ## 1. Selectable local study plans — implemented
@@ -28,7 +28,7 @@ Validation: 25 Python tests, both Node suites, all content validators and the st
 
 A reusable local pilot ZIP can now be built with `python3 tools/build_pilot.py`. It supplies phone/desktop launch instructions, fictional starter data, participant tasks, a facilitator guide and blank private-feedback template. An AI preliminary INT-101 source audit provides review questions and full-text locators. Actual learner sessions, screen-reader/device testing and independent source/subject review remain pending.
 
-Exercise the complete learning flow with representative learners and assistive technology before expanding the application.
+Exercise the complete learning flow with representative learners and assistive technology. These human sessions are deferred and remain required to complete this pilot while the authorised local application work below proceeds.
 
 The browser automation and accessibility fixes from PRs #5 and #6 are consolidated into one `@playwright/test` suite and one browser CI job. The integrated local run passed 21 browser tests, including twelve axe route scans with no violations; committed CI verification is separate. Human learner, real-device and manual screen-reader sessions remain pending. Follow the [canonical learner pilot protocol](docs/learner-pilot.md), and record tested revisions, combinations, findings and retests in the [engineering audit](docs/accessibility-audit.md). Engineering readiness and human pilot completion are separate decisions; automated results alone do not complete this milestone.
 
@@ -42,9 +42,13 @@ Acceptance criteria:
 
 The engineering scope covers the synthetic learning/backup journey, keyboard focus, route titles, narrow layouts, text enlargement, touch emulation, axe rules and optional tutor controls with synthetic responses. Fixes address focus after redraws, persistent field errors and control names, heading order, mobile navigation, contrast and disclosure targets. Independent INT-101 full-text and exact-claim source/subject review is still pending; see the [review brief](docs/INT101_REVIEW_BRIEF.md). Product validation does not approve curriculum.
 
-## 3. Criterion-linked local evidence and reassessment
+## 3. Criterion-linked local evidence and reassessment — implemented, local pilot
 
 Connect practice evidence to existing lesson competency criteria and make delayed follow-up visible.
+
+The implementation adds a separate competency-evidence form, self-judgements, reassessment dates and append-only attempt history with saved rubric versions. Existing course notes remain available separately. Due competency reassessments are global across study plans and appear outside the budgeted reading/review queue. Payload version 2 retains the existing storage key, migrates valid version-1 records, requires an explicit `portfolios` collection, strictly validates imported history and preserves unloadable original storage for recovery. See [the learner-state and migration guide](docs/LEARNER_STATE.md). No human pilot or academic review is claimed.
+
+Local validation passed 32 Python tests, three Node suites, module syntax, three validators, the static build and pilot ZIP checks. Browser flows covering evidence, recovery and historical/current rubric behaviour were exercised locally; the committed CI run will record the complete browser-suite result. Independent implementation review found no blockers in the checked scope. Human learner, screen-reader/device and academic review gates remain pending.
 
 Acceptance criteria:
 

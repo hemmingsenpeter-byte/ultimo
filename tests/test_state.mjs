@@ -34,7 +34,10 @@ assert.equal(imported.completed["MEN-102.L01"],undefined);
 assert.equal(imported.hours,5);
 assert.equal(imported.quizzes["INT-101.L01"],undefined);
 assert.equal(imported.evidence.length,1);
-assert.throws(()=>clean({version:2},valid,ids));
+assert.throws(()=>clean({version:3},valid,ids));
+assert.equal(fresh().version,2);
+assert.deepEqual(fresh().portfolios,[]);
+assert.equal(clean({version:1,evidence:[{id:"legacy",course:"INT-101",note:"Original course note",date:day}]},valid,ids).version,2);
 
 const foundation={...c1,faculty:"INT"};
 const bridge={id:"INT-102",faculty:"INT",authored:true,prerequisites:[foundation.id],lessons:[{id:"L01"}]};
@@ -94,7 +97,8 @@ const focusValid=new Set(focusData.courses.filter(c=>c.authored).flatMap(c=>c.le
 const focusCourseIds=new Set(focusData.courses.filter(c=>c.authored).map(c=>c.id));
 const planIds=new Set(studyOptions(focusData).map(p=>p.id));
 const legacy=JSON.parse(JSON.stringify(focused));delete legacy.studyPlan;
-assert.equal(clean(legacy,focusValid,focusCourseIds,planIds).studyPlan,"foundation","Old version 1 backups retain their supported format");
+legacy.version=1;delete legacy.portfolios;
+assert.equal(clean(legacy,focusValid,focusCourseIds,planIds).studyPlan,"foundation","Old version 1 backups retain their study-plan default");
 const backup=JSON.parse(JSON.stringify({...focused,studyPlan:"faculty:MEN"}));
 assert.deepEqual(clean(backup,focusValid,focusCourseIds,planIds),backup,"Validated focus and records survive a JSON backup roundtrip");
 assert.equal(clean({...backup,studyPlan:"faculty:UNKNOWN"},focusValid,focusCourseIds,planIds).studyPlan,"foundation");

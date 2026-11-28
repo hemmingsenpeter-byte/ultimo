@@ -39,6 +39,8 @@ For device coverage, use a real phone and a desktop browser from another engine 
 
 ## Record and close
 
+For the optional competency-evidence extension, check that migration does not assign a competency to an old note automatically. Reusing it must preserve the original; recording a later attempt must append rather than replace its notes and rubric. Confirm optional follow-up dates, full backup history and explicit deletion. Ask the participant to explain the difference between their judgement and verified competence. An immediate second attempt is an interface rehearsal; it does not complete the delayed learning follow-up.
+
 `feedback.csv` is a blank template with no example participant rows. Keep one private copy per session; record one row per task or coverage gap. Use a session code, not a person's name. Keep quotes out unless separately permitted. Record elapsed time, help, a concrete interface barrier and any synthetic reproduction steps. Fill unknown results as `not_run`, never as passes.
 
 Severity: `S1` means exposure/loss of records or an essential task blocked; `S2` means a major obstacle requiring help or a substantial workaround; `S3` means usable friction; `S4` means a preference or suggestion. Stop an affected S1 flow. Fix and retest S1/S2 issues using the same input method before closing them. Record a named role responsible for each issue and coverage gap, without participant identities.

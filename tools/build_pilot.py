@@ -14,7 +14,7 @@ if __package__:
 else:
     from build import ROOT, build
 
-SITE_FILES = ("index.html", "style.css", "app.js", "state.mjs", "tutor.mjs", "curriculum.json")
+SITE_FILES = ("index.html", "style.css", "app.js", "state.mjs", "tutor.mjs", "portfolio.mjs", "curriculum.json")
 PILOT_FILES = ("fictional-fixture.json", "participant-tasks.md", "facilitator.md", "feedback.csv")
 CANONICAL_TREES = ("platform", "curriculum", "framework", "library", "pathways", "schemas")
 
@@ -31,7 +31,7 @@ import webbrowser
 
 PACKAGE = Path(__file__).resolve().parent
 SITE = PACKAGE / "site"
-ASSETS = {"index.html", "style.css", "app.js", "state.mjs", "tutor.mjs", "curriculum.json"}
+ASSETS = {"index.html", "style.css", "app.js", "state.mjs", "tutor.mjs", "portfolio.mjs", "curriculum.json"}
 
 class PilotHandler(SimpleHTTPRequestHandler):
     def send_head(self):

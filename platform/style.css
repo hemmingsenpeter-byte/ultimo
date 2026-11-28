@@ -15,3 +15,4 @@ summary{min-height:24px;padding:2px 0;outline-offset:4px}
 summary:focus-visible{outline:3px solid #8b6b34}
 aside :focus-visible,.mobile-head :focus-visible{outline-color:#f0d391}
 :where(a,button,input,select,textarea,summary,[tabindex]):focus{scroll-margin-block:6rem}
+.attempt-history{list-style:none;padding:0;display:grid;gap:14px}.evidence-note{white-space:pre-wrap;overflow-wrap:anywhere}.evidence-attempt code,#pCriterion code{overflow-wrap:anywhere}.evidence-attempt>h3{margin-top:0}#portfolioStatus:empty{display:none}

@@ -187,17 +187,19 @@ test('cancelling destructive confirmations retains data and the original focused
   });
   await seedRecord(page, original);
   await openRoute(page, '#portfolio/INT-101');
+  const unchanged = await storedRecord(page);
+  for (const field of ['completed', 'reviews', 'quizzes', 'evidence']) expect(unchanged[field]).toEqual(original[field]);
   const deleteNote = page.getByRole('button', { name: /^Delete note for Learning how to learn/ });
   page.once('dialog', dialog => dialog.dismiss());
   await activateWithKeyboard(page, deleteNote);
   await expect(deleteNote).toBeFocused();
   await expect(page.locator('.evidence-row')).toContainText(original.evidence[0].note);
-  expect(await storedRecord(page)).toEqual(original);
+  expect(await storedRecord(page)).toEqual(unchanged);
   await activateWithKeyboard(page, page.getByRole('navigation').getByRole('link', { name: 'Data & settings', exact: true }));
   page.once('dialog', dialog => dialog.dismiss());
   await activateWithKeyboard(page, page.locator('#erase'));
   await expect(page.locator('#erase')).toBeFocused();
-  expect(await storedRecord(page)).toEqual(original);
+  expect(await storedRecord(page)).toEqual(unchanged);
   await tabTo(page, page.locator('#importData'));
   page.once('dialog', dialog => dialog.dismiss());
   await page.locator('#importData').setInputFiles({
@@ -206,7 +208,7 @@ test('cancelling destructive confirmations retains data and the original focused
   });
   await expect(page.locator('#importData')).toBeFocused();
   await expect(page.locator('#importData')).toHaveValue('');
-  expect(await storedRecord(page)).toEqual(original);
+  expect(await storedRecord(page)).toEqual(unchanged);
 });
 
 test('tutor guidance, clearing and lesson selection preserve the keyboard context and route', async ({ page }) => {
