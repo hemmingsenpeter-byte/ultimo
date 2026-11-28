@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L02",
+  "status": "draft",
+  "competency": "EMO-107.L02",
+  "questions": [
+    {
+      "id": "EMO-107.L02.Q1",
+      "competency": "EMO-107.L02",
+      "prompt": "What is mourning concerned with?",
+      "answer": "Personal and socially situated practices and expressions of loss.",
+      "points": 1,
+      "feedback": "Distinguish it from inner experience."
+    },
+    {
+      "id": "EMO-107.L02.Q2",
+      "competency": "EMO-107.L02",
+      "prompt": "Does a cultural label determine preferences?",
+      "answer": "No; individuals and communities vary.",
+      "points": 1,
+      "feedback": "Ask rather than assume."
+    },
+    {
+      "id": "EMO-107.L02.Q3",
+      "competency": "EMO-107.L02",
+      "prompt": "What if local cultural protocol is unfamiliar?",
+      "answer": "Seek appropriate invited local expertise and respect variation.",
+      "points": 1,
+      "feedback": "Do not invent universal rules."
+    },
+    {
+      "id": "EMO-107.L02.Q4",
+      "competency": "EMO-107.L02",
+      "prompt": "What should accommodation protect?",
+      "answer": "Consent, privacy, equitable access and legitimate obligations.",
+      "points": 1,
+      "feedback": "Identify the authorised route."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Compares cultural and individual preferences and proposes accessible, consent-based accommodations with appropriate limits.",
+    "transfer": "Draft a fictional accommodation plan for a bereaved learner. Include preferred communication, two scheduling options, invited cultural consultation if appropriate, and an alternative for someone who prefers privacy. State which local details require verification.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

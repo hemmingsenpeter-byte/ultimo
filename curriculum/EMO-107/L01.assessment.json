@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L01",
+  "status": "draft",
+  "competency": "EMO-107.L01",
+  "questions": [
+    {
+      "id": "EMO-107.L01.Q1",
+      "competency": "EMO-107.L01",
+      "prompt": "How do bereavement and grief differ?",
+      "answer": "Bereavement concerns circumstances of death-related loss; grief concerns responses to loss.",
+      "points": 1,
+      "feedback": "Recognise overlapping ordinary usage."
+    },
+    {
+      "id": "EMO-107.L01.Q2",
+      "competency": "EMO-107.L01",
+      "prompt": "What does the dual-process model distinguish?",
+      "answer": "Loss-oriented and restoration-oriented demands.",
+      "points": 1,
+      "feedback": "Do not turn the model into a schedule."
+    },
+    {
+      "id": "EMO-107.L01.Q3",
+      "competency": "EMO-107.L01",
+      "prompt": "Does renewed sadness establish failed recovery?",
+      "answer": "No; experiences can vary over time.",
+      "points": 1,
+      "feedback": "Identify a competing interpretation."
+    },
+    {
+      "id": "EMO-107.L01.Q4",
+      "competency": "EMO-107.L01",
+      "prompt": "When may qualified support be appropriate?",
+      "answer": "Whenever wanted or when persistent difficulties warrant assessment.",
+      "points": 1,
+      "feedback": "Immediate danger requires emergency assistance."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Explains variability and distinguishes model-based description from prescribed stages or clinical assessment.",
+    "transfer": "Construct a fictional two-week timeline with changing loss-related and practical demands. Offer two optional support routes and identify uncertainty. Explain why the timeline cannot predict recovery or determine whether a clinical condition is present.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

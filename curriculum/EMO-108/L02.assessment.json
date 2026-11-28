@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L02",
+  "status": "draft",
+  "competency": "EMO-108.L02",
+  "questions": [
+    {
+      "id": "EMO-108.L02.Q1",
+      "competency": "EMO-108.L02",
+      "prompt": "What is a content reflection?",
+      "answer": "A concise restatement of communicated substance.",
+      "points": 1,
+      "feedback": "Do not add unsupported motives."
+    },
+    {
+      "id": "EMO-108.L02.Q2",
+      "competency": "EMO-108.L02",
+      "prompt": "What makes a meaning reflection tentative?",
+      "answer": "It presents an interpretation open to correction.",
+      "points": 1,
+      "feedback": "Use checking language."
+    },
+    {
+      "id": "EMO-108.L02.Q3",
+      "competency": "EMO-108.L02",
+      "prompt": "How should a listener respond to correction?",
+      "answer": "Acknowledge it and revise the understanding.",
+      "points": 1,
+      "feedback": "Do not defend a mistaken guess."
+    },
+    {
+      "id": "EMO-108.L02.Q4",
+      "competency": "EMO-108.L02",
+      "prompt": "Does this lesson qualify a learner to deliver clinical MI?",
+      "answer": "No; it teaches ordinary communication literacy.",
+      "points": 1,
+      "feedback": "Clinical practice needs qualified training."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Produces accurate reflections, responds to correction, offers relevant assistance and maintains non-clinical role boundaries.",
+    "transfer": "Write a fictional four-turn listening exchange with a speaker correction, revised reflection and question about whether assistance is wanted. Provide an equivalent written format and evaluate accuracy, consent and relevance.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

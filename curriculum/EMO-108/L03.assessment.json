@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L03",
+  "status": "draft",
+  "competency": "EMO-108.L03",
+  "questions": [
+    {
+      "id": "EMO-108.L03.Q1",
+      "competency": "EMO-108.L03",
+      "prompt": "Does empathy require agreement?",
+      "answer": "No; understanding a perspective and endorsing a claim differ.",
+      "points": 1,
+      "feedback": "Give a respectful disagreement."
+    },
+    {
+      "id": "EMO-108.L03.Q2",
+      "competency": "EMO-108.L03",
+      "prompt": "Does acknowledging impact establish intent?",
+      "answer": "No; motive and effect require separate evidence.",
+      "points": 1,
+      "feedback": "Avoid mind-reading."
+    },
+    {
+      "id": "EMO-108.L03.Q3",
+      "competency": "EMO-108.L03",
+      "prompt": "Does understanding harmful conduct excuse it?",
+      "answer": "No; responsibility and safety remain relevant.",
+      "points": 1,
+      "feedback": "Do not require reconciliation."
+    },
+    {
+      "id": "EMO-108.L03.Q4",
+      "competency": "EMO-108.L03",
+      "prompt": "How should disputed claims be handled?",
+      "answer": "Acknowledge the experience, identify evidence and use suitable verification or support routes.",
+      "points": 1,
+      "feedback": "Be honest about uncertainty."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Acknowledges experience without endorsing unsupported claims or coercive requests, maintaining evidence and accountability.",
+    "transfer": "Draft two fictional responses: one acknowledging a concern while disagreeing with a factual assertion, and another acknowledging a feeling while declining a controlling request. Explain the difference between empathy, agreement and accountability.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

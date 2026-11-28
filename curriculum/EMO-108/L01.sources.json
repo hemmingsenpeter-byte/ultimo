@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Empathy research distinguishes perspective-related and self–other processes.",
+      "source_ids": [
+        "emo-empathy"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-empathy",
+          "locator": "2004, abstract and conceptual components",
+          "limitations": "Conceptual and neuroscience review, not a personality test"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

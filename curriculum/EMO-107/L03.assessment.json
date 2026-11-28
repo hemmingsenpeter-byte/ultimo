@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L03",
+  "status": "draft",
+  "competency": "EMO-107.L03",
+  "questions": [
+    {
+      "id": "EMO-107.L03.Q1",
+      "competency": "EMO-107.L03",
+      "prompt": "Is disclosure necessary for support?",
+      "answer": "No; a person can accept practical support while maintaining privacy.",
+      "points": 1,
+      "feedback": "Respect refusal."
+    },
+    {
+      "id": "EMO-107.L03.Q2",
+      "competency": "EMO-107.L03",
+      "prompt": "Why clarify purpose before asking questions?",
+      "answer": "It helps limit unnecessary information collection.",
+      "points": 1,
+      "feedback": "Ask only what is relevant."
+    },
+    {
+      "id": "EMO-107.L03.Q3",
+      "competency": "EMO-107.L03",
+      "prompt": "Can a peer always promise absolute confidentiality?",
+      "answer": "No; actual duties and safety concerns may impose limits.",
+      "points": 1,
+      "feedback": "Be transparent."
+    },
+    {
+      "id": "EMO-107.L03.Q4",
+      "competency": "EMO-107.L03",
+      "prompt": "What takes priority when immediate danger arises?",
+      "answer": "Appropriate emergency assistance.",
+      "points": 1,
+      "feedback": "Do not delay for ordinary discussion."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Demonstrates permission-based communication, privacy and refusal boundaries, and appropriate safety exceptions.",
+    "transfer": "Write a fictional exchange in which someone declines to discuss a loss. Include a practical offer, an alternative contact if wanted and a privacy boundary. Explain how the response changes if immediate danger is reported.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

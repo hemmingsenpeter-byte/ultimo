@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "SAMHSA's reflective-listening guidance describes checking interpretations of communicated meaning.",
+      "source_ids": [
+        "emo-reflective"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-reflective",
+          "locator": "2019, reflective listening section",
+          "limitations": "Clinical training context; ordinary listening exercise does not teach clinical MI"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

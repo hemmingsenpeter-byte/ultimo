@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Health NZ provides grief education and information about support services.",
+      "source_ids": [
+        "emo-grief-nz"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-grief-nz",
+          "locator": "Public guidance, varied responses and support options",
+          "limitations": "General NZ guidance, not individual assessment"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "WHO psychological first aid guidance describes humane practical support and connection to assistance.",
+      "source_ids": [
+        "emo-pfa"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-pfa",
+          "locator": "2011, humane practical support and communication principles",
+          "limitations": "Crisis guidance; classroom practice does not certify psychological first aid"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

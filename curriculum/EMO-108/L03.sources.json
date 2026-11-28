@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Empathy theory distinguishes self–other processes and understanding another's experience.",
+      "source_ids": [
+        "emo-empathy"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-empathy",
+          "locator": "2004, abstract and conceptual components",
+          "limitations": "Conceptual and neuroscience review, not a personality test"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Assertiveness guidance supports respectful expression of needs, views and limits.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L04",
+  "status": "draft",
+  "competency": "EMO-107.L04",
+  "questions": [
+    {
+      "id": "EMO-107.L04.Q1",
+      "competency": "EMO-107.L04",
+      "prompt": "What determines a suitable support route?",
+      "answer": "Need, choice, accessibility, availability and urgency.",
+      "points": 1,
+      "feedback": "Avoid prescribing one universal route."
+    },
+    {
+      "id": "EMO-107.L04.Q2",
+      "competency": "EMO-107.L04",
+      "prompt": "Must someone wait before seeking professional support?",
+      "answer": "No; support can be sought when wanted or needed.",
+      "points": 1,
+      "feedback": "Do not diagnose by duration."
+    },
+    {
+      "id": "EMO-107.L04.Q3",
+      "competency": "EMO-107.L04",
+      "prompt": "What is a peer's appropriate role?",
+      "answer": "Listening, practical help and connecting to suitable support within limits.",
+      "points": 1,
+      "feedback": "No treatment or guarantees."
+    },
+    {
+      "id": "EMO-107.L04.Q4",
+      "competency": "EMO-107.L04",
+      "prompt": "What should immediate danger prompt?",
+      "answer": "Local emergency assistance, in NZ 111.",
+      "points": 1,
+      "feedback": "Do not delay for ordinary referral."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Matches practical, cultural, qualified and emergency support routes to needs while respecting choice and role limits.",
+    "transfer": "Complete a fictional bereavement support plan with a variable timeline, cultural preferences, voluntary disclosure, practical and professional support, emergency boundaries, and a flexible review point. Include refusal and an accessible alternative.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

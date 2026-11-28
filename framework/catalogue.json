@@ -255,7 +255,7 @@
     "id": "EMO-107",
     "faculty": "EMO",
     "title": "Grief and vulnerability",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-107/syllabus.json",
     "year": 2
@@ -264,7 +264,7 @@
     "id": "EMO-108",
     "faculty": "EMO",
     "title": "Empathy",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/EMO-108/syllabus.json",
     "year": 2

@@ -2044,5 +2044,71 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-grief-dual",
+    "title": "The dual process model of coping with bereavement: rationale and description",
+    "authors": "Stroebe and Schut",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10848151/",
+    "locator": "1999, abstract, loss and restoration orientation",
+    "limitations": "Conceptual model; not a prescribed sequence or schedule",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-grief-nz",
+    "title": "Grief and loss",
+    "authors": "Health New Zealand | Te Whatu Ora",
+    "url": "https://www.healthnz.govt.nz/health-topics/mental-health/grief-and-loss",
+    "locator": "Public guidance, varied responses and support options",
+    "limitations": "General NZ guidance, not individual assessment",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-grief-culture",
+    "title": "Grief, Bereavement, and Coping With Loss (PDQ), Health Professional Version",
+    "authors": "NCI PDQ Supportive and Palliative Care Editorial Board",
+    "url": "https://www.cancer.gov/about-cancer/advanced-cancer/caregivers/planning/bereavement-hp-pdq",
+    "locator": "Cross-cultural responses to grief and mourning",
+    "limitations": "Cancer-related context; not a universal cultural protocol",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-pfa",
+    "title": "Psychological first aid: Guide for field workers",
+    "authors": "WHO, War Trauma Foundation and World Vision International",
+    "url": "https://www.who.int/publications-detail-redirect/9789241548205",
+    "locator": "2011, humane practical support and communication principles",
+    "limitations": "Crisis guidance; classroom practice does not certify psychological first aid",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-empathy",
+    "title": "The functional architecture of human empathy",
+    "authors": "Decety and Jackson",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15537986/",
+    "locator": "2004, abstract and conceptual components",
+    "limitations": "Conceptual and neuroscience review, not a personality test",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
+  },
+  {
+    "id": "emo-reflective",
+    "title": "Enhancing Motivation for Change in Substance Use Disorder Treatment, TIP 35, Chapter 3: Motivational Interviewing as a Counseling Style",
+    "authors": "SAMHSA",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK571068/",
+    "locator": "2019, reflective listening section",
+    "limitations": "Clinical training context; ordinary listening exercise does not teach clinical MI",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-28"
   }
 ]

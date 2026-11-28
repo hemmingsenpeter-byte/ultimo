@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-107.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "The dual-process model describes loss and restoration orientations and movement between them.",
+      "source_ids": [
+        "emo-grief-dual"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-grief-dual",
+          "locator": "1999, abstract, loss and restoration orientation",
+          "limitations": "Conceptual model; not a prescribed sequence or schedule"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Health NZ provides general grief education and support routes.",
+      "source_ids": [
+        "emo-grief-nz"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-grief-nz",
+          "locator": "Public guidance, varied responses and support options",
+          "limitations": "General NZ guidance, not individual assessment"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

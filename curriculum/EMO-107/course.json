@@ -1,0 +1,43 @@
+{
+  "id": "EMO-107",
+  "title": "Grief and vulnerability",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "EMO-107.L01",
+    "EMO-107.L02",
+    "EMO-107.L03",
+    "EMO-107.L04"
+  ],
+  "reading": [
+    "emo-ref-8",
+    "emo-ref-7"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Grief variability",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Cultural context",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Voluntary disclosure",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Support options",
+      "path": "L04.md"
+    }
+  ]
+}
