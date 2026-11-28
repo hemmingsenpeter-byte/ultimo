@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "Weak-ties research examines network information and job mobility under specific conditions, not a universal outreach frequency.",
+      "source_ids": [
+        "soc-weak-ties",
+        "soc-weak-ties-causal"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-weak-ties",
+          "locator": "1973, network theory and bridging ties",
+          "limitations": "Theoretical network account; not a universal contact strategy"
+        },
+        {
+          "source_id": "soc-weak-ties-causal",
+          "locator": "2022, abstract, LinkedIn experiments and job mobility",
+          "limitations": "Platform-specific intervention and outcomes; no guarantee of an individual job"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "NZ privacy guidance addresses appropriate grounds for information disclosure.",
+      "source_ids": [
+        "soc-nz-disclosure"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-nz-disclosure",
+          "locator": "Public explanation of limits and grounds for disclosure",
+          "limitations": "NZ legal context, not personalised legal advice; exceptions and obligations depend on facts"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

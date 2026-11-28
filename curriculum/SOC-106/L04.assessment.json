@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L04",
+  "status": "draft",
+  "competency": "SOC-106.L04",
+  "questions": [
+    {
+      "id": "SOC-106.L04.Q1",
+      "competency": "SOC-106.L04",
+      "prompt": "Does attendance establish inclusion?",
+      "answer": "No; meaningful opportunities and access matter.",
+      "points": 1,
+      "feedback": "Check actual barriers."
+    },
+    {
+      "id": "SOC-106.L04.Q2",
+      "competency": "SOC-106.L04",
+      "prompt": "Why offer equivalent formats?",
+      "answer": "Different people may need different ways to meet the same objective.",
+      "points": 1,
+      "feedback": "Preserve relevant criteria."
+    },
+    {
+      "id": "SOC-106.L04.Q3",
+      "competency": "SOC-106.L04",
+      "prompt": "Does a checklist certify access?",
+      "answer": "No; verify conditions and preferences.",
+      "points": 1,
+      "feedback": "Do not overpromise."
+    },
+    {
+      "id": "SOC-106.L04.Q4",
+      "competency": "SOC-106.L04",
+      "prompt": "Must everyone speak to be included?",
+      "answer": "No; participation can occur through other formats or be declined.",
+      "points": 1,
+      "feedback": "Respect choice."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Identifies barriers and verifies equivalent participation routes, consent and responsibility for unresolved access issues.",
+    "transfer": "Complete the meeting facilitation capstone with roles, conformity checks, a decision-oriented agenda and an inclusion audit. Include a remote or written equivalent, an unresolved barrier, responsible owner and a revised process after feedback.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L01",
+  "status": "draft",
+  "competency": "SOC-108.L01",
+  "questions": [
+    {
+      "id": "SOC-108.L01.Q1",
+      "competency": "SOC-108.L01",
+      "prompt": "What is a tie in network analysis?",
+      "answer": "A relationship or connection between nodes.",
+      "points": 1,
+      "feedback": "Do not equate a person with their value to the network."
+    },
+    {
+      "id": "SOC-108.L01.Q2",
+      "competency": "SOC-108.L01",
+      "prompt": "Why can weaker ties provide different information?",
+      "answer": "They may bridge otherwise overlapping social circles.",
+      "points": 1,
+      "feedback": "No guarantee of new information."
+    },
+    {
+      "id": "SOC-108.L01.Q3",
+      "competency": "SOC-108.L01",
+      "prompt": "Does the LinkedIn experiment guarantee a job?",
+      "answer": "No; it examines specific platform experiments and outcomes.",
+      "points": 1,
+      "feedback": "Bound the inference."
+    },
+    {
+      "id": "SOC-108.L01.Q4",
+      "competency": "SOC-108.L01",
+      "prompt": "Does a connection create an obligation to help?",
+      "answer": "No; assistance depends on actual agreement, role and choice.",
+      "points": 1,
+      "feedback": "Respect refusal."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Maps reciprocal relationships and possible information bridges while bounding research claims and respecting autonomy.",
+    "transfer": "Create a fictional network map with at least three relationship contexts, two information bridges and a legitimate objective. Identify voluntary contributions, privacy boundaries, accessible contact routes and one reason not to approach a particular contact.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

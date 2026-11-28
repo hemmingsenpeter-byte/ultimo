@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L01",
+  "status": "draft",
+  "competency": "SOC-102.L01",
+  "questions": [
+    {
+      "id": "SOC-102.L01.Q1",
+      "competency": "SOC-102.L01",
+      "prompt": "What makes a cue ambiguous?",
+      "answer": "Multiple plausible meanings fit the same observation.",
+      "points": 1,
+      "feedback": "Separate the cue from interpretation."
+    },
+    {
+      "id": "SOC-102.L01.Q2",
+      "competency": "SOC-102.L01",
+      "prompt": "Why can tone be misread in text?",
+      "answer": "The recipient lacks some context or tone available to the sender.",
+      "points": 1,
+      "feedback": "Avoid treating all written communication as deficient."
+    },
+    {
+      "id": "SOC-102.L01.Q3",
+      "competency": "SOC-102.L01",
+      "prompt": "Is eye contact reliable proof of honesty?",
+      "answer": "No; gaze alone cannot establish motive or truthfulness.",
+      "points": 1,
+      "feedback": "Consider context and accessibility."
+    },
+    {
+      "id": "SOC-102.L01.Q4",
+      "competency": "SOC-102.L01",
+      "prompt": "When should uncertainty be clarified?",
+      "answer": "When it matters to a legitimate decision and asking is safe and proportionate.",
+      "points": 1,
+      "feedback": "Some ambiguity can remain unresolved."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Separates cues from inference, generates alternatives and selects proportionate clarification or action.",
+    "transfer": "Develop a fictional cue-analysis table for four observations across text and spoken communication. Include at least two plausible explanations, a decision consequence, one clarification and one case where no question is needed. Explain how evidence would change your inference.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

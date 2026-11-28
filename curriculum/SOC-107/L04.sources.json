@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "UNESCO's dialogue framework emphasises engagement across differences.",
+      "source_ids": [
+        "soc-intercultural"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-intercultural",
+          "locator": "2020, overview of dialogue and cultural diversity",
+          "limitations": "Policy-level framework, not a guide to any individual's customs"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "MSD event guidance addresses access and participation arrangements.",
+      "source_ids": [
+        "soc-nz-event-access"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-nz-event-access",
+          "locator": "Event planning and registration checklist",
+          "limitations": "General guidance; verify venue, local requirements and individual preferences"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

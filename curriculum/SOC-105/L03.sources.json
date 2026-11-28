@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "Narrative transportation research examines engagement and persuasion; story involvement does not itself establish accuracy.",
+      "source_ids": [
+        "soc-narrative"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-narrative",
+          "locator": "2024, review of narrative transportation",
+          "limitations": "Persuasion and marketing research; engagement does not establish factual accuracy"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

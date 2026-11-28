@@ -1,0 +1,43 @@
+{
+  "id": "SOC-106",
+  "title": "Group dynamics",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-102"
+  ],
+  "competencies": [
+    "SOC-106.L01",
+    "SOC-106.L02",
+    "SOC-106.L03",
+    "SOC-106.L04"
+  ],
+  "reading": [
+    "soc-ref-2",
+    "soc-ref-6"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Roles and norms",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Conformity",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Facilitation",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Inclusion",
+      "path": "L04.md"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "OpenStax discusses group decision-making benefits, limitations and techniques.",
+      "source_ids": [
+        "soc-group-decisions"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-group-decisions",
+          "locator": "Section 6.6, benefits, limitations and decision techniques",
+          "limitations": "Introductory synthesis, no universal best process"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "W3C guidance describes accessible event and presentation planning.",
+      "source_ids": [
+        "soc-access-events"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-access-events",
+          "locator": "Organiser and presenter guidance",
+          "limitations": "Checklist is not a certification of venue or individual access"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

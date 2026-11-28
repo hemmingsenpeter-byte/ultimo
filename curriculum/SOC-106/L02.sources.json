@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "OpenStax distinguishes normative and informational influences and discusses classic conformity studies.",
+      "source_ids": [
+        "soc-conformity"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-conformity",
+          "locator": "Section 12.4, normative and informational influence",
+          "limitations": "Classic experimental findings; context limits generalisation"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Edmondson's study associates team psychological safety with learning behaviour.",
+      "source_ids": [
+        "soc-psych-safety"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-psych-safety",
+          "locator": "1999, abstract, 51 manufacturing teams",
+          "limitations": "Association in studied teams, not proof every facilitation technique works"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

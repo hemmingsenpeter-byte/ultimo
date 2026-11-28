@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L02",
+  "status": "draft",
+  "competency": "SOC-102.L02",
+  "questions": [
+    {
+      "id": "SOC-102.L02.Q1",
+      "competency": "SOC-102.L02",
+      "prompt": "Why is nationality insufficient to predict communication preference?",
+      "answer": "People participate in multiple contexts and individuals vary.",
+      "points": 1,
+      "feedback": "Ask about actual preferences."
+    },
+    {
+      "id": "SOC-102.L02.Q2",
+      "competency": "SOC-102.L02",
+      "prompt": "What does cultural humility involve?",
+      "answer": "Recognising limits, seeking appropriate guidance and adapting respectfully.",
+      "points": 1,
+      "feedback": "Do not demand personal identity disclosure."
+    },
+    {
+      "id": "SOC-102.L02.Q3",
+      "competency": "SOC-102.L02",
+      "prompt": "Can a customary practice be questioned?",
+      "answer": "Yes, especially when access, safety or legitimate obligations are affected.",
+      "points": 1,
+      "feedback": "Use appropriate channels."
+    },
+    {
+      "id": "SOC-102.L02.Q4",
+      "competency": "SOC-102.L02",
+      "prompt": "What is a better explanation than 'they are just like that'?",
+      "answer": "A bounded description of observed practice and possible contextual conditions.",
+      "points": 1,
+      "feedback": "Identify evidence needed."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Compares contextual explanations and adapts communication respectfully without demographic stereotyping.",
+    "transfer": "Design an inclusive communication plan for a fictional group bringing together different roles and communication preferences. Include an actual procedure, a way to verify unfamiliar practices, an access alternative and a boundary that preserves dignity and safety.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

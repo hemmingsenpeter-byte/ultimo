@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Perspective-taking research examines limits of adjusting from one's own viewpoint.",
+      "source_ids": [
+        "soc-perspective-anchor"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-perspective-anchor",
+          "locator": "2004, abstract and perspective-taking experiments",
+          "limitations": "Experimental research; cannot infer individual intentions"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Reflective listening guidance treats interpretations as hypotheses open to correction.",
+      "source_ids": [
+        "emo-reflective"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-reflective",
+          "locator": "2019, reflective listening section",
+          "limitations": "Clinical training context; ordinary listening exercise does not teach clinical MI"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

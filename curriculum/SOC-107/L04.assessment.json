@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L04",
+  "status": "draft",
+  "competency": "SOC-107.L04",
+  "questions": [
+    {
+      "id": "SOC-107.L04.Q1",
+      "competency": "SOC-107.L04",
+      "prompt": "Where should unfamiliar expectations be verified?",
+      "answer": "With the relevant host, authorised procedure or appropriate local expertise.",
+      "points": 1,
+      "feedback": "Avoid stereotypes."
+    },
+    {
+      "id": "SOC-107.L04.Q2",
+      "competency": "SOC-107.L04",
+      "prompt": "Does one observed practice establish a universal rule?",
+      "answer": "No; context and local variation matter.",
+      "points": 1,
+      "feedback": "Bound the inference."
+    },
+    {
+      "id": "SOC-107.L04.Q3",
+      "competency": "SOC-107.L04",
+      "prompt": "How respond to a minor correction?",
+      "answer": "Acknowledge it and adjust proportionately.",
+      "points": 1,
+      "feedback": "Do not require public humiliation."
+    },
+    {
+      "id": "SOC-107.L04.Q4",
+      "competency": "SOC-107.L04",
+      "prompt": "What if a custom conflicts with consent or safety?",
+      "answer": "Preserve consent and safety and seek an appropriate alternative or support.",
+      "points": 1,
+      "feedback": "Do not compel conformity."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Verifies unfamiliar norms respectfully, adapts to actual context and handles corrections and consent or safety conflicts.",
+    "transfer": "Complete the event checklist capstone, comparing contextual etiquette, functional presentation, hosting and unfamiliar norms. Include advance verification, local guidance, access and consent, a correction scenario and an alternative if a convention conflicts with legitimate obligations.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -1,6 +1,6 @@
 # SOC-108 — Networking
 
-Framework defined; lesson content: **planned**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 3; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [SOC-103 — Friendship and community](../SOC-103/syllabus.md)

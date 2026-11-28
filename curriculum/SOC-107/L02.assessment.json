@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L02",
+  "status": "draft",
+  "competency": "SOC-107.L02",
+  "questions": [
+    {
+      "id": "SOC-107.L02.Q1",
+      "competency": "SOC-107.L02",
+      "prompt": "What is functional suitability?",
+      "answer": "Fit with the actual task, access and safety requirements.",
+      "points": 1,
+      "feedback": "Distinguish it from appearance."
+    },
+    {
+      "id": "SOC-107.L02.Q2",
+      "competency": "SOC-107.L02",
+      "prompt": "Does polished presentation establish competence?",
+      "answer": "No; assess direct task evidence.",
+      "points": 1,
+      "feedback": "Avoid appearance-based inference."
+    },
+    {
+      "id": "SOC-107.L02.Q3",
+      "competency": "SOC-107.L02",
+      "prompt": "Why prepare a factual introduction?",
+      "answer": "To communicate relevant experience and limits accurately.",
+      "points": 1,
+      "feedback": "Do not exaggerate."
+    },
+    {
+      "id": "SOC-107.L02.Q4",
+      "competency": "SOC-107.L02",
+      "prompt": "What if a requirement is unclear?",
+      "answer": "Verify it with the responsible organiser or request an appropriate alternative.",
+      "points": 1,
+      "feedback": "Do not invent a dress code."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Designs functional, truthful and accessible presentation without irrelevant appearance or status judgments.",
+    "transfer": "Create a fictional presentation readiness checklist for two different settings. Include task requirements, factual introduction, materials, accessibility and an uncertainty or contingency. Explain which criteria assess function and which merely reflect impressions.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

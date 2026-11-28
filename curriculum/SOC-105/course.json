@@ -1,0 +1,43 @@
+{
+  "id": "SOC-105",
+  "title": "Charisma and humour",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "COM-104"
+  ],
+  "competencies": [
+    "SOC-105.L01",
+    "SOC-105.L02",
+    "SOC-105.L03",
+    "SOC-105.L04"
+  ],
+  "reading": [
+    "soc-ref-4",
+    "soc-ref-1"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Warmth and attention",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Humour",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Engaging stories",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Authenticity",
+      "path": "L04.md"
+    }
+  ]
+}

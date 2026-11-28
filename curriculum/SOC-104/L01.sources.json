@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-104.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Bandura's self-efficacy theory distinguishes efficacy expectations in behavioural change.",
+      "source_ids": [
+        "soc-efficacy"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-efficacy",
+          "locator": "1977, theoretical account of efficacy expectations",
+          "limitations": "Historical theory; perceived capability is not demonstrated competence"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

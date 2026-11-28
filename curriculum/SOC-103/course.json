@@ -1,0 +1,43 @@
+{
+  "id": "SOC-103",
+  "title": "Friendship and community",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "competencies": [
+    "SOC-103.L01",
+    "SOC-103.L02",
+    "SOC-103.L03",
+    "SOC-103.L04"
+  ],
+  "reading": [
+    "soc-ref-3",
+    "soc-ref-6"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Recurring contact",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Reciprocity",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Inclusive invitations",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Repair",
+      "path": "L04.md"
+    }
+  ]
+}

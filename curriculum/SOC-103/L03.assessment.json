@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L03",
+  "status": "draft",
+  "competency": "SOC-103.L03",
+  "questions": [
+    {
+      "id": "SOC-103.L03.Q1",
+      "competency": "SOC-103.L03",
+      "prompt": "What information makes an invitation usable?",
+      "answer": "Activity, time, location or format, cost, expectations and response route.",
+      "points": 1,
+      "feedback": "Include relevant confirmed access details."
+    },
+    {
+      "id": "SOC-103.L03.Q2",
+      "competency": "SOC-103.L03",
+      "prompt": "Does silence mean acceptance?",
+      "answer": "No; confirm participation when needed.",
+      "points": 1,
+      "feedback": "Do not assign consent."
+    },
+    {
+      "id": "SOC-103.L03.Q3",
+      "competency": "SOC-103.L03",
+      "prompt": "Should a refusal require personal justification?",
+      "answer": "Not for an ordinary voluntary invitation.",
+      "points": 1,
+      "feedback": "Respect choice."
+    },
+    {
+      "id": "SOC-103.L03.Q4",
+      "competency": "SOC-103.L03",
+      "prompt": "How handle unconfirmed accessibility?",
+      "answer": "State uncertainty and verify with the appropriate organiser or venue.",
+      "points": 1,
+      "feedback": "Do not promise unsupported features."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Writes clear, accessible, voluntary invitations with transparent logistics and proportionate follow-up.",
+    "transfer": "Design two fictional inclusive invitations: one recurring community activity and one one-off social gathering. Include confirmed logistics, access uncertainty, cost, RSVP, an opt-out and an appropriate follow-up rule. Compare how the format changes with context.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

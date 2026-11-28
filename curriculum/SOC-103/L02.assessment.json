@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L02",
+  "status": "draft",
+  "competency": "SOC-103.L02",
+  "questions": [
+    {
+      "id": "SOC-103.L02.Q1",
+      "competency": "SOC-103.L02",
+      "prompt": "Must reciprocity involve identical contributions?",
+      "answer": "No; contributions may differ in form and capacity over time.",
+      "points": 1,
+      "feedback": "Avoid a friendship ledger."
+    },
+    {
+      "id": "SOC-103.L02.Q2",
+      "competency": "SOC-103.L02",
+      "prompt": "Does unsolicited help establish a debt?",
+      "answer": "No; an obligation requires a legitimate agreement or duty.",
+      "points": 1,
+      "feedback": "Respect the recipient's autonomy."
+    },
+    {
+      "id": "SOC-103.L02.Q3",
+      "competency": "SOC-103.L02",
+      "prompt": "What evidence matters in a repeated commitment problem?",
+      "answer": "The actual agreement, conduct and impact.",
+      "points": 1,
+      "feedback": "Avoid unsupported motive claims."
+    },
+    {
+      "id": "SOC-103.L02.Q4",
+      "competency": "SOC-103.L02",
+      "prompt": "What if someone can no longer provide help?",
+      "answer": "Discuss feasible limits and alternatives where wanted.",
+      "points": 1,
+      "feedback": "Do not demand continued sacrifice."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Distinguishes mutual support, explicit obligations and coercive repayment demands; proposes sustainable arrangements.",
+    "transfer": "Prepare a fictional reciprocity analysis comparing three forms of contribution, an explicit agreement and one voluntary offer. Identify a sustainable change, a consent check and an example of an invented debt to reject.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

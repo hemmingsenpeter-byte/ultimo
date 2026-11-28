@@ -113,3 +113,15 @@ EMO-104 and EMO-105 add eight original draft lessons, 32 formative questions and
 ## Emotional Faculty draft completion
 
 EMO-107 and EMO-108 add eight original lessons, 32 formative questions and two capstones. All eight Emotional Faculty courses now have 32 authored draft lessons. Programme totals: 30 courses, 120 lessons, 412 questions and 30 capstones; 104 courses and 416 lessons remain blueprint-only. Stable IDs, prerequisites, foundation semester, licence and privacy remain unchanged. Grief variability, cultural responsiveness, listening and compassionate boundaries are educational concepts, not treatment or diagnosis. Independent claim-level, qualified subject, cultural, safety and learner review remain required.
+
+## Social Faculty expansion — awareness, community and confidence
+
+SOC-102, SOC-103 and SOC-104 add twelve original draft lessons, 48 formative questions and three capstones. Programme totals: 33 courses, 132 lessons, 460 questions and 33 capstones; 101 courses and 404 lessons remain blueprint-only. Four of eight Social Faculty courses now have authored content. Stable IDs, prerequisites, foundation semester, privacy and licence are unchanged. Social skills are assessed through observable task quality, consent, accessibility and reasoning, not popularity or personal disclosure. No profiling, manipulation, clinical exposure or diagnosis. Independent claim-level, qualified subject, cultural, safety and learner review remains required.
+
+## Social Faculty expansion — charisma and group dynamics
+
+SOC-105 and SOC-106 add eight original draft lessons, 32 formative questions and two capstones. Programme totals: 35 courses, 140 lessons, 492 questions and 35 capstones; 99 courses and 396 lessons remain blueprint-only. Six of eight Social Faculty courses are authored. Stable IDs, prerequisites, foundation semester, licence and privacy unchanged. Independent source, subject, cultural, accessibility and learner review pending.
+
+## Social Faculty draft completion
+
+SOC-107 and SOC-108 add eight original draft lessons, 32 formative questions and two capstones. All eight Social Faculty courses now have 32 authored lessons. Programme totals: 37 courses, 148 lessons, 524 questions and 37 capstones; 97 courses and 388 lessons remain blueprint-only. Stable IDs, prerequisites, foundation semester, licence and privacy unchanged. Etiquette and networking are taught through contextual judgement, accessibility, consent and reliability, not appearance, status, manipulation or outreach volume. Independent source, subject, cultural, privacy, safety and learner review required.

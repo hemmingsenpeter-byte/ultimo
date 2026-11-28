@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "UNESCO's dialogue framework emphasises engagement and understanding across differences.",
+      "source_ids": [
+        "soc-intercultural"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-intercultural",
+          "locator": "2020, overview of dialogue and cultural diversity",
+          "limitations": "Policy-level framework, not a guide to any individual's customs"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Assertiveness guidance supports clear communication of requests and limits.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

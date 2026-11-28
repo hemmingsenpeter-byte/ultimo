@@ -363,7 +363,7 @@
     "id": "SOC-102",
     "faculty": "SOC",
     "title": "Social awareness",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-102/syllabus.json",
     "year": 2
@@ -372,7 +372,7 @@
     "id": "SOC-103",
     "faculty": "SOC",
     "title": "Friendship and community",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-103/syllabus.json",
     "year": 2
@@ -381,7 +381,7 @@
     "id": "SOC-104",
     "faculty": "SOC",
     "title": "Social confidence",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-104/syllabus.json",
     "year": 2
@@ -390,7 +390,7 @@
     "id": "SOC-105",
     "faculty": "SOC",
     "title": "Charisma and humour",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-105/syllabus.json",
     "year": 2
@@ -399,7 +399,7 @@
     "id": "SOC-106",
     "faculty": "SOC",
     "title": "Group dynamics",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-106/syllabus.json",
     "year": 2
@@ -408,7 +408,7 @@
     "id": "SOC-107",
     "faculty": "SOC",
     "title": "Etiquette and presentation",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-107/syllabus.json",
     "year": 2
@@ -417,7 +417,7 @@
     "id": "SOC-108",
     "faculty": "SOC",
     "title": "Networking",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-108/syllabus.json",
     "year": 3

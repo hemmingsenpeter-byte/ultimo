@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "W3C provides guidance for accessible in-person, remote and hybrid events.",
+      "source_ids": [
+        "soc-access-events"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-access-events",
+          "locator": "Organiser and presenter guidance",
+          "limitations": "Checklist is not a certification of venue or individual access"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Psychological safety research examines interpersonal risk and team learning.",
+      "source_ids": [
+        "soc-psych-safety"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-psych-safety",
+          "locator": "1999, abstract, 51 manufacturing teams",
+          "limitations": "Association in studied teams, not proof every facilitation technique works"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

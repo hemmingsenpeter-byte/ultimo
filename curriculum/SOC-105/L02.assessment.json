@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L02",
+  "status": "draft",
+  "competency": "SOC-105.L02",
+  "questions": [
+    {
+      "id": "SOC-105.L02.Q1",
+      "competency": "SOC-105.L02",
+      "prompt": "What does affiliative humour aim to support?",
+      "answer": "Social connection or relationships.",
+      "points": 1,
+      "feedback": "Its actual effect still depends on context."
+    },
+    {
+      "id": "SOC-105.L02.Q2",
+      "competency": "SOC-105.L02",
+      "prompt": "Does group laughter prove approval?",
+      "answer": "No; laughter can have several functions.",
+      "points": 1,
+      "feedback": "Consider pressure."
+    },
+    {
+      "id": "SOC-105.L02.Q3",
+      "competency": "SOC-105.L02",
+      "prompt": "Why does power matter?",
+      "answer": "People may feel unable to object or decline.",
+      "points": 1,
+      "feedback": "Do not use status to compel amusement."
+    },
+    {
+      "id": "SOC-105.L02.Q4",
+      "competency": "SOC-105.L02",
+      "prompt": "What if a joke has an inappropriate impact?",
+      "answer": "Stop, acknowledge the issue and address it appropriately.",
+      "points": 1,
+      "feedback": "Do not demand forgiveness."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Evaluates humour by target, purpose, context and impact, and chooses respectful alternatives and repair.",
+    "transfer": "Prepare a fictional humour suitability table for three contexts: informal peers, a formal meeting and an urgent task. Provide one harmless option, one reason to use plain speech and a respectful repair response if an inappropriate impact is reported.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

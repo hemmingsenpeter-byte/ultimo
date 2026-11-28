@@ -4,11 +4,11 @@ A static, dependency-free browser application. Canonical content lives in curric
 
 ## Features
 - Responsive dashboard; progress across all sixteen faculties is reading progress, not mastery.
-- Search all 134 courses and preview 536 lesson blueprints. The thirty authored courses have full readers.
+- Search all 134 courses and preview 536 lesson blueprints. The thirty-seven authored courses have full readers.
 - Formative open-answer quizzes with model answer reveal and learner self-marking.
 - Prerequisite-aware rolling study queue and four suggested spaced reviews (roughly day 1, 3, 7, 30 when performed on time).
 - Selectable local study plans: foundation semester, an authored faculty pathway, or all authored courses, with required prerequisites in the dashboard course list and new-study recommendations. The tutor studio highlights the next planner recommendation.
-- Search the reading library and the 120 frameworks extracted from written lessons.
+- Search the reading library and the 148 frameworks extracted from written lessons.
 - Local course notes plus criterion-linked evidence with self-judgements, dated reassessments and preserved attempt/rubric history; no automatic certification.
 - Export, validated import and deletion of learner data.
 

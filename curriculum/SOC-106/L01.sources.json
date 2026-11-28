@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "OpenStax describes group structure in terms of roles, norms and status.",
+      "source_ids": [
+        "soc-group-structure"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-group-structure",
+          "locator": "Section 9.2, roles, norms and status",
+          "limitations": "Introductory organisational context, not universal group taxonomy"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L03",
+  "status": "draft",
+  "competency": "SOC-108.L03",
+  "questions": [
+    {
+      "id": "SOC-108.L03.Q1",
+      "competency": "SOC-108.L03",
+      "prompt": "What is a double opt-in introduction?",
+      "answer": "Both parties separately agree before the private connection is made.",
+      "points": 1,
+      "feedback": "It is a practical consent approach, not a universal legal rule."
+    },
+    {
+      "id": "SOC-108.L03.Q2",
+      "competency": "SOC-108.L03",
+      "prompt": "Does agreeing to an introduction authorise all contact details?",
+      "answer": "No; share only appropriate authorised information.",
+      "points": 1,
+      "feedback": "Distinguish scope."
+    },
+    {
+      "id": "SOC-108.L03.Q3",
+      "competency": "SOC-108.L03",
+      "prompt": "Does silence establish consent?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Wait or use a legitimate alternative."
+    },
+    {
+      "id": "SOC-108.L03.Q4",
+      "competency": "SOC-108.L03",
+      "prompt": "What does an introduction not guarantee?",
+      "answer": "A meeting, endorsement, referral or future relationship.",
+      "points": 1,
+      "feedback": "Preserve choice."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Designs permission-based introductions with clear purpose, minimum information, realistic expectations and refusal handling.",
+    "transfer": "Create a fictional introduction workflow with separate permission requests, a minimum-information record, an introductory message and two refusal cases. Identify when organisational privacy advice is needed and why an introduction is not a guaranteed meeting.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

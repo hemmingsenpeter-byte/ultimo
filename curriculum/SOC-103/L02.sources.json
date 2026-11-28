@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-103.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Social support research distinguishes support types and context-dependent functions.",
+      "source_ids": [
+        "men-social-buffer"
+      ],
+      "locators": [
+        {
+          "source_id": "men-social-buffer",
+          "locator": "1985, abstract, main-effect and buffering models",
+          "limitations": "Effects vary with support type, measures and context"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Adult friendship research considers shared time and activities alongside closeness.",
+      "source_ids": [
+        "soc-friendship-hours"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-friendship-hours",
+          "locator": "2019 issue; first published 2018, studies of time and friendship closeness",
+          "limitations": "Observational and self-report findings; no required hours or guarantee of friendship"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

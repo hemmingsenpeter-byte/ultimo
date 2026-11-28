@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L01",
+  "status": "draft",
+  "competency": "SOC-107.L01",
+  "questions": [
+    {
+      "id": "SOC-107.L01.Q1",
+      "competency": "SOC-107.L01",
+      "prompt": "What distinguishes etiquette from an authorised requirement?",
+      "answer": "Etiquette concerns contextual conventions; authorised requirements derive from legitimate authority.",
+      "points": 1,
+      "feedback": "Identify the actual obligation."
+    },
+    {
+      "id": "SOC-107.L01.Q2",
+      "competency": "SOC-107.L01",
+      "prompt": "Are conventions universal?",
+      "answer": "No; practices vary across people and contexts.",
+      "points": 1,
+      "feedback": "Verify rather than stereotype."
+    },
+    {
+      "id": "SOC-107.L01.Q3",
+      "competency": "SOC-107.L01",
+      "prompt": "What if a greeting is declined?",
+      "answer": "Respect the choice and offer an appropriate alternative.",
+      "points": 1,
+      "feedback": "Do not compel contact."
+    },
+    {
+      "id": "SOC-107.L01.Q4",
+      "competency": "SOC-107.L01",
+      "prompt": "Can etiquette override safety duties?",
+      "answer": "No; legitimate safety requirements take priority.",
+      "points": 1,
+      "feedback": "Seek an authorised alternative."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Distinguishes requirements, conventions and preferences, and selects context-sensitive conduct respecting autonomy and safety.",
+    "transfer": "Prepare a contextual etiquette comparison for three fictional settings: a formal meeting, an informal gathering and a community event with unfamiliar conventions. Identify requirements, preferences, verification questions and one justified exception.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

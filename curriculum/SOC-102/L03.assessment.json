@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L03",
+  "status": "draft",
+  "competency": "SOC-102.L03",
+  "questions": [
+    {
+      "id": "SOC-102.L03.Q1",
+      "competency": "SOC-102.L03",
+      "prompt": "What is a descriptive norm?",
+      "answer": "A perception or observation of what people commonly do.",
+      "points": 1,
+      "feedback": "Do not equate frequency with approval."
+    },
+    {
+      "id": "SOC-102.L03.Q2",
+      "competency": "SOC-102.L03",
+      "prompt": "What is an injunctive norm?",
+      "answer": "A perception of what people approve or expect.",
+      "points": 1,
+      "feedback": "Distinguish an expectation from a written rule."
+    },
+    {
+      "id": "SOC-102.L03.Q3",
+      "competency": "SOC-102.L03",
+      "prompt": "Why verify an apparent norm?",
+      "answer": "A visible pattern may be unrepresentative or conflict with formal obligations.",
+      "points": 1,
+      "feedback": "Identify an authorised source."
+    },
+    {
+      "id": "SOC-102.L03.Q4",
+      "competency": "SOC-102.L03",
+      "prompt": "Should unsafe common practice be copied?",
+      "answer": "No; legitimate safety and ethical requirements take priority.",
+      "points": 1,
+      "feedback": "Use an appropriate route."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only; use answer-specific feedback.",
+    "practice": "Distinguishes observed practice, approval and authorised rules, and selects safe, fair responses to conflicting norms.",
+    "transfer": "Analyse a fictional group's norms. Include two descriptive observations, one stated expectation, one authorised rule and one conflict between practice and duty. Propose a respectful clarification or improvement.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

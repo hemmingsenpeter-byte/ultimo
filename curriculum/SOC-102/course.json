@@ -1,0 +1,43 @@
+{
+  "id": "SOC-102",
+  "title": "Social awareness",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "competencies": [
+    "SOC-102.L01",
+    "SOC-102.L02",
+    "SOC-102.L03",
+    "SOC-102.L04"
+  ],
+  "reading": [
+    "soc-ref-2",
+    "soc-ref-5"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Ambiguous cues",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Culture and context",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Group norms",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Clarifying questions",
+      "path": "L04.md"
+    }
+  ]
+}

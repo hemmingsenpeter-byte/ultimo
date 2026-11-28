@@ -4,7 +4,7 @@
   "title": "Charisma and humour",
   "faculty": "SOC",
   "framework_status": "defined",
-  "content_status": "planned",
+  "content_status": "draft",
   "year": 2,
   "target_level": 2,
   "extension_target_level": 3,
@@ -46,7 +46,7 @@
       "practice": "Create an annotated explanation with a concrete example and a counterexample. Connect the result to introduction and feedback.",
       "knowledge_check": "Explain warmth and attention from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of warmth and attention; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L02",
@@ -67,7 +67,7 @@
       "practice": "Compare two cases or approaches using explicit criteria; identify an important limitation. Connect the result to introduction and feedback.",
       "knowledge_check": "Explain humour from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of humour; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L03",
@@ -88,7 +88,7 @@
       "practice": "Work through a new case or simulation; document assumptions and steps. Connect the result to introduction and feedback.",
       "knowledge_check": "Explain engaging stories from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of engaging stories; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     },
     {
       "id": "L04",
@@ -109,7 +109,7 @@
       "practice": "Analyse an unfamiliar case; defend a choice, identify uncertainty and revise after feedback. Connect the result to introduction and feedback.",
       "knowledge_check": "Explain authenticity from memory and apply it to a different example; state one limitation.",
       "evidence_criterion": "Accurate explanation of authenticity; correct application to a new case; clear rationale and limits.",
-      "content_status": "not_authored"
+      "content_status": "draft"
     }
   ],
   "assessment": {

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "UNESCO's intercultural dialogue framework emphasises understanding across differences.",
+      "source_ids": [
+        "soc-intercultural"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-intercultural",
+          "locator": "2020, overview of dialogue and cultural diversity",
+          "limitations": "Policy-level framework, not a guide to any individual's customs"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Social norms research distinguishes common conduct from perceived approval.",
+      "source_ids": [
+        "soc-norms"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-norms",
+          "locator": "1991, abstract, descriptive and injunctive norms",
+          "limitations": "Context-dependent norm effects; prevalence does not establish ethical legitimacy"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

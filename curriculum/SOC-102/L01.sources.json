@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-102.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Email experiments examine overconfidence in communicating tone without the recipient's access to the sender's intended delivery.",
+      "source_ids": [
+        "soc-email-cues"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-email-cues",
+          "locator": "2005, abstract and experimental studies on communicating tone",
+          "limitations": "Email studies; not a universal rule for every written exchange"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Perspective-taking research investigates reliance on one's own perspective and adjustment.",
+      "source_ids": [
+        "soc-perspective-anchor"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-perspective-anchor",
+          "locator": "2004, abstract and perspective-taking experiments",
+          "limitations": "Experimental research; cannot infer individual intentions"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated assessment or therapeutic intervention reproduced.",
+  "review_required": true
+}

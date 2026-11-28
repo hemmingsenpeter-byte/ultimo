@@ -1,6 +1,6 @@
 # Faculty and course index
 
-Every course has a syllabus. Thirty courses have authored draft lessons; the other 104 have syllabuses only.
+Every course has a syllabus. Thirty-seven courses have authored draft lessons; the other 97 have syllabuses only.
 
 ## Physical
 
@@ -71,13 +71,13 @@ Reason independently, evaluate evidence, model complexity and learn transferable
 Build reciprocal connection, confidence, inclusion and social judgement without manipulation.
 
 - [SOC-101 — Conversation](../curriculum/SOC-101/syllabus.md) · Year 1 · draft
-- [SOC-102 — Social awareness](../curriculum/SOC-102/syllabus.md) · Year 2 · planned
-- [SOC-103 — Friendship and community](../curriculum/SOC-103/syllabus.md) · Year 2 · planned
-- [SOC-104 — Social confidence](../curriculum/SOC-104/syllabus.md) · Year 2 · planned
-- [SOC-105 — Charisma and humour](../curriculum/SOC-105/syllabus.md) · Year 2 · planned
-- [SOC-106 — Group dynamics](../curriculum/SOC-106/syllabus.md) · Year 2 · planned
-- [SOC-107 — Etiquette and presentation](../curriculum/SOC-107/syllabus.md) · Year 2 · planned
-- [SOC-108 — Networking](../curriculum/SOC-108/syllabus.md) · Year 3 · planned
+- [SOC-102 — Social awareness](../curriculum/SOC-102/syllabus.md) · Year 2 · draft
+- [SOC-103 — Friendship and community](../curriculum/SOC-103/syllabus.md) · Year 2 · draft
+- [SOC-104 — Social confidence](../curriculum/SOC-104/syllabus.md) · Year 2 · draft
+- [SOC-105 — Charisma and humour](../curriculum/SOC-105/syllabus.md) · Year 2 · draft
+- [SOC-106 — Group dynamics](../curriculum/SOC-106/syllabus.md) · Year 2 · draft
+- [SOC-107 — Etiquette and presentation](../curriculum/SOC-107/syllabus.md) · Year 2 · draft
+- [SOC-108 — Networking](../curriculum/SOC-108/syllabus.md) · Year 3 · draft
 
 ## Relationships
 
