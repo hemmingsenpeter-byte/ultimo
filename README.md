@@ -13,6 +13,7 @@ An open curriculum for lifelong human development: capability, character, connec
 - [Master specification](SPEC.md)
 - [Faculty and course index (readable)](framework/faculty-index.md)
 - [Five-year pathway](pathways/five-year.md)
+- [Strategic psychology, power and human behaviour — specialist elective (proposed)](pathways/strategic-psychology.md)
 - [Faculty and course catalogue (JSON)](framework/catalogue.json)
 - [Assessment policy](framework/assessment-policy.md)
 - [Lesson authoring standard](framework/lesson-standard.md)
