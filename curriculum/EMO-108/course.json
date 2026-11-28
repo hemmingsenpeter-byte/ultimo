@@ -1,0 +1,43 @@
+{
+  "id": "EMO-108",
+  "title": "Empathy",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "COM-103"
+  ],
+  "competencies": [
+    "EMO-108.L01",
+    "EMO-108.L02",
+    "EMO-108.L03",
+    "EMO-108.L04"
+  ],
+  "reading": [
+    "emo-ref-6",
+    "emo-ref-2"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Perspective-taking",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Reflective listening",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Empathy versus agreement",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Compassionate limits",
+      "path": "L04.md"
+    }
+  ]
+}

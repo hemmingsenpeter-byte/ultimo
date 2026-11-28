@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "The 2024 meta-analysis reports a pooled caregiver sensitivity–attachment security association of r=.25 (95% CI .22–.28).",
+      "source_ids": [
+        "emo-caregiver-sensitivity"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-caregiver-sensitivity",
+          "locator": "2024, abstract, pooled association r=.25",
+          "limitations": "Group-level association; no individual causal prediction"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    },
+    {
+      "claim": "Attachment research examines development in relationship contexts.",
+      "source_ids": [
+        "emo-child-attachment",
+        "emo-adult-attachment"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-child-attachment",
+          "locator": "2015, attachment theory, secure base",
+          "limitations": "Clinical guideline background; no individual classification from vignettes"
+        },
+        {
+          "source_id": "emo-adult-attachment",
+          "locator": "2017, abstract, adult attachment orientations and stress",
+          "limitations": "Review; context and relationship-specific limits"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated test or therapy reproduced.",
+  "review_required": true
+}

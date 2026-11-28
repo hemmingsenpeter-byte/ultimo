@@ -105,3 +105,11 @@ MEN-104, MEN-105 and MEN-107 add twelve original lesson drafts, 48 formative que
 ## Emotional Faculty expansion — personality, regulation and boundaries
 
 EMO-102, EMO-103 and EMO-106 add twelve original detailed draft lessons, 48 formative questions with answer-specific feedback and three capstones. Programme totals: 26 courses, 104 lessons, 348 questions and 26 capstones; 108 courses and 432 lessons remain blueprint-only. Emotional Faculty totals: four of eight courses, sixteen of 32 lessons authored. Stable IDs, prerequisites, original foundation semester, licence and privacy boundaries remain unchanged. Psychological test critique uses fictional instruments; emotion regulation and assertiveness are educational literacy, not diagnosis or therapy. Safety-sensitive cases direct learners to qualified local support rather than confrontation or personalised safety planning. Independent full-text, claim-level, qualified subject, cultural, safety and learner review required.
+
+## Emotional Faculty expansion — moral emotions and attachment literacy
+
+EMO-104 and EMO-105 add eight original draft lessons, 32 formative questions and two capstones. Programme totals: 28 courses, 112 lessons, 380 questions and 28 capstones; 106 courses and 424 lessons remain blueprint-only. Six of eight Emotional Faculty courses are authored. Stable IDs, prerequisites, foundation semester, licence and privacy are unchanged. Research and educational communication frameworks do not authorise diagnosis, real attachment classification, treatment or unsafe confrontation. Independent claim-level, psychological, cultural, safety and learner review remains required.
+
+## Emotional Faculty draft completion
+
+EMO-107 and EMO-108 add eight original lessons, 32 formative questions and two capstones. All eight Emotional Faculty courses now have 32 authored draft lessons. Programme totals: 30 courses, 120 lessons, 412 questions and 30 capstones; 104 courses and 416 lessons remain blueprint-only. Stable IDs, prerequisites, foundation semester, licence and privacy remain unchanged. Grief variability, cultural responsiveness, listening and compassionate boundaries are educational concepts, not treatment or diagnosis. Independent claim-level, qualified subject, cultural, safety and learner review remain required.

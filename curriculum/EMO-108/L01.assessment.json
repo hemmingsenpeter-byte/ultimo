@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L01",
+  "status": "draft",
+  "competency": "EMO-108.L01",
+  "questions": [
+    {
+      "id": "EMO-108.L01.Q1",
+      "competency": "EMO-108.L01",
+      "prompt": "What is perspective-taking?",
+      "answer": "Attempting to understand another person's viewpoint and circumstances.",
+      "points": 1,
+      "feedback": "Distinguish it from mind-reading."
+    },
+    {
+      "id": "EMO-108.L01.Q2",
+      "competency": "EMO-108.L01",
+      "prompt": "Why distinguish self and other?",
+      "answer": "Your imagined response may not match the other person's experience.",
+      "points": 1,
+      "feedback": "Check instead of projecting."
+    },
+    {
+      "id": "EMO-108.L01.Q3",
+      "competency": "EMO-108.L01",
+      "prompt": "Does empathy verify a factual claim?",
+      "answer": "No; understanding and evidential verification are distinct.",
+      "points": 1,
+      "feedback": "Preserve uncertainty."
+    },
+    {
+      "id": "EMO-108.L01.Q4",
+      "competency": "EMO-108.L01",
+      "prompt": "What if a person declines clarification?",
+      "answer": "Respect the decision and work with the information available.",
+      "points": 1,
+      "feedback": "Do not pressure disclosure."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Builds a tentative, evidence-based perspective, considers alternatives and respects autonomy and uncertainty.",
+    "transfer": "Create a fictional perspective map for two people with competing objectives. Describe each person's stated information and constraints, two unknowns and a respectful clarification. Identify one practical response that remains appropriate under uncertainty.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

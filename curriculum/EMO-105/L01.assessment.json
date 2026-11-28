@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L01",
+  "status": "draft",
+  "competency": "EMO-105.L01",
+  "questions": [
+    {
+      "id": "EMO-105.L01.Q1",
+      "competency": "EMO-105.L01",
+      "prompt": "What is a secure base?",
+      "answer": "Relationship support that enables exploration.",
+      "points": 1,
+      "feedback": "Distinguish it from comfort."
+    },
+    {
+      "id": "EMO-105.L01.Q2",
+      "competency": "EMO-105.L01",
+      "prompt": "What is a safe haven?",
+      "answer": "A relationship through which comfort or protection may be sought.",
+      "points": 1,
+      "feedback": "Give a fictional example."
+    },
+    {
+      "id": "EMO-105.L01.Q3",
+      "competency": "EMO-105.L01",
+      "prompt": "Are infant classifications interchangeable with adult dimensions?",
+      "answer": "No; methods and constructs differ.",
+      "points": 1,
+      "feedback": "Do not mechanically translate categories."
+    },
+    {
+      "id": "EMO-105.L01.Q4",
+      "competency": "EMO-105.L01",
+      "prompt": "Can an ordinary vignette establish a diagnosis?",
+      "answer": "No; clinical assessment requires appropriate expertise and evidence.",
+      "points": 1,
+      "feedback": "Avoid testing real children or adults."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Explains attachment functions and research methods and limits inference from ordinary observations.",
+    "transfer": "Write a fictional research-literacy critique explaining secure base, safe haven and adult attachment dimensions. Include two rival explanations for a behaviour and a reason not to assign an attachment classification.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

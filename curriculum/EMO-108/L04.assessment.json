@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L04",
+  "status": "draft",
+  "competency": "EMO-108.L04",
+  "questions": [
+    {
+      "id": "EMO-108.L04.Q1",
+      "competency": "EMO-108.L04",
+      "prompt": "Does compassion require unlimited availability?",
+      "answer": "No; feasible limits and suitable alternative routes matter.",
+      "points": 1,
+      "feedback": "Make a realistic offer."
+    },
+    {
+      "id": "EMO-108.L04.Q2",
+      "competency": "EMO-108.L04",
+      "prompt": "How does peer help differ from clinical care?",
+      "answer": "Peer support addresses ordinary needs and access; clinical care requires qualifications.",
+      "points": 1,
+      "feedback": "Stay within competence."
+    },
+    {
+      "id": "EMO-108.L04.Q3",
+      "competency": "EMO-108.L04",
+      "prompt": "Does empathy require continued unsafe contact?",
+      "answer": "No; safety and autonomy take priority.",
+      "points": 1,
+      "feedback": "Use appropriate support."
+    },
+    {
+      "id": "EMO-108.L04.Q4",
+      "competency": "EMO-108.L04",
+      "prompt": "What should immediate danger prompt?",
+      "answer": "Local emergency assistance.",
+      "points": 1,
+      "feedback": "Do not rely only on routine follow-up."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Selects feasible, compassionate assistance with consent, role limits, alternative routes and safety boundaries.",
+    "transfer": "Complete the listening role-play or written equivalent with perspective-taking, reflective listening, respectful disagreement and compassionate limits. Include a correction, a bounded offer, alternative support and a scenario requiring qualified or emergency help. Revise after feedback.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

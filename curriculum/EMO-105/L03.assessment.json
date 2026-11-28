@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L03",
+  "status": "draft",
+  "competency": "EMO-105.L03",
+  "questions": [
+    {
+      "id": "EMO-105.L03.Q1",
+      "competency": "EMO-105.L03",
+      "prompt": "Why can a label be circular?",
+      "answer": "It is inferred from and used to explain the same behaviour without independent evidence.",
+      "points": 1,
+      "feedback": "Identify the missing evidence."
+    },
+    {
+      "id": "EMO-105.L03.Q2",
+      "competency": "EMO-105.L03",
+      "prompt": "Are adult attachment dimensions permanent types?",
+      "answer": "No; measures and relationship contexts can vary.",
+      "points": 1,
+      "feedback": "Avoid fixed destiny claims."
+    },
+    {
+      "id": "EMO-105.L03.Q3",
+      "competency": "EMO-105.L03",
+      "prompt": "Does a label excuse harmful conduct?",
+      "answer": "No; actual behaviour and responsibility remain relevant.",
+      "points": 1,
+      "feedback": "Address the observed breach."
+    },
+    {
+      "id": "EMO-105.L03.Q4",
+      "competency": "EMO-105.L03",
+      "prompt": "How respond to unsupported classification?",
+      "answer": "Describe behaviour, consider alternatives and seek appropriate clarification or qualified help.",
+      "points": 1,
+      "feedback": "Do not test real people."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Critiques circular label-based explanations, limits measurement claims and addresses actual conduct without diagnosis.",
+    "transfer": "Create a fictional attachment-label audit with one circular explanation, two alternatives and a bounded research claim. Revise an unsupported classification into an observable description and a respectful question.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

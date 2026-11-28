@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L02",
+  "status": "draft",
+  "competency": "EMO-104.L02",
+  "questions": [
+    {
+      "id": "EMO-104.L02.Q1",
+      "competency": "EMO-104.L02",
+      "prompt": "How does jealousy differ conceptually from envy?",
+      "answer": "Jealousy often concerns a relationship threat; envy concerns wanting another's advantage.",
+      "points": 1,
+      "feedback": "Ordinary usage may overlap."
+    },
+    {
+      "id": "EMO-104.L02.Q2",
+      "competency": "EMO-104.L02",
+      "prompt": "Is an action tendency an obligation?",
+      "answer": "No; conduct must be evaluated separately.",
+      "points": 1,
+      "feedback": "Suggest a proportionate alternative."
+    },
+    {
+      "id": "EMO-104.L02.Q3",
+      "competency": "EMO-104.L02",
+      "prompt": "Does jealousy establish betrayal?",
+      "answer": "No; evidence is needed and privacy remains important.",
+      "points": 1,
+      "feedback": "Reject coercive verification."
+    },
+    {
+      "id": "EMO-104.L02.Q4",
+      "competency": "EMO-104.L02",
+      "prompt": "What is the priority in immediate danger?",
+      "answer": "Safety and emergency assistance.",
+      "points": 1,
+      "feedback": "Do not substitute reappraisal."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Distinguishes anger, fear and jealousy, separates appraisal from evidence and chooses safe, non-coercive actions.",
+    "transfer": "Analyse a novel fictional case in which anger and fear coexist. Distinguish known facts from inferred intent, compare two responses and identify a safety exception. Explain why the label alone cannot justify an action.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

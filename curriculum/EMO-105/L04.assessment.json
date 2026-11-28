@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L04",
+  "status": "draft",
+  "competency": "EMO-105.L04",
+  "questions": [
+    {
+      "id": "EMO-105.L04.Q1",
+      "competency": "EMO-105.L04",
+      "prompt": "What makes a response responsive?",
+      "answer": "Fit with the communicated need, consent, capacity and role.",
+      "points": 1,
+      "feedback": "Check rather than assume."
+    },
+    {
+      "id": "EMO-105.L04.Q2",
+      "competency": "EMO-105.L04",
+      "prompt": "Does responsiveness require constant availability?",
+      "answer": "No; realistic limits and reliable commitments matter.",
+      "points": 1,
+      "feedback": "Offer alternatives only if feasible."
+    },
+    {
+      "id": "EMO-105.L04.Q3",
+      "competency": "EMO-105.L04",
+      "prompt": "Why distinguish adult peers from caregivers?",
+      "answer": "Their responsibilities and developmental needs differ.",
+      "points": 1,
+      "feedback": "Do not generalise a peer script into parenting advice."
+    },
+    {
+      "id": "EMO-105.L04.Q4",
+      "competency": "EMO-105.L04",
+      "prompt": "What if the need exceeds competence?",
+      "answer": "State the limit and identify appropriate qualified support.",
+      "points": 1,
+      "feedback": "Do not promise clinical outcomes."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Designs responsive, bounded communication that checks the need, respects autonomy and avoids unsupported attachment labels.",
+    "transfer": "Complete an attachment case critique combining relationship functions, a developmental timeline, label limitations and responsive communication. Include two rival explanations, a consent-based dialogue and a limit on the evidence. Revise after fictional feedback.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-108.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "WHO psychological first aid guidance discusses humane practical help and links to support.",
+      "source_ids": [
+        "emo-pfa"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-pfa",
+          "locator": "2011, humane practical support and communication principles",
+          "limitations": "Crisis guidance; classroom practice does not certify psychological first aid"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Social support research distinguishes contextual forms and functions of support.",
+      "source_ids": [
+        "men-social-buffer"
+      ],
+      "locators": [
+        {
+          "source_id": "men-social-buffer",
+          "locator": "1985, abstract, main-effect and buffering models",
+          "limitations": "Effects vary with support type, measures and context"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated diagnostic or therapeutic instrument reproduced.",
+  "review_required": true
+}

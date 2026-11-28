@@ -1,6 +1,6 @@
 # Faculty and course index
 
-Every course has a syllabus. Twenty-six courses have authored draft lessons; the other 108 have syllabuses only.
+Every course has a syllabus. Thirty courses have authored draft lessons; the other 104 have syllabuses only.
 
 ## Physical
 
@@ -46,11 +46,11 @@ Recognise, interpret and respond to emotions with autonomy and care.
 - [EMO-101 — Emotional identification](../curriculum/EMO-101/syllabus.md) · Year 1 · draft
 - [EMO-102 — Personality and temperament](../curriculum/EMO-102/syllabus.md) · Year 2 · draft
 - [EMO-103 — Emotional regulation](../curriculum/EMO-103/syllabus.md) · Year 2 · draft
-- [EMO-104 — Shame, anger, fear and jealousy](../curriculum/EMO-104/syllabus.md) · Year 2 · planned
-- [EMO-105 — Attachment and development](../curriculum/EMO-105/syllabus.md) · Year 2 · planned
+- [EMO-104 — Shame, anger, fear and jealousy](../curriculum/EMO-104/syllabus.md) · Year 2 · draft
+- [EMO-105 — Attachment and development](../curriculum/EMO-105/syllabus.md) · Year 2 · draft
 - [EMO-106 — Boundaries and assertiveness](../curriculum/EMO-106/syllabus.md) · Year 2 · draft
-- [EMO-107 — Grief and vulnerability](../curriculum/EMO-107/syllabus.md) · Year 2 · planned
-- [EMO-108 — Empathy](../curriculum/EMO-108/syllabus.md) · Year 2 · planned
+- [EMO-107 — Grief and vulnerability](../curriculum/EMO-107/syllabus.md) · Year 2 · draft
+- [EMO-108 — Empathy](../curriculum/EMO-108/syllabus.md) · Year 2 · draft
 
 ## Intellectual
 

@@ -1,0 +1,42 @@
+{
+  "id": "EMO-105",
+  "title": "Attachment and development",
+  "faculty": "EMO",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "EMO-101"
+  ],
+  "competencies": [
+    "EMO-105.L01",
+    "EMO-105.L02",
+    "EMO-105.L03",
+    "EMO-105.L04"
+  ],
+  "reading": [
+    "emo-ref-5"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Attachment research",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Development",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Label limitations",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Responsive communication",
+      "path": "L04.md"
+    }
+  ]
+}

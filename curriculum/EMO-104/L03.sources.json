@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-28",
+  "claims": [
+    {
+      "claim": "Assertiveness guidance distinguishes respectful expression from aggressive approaches.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    },
+    {
+      "claim": "NZ family violence guidance identifies specialist support options.",
+      "source_ids": [
+        "emo-family-police"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-family-police",
+          "locator": "Emergency 111 and specialist support; checked 2026-11-26",
+          "limitations": "New Zealand only; not individual safety planning"
+        }
+      ],
+      "verification": "Relevant reference located; independent full-text appraisal and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional examples, exercises, questions and feedback. No validated test or therapy reproduced.",
+  "review_required": true
+}

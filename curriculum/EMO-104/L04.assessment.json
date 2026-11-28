@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-104.L04",
+  "status": "draft",
+  "competency": "EMO-104.L04",
+  "questions": [
+    {
+      "id": "EMO-104.L04.Q1",
+      "competency": "EMO-104.L04",
+      "prompt": "Is apology identical to repair?",
+      "answer": "No; correction, prevention and follow-through may be needed.",
+      "points": 1,
+      "feedback": "Specify a remedy."
+    },
+    {
+      "id": "EMO-104.L04.Q2",
+      "competency": "EMO-104.L04",
+      "prompt": "What should an explanation not do?",
+      "answer": "Erase impact or shift responsibility without evidence.",
+      "points": 1,
+      "feedback": "Separate cause from accountability."
+    },
+    {
+      "id": "EMO-104.L04.Q3",
+      "competency": "EMO-104.L04",
+      "prompt": "Does an apology entitle someone to forgiveness?",
+      "answer": "No; the affected person retains autonomy.",
+      "points": 1,
+      "feedback": "Respect refusal."
+    },
+    {
+      "id": "EMO-104.L04.Q4",
+      "competency": "EMO-104.L04",
+      "prompt": "How evaluate follow-through?",
+      "answer": "Against observable commitments and corrective actions.",
+      "points": 1,
+      "feedback": "Do not grade acceptance."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Proposes evidence-based responsibility, feasible repair and observable prevention without requiring forgiveness or reconciliation.",
+    "transfer": "Complete the scenario response portfolio: shame/guilt analysis, emotion-appraisal matrix, non-coercive need response and repair plan. Include one case where repair is unwanted or unsafe and revise the plan after fictional feedback.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

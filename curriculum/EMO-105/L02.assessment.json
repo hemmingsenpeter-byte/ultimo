@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "EMO-105.L02",
+  "status": "draft",
+  "competency": "EMO-105.L02",
+  "questions": [
+    {
+      "id": "EMO-105.L02.Q1",
+      "competency": "EMO-105.L02",
+      "prompt": "What does caregiver sensitivity describe?",
+      "answer": "Noticing, interpreting and appropriately responding to signals.",
+      "points": 1,
+      "feedback": "Do not equate it with perfection."
+    },
+    {
+      "id": "EMO-105.L02.Q2",
+      "competency": "EMO-105.L02",
+      "prompt": "What does a pooled positive correlation indicate?",
+      "answer": "An average positive association under the studied measures and samples.",
+      "points": 1,
+      "feedback": "It is not an individual prediction."
+    },
+    {
+      "id": "EMO-105.L02.Q3",
+      "competency": "EMO-105.L02",
+      "prompt": "Does r=0.25 mean 25% of children are secure because of sensitivity?",
+      "answer": "No; correlation is not a causal proportion or percentage of people.",
+      "points": 1,
+      "feedback": "Explain the measurement distinction."
+    },
+    {
+      "id": "EMO-105.L02.Q4",
+      "competency": "EMO-105.L02",
+      "prompt": "Why consider present context?",
+      "answer": "Current environments and resources can influence behaviour independently of early experiences.",
+      "points": 1,
+      "feedback": "Identify one current support."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Explains developmental influences and interprets group-level evidence without deterministic causation or caregiver blame.",
+    "transfer": "Construct a fictional three-stage developmental map with resources at two levels and competing explanations. Critique a deterministic early-experience claim and identify a feasible current support, including its limits.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}
