@@ -1,0 +1,43 @@
+{
+  "id": "SOC-108",
+  "title": "Networking",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-103"
+  ],
+  "competencies": [
+    "SOC-108.L01",
+    "SOC-108.L02",
+    "SOC-108.L03",
+    "SOC-108.L04"
+  ],
+  "reading": [
+    "soc-ref-3",
+    "soc-ref-1"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Reciprocal networks",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Low-pressure requests",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Consent-based introductions",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Follow-up",
+      "path": "L04.md"
+    }
+  ]
+}

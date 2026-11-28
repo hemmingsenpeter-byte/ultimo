@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L01",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "Granovetter's weak-ties theory examines connections bridging social circles.",
+      "source_ids": [
+        "soc-weak-ties"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-weak-ties",
+          "locator": "1973, network theory and bridging ties",
+          "limitations": "Theoretical network account; not a universal contact strategy"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "The 2022 LinkedIn experimental study examines tie strength and job mobility, including nonlinear results.",
+      "source_ids": [
+        "soc-weak-ties-causal"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-weak-ties-causal",
+          "locator": "2022, abstract, LinkedIn experiments and job mobility",
+          "limitations": "Platform-specific intervention and outcomes; no guarantee of an individual job"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

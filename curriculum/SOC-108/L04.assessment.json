@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L04",
+  "status": "draft",
+  "competency": "SOC-108.L04",
+  "questions": [
+    {
+      "id": "SOC-108.L04.Q1",
+      "competency": "SOC-108.L04",
+      "prompt": "What is the purpose of follow-up?",
+      "answer": "Fulfil commitments, clarify agreed matters or maintain mutually wanted contact.",
+      "points": 1,
+      "feedback": "Distinguish it from pursuit."
+    },
+    {
+      "id": "SOC-108.L04.Q2",
+      "competency": "SOC-108.L04",
+      "prompt": "Does every contact need a fixed follow-up schedule?",
+      "answer": "No; timing depends on purpose, agreement and preference.",
+      "points": 1,
+      "feedback": "Avoid compulsory quotas."
+    },
+    {
+      "id": "SOC-108.L04.Q3",
+      "competency": "SOC-108.L04",
+      "prompt": "What should happen after a refusal?",
+      "answer": "Stop optional outreach.",
+      "points": 1,
+      "feedback": "Do not automate repeated persuasion."
+    },
+    {
+      "id": "SOC-108.L04.Q4",
+      "competency": "SOC-108.L04",
+      "prompt": "What is a useful success criterion?",
+      "answer": "Accurate, proportionate fulfilment of actual commitments and respect for choice.",
+      "points": 1,
+      "feedback": "Do not grade reply rates as personal worth."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Designs reliable, proportionate follow-up that fulfils agreements, respects refusal and minimises information collection.",
+    "transfer": "Complete an ethical networking plan with a reciprocal network map, bounded requests, consent-based introduction and follow-up log. Include an unanswered request, refusal, fulfilled commitment, privacy boundary and revised plan after feedback. Use fictional information only.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

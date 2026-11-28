@@ -1,0 +1,43 @@
+{
+  "id": "SOC-107",
+  "title": "Etiquette and presentation",
+  "faculty": "SOC",
+  "target_level": 2,
+  "estimated_hours": 6,
+  "prerequisites": [
+    "SOC-101"
+  ],
+  "competencies": [
+    "SOC-107.L01",
+    "SOC-107.L02",
+    "SOC-107.L03",
+    "SOC-107.L04"
+  ],
+  "reading": [
+    "soc-ref-5",
+    "soc-ref-6"
+  ],
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Contextual etiquette",
+      "path": "L01.md"
+    },
+    {
+      "id": "L02",
+      "title": "Presentation",
+      "path": "L02.md"
+    },
+    {
+      "id": "L03",
+      "title": "Hosting",
+      "path": "L03.md"
+    },
+    {
+      "id": "L04",
+      "title": "Unfamiliar norms",
+      "path": "L04.md"
+    }
+  ]
+}

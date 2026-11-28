@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L02",
+  "status": "draft",
+  "competency": "SOC-108.L02",
+  "questions": [
+    {
+      "id": "SOC-108.L02.Q1",
+      "competency": "SOC-108.L02",
+      "prompt": "What makes a request low pressure?",
+      "answer": "Clear purpose, bounded action and genuine freedom to decline.",
+      "points": 1,
+      "feedback": "Do not use guilt."
+    },
+    {
+      "id": "SOC-108.L02.Q2",
+      "competency": "SOC-108.L02",
+      "prompt": "Should a commercial purpose be concealed?",
+      "answer": "No; communicate it honestly.",
+      "points": 1,
+      "feedback": "Avoid misleading familiarity."
+    },
+    {
+      "id": "SOC-108.L02.Q3",
+      "competency": "SOC-108.L02",
+      "prompt": "Does prior friendliness authorise private data access?",
+      "answer": "No; actual authority and consent matter.",
+      "points": 1,
+      "feedback": "Use appropriate public information."
+    },
+    {
+      "id": "SOC-108.L02.Q4",
+      "competency": "SOC-108.L02",
+      "prompt": "What if the recipient declines?",
+      "answer": "Respect the decision and seek another legitimate route.",
+      "points": 1,
+      "feedback": "Do not escalate persuasion."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Writes bounded, transparent, proportionate requests with meaningful refusal and appropriate information boundaries.",
+    "transfer": "Draft three fictional networking requests: learning advice, a public resource and a professional discussion. Include a specific purpose, realistic burden, alternative format, refusal option and a clear condition where you would not send the request.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

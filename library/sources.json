@@ -2297,5 +2297,49 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-weak-ties",
+    "title": "The Strength of Weak Ties",
+    "authors": "Mark Granovetter",
+    "url": "https://sociology.stanford.edu/publications/strength-weak-ties",
+    "locator": "1973, network theory and bridging ties",
+    "limitations": "Theoretical network account; not a universal contact strategy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-weak-ties-causal",
+    "title": "A causal test of the strength of weak ties",
+    "authors": "Rajkumar, Saint-Jacques, Bojinov, Brynjolfsson and Aral",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36107999/",
+    "locator": "2022, abstract, LinkedIn experiments and job mobility",
+    "limitations": "Platform-specific intervention and outcomes; no guarantee of an individual job",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-nz-event-access",
+    "title": "Accessible meetings and events",
+    "authors": "New Zealand Ministry of Social Development",
+    "url": "https://msd.govt.nz/about-msd-and-our-work/work-programmes/lead-programme-work/information-and-support/accessible-meetings-and-events.html",
+    "locator": "Event planning and registration checklist",
+    "limitations": "General guidance; verify venue, local requirements and individual preferences",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-nz-disclosure",
+    "title": "Principle 11 — Disclosure of personal information",
+    "authors": "Office of the Privacy Commissioner, New Zealand",
+    "url": "https://www.privacy.org.nz/privacy-principles/11/",
+    "locator": "Public explanation of limits and grounds for disclosure",
+    "limitations": "NZ legal context, not personalised legal advice; exceptions and obligations depend on facts",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
   }
 ]

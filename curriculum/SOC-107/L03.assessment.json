@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-107.L03",
+  "status": "draft",
+  "competency": "SOC-107.L03",
+  "questions": [
+    {
+      "id": "SOC-107.L03.Q1",
+      "competency": "SOC-107.L03",
+      "prompt": "What is the host's practical role?",
+      "answer": "Arrange the activity, communicate conditions and coordinate actual responsibilities.",
+      "points": 1,
+      "feedback": "Do not guarantee enjoyment."
+    },
+    {
+      "id": "SOC-107.L03.Q2",
+      "competency": "SOC-107.L03",
+      "prompt": "Why plan the participant journey?",
+      "answer": "Barriers can occur before, during or after the event.",
+      "points": 1,
+      "feedback": "Identify a transition."
+    },
+    {
+      "id": "SOC-107.L03.Q3",
+      "competency": "SOC-107.L03",
+      "prompt": "Does a generic access checklist prove accessibility?",
+      "answer": "No; verify actual conditions and needs.",
+      "points": 1,
+      "feedback": "Avoid unsupported promises."
+    },
+    {
+      "id": "SOC-107.L03.Q4",
+      "competency": "SOC-107.L03",
+      "prompt": "What if attendance exceeds capacity?",
+      "answer": "Use a fair allocation or verified authorised alternative.",
+      "points": 1,
+      "feedback": "Respect capacity and safety."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Plans hosting across the participant journey, with realistic budget, access verification, responsibilities and contingency.",
+    "transfer": "Produce a fictional hosting checklist for an event with a fixed budget and capacity. Include the participant journey, verified access, role owners, contingency, consent and post-event review. Identify at least one item that requires external confirmation.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

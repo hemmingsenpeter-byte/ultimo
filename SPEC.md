@@ -121,3 +121,7 @@ SOC-102, SOC-103 and SOC-104 add twelve original draft lessons, 48 formative que
 ## Social Faculty expansion — charisma and group dynamics
 
 SOC-105 and SOC-106 add eight original draft lessons, 32 formative questions and two capstones. Programme totals: 35 courses, 140 lessons, 492 questions and 35 capstones; 99 courses and 396 lessons remain blueprint-only. Six of eight Social Faculty courses are authored. Stable IDs, prerequisites, foundation semester, licence and privacy unchanged. Independent source, subject, cultural, accessibility and learner review pending.
+
+## Social Faculty draft completion
+
+SOC-107 and SOC-108 add eight original draft lessons, 32 formative questions and two capstones. All eight Social Faculty courses now have 32 authored lessons. Programme totals: 37 courses, 148 lessons, 524 questions and 37 capstones; 97 courses and 388 lessons remain blueprint-only. Stable IDs, prerequisites, foundation semester, licence and privacy unchanged. Etiquette and networking are taught through contextual judgement, accessibility, consent and reliability, not appearance, status, manipulation or outreach volume. Independent source, subject, cultural, privacy, safety and learner review required.

@@ -408,7 +408,7 @@
     "id": "SOC-107",
     "faculty": "SOC",
     "title": "Etiquette and presentation",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-107/syllabus.json",
     "year": 2
@@ -417,7 +417,7 @@
     "id": "SOC-108",
     "faculty": "SOC",
     "title": "Networking",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-108/syllabus.json",
     "year": 3

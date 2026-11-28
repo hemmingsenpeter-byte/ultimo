@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-108.L03",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "NZ Privacy Commissioner guidance describes limits on disclosure of personal information under Principle 11.",
+      "source_ids": [
+        "soc-nz-disclosure"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-nz-disclosure",
+          "locator": "Public explanation of limits and grounds for disclosure",
+          "limitations": "NZ legal context, not personalised legal advice; exceptions and obligations depend on facts"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    },
+    {
+      "claim": "Assertiveness guidance supports voluntary requests and appropriate limits.",
+      "source_ids": [
+        "emo-assertiveness"
+      ],
+      "locators": [
+        {
+          "source_id": "emo-assertiveness",
+          "locator": "Workbook overview, assertiveness, requests and declining",
+          "limitations": "Clinical self-help resource; original classroom scripts are not reproduced therapy"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}
