@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L01",
+  "status": "draft",
+  "competency": "SOC-105.L01",
+  "questions": [
+    {
+      "id": "SOC-105.L01.Q1",
+      "competency": "SOC-105.L01",
+      "prompt": "What do warmth and competence describe in social cognition research?",
+      "answer": "Broad dimensions of perceived intentions and ability.",
+      "points": 1,
+      "feedback": "Perception is not proof."
+    },
+    {
+      "id": "SOC-105.L01.Q2",
+      "competency": "SOC-105.L01",
+      "prompt": "How can attention be demonstrated?",
+      "answer": "Accurate acknowledgment, relevant questions and respecting turn-taking.",
+      "points": 1,
+      "feedback": "Do not rely on eye contact."
+    },
+    {
+      "id": "SOC-105.L01.Q3",
+      "competency": "SOC-105.L01",
+      "prompt": "Does warmth establish trustworthiness?",
+      "answer": "No; evaluate actual conduct and reliability.",
+      "points": 1,
+      "feedback": "Consider the counterexample."
+    },
+    {
+      "id": "SOC-105.L01.Q4",
+      "competency": "SOC-105.L01",
+      "prompt": "What if a listener declines further contact?",
+      "answer": "Respect their choice.",
+      "points": 1,
+      "feedback": "Do not pursue approval."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Demonstrates accurate attention, proportionate warmth, role clarity and respect for refusal without inferring character.",
+    "transfer": "Create a two-minute fictional welcome or written equivalent with a clear purpose, an accurate acknowledgment and one optional invitation. Include an alternative where the recipient declines. Review against observable attention, accurate information and respect for choice.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

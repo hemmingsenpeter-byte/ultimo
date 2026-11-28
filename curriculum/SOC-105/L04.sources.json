@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L04",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "Authenticity research offers particular operationalisations of self-congruence and external influence.",
+      "source_ids": [
+        "soc-authenticity"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-authenticity",
+          "locator": "2008, abstract, conceptualisation and scale",
+          "limitations": "One operationalisation, not a measure used in this course"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

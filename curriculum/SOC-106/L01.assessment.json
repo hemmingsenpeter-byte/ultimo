@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L01",
+  "status": "draft",
+  "competency": "SOC-106.L01",
+  "questions": [
+    {
+      "id": "SOC-106.L01.Q1",
+      "competency": "SOC-106.L01",
+      "prompt": "What distinguishes a role from a trait?",
+      "answer": "A role concerns responsibilities or expected actions in context.",
+      "points": 1,
+      "feedback": "Avoid personality classification."
+    },
+    {
+      "id": "SOC-106.L01.Q2",
+      "competency": "SOC-106.L01",
+      "prompt": "Does influence establish authority?",
+      "answer": "No; authority depends on actual delegation or rules.",
+      "points": 1,
+      "feedback": "Verify the decision owner."
+    },
+    {
+      "id": "SOC-106.L01.Q3",
+      "competency": "SOC-106.L01",
+      "prompt": "Why identify dependencies?",
+      "answer": "They show which outputs or approvals are required before others.",
+      "points": 1,
+      "feedback": "Prevent duplication and gaps."
+    },
+    {
+      "id": "SOC-106.L01.Q4",
+      "competency": "SOC-106.L01",
+      "prompt": "Can an informal norm override safety requirements?",
+      "answer": "No.",
+      "points": 1,
+      "feedback": "Use authorised procedures."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Maps roles, responsibilities, authority and dependencies while distinguishing status and informal norms.",
+    "transfer": "Create a group-role and authority map for a fictional meeting. Include at least four roles, one informal influence, two dependencies and a possible conflict between common practice and actual authority.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

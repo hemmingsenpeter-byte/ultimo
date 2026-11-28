@@ -1,6 +1,6 @@
 # SOC-106 — Group dynamics
 
-Framework defined; lesson content: **planned**. Year 2; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
+Framework defined; lesson content: **draft**. Year 2; Level 2 guided practice, Level 3 independent extension; 6 estimated study hours. 
 
 ## Prerequisites
 - [SOC-102 — Social awareness](../SOC-102/syllabus.md)

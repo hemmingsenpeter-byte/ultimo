@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-106.L03",
+  "status": "draft",
+  "competency": "SOC-106.L03",
+  "questions": [
+    {
+      "id": "SOC-106.L03.Q1",
+      "competency": "SOC-106.L03",
+      "prompt": "What is facilitation distinct from?",
+      "answer": "Decision authority; a facilitator supports the process unless authorised to decide.",
+      "points": 1,
+      "feedback": "Clarify roles."
+    },
+    {
+      "id": "SOC-106.L03.Q2",
+      "competency": "SOC-106.L03",
+      "prompt": "Why specify outputs?",
+      "answer": "They define what the meeting must produce.",
+      "points": 1,
+      "feedback": "Avoid topic-only agendas."
+    },
+    {
+      "id": "SOC-106.L03.Q3",
+      "competency": "SOC-106.L03",
+      "prompt": "What if a hard constraint is unverified?",
+      "answer": "Defer or choose a verified feasible option under actual authority.",
+      "points": 1,
+      "feedback": "Do not invent facts."
+    },
+    {
+      "id": "SOC-106.L03.Q4",
+      "competency": "SOC-106.L03",
+      "prompt": "What belongs in an action record?",
+      "answer": "Decision, owner, deadline and unresolved conditions.",
+      "points": 1,
+      "feedback": "Distinguish suggestions from commitments."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Designs a decision-oriented, accessible meeting process with clear authority, actions and review.",
+    "transfer": "Develop a fictional meeting facilitation plan with a timed agenda, decision rule, accessible contribution options, two decision criteria, action owners and a review step. Include a condition requiring deferral or escalation.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

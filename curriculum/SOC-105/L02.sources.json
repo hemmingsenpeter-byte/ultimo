@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L02",
+  "status": "draft_reference_mapping",
+  "access_date": "2026-11-29",
+  "claims": [
+    {
+      "claim": "Humour-styles research distinguishes affiliative, self-enhancing, aggressive and self-defeating uses.",
+      "source_ids": [
+        "soc-humour"
+      ],
+      "locators": [
+        {
+          "source_id": "soc-humour",
+          "locator": "2003, abstract, four uses of humour",
+          "limitations": "Self-report research; no guarantee that a joke is welcome"
+        }
+      ],
+      "verification": "Relevant abstract or guidance located; independent full-text and exact claim-level review pending."
+    }
+  ],
+  "original_material": "Original instructional frameworks, fictional cases, exercises, questions and feedback; no validated instrument reproduced.",
+  "review_required": true
+}

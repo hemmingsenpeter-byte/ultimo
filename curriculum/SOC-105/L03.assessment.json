@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L03",
+  "status": "draft",
+  "competency": "SOC-105.L03",
+  "questions": [
+    {
+      "id": "SOC-105.L03.Q1",
+      "competency": "SOC-105.L03",
+      "prompt": "What is a story's practical function?",
+      "answer": "Organising events into a meaningful sequence for a purpose.",
+      "points": 1,
+      "feedback": "Keep the purpose clear."
+    },
+    {
+      "id": "SOC-105.L03.Q2",
+      "competency": "SOC-105.L03",
+      "prompt": "Does narrative engagement establish truth?",
+      "answer": "No; factual and causal claims need evidence.",
+      "points": 1,
+      "feedback": "Avoid vividness as proof."
+    },
+    {
+      "id": "SOC-105.L03.Q3",
+      "competency": "SOC-105.L03",
+      "prompt": "Why disclose fictional reconstruction?",
+      "answer": "So the audience can distinguish examples from actual events.",
+      "points": 1,
+      "feedback": "Do not invent achievements."
+    },
+    {
+      "id": "SOC-105.L03.Q4",
+      "competency": "SOC-105.L03",
+      "prompt": "When should a story be shortened?",
+      "answer": "When the listener's purpose or time favours concise information.",
+      "points": 1,
+      "feedback": "Respect attention."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Constructs an accurate, coherent, bounded narrative without presenting anecdotes as general proof or exposing private information.",
+    "transfer": "Prepare a fictional 60-second story and a written 100-word equivalent. Use a clear sequence, distinguish observation from interpretation, protect privacy and state one limitation. Explain when direct evidence should replace the anecdote.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

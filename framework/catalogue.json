@@ -390,7 +390,7 @@
     "id": "SOC-105",
     "faculty": "SOC",
     "title": "Charisma and humour",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-105/syllabus.json",
     "year": 2
@@ -399,7 +399,7 @@
     "id": "SOC-106",
     "faculty": "SOC",
     "title": "Group dynamics",
-    "status": "planned",
+    "status": "draft",
     "framework_status": "defined",
     "syllabus": "curriculum/SOC-106/syllabus.json",
     "year": 2

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.3.0",
+  "lesson": "SOC-105.L04",
+  "status": "draft",
+  "competency": "SOC-105.L04",
+  "questions": [
+    {
+      "id": "SOC-105.L04.Q1",
+      "competency": "SOC-105.L04",
+      "prompt": "Does preparing an introduction make it inauthentic?",
+      "answer": "No; preparation can support honest communication.",
+      "points": 1,
+      "feedback": "Check the facts."
+    },
+    {
+      "id": "SOC-105.L04.Q2",
+      "competency": "SOC-105.L04",
+      "prompt": "Is authenticity identical to complete disclosure?",
+      "answer": "No; privacy and role boundaries are compatible with honesty.",
+      "points": 1,
+      "feedback": "Share only relevant information."
+    },
+    {
+      "id": "SOC-105.L04.Q3",
+      "competency": "SOC-105.L04",
+      "prompt": "Does sincerity excuse harm?",
+      "answer": "No; factual accuracy and accountability still matter.",
+      "points": 1,
+      "feedback": "Distinguish belief from evidence."
+    },
+    {
+      "id": "SOC-105.L04.Q4",
+      "competency": "SOC-105.L04",
+      "prompt": "How should a commitment be evaluated?",
+      "answer": "By feasibility, honesty and observable follow-through.",
+      "points": 1,
+      "feedback": "Do not promise others' cooperation."
+    }
+  ],
+  "scoring": {
+    "knowledge": "1 point per correct answer; formative only.",
+    "practice": "Communicates truthful capabilities and values with contextual adaptation, privacy and realistic commitments.",
+    "transfer": "Complete the introduction and feedback capstone: demonstrate accurate attention, context-appropriate humour or plain speech, an engaging factual story and a truthful introduction. Include recipient choice, a correction after feedback and one privacy boundary.",
+    "pass": "All mapped criteria require Level 2 evidence; no averaging away omissions or safety-critical criteria. No automatic competency award."
+  }
+}

@@ -2198,5 +2198,104 @@
     "type": "reference",
     "review_status": "reference_located",
     "access_date": "2026-11-28"
+  },
+  {
+    "id": "soc-warmth",
+    "title": "Universal dimensions of social cognition: warmth and competence",
+    "authors": "Fiske, Cuddy and Glick",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17188552/",
+    "locator": "2007, abstract, perceived warmth and competence",
+    "limitations": "Social perception dimensions, not actual character or skill",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-humour",
+    "title": "Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire",
+    "authors": "Martin et al.",
+    "url": "https://doi.org/10.1016/S0092-6566(02)00534-2",
+    "locator": "2003, abstract, four uses of humour",
+    "limitations": "Self-report research; no guarantee that a joke is welcome",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-narrative",
+    "title": "Narrative transportation: A systematic literature review and future research agenda",
+    "authors": "See article author metadata",
+    "url": "https://doi.org/10.1002/mar.22011",
+    "locator": "2024, review of narrative transportation",
+    "limitations": "Persuasion and marketing research; engagement does not establish factual accuracy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-authenticity",
+    "title": "The Authentic Personality: A Theoretical and Empirical Conceptualization and the Development of the Authenticity Scale",
+    "authors": "Wood, Linley, Maltby, Baliousis and Joseph",
+    "url": "https://eric.ed.gov/?id=EJ802539",
+    "locator": "2008, abstract, conceptualisation and scale",
+    "limitations": "One operationalisation, not a measure used in this course",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-group-structure",
+    "title": "Organizational Behavior: Work Group Structure",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/organizational-behavior/pages/9-2-work-group-structure",
+    "locator": "Section 9.2, roles, norms and status",
+    "limitations": "Introductory organisational context, not universal group taxonomy",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-conformity",
+    "title": "Psychology 2e: Conformity, Compliance, and Obedience",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+    "locator": "Section 12.4, normative and informational influence",
+    "limitations": "Classic experimental findings; context limits generalisation",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-psych-safety",
+    "title": "Psychological Safety and Learning Behavior in Work Teams",
+    "authors": "Amy Edmondson",
+    "url": "https://doi.org/10.2307/2666999",
+    "locator": "1999, abstract, 51 manufacturing teams",
+    "limitations": "Association in studied teams, not proof every facilitation technique works",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-group-decisions",
+    "title": "Organizational Behavior: Group Decision-Making",
+    "authors": "OpenStax",
+    "url": "https://openstax.org/books/organizational-behavior/pages/6-6-group-decision-making",
+    "locator": "Section 6.6, benefits, limitations and decision techniques",
+    "limitations": "Introductory synthesis, no universal best process",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
+  },
+  {
+    "id": "soc-access-events",
+    "title": "Making Events Accessible",
+    "authors": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/",
+    "locator": "Organiser and presenter guidance",
+    "limitations": "Checklist is not a certification of venue or individual access",
+    "type": "reference",
+    "review_status": "reference_located",
+    "access_date": "2026-11-29"
   }
 ]

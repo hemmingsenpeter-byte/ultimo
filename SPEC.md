@@ -117,3 +117,7 @@ EMO-107 and EMO-108 add eight original lessons, 32 formative questions and two c
 ## Social Faculty expansion — awareness, community and confidence
 
 SOC-102, SOC-103 and SOC-104 add twelve original draft lessons, 48 formative questions and three capstones. Programme totals: 33 courses, 132 lessons, 460 questions and 33 capstones; 101 courses and 404 lessons remain blueprint-only. Four of eight Social Faculty courses now have authored content. Stable IDs, prerequisites, foundation semester, privacy and licence are unchanged. Social skills are assessed through observable task quality, consent, accessibility and reasoning, not popularity or personal disclosure. No profiling, manipulation, clinical exposure or diagnosis. Independent claim-level, qualified subject, cultural, safety and learner review remains required.
+
+## Social Faculty expansion — charisma and group dynamics
+
+SOC-105 and SOC-106 add eight original draft lessons, 32 formative questions and two capstones. Programme totals: 35 courses, 140 lessons, 492 questions and 35 capstones; 99 courses and 396 lessons remain blueprint-only. Six of eight Social Faculty courses are authored. Stable IDs, prerequisites, foundation semester, licence and privacy unchanged. Independent source, subject, cultural, accessibility and learner review pending.
